@@ -49,6 +49,8 @@
   * [說文解字（Mdict版）](https://forum.freemdict.com/t/topic/9351)
   * [数字化《说文解字》](http://szsw.bnu.edu.cn/)
   * [汉字全息资源应用系统](https://qxk.bnu.edu.cn/)
+  * [《新撰字镜》、《篆隶万象名义》检索系统](https://www.chise.org/est/view/character/%E7%84%A6)
+    * <img src="img1.png" style="zoom: 50%;" />
 * 原数据来源：
   * https://github.com/shuowenjiezi/shuowen
 
