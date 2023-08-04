@@ -53,7 +53,8 @@
   * [数字化《说文解字》](http://szsw.bnu.edu.cn/),说文四大家，汇集于斯
   * [汉字全息资源应用系统](https://qxk.bnu.edu.cn/)，可供校勘
   * [《新撰字镜》、《篆隶万象名义》检索系统](https://github.com/shikeda/HDIC)，可供校勘
-
+  * [知网论文下载](http://b.r88r.top/)，聊备一说
+  
 * 原数据来源：
   * https://github.com/shuowenjiezi/shuowen
 
