@@ -1,0 +1,37 @@
+{
+    "id": 4907,
+    "wordhead": "白",
+    "explanation": "西方色也。陰用事，物色白。从入合二。二，陰數。凡白之屬皆从白。",
+    "volume": "07",
+    "radical": "白",
+    "pronunciation": "㫄陌切",
+    "variants": [
+        {
+            "wordhead": "𦣺",
+            "explanation": "古文白。",
+            "seal_character": "揶"
+        }
+    ],
+    "seal_character": "揵",
+    "pinyin": "bai",
+    "pinyin_full": "bái",
+    "components": [
+        "白"
+    ],
+    "xuan_note": "",
+    "kai_note": "",
+    "duan_notes": [
+        {
+            "explanation": "西方色也。侌用事。物色白。从入合二。",
+            "note": "出者陽也。入者陰也。故从入。"
+        },
+        {
+            "explanation": "二、侌數。",
+            "note": "說从二之恉。旁陌切。古音在五部。"
+        }
+    ],
+    "indexes": [
+        "白",
+        "𦣺"
+    ]
+}
