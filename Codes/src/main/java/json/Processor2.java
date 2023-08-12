@@ -21,8 +21,8 @@ import java.util.stream.Collectors;
  */
 public class Processor2 {
     public static void main(String[] args) throws IOException {
-        File file = new File("C:/Users/shangzhengyu/Desktop/测试.txt");
-        String exportPath = "C:/Users/shangzhengyu/Desktop/test.docx";
+        File file = new File("E:/桌面/test.txt");
+        String exportPath = "E:/桌面/test.docx";
         String content = FileUtils.readFileToString(file, "UTF-8");
         exportMSWord2(content, exportPath);
     }
