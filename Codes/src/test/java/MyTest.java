@@ -133,4 +133,9 @@ public class MyTest {
 
     }
 
+    @Test
+    public void testRegex() {
+        String regex4 = "卷(一|二|三|四|五|六|七|八|九|十|).*\\s.*";
+        System.out.println("卷三十六 osiuadfoi".matches(regex4));
+    }
 }
