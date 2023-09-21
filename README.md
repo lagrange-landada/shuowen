@@ -15,23 +15,30 @@
 
 * 点校格式：
 
-  * <span style="color:#660000;font-weight:bold">朱红</span>：说文原文
+  * 颜色
+    * <span style="color:#660000;font-weight:bold">朱红</span>：说文原文
 
-  * <span style="color:#00B050">绿字</span>：切音
+    * <span style="color:#00B050">绿字</span>：切音
 
-  * <span style="color:#00B050;font-style:italic">绿字斜体</span>：系联文字切音
+    * <span style="color:#00B050;font-style:italic">绿字斜体</span>：系联文字切音
 
-  * <span style="color:red">注文红字</span>：系联文字
+    * <span style="color:red">注文红字</span>：系联文字
 
-  * <span style="color:#00B0F0;font-style:italic">蓝字斜体</span>：引文
+    * <span style="color:#00B0F0;font-style:italic">蓝字斜体</span>：引文
 
-* 方括号 **[]** 为补录文字，非书中原文
+  * 符号
+    * 波浪线：书名
+    * 下划横线：人名、少量地名
+    * 双下划横线：章节名（绝大部分）
+    * 方括号 **[]**：补录文字，非书中原文
 
 * 旁注格式：
   * <span style="color:red">发</span>：嬉皮文字
   * <span style="color:red">疏</span>：疏通词句
+  * <span style="color:red">笺</span>：笺识作者意
+  * <span style="color:red">赞</span>：举称作者才
 
-* 按语：作圈以见区分
+* 按语：作框以见区分
 
 * 快捷键：
 
@@ -55,7 +62,7 @@
   * [汉字全息资源应用系统](https://qxk.bnu.edu.cn/)，可供校勘
   * [《新撰字镜》、《篆隶万象名义》检索系统](https://github.com/shikeda/HDIC)，可供校勘
   * [知网论文下载](http://b.r88r.top/)，聊备一说
-  
+
 * 原数据来源：
   * https://github.com/shuowenjiezi/shuowen
 
