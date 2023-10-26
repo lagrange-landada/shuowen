@@ -69,8 +69,9 @@
   * [古籍检索系统](https://www.shidianguji.com/)，文信可征
   * [汉字全息资源应用系统](https://qxk.bnu.edu.cn/)，可供校勘
   * [《新撰字镜》、《篆隶万象名义》检索系统](https://github.com/shikeda/HDIC)，可供校勘
+  * [《切韵》残卷检索系统](https://suzukish.sakura.ne.jp/search/qieyun/index.php)，可供校勘
   * [知网论文下载](http://b.r88r.top/)，聊备一说
-
+  
 * 原数据来源：
   * https://github.com/shuowenjiezi/shuowen
 
