@@ -91,7 +91,7 @@
   * [说文解字（Mdict版）](https://forum.freemdict.com/t/topic/9351)，字典之精，无出其右
     * [《故训汇纂》](https://forum.freemdict.com/t/topic/11957)，亦可採备
     * [《说文解字义证》、《说文通训定声》全文检索系统](http://www.homeinmists.com/shuowen/yizheng.html)，亦可採备
-  * [古音小镜](http://www.kaom.net/)，小学界的“瑞士军刀”
+  * [古音小镜](http://www.kaom.net/)，百科全书式的小学网站
     * [《新撰字镜》、《篆隶万象名义》检索系统](https://github.com/shikeda/HDIC)，可供校勘
     * [数字化《说文解字》](http://szsw.bnu.edu.cn/)，说文四大家，汇集于斯
     * [汉字全息资源应用系统](https://qxk.bnu.edu.cn/)，可供校勘
