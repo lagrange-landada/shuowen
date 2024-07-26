@@ -18,6 +18,7 @@
 
   * 标注
     * （经）：代表许慎经学思想的字，如：䍿
+    * （侵部->蒸部）：韵部标记，表示由前上古音到上古音，如：繩
     * （隶古定）：壁中古文隶定字，如：𤾊
     * （尚）：上古氏族部落字，本义隐秘，如：灋
     * （⚙️）：不见于文献，刻意离析出来的部件字，如：叒
@@ -87,16 +88,17 @@
   * 换新电脑
 
 * 番外资源：
-  * [說文解字（Mdict版）](https://forum.freemdict.com/t/topic/9351)，字典之精，无出其右
+  * [说文解字（Mdict版）](https://forum.freemdict.com/t/topic/9351)，字典之精，无出其右
     * [《故训汇纂》](https://forum.freemdict.com/t/topic/11957)，亦可採备
-  * [古音小镜](http://www.kaom.net/)，百科全书式的小学网站
-  * [数字化《说文解字》](http://szsw.bnu.edu.cn/)，说文四大家，汇集于斯
+    * [《说文解字义证》、《说文通训定声》全文检索系统](http://www.homeinmists.com/shuowen/yizheng.html)，亦可採备
+  * [古音小镜](http://www.kaom.net/)，小学界的“瑞士军刀”
+    * [《新撰字镜》、《篆隶万象名义》检索系统](https://github.com/shikeda/HDIC)，可供校勘
+    * [数字化《说文解字》](http://szsw.bnu.edu.cn/)，说文四大家，汇集于斯
+    * [汉字全息资源应用系统](https://qxk.bnu.edu.cn/)，可供校勘
   * [古籍检索系统](https://www.shidianguji.com/)，文信可征
-  * [汉字全息资源应用系统](https://qxk.bnu.edu.cn/)，可供校勘
-  * [《新撰字镜》、《篆隶万象名义》检索系统](https://github.com/shikeda/HDIC)，可供校勘
   * [《切韵》残卷检索系统](https://suzukish.sakura.ne.jp/search/qieyun/index.php)，可供校勘
   * [知网论文下载](http://b.r88r.top/)，聊备一说
-
+  
 * 原数据来源：
   * https://github.com/shuowenjiezi/shuowen
 
