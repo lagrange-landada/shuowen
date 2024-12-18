@@ -69,6 +69,13 @@
             <artifactId>poi</artifactId>
             <version>4.1.2</version>
         </dependency>
+        <!-- POI-word文件处理需要 -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-scratchpad</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+
 
         <!--说明 hutool-4.x的poi-ooxml 版本需高于 3.17（别问我3.8版本为啥不行，
 因为3.17 > 3.8 ） hutool-5.x的poi-ooxml 版本需高于 4.1.2 xercesImpl版本高于2.12.0-->
