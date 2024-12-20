@@ -56,7 +56,7 @@
     * 双下划横线：章节名（绝大部分）
     * 点虚线：章节中的一小节
     * 方括号 **[]**：补录文字，非书中原文
-    
+
 * 旁注格式：
   * <span style="color:red">发</span>：嬉皮文字
   * <span style="color:red">疏</span>：疏通词句
@@ -73,7 +73,7 @@
 
 * 夷词说：摭四海夷音，比类推谊
 
-* 玉篇系：《玉篇》系字书，如《字镜》、《名义》、《宋本玉篇》、《类篇》、《集韵》，孳乳的各种同源字
+* 玉篇系：《玉篇》系字书，如《字镜》、《名义》、《宋本玉篇》，孳乳的各种同源字
 
 * 快捷键：
 
@@ -100,7 +100,19 @@
   * [古籍检索系统](https://www.shidianguji.com/)，文信可征
   * [《切韵》残卷检索系统](https://suzukish.sakura.ne.jp/search/qieyun/index.php)，可供校勘
   * [知网论文下载](http://b.r88r.top/)，聊备一说
-  
+
+* sql脚本：[《说文》构件检索脚本_段注自改本](说文构件检索脚本_段注自改本.sql)，给古书找通假字、找同源字事半功倍
+
+
+    * 参考SQL：
+
+        ```mysql
+        SELECT word, pin_yin, part,voice, definition, flag  FROM shuowen_voice_revel WHERE voice REGEXP (
+            CONCAT((SELECT ifnull(GROUP_CONCAT(word SEPARATOR '|'), ' ')  FROM shuowen_voice_revel WHERE voice LIKE '%次%'), '|次')) order by id;
+        ```
+
+        
+
 * 原数据来源：
   * https://github.com/shuowenjiezi/shuowen
 
