@@ -2,6 +2,7 @@
 
 #### 介绍
 说文段注WORD版（LTSC）
+平时会把看过的一些东西整理成笔记，还望谨慎区分使用。感谢支持。
 
 #### 字体（必装）
 
@@ -105,13 +106,14 @@
 
 
     * 参考SQL：
-
+    
         ```mysql
         SELECT word, pin_yin, part,voice, definition, flag  FROM shuowen_voice_revel WHERE voice REGEXP (
             CONCAT((SELECT ifnull(GROUP_CONCAT(word SEPARATOR '|'), ' ')  FROM shuowen_voice_revel WHERE voice LIKE '%次%'), '|次')) order by id;
         ```
 
-        
+
+​        
 
 * 原数据来源：
   * https://github.com/shuowenjiezi/shuowen
