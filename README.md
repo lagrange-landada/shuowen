@@ -2,7 +2,8 @@
 
 #### 介绍
 说文段注WORD版（LTSC）
-平时会把看过的一些东西整理成笔记，还望谨慎区分使用。感谢支持。
+
+平时会把看过的一些东西整理成笔记，还望**谨慎区分使用**。感谢支持。
 
 #### 字体（必装）
 
@@ -104,16 +105,27 @@
 
 * sql脚本：[《说文》构件检索脚本_段注自改本](说文构件检索脚本_段注自改本.sql)，给古书找通假字、找同源字事半功倍
 
-
     * 参考SQL：
-    
-        ```mysql
-        SELECT word, pin_yin, part,voice, definition, flag  FROM shuowen_voice_revel WHERE voice REGEXP (
-            CONCAT((SELECT ifnull(GROUP_CONCAT(word SEPARATOR '|'), ' ')  FROM shuowen_voice_revel WHERE voice LIKE '%次%'), '|次')) order by id;
-        ```
 
+      ```sql
+      SELECT DISTINCT t2.*
+      FROM (
+      	SELECT word, pin_yin, part, voice, definition
+      		, flag
+      	FROM shuowen_voice_revel
+      	WHERE voice REGEXP CONCAT((
+      		SELECT ifnull(GROUP_CONCAT(word SEPARATOR '|'), ' ')
+      		FROM shuowen_voice_revel
+      		WHERE voice LIKE '%次%'
+      	), '|次')
+      	ORDER BY id
+      ) t1
+      	INNER JOIN t_han_etymology t2
+      	ON t2.word REGEXP CONCAT('.*', t1.word, '.*')
+      		OR t2.word_voice REGEXP CONCAT('.*', t1.word, '.*')
+      ```
 
-​        
+      
 
 * 原数据来源：
   * https://github.com/shuowenjiezi/shuowen
