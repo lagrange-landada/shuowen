@@ -108,7 +108,7 @@
     * 参考SQL：
 
       ```sql
-      SELECT DISTINCT t2.*
+      SELECT DISTINCT t2.word, t2.word_voice, t2.definition, t2.volume, t2.flag
       FROM (
       	SELECT word, pin_yin, part, voice, definition
       		, flag
@@ -116,13 +116,13 @@
       	WHERE voice REGEXP CONCAT((
       		SELECT ifnull(GROUP_CONCAT(word SEPARATOR '|'), ' ')
       		FROM shuowen_voice_revel
-      		WHERE voice LIKE '%次%'
+      		WHERE voice REGEXP CONCAT('.*', '次', '.*')
       	), '|次')
-      	ORDER BY id
       ) t1
       	INNER JOIN t_han_etymology t2
       	ON t2.word REGEXP CONCAT('.*', t1.word, '.*')
       		OR t2.word_voice REGEXP CONCAT('.*', t1.word, '.*')
+      ORDER BY t2.id
       ```
 
       
