@@ -103,30 +103,23 @@
   * [《切韵》残卷检索系统](https://suzukish.sakura.ne.jp/search/qieyun/index.php)，可供校勘
   * [知网论文下载](http://b.r88r.top/)，聊备一说
 
-* sql脚本：[《说文》构件检索脚本_段注自改本](说文构件检索脚本_段注自改本.sql)，给古书找通假字、找同源字事半功倍
+* sql脚本：给古书找通假字、找同源字事半功倍
 
-    * 参考SQL：
-
-      ```sql
-      SELECT DISTINCT t2.word, t2.word_voice, t2.definition, t2.volume, t2.flag
-      FROM (
-      	SELECT word, pin_yin, part, voice, definition
-      		, flag
-      	FROM shuowen_voice_revel
-      	WHERE voice REGEXP CONCAT((
-      		SELECT ifnull(GROUP_CONCAT(word SEPARATOR '|'), ' ')
-      		FROM shuowen_voice_revel
-      		WHERE voice REGEXP CONCAT('.*', '次', '.*')
-      	), '|次')
-      ) t1
-      	INNER JOIN t_han_etymology t2
-      	ON t2.word REGEXP CONCAT('.*', t1.word, '.*')
-      		OR t2.word_voice REGEXP CONCAT('.*', t1.word, '.*')
-      ORDER BY t2.id
-      ```
-
-      
-
+    ```
+    -- 说文查询
+    call f_search_shuowen('工')
+    -- 说文释义查询
+    call f_search_shuowen_definition('雙', '')
+    -- 释名查询
+    call f_search_han_etymology('工')
+    -- 方言查询
+    call f_search_han_dialect('天')
+    ```
+    
+    
+    
+    
+    
 * 原数据来源：
   * https://github.com/shuowenjiezi/shuowen
 
