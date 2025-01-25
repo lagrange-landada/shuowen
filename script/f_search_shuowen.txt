@@ -1,0 +1,29 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `f_search_shuowen`(IN input_word VARCHAR(255))
+BEGIN
+	#Routine body goes here...
+select DISTINCT word, pin_yin, shape, voice, definition, flag from (
+SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_revel
+    WHERE voice REGEXP CONCAT(
+            (SELECT IFNULL(GROUP_CONCAT(word SEPARATOR '|'), ' ') 
+             FROM shuowen_voice_revel
+             WHERE voice REGEXP CONCAT('.*', input_word, '.*')
+            ),
+            '|', input_word
+          )
+		union
+		SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_revel
+    WHERE voice REGEXP REPLACE(CONCAT(
+            (SELECT IFNULL(GROUP_CONCAT(word SEPARATOR '|'), ' ') 
+             FROM shuowen_voice_revel
+             WHERE word REGEXP CONCAT('.*', input_word, '.*')
+            )
+          ), ';', '|')
+		union
+		SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_revel
+		WHERE word REGEXP CONCAT('.*', input_word, '.*')
+		) t order by id;
+		
+END
