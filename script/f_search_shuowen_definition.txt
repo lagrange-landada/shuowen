@@ -9,7 +9,7 @@ BEGIN
 	DECLARE regex_word VARCHAR(255);
 
 
-	SELECT REPLACE(GROUP_CONCAT(t.word SEPARATOR '|'), ';', '|')
+SELECT REPLACE(GROUP_CONCAT(t.word SEPARATOR '|'), ';', '|')
 	INTO regex_result
 	FROM (
 		SELECT id, word, pin_yin, shape, voice, definition, flag
@@ -20,22 +20,32 @@ BEGIN
 			WHERE voice REGEXP CONCAT('.*', input_word, '.*')
 		), '|', input_word)
 		UNION
-		SELECT id, word, pin_yin, shape, voice, definition, flag
-    FROM shuowen_voice_revel
-    WHERE voice REGEXP REPLACE(CONCAT(
-            (SELECT IFNULL(GROUP_CONCAT(word SEPARATOR '|'), ' ') 
-             FROM shuowen_voice_revel
+SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_new
+    WHERE word REGEXP CONCAT(
+            (SELECT IFNULL(GROUP_CONCAT(voice_new SEPARATOR '|'), ' ')
+             FROM shuowen_voice_new
+             WHERE word REGEXP CONCAT('.*', input_word, '.*')
+            ),
+            '|', input_word
+          )
+		union
+SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_new
+    WHERE voice_new REGEXP REPLACE(REPLACE(
+            (SELECT DISTINCT CONCAT_WS('|', word, IF(voice_new = '', null, voice_new))
+             FROM shuowen_voice_new
              WHERE word REGEXP CONCAT('.*', input_word, '.*')
             )
-          ), ';', '|')
+          , ';', '|'), '||', '|')
 		UNION
-		SELECT id, word, pin_yin, shape, voice, definition, flag
+SELECT id, word, pin_yin, shape, voice, definition, flag
     FROM shuowen_voice_revel
 		WHERE word REGEXP CONCAT('.*', input_word, '.*')
 	) t;
 	
 	
-	SELECT REPLACE(GROUP_CONCAT(word SEPARATOR '|'), ';', '|')  INTO regex_word 
+SELECT REPLACE(GROUP_CONCAT(word SEPARATOR '|'), ';', '|') INTO regex_word 
 	FROM shuowen_voice_revel
 	WHERE word REGEXP CONCAT('.*', input_word, '.*');
 	

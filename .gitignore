@@ -2,3 +2,5 @@ Smart Books/
 *.tmp
 Codes/.idea/
 Codes/target/
+Codes/src/main/resources
+Codes/src/test

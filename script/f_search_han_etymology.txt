@@ -2,8 +2,8 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `f_search_han_etymology`(IN input_wo
 BEGIN
 	#Routine body goes here...
 select distinct t2.word, t2.word_voice, t2.definition, t2.volume, t2.flag from(
-select REPLACE(word,';','|') as word, pin_yin, part, voice, definition, flag from (
-SELECT id, word, pin_yin, part, voice, definition, flag
+select REPLACE(word,';','|') as word, pin_yin, shape, voice, definition, flag from (
+SELECT id, word, pin_yin, shape, voice, definition, flag
     FROM shuowen_voice_revel
     WHERE voice REGEXP CONCAT(
             (SELECT IFNULL(GROUP_CONCAT(word SEPARATOR '|'), ' ') 
@@ -13,16 +13,26 @@ SELECT id, word, pin_yin, part, voice, definition, flag
             '|', input_word
           )
 		union
-		SELECT id, word, pin_yin, part, voice, definition, flag
-    FROM shuowen_voice_revel
-    WHERE voice REGEXP REPLACE(CONCAT(
-            (SELECT IFNULL(GROUP_CONCAT(word SEPARATOR '|'), ' ') 
-             FROM shuowen_voice_revel
+		SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_new
+    WHERE word REGEXP CONCAT(
+            (SELECT IFNULL(GROUP_CONCAT(voice_new SEPARATOR '|'), ' ')
+             FROM shuowen_voice_new
+             WHERE word REGEXP CONCAT('.*', input_word, '.*')
+            ),
+            '|', input_word
+          )
+		union
+		SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_new
+    WHERE voice_new REGEXP REPLACE(REPLACE(
+            (SELECT DISTINCT CONCAT_WS('|', word, IF(voice_new = '', null, voice_new))
+             FROM shuowen_voice_new
              WHERE word REGEXP CONCAT('.*', input_word, '.*')
             )
-          ), ';', '|')
+          , ';', '|'), '||', '|')
 		union
-		SELECT id, word, pin_yin, part, voice, definition, flag
+		SELECT id, word, pin_yin, shape, voice, definition, flag
     FROM shuowen_voice_revel
 		WHERE word REGEXP CONCAT('.*', input_word, '.*')			
 		) t order by id

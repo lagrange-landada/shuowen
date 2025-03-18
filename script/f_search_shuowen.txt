@@ -1,29 +1,115 @@
-CREATE DEFINER=`root`@`localhost` PROCEDURE `f_search_shuowen`(IN input_word VARCHAR(255))
+CREATE DEFINER=`root`@`localhost` PROCEDURE `f_search_shuowen`(IN input_word VARCHAR(255), input_pin_yin varchar(50))
 BEGIN
-	#Routine body goes here...
-select DISTINCT word, pin_yin, shape, voice, definition, flag from (
-SELECT id, word, pin_yin, shape, voice, definition, flag
-    FROM shuowen_voice_revel
-    WHERE voice REGEXP CONCAT(
-            (SELECT IFNULL(GROUP_CONCAT(word SEPARATOR '|'), ' ') 
-             FROM shuowen_voice_revel
-             WHERE voice REGEXP CONCAT('.*', input_word, '.*')
+# 无拼音搜索
+IF 	input_pin_yin is null or input_pin_yin = '' THEN
+select DISTINCT CASE
+        WHEN word REGEXP CONCAT('.*', input_word, '.*') THEN CONCAT('★', word)
+        ELSE word
+    END AS word, pin_yin, shape, 
+replace(concat_ws('○',voice,intter_voice),'○null','') as voice, definition, intter_voice_source, flag from (
+SELECT id, word, pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
+    FROM shuowen_voice_new
+    WHERE voice_new REGEXP CONCAT(
+            (SELECT REPLACE(GROUP_CONCAT(word SEPARATOR '|'), ';', '|') 
+             FROM shuowen_voice_new
+             WHERE voice_new REGEXP CONCAT('.*', input_word, '.*')
             ),
             '|', input_word
           )
-		union
-		SELECT id, word, pin_yin, shape, voice, definition, flag
-    FROM shuowen_voice_revel
-    WHERE voice REGEXP REPLACE(CONCAT(
-            (SELECT IFNULL(GROUP_CONCAT(word SEPARATOR '|'), ' ') 
-             FROM shuowen_voice_revel
+		UNION
+SELECT id, word, pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
+    FROM shuowen_voice_new
+    WHERE word REGEXP CONCAT(
+            (SELECT REPLACE(GROUP_CONCAT(voice_new SEPARATOR '|'), ';', '|')
+             FROM shuowen_voice_new
+             WHERE word REGEXP CONCAT('.*', input_word, '.*')
+            ),
+            '|', input_word
+          )
+		UNION	
+		SELECT id, word, pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
+    FROM shuowen_voice_new
+    WHERE voice_new REGEXP REPLACE(REPLACE(
+            (SELECT DISTINCT CONCAT_WS('|', word, IF(voice_new = '', null, voice_new))
+             FROM shuowen_voice_new
              WHERE word REGEXP CONCAT('.*', input_word, '.*')
             )
-          ), ';', '|')
-		union
-		SELECT id, word, pin_yin, shape, voice, definition, flag
+          , ';', '|'), '||', '|')
+		UNION
+		SELECT id, word, pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
     FROM shuowen_voice_revel
 		WHERE word REGEXP CONCAT('.*', input_word, '.*')
 		) t order by id;
-		
+ELSE
+# 有拼音搜索
+select DISTINCT CASE 
+        WHEN word REGEXP CONCAT('.*', input_word, '.*') THEN CONCAT('★', word)
+        ELSE word
+    END AS word, pin_yin, shape, replace(concat_ws('○',voice,intter_voice),'○null','') as voice, definition, intter_voice_source, flag from (
+SELECT id, word, pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
+    FROM shuowen_voice_new
+    WHERE voice_new REGEXP CONCAT(
+            (SELECT REPLACE(GROUP_CONCAT(word SEPARATOR '|'), ';', '|') 
+             FROM shuowen_voice_new
+             WHERE voice_new REGEXP CONCAT('.*', input_word, '.*')
+            ),
+            '|', input_word
+          )
+		UNION
+		SELECT id, word, pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
+    FROM shuowen_voice_new
+    WHERE word REGEXP CONCAT(
+            (SELECT REPLACE(GROUP_CONCAT(voice_new SEPARATOR '|'), ';', '|')
+             FROM shuowen_voice_new
+             WHERE word REGEXP CONCAT('.*', input_word, '.*')
+            ),
+            '|', input_word
+          )
+		UNION
+		SELECT id, word, pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
+    FROM shuowen_voice_new
+    WHERE voice_new REGEXP REPLACE(REPLACE(CONCAT(
+            (SELECT REPLACE(CONCAT_WS('|', GROUP_CONCAT(word SEPARATOR '|'), IFNULL(GROUP_CONCAT(IF(voice_new = '', null, voice_new) SEPARATOR '|'), ' ')), '|null', '')
+             FROM shuowen_voice_new
+             WHERE word REGEXP CONCAT('.*', input_word, '.*')
+            )
+          ), ';', '|'), '||', '|')
+		UNION
+		SELECT id, word, pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
+    FROM shuowen_voice_revel
+		WHERE word REGEXP CONCAT('.*', input_word, '.*')
+		) t where
+		REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
+            REPLACE(REPLACE(REPLACE(REPLACE(
+            REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
+            REPLACE(REPLACE(
+            pin_yin,
+            'ā', 'a'),
+            'á', 'a'),
+            'ǎ', 'a'),
+            'à', 'a'),
+            'ē', 'e'),
+            'é', 'e'),
+            'ě', 'e'),
+            'è', 'e'),
+            'ī', 'i'),
+            'í', 'i'),
+            'ǐ', 'i'),
+            'ì', 'i'),
+            'ō', 'o'),
+            'ó', 'o'),
+            'ǒ', 'o'),
+            'ò', 'o'),
+            'ū', 'u'),
+            'ú', 'u'),
+            'ǔ', 'u'),
+            'ù', 'u'),
+            'ü', 'v'),
+            'ǖ', 'v'),
+            'ǚ', 'v'),
+            'ǜ', 'v'),
+						'ɡ', 'g')
+         like input_pin_yin
+		order by id;
+END IF;
 END
