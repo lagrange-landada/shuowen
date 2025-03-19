@@ -107,13 +107,13 @@
 
     ```
     -- 说文查询
-    call f_search_shuowen('工')
+    call f_search_shuowen('工', 'gong')
     -- 说文释义查询
     call f_search_shuowen_definition('雙', '')
     -- 释名查询
     call f_search_han_etymology('工')
-    -- 方言查询
-    call f_search_han_dialect('天')
+    -- 方言、广雅查询
+    call f_search_han_nga('天')
     ```
     
     
