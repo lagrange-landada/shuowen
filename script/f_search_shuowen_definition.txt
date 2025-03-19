@@ -33,7 +33,7 @@ SELECT id, word, pin_yin, shape, voice, definition, flag
 SELECT id, word, pin_yin, shape, voice, definition, flag
     FROM shuowen_voice_new
     WHERE voice_new REGEXP REPLACE(REPLACE(
-            (SELECT DISTINCT CONCAT_WS('|', word, IF(voice_new = '', null, voice_new))
+            (SELECT DISTINCT GROUP_CONCAT(CONCAT_WS('|', word, IF(voice_new = '', null, voice_new)) SEPARATOR ';')
              FROM shuowen_voice_new
              WHERE word REGEXP CONCAT('.*', input_word, '.*')
             )

@@ -11,7 +11,7 @@
  Target Server Version : 50726
  File Encoding         : 65001
 
- Date: 18/03/2025 18:00:48
+ Date: 19/03/2025 14:39:23
 */
 
 SET NAMES utf8mb4;
@@ -48,7 +48,7 @@ CREATE TABLE `shuowen_voice_revel`  (
 -- ----------------------------
 -- Records of shuowen_voice_revel
 -- ----------------------------
-INSERT INTO `shuowen_voice_revel` VALUES (1, '一', 'yī', '第一卷', '一部', '惟初大極，道立於一，造分天地，化成萬物。凡一之屬皆从一。古文一[弋]。', '弋', '', 'null', NULL, '弋', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1, '一;弌', 'yī', '第一卷', '一部', '惟初大極，道立於一，造分天地，化成萬物。凡一之屬皆从一。古文一[弋]。', '弋', '', 'null', NULL, '弋', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2, '元', 'yuán', '第一卷', '一部', '始也。从一，兀聲。', '一;兀', '兀', 'null', NULL, '一', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3, '天', 'tiān', '第一卷', '一部', '顚也。至高無上。从一大。', '一;大;顚', '顚', 'null', NULL, '一;大', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4, '丕;㔻', 'pī', '第一卷', '一部', '大也。从一，不聲。', '一;不', '不', 'null', NULL, '一', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -62,7 +62,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (11, '祜', 'hù', '第一卷', '示部
 INSERT INTO `shuowen_voice_revel` VALUES (12, '禮', 'lǐ', '第一卷', '示部', '履也。所㠯事神致福也。从示，从豊。豊亦聲。古文禮[𠂆]。', '示;豊;𠂆;履', '豊;履', 'null', NULL, '示;𠂆', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (13, '禧', 'xī', '第一卷', '示部', '禮吉也。从示，喜聲。', '示;喜', '喜', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (14, '禛', 'zhēn', '第一卷', '示部', '㠯眞受福也。从示，眞聲。', '示;眞', '眞', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (15, '祿', 'lù', '第一卷', '示部', '福也。从示，录聲。', '示;录', '录', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (15, '祿;禄', 'lù', '第一卷', '示部', '福也。从示，录聲。', '示;录', '录', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (16, '禠', 'sī', '第一卷', '示部', '福也。从示，虒聲。', '示;虒', '虒', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (17, '禎', 'zhēn', '第一卷', '示部', '祥也。从示，貞聲。', '示;貞', '貞', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (18, '祥', 'xiánɡ', '第一卷', '示部', '福也。从示，羊聲。', '示;羊', '羊', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -84,7 +84,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (33, '禷', 'lèi', '第一卷', '示�
 INSERT INTO `shuowen_voice_revel` VALUES (34, '祪', 'ɡuǐ', '第一卷', '示部', '祔、祪，祖也。从示，危聲。', '示;危', '危', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (35, '祔', 'fù', '第一卷', '示部', '後死者合食於先祖。从示，付聲。', '示;付', '付', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (36, '祖', 'zǔ', '第一卷', '示部', '始廟也。从示，且聲。', '示;且', '且', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (37, '𥛱;祊', 'bēnɡ', '第一卷', '示部', '門內祭——先祖所㫄皇也。从示，彭聲。詩曰「祝祭于𥛱」。祊𥛱或从方。', '示;彭;方', '彭;方', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (37, '𥛱;祊;𥛻', 'bēnɡ', '第一卷', '示部', '門內祭——先祖所㫄皇也。从示，彭聲。詩曰「祝祭于𥛱」。祊𥛱或从方。', '示;彭;方', '彭;方', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (38, '祰', 'kǎo', '第一卷', '示部', '告祭也。从示，告聲。', '示;告', '告', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (39, '祏', 'shí', '第一卷', '示部', '宗廟主也。周禮有郊、宗、石室。一曰大夫㠯石爲主。从示石，石亦聲。', '示;石', '石', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (40, '䃾', 'bǐ', '第一卷', '示部', '㠯豚祠司命也。从示，比聲。漢律曰「祠䃾司命」。', '示;比', '比', 'null', NULL, '示', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -140,7 +140,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (89, '璵', 'yú', '第一卷', '玉部
 INSERT INTO `shuowen_voice_revel` VALUES (90, '瑾', 'jǐn', '第一卷', '玉部', '瑾瑜，美玉也。从玉，堇聲。', '玉;堇', '堇', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (91, '瑜', 'yú', '第一卷', '玉部', '瑾瑜也。从玉，俞聲。', '玉;俞', '俞', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (92, '玒', 'hónɡ', '第一卷', '玉部', '玉也。从玉，工聲。', '玉;工', '工', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (93, '𤦃', 'lái', '第一卷', '玉部', '赤玉也。从玉，來聲。', '玉;來', '來', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (93, '𤦃;琜', 'lái', '第一卷', '玉部', '赤玉也。从玉，來聲。', '玉;來', '來', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (94, '瓊;璚;瓗;琁', 'qiónɡ', '第一卷', '玉部', '玉也。从玉，敻聲。璚瓊或从矞。瓗瓊或从巂。琁瓊或从旋省。', '玉;敻;矞;巂;旋', '敻;矞;巂;旋', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '重文应调', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (95, '珦', 'xiànɡ', '第一卷', '玉部', '玉也。从玉，向聲。', '玉;向', '向', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (96, '㻝', 'là', '第一卷', '玉部', '玉也。从玉，剌聲。', '玉;剌', '剌', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -155,7 +155,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (104, '球;璆', 'qiú', '第一卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (105, '琳', 'lín', '第一卷', '玉部', '美玉也。从玉，林聲。', '玉;林', '林', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (106, '璧', 'bì', '第一卷', '玉部', '瑞玉圜也。从玉，辟聲。', '玉;辟', '辟', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (107, '瑗', 'yuàn', '第一卷', '玉部', '大孔璧。人君上除陛㠯相引。爾雅曰「好倍肉謂之瑗，肉倍好謂之璧」。从玉，爰聲。', '玉;爰', '爰', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (108, '環', 'huán', '第一卷', '玉部', '璧肉好若一謂之環。从玉，瞏聲。', '玉;瞏', '瞏', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (108, '環;𤪹', 'huán', '第一卷', '玉部', '璧肉好若一謂之環。从玉，瞏聲。', '玉;瞏', '瞏', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (109, '璜', 'huánɡ', '第一卷', '玉部', '半璧也。从玉，黃聲。', '玉;黃', '黃', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (110, '琮', 'cónɡ', '第一卷', '玉部', '瑞玉。大八寸，似車釭。从玉，宗聲。', '玉;宗', '宗', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (111, '琥', 'hǔ', '第一卷', '玉部', '發兵瑞玉，爲虎文。从玉，虎聲。春秋傳曰「賜子家子雙琥」是。', '玉;虎', '虎', 'null', NULL, '玉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -300,7 +300,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (249, '𧆑;藿', 'huò', '第一卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (250, '莥', 'niǔ', '第一卷', '艸部', '鹿藿之實名也。从艸，狃聲。', '艸;狃', '狃', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (251, '蓈;稂', 'lánɡ', '第一卷', '艸部', '禾粟之莠生而不成者，謂之「童蓈」。从艸，郎聲。稂蓈或从禾[良]。', '艸;郎;禾;良', '郎;良', 'null', NULL, '艸;禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (252, '莠', 'yǒu', '第一卷', '艸部', '禾粟下揚生者，謂之莠。从艸，秀聲。讀若酉。', '艸;秀;酉', '秀;酉', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (253, '萉', 'fèi', '第一卷', '艸部', '枲實也。从艸，肥聲。萉或从麻賁。', '艸;肥;麻;賁', '肥;賁', 'null', NULL, '艸;麻', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (253, '萉;𪎰', 'fèi', '第一卷', '艸部', '枲實也。从艸，肥聲。萉或从麻賁。', '艸;肥;麻;賁', '肥;賁', 'null', NULL, '艸;麻', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (254, '芓', 'zì', '第一卷', '艸部', '麻母也。从艸，子聲。一曰芓卽枲也。', '艸;子;枲', '子;枲', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (255, '䔬', 'yì', '第一卷', '艸部', '芓也。从艸，異聲。', '艸;異', '異', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (256, '蘇;蘓', 'sū', '第一卷', '艸部', '桂荏也。从艸，穌聲。', '艸;穌', '穌', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -458,7 +458,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (407, '菳', 'qín', '第一卷', '艸�
 INSERT INTO `shuowen_voice_revel` VALUES (408, '芩', 'qín', '第一卷', '艸部', '艸也。从艸，今聲。詩曰「食野之芩」。', '艸;今', '今', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (409, '藨', 'biāo', '第一卷', '艸部', '鹿𧆑也。从艸，麃聲。讀若剽。一曰𦳋之屬。', '艸;麃;剽', '麃;剽', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (410, '𧅖', 'yì', '第一卷', '艸部', '綬艸也。从艸，鶪聲。詩曰「邛有旨𧅖[鷊[鬲]]」是。', '艸;鶪;鬲', '鶪;鬲', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (411, '蔆;𧁽', 'línɡ', '第一卷', '艸部', '芰也。从艸，淩聲。楚謂之芰，秦謂之薢茩。司馬相如說蔆从䢯。', '艸;淩;䢯', '淩;䢯', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (411, '蔆;𧁽;蓤', 'línɡ', '第一卷', '艸部', '芰也。从艸，淩聲。楚謂之芰，秦謂之薢茩。司馬相如說蔆从䢯。', '艸;淩;䢯', '淩;䢯', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (412, '芰', 'jì', '第一卷', '艸部', '蔆也。从艸，支聲。杜林說芰从多。', '艸;支;多', '支;多', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (413, '薢', 'xiè', '第一卷', '艸部', '薢茩也。从艸，解聲。', '艸;解', '解', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (414, '茩', 'ɡòu', '第一卷', '艸部', '薢茩也。从艸，后聲。', '艸;后', '后', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -489,7 +489,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (438, '菣', 'qìn', '第一卷', '艸�
 INSERT INTO `shuowen_voice_revel` VALUES (439, '莪', 'é', '第一卷', '艸部', '莪，蘿也。蒿屬。从艸，我聲。', '艸;我', '我', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (440, '蘿', 'luó', '第一卷', '艸部', '莪也。从艸，羅聲。', '艸;羅', '羅', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (441, '菻', 'lǐn', '第一卷', '艸部', '蒿屬。从艸，林聲。', '艸;林', '林', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (442, '蔚', 'wèi', '第一卷', '艸部', '牡蒿也。从艸，尉聲。', '艸;尉', '尉', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (442, '蔚;𦵥', 'wèi', '第一卷', '艸部', '牡蒿也。从艸，尉聲。', '艸;尉', '尉', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (443, '蕭', 'xiāo', '第一卷', '艸部', '艾蒿也。从艸，肅聲。', '艸;肅', '肅', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (444, '萩', 'qiū', '第一卷', '艸部', '蕭也。从艸，秋聲。', '艸;秋', '秋', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (445, '芍', 'xiào', '第一卷', '艸部', '鳧茈也。从艸，勺聲。', '艸;勺', '勺', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -611,7 +611,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (560, '䒦', 'fàn', '第一卷', '艸�
 INSERT INTO `shuowen_voice_revel` VALUES (561, '薄', 'bó', '第一卷', '艸部', '林薄也。一曰蠶薄。从艸，溥聲。', '艸;溥', '溥', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (562, '苑', 'yuàn', '第一卷', '艸部', '所㠯養禽獸。从艸，夗聲。', '艸;夗', '夗', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (563, '藪', 'sǒu', '第一卷', '艸部', '大澤也。从艸，數聲。九州之藪——楊州 具區，荆州 雲夢，豫州 甫田，靑州 孟諸，兖州 大野，雝州 弦圃，幽州 奚養，冀州 楊紆，并州 昭餘祁是也。', '艸;數', '數', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (564, '葘', 'zī', '第一卷', '艸部', '不耕田也。从艸田，𡿧聲。易曰「不葘畬」。葘或省艸。', '艸;田;𡿧', '𡿧', 'null', NULL, '艸;田', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (564, '葘;菑', 'zī', '第一卷', '艸部', '不耕田也。从艸田，𡿧聲。易曰「不葘畬」。葘或省艸。', '艸;田;𡿧', '𡿧', 'null', NULL, '艸;田', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (565, '𧄎', 'yáo', '第一卷', '艸部', '艸盛皃。从艸，䌛聲。夏書曰「厥艸惟䌛」。', '艸;䌛', '䌛', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (566, '薙', 'tì', '第一卷', '艸部', '除艸也。朙堂月令曰「季夏燒薙」。从艸，雉聲。', '艸;雉', '雉', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (567, '䒹', 'lèi', '第一卷', '艸部', '耕多艸。从艸耒。耒亦聲。', '艸;耒', '耒', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -638,11 +638,11 @@ INSERT INTO `shuowen_voice_revel` VALUES (587, '苫', 'shān', '第一卷', '艸
 INSERT INTO `shuowen_voice_revel` VALUES (588, '䔽', 'ài', '第一卷', '艸部', '葢也。从艸，渴聲。', '艸;渴', '渴', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (589, '䓛', 'qū', '第一卷', '艸部', '㕞也。从艸，屈聲。', '艸;屈', '屈', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (590, '藩', 'fān', '第一卷', '艸部', '屏也。从艸，潘聲。', '艸;潘', '潘', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (591, '菹', 'zū', '第一卷', '艸部', '酢菜也。从艸，沮聲。 或从血。或从缶。', '艸;沮;血;缶', '沮', 'null', NULL, '艸;血;缶', 'null', 'null', 'null', 'null', '二重文应删', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (591, '菹;𦼬', 'zū', '第一卷', '艸部', '酢菜也。从艸，沮聲。 或从血。或从缶。', '艸;沮;血;缶', '沮', 'null', NULL, '艸;血;缶', 'null', 'null', 'null', 'null', '二重文应删', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (592, '荃', 'quán', '第一卷', '艸部', '芥脃也。从艸，全聲。', '艸;全', '全', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (593, '䔯', 'kù', '第一卷', '艸部', '韭鬱也。从艸，酤聲。', '艸;酤', '酤', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (594, '蘫', 'lán', '第一卷', '艸部', '瓜菹也。从艸，濫聲。', '艸;濫', '濫', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (595, '䓜', 'zhī', '第一卷', '艸部', '菹也。从艸，泜聲。䓜或从皿。皿，器。', '艸;泜;皿', '泜', 'null', NULL, '艸;皿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (595, '䓜;𥁼', 'zhī', '第一卷', '艸部', '菹也。从艸，泜聲。䓜或从皿。皿，器。', '艸;泜;皿', '泜', 'null', NULL, '艸;皿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (596, '䕩', 'lǎo', '第一卷', '艸部', '乾梅之屬。从艸，橑聲。周禮曰「饋食之籩，其實『乾䕩』」。後漢 長沙王始煮艸爲䕩。䕩或从潦。', '艸;橑;潦', '橑;潦', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (597, '𧆈', 'yì', '第一卷', '艸部', '煎茱萸。从艸，𩕺聲。漢律「會稽獻𧆈一斗」。', '艸;𩕺', '𩕺', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (598, '䔂', 'zǐ', '第一卷', '艸部', '羹菜也。从艸，宰聲。', '艸;宰', '宰', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -657,7 +657,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (606, '苴', 'jū', '第一卷', '艸�
 INSERT INTO `shuowen_voice_revel` VALUES (607, '𧆓', 'cū', '第一卷', '艸部', '艸履也。从艸，麤聲。', '艸;麤', '麤', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (608, '蕢;臾', 'kuì', '第一卷', '艸部', '艸器也。从艸，貴聲。古文蕢，象形。論語曰「有荷臾而過孔氏之門」。', '艸;貴', '貴', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (609, '𦯈', 'qǐn', '第一卷', '艸部', '覆也。从艸，侵省聲。', '艸;侵', '侵', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (610, '茵', 'yīn', '第一卷', '艸部', '車重席也。从艸，因聲。司馬相如說茵从革。', '艸;因;革', '因', 'null', NULL, '艸;革', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (610, '茵;鞇', 'yīn', '第一卷', '艸部', '車重席也。从艸，因聲。司馬相如說茵从革。', '艸;因;革', '因', 'null', NULL, '艸;革', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (611, '芻', 'chú', '第一卷', '艸部', '刈艸也。象包束艸之形。', '艸', '', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (612, '茭', 'jiāo', '第一卷', '艸部', '乾芻。从艸，交聲。一曰牛蘄艸。', '艸;交', '交', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (613, '荹', 'bù', '第一卷', '艸部', '亂艸。从艸，步聲。', '艸;步', '步', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -670,7 +670,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (619, '蔟', 'cù', '第一卷', '艸�
 INSERT INTO `shuowen_voice_revel` VALUES (620, '苣', 'jù', '第一卷', '艸部', '束葦燒也。从艸，巨聲。', '艸;巨', '巨', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (621, '蕘', 'ráo', '第一卷', '艸部', '艸薪也。从艸，堯聲。', '艸;堯', '堯', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (622, '薪', 'xīn', '第一卷', '艸部', '蕘也。从艸，新聲。', '艸;新', '新', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (623, '蒸', 'zhēnɡ', '第一卷', '艸部', '析麻中榦也。从艸，烝聲。蒸或省火[丞]。', '艸;烝;丞', '烝;丞', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (623, '蒸;䒱', 'zhēnɡ', '第一卷', '艸部', '析麻中榦也。从艸，烝聲。蒸或省火[丞]。', '艸;烝;丞', '烝;丞', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (624, '蕉', 'jiāo', '第一卷', '艸部', '生枲也。从艸，焦聲。', '艸;焦', '焦', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (625, '𦳊', 'shǐ', '第一卷', '艸部', '糞也。从艸，胃省。', '艸;胃', '', 'null', NULL, '艸;胃', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (626, '薶', 'mái', '第一卷', '艸部', '瘞也。从艸，貍聲。', '艸;貍', '貍', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -714,7 +714,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (663, '薔', 'sè', '第一卷', '艸�
 INSERT INTO `shuowen_voice_revel` VALUES (664, '苕', 'tiáo', '第一卷', '艸部', '艸也。从艸，召聲。', '艸;召', '召', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (665, '𦼪', 'mào', '第一卷', '艸部', '艸也。从艸，楙聲。', '艸;楙', '楙', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (666, '萺', 'mào', '第一卷', '艸部', '艸也。从艸，冒聲。', '艸;冒', '冒', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (667, '𦯄', 'mǎo', '第一卷', '艸部', '鳧葵也。从艸，丣聲。詩曰「言采其𦯄」。', '艸;丣', '丣', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (667, '𦯄;茆', 'mǎo', '第一卷', '艸部', '鳧葵也。从艸，丣聲。詩曰「言采其𦯄」。', '艸;丣', '丣', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (668, '荼', 'tú', '第一卷', '艸部', '苦荼也。从艸，余聲。', '艸;余', '余', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (669, '𦾴', 'fán', '第一卷', '艸部', '白蒿也。从艸，䋣聲。', '艸;䋣', '䋣', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (670, '蒿', 'hāo', '第一卷', '艸部', '菣也。从艸，高聲。', '艸;高', '高', 'null', NULL, '艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -756,7 +756,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (705, '少', 'shǎo', '第二卷', '小
 INSERT INTO `shuowen_voice_revel` VALUES (706, '尐', 'jié', '第二卷', '小部', '少也。从小，乀聲。讀若輟。', '小;乀;輟', '乀;輟', 'null', NULL, '小', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (707, '八', 'bā', '第二卷', '八部', '別也。象分別相背之形。凡八之屬皆从八。', '別', '別', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (708, '分', 'fēn', '第二卷', '八部', '別也。从八刀。刀㠯分別物也。', '八;刀', '', 'null', NULL, '八;刀', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (709, '尒', 'ěr', '第二卷', '八部', '䛐之必然也。从丨八。八，象气之分散。入聲。', '丨;八;入', '入', 'null', NULL, '丨;八', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (709, '尒;尔', 'ěr', '第二卷', '八部', '䛐之必然也。从丨八。八，象气之分散。入聲。', '丨;八;入', '入', 'null', NULL, '丨;八', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (710, '曾', 'zēnɡ', '第二卷', '八部', '䛐之舒也。从八，从曰，𡆧聲。', '八;曰;𡆧', '𡆧', 'null', NULL, '八;曰', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (711, '尙;尚', 'shànɡ', '第二卷', '八部', '曾也。庶幾也。从八，向聲。', '八;向', '向', 'null', NULL, '八', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (712, '㒸', 'suì', '第二卷', '八部', '从意也。从八，豕聲。', '八;豕', '豕', 'null', NULL, '八', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -806,7 +806,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (755, '牽', 'qiān', '第二卷', '牛
 INSERT INTO `shuowen_voice_revel` VALUES (756, '牿', 'ɡù', '第二卷', '牛部', '牛馬牢也。从牛，告聲。周書曰「今惟[淫舍]牿牛馬」。', '牛;告', '告', 'null', NULL, '牛', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (757, '牢', 'láo', '第二卷', '牛部', '閑也。養牛馬圈也。从牛，冬省。取其四周帀。', '牛;冬', '', 'null', NULL, '牛;冬', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (758, '犓', 'chú', '第二卷', '牛部', '㠯芻莝養圈牛也。从牛芻。芻亦聲。春秋國語曰「犓豢幾何」。', '牛;芻', '芻', 'null', NULL, '牛', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (759, '㹛', 'rǎo', '第二卷', '牛部', '牛柔謹也。从牛，夒聲。', '牛;夒', '夒', 'null', NULL, '牛', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (759, '㹛;犪', 'rǎo', '第二卷', '牛部', '牛柔謹也。从牛，夒聲。', '牛;夒', '夒', 'null', NULL, '牛', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (760, '𤛟;犕', 'bèi', '第二卷', '牛部', '易曰「犕牛乘馬」。从牛，𤰈聲。', '牛;𤰈', '𤰈', 'null', NULL, '牛', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (761, '𤛿', 'lí', '第二卷', '牛部', '耕也。从牛，黎聲。', '牛;黎', '黎', 'null', NULL, '牛', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (762, '㹃', 'fèi', '第二卷', '牛部', '㒳壁耕也。从牛，非聲。一曰覆耕穜也。', '牛;非', '非', 'null', NULL, '牛', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -833,7 +833,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (782, '噣', 'zhòu', '第二卷', '口
 INSERT INTO `shuowen_voice_revel` VALUES (783, '喙', 'huì', '第二卷', '口部', '口也。从口，彖聲。', '口;彖', '彖', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (784, '吻', 'wěn', '第二卷', '口部', '口邊也。从口，勿聲。吻或从肉，从昏。', '口;勿;肉;昏', '勿;昏', 'null', NULL, '口;肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (785, '嚨', 'lónɡ', '第二卷', '口部', '喉也。从口，龍聲。', '口;龍', '龍', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (786, '喉', 'hóu', '第二卷', '口部', '咽也。从口，矦聲。', '口;矦', '矦', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (786, '喉;㗋', 'hóu', '第二卷', '口部', '咽也。从口，矦聲。', '口;矦', '矦', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (787, '噲', 'kuài', '第二卷', '口部', '咽也。从口，會聲。或讀若快。一曰噲，嚵也。', '口;會;快', '會;快', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (788, '吞', 'tūn', '第二卷', '口部', '咽也。从口，天聲。', '口;天', '天', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (789, '咽', 'yān', '第二卷', '口部', '嗌也。从口，因聲。', '口;因', '因', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -877,7 +877,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (826, '呼', 'hū', '第二卷', '口�
 INSERT INTO `shuowen_voice_revel` VALUES (827, '吸', 'xī', '第二卷', '口部', '內息也。从口，及聲。', '口;及', '及', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (828, '噓', 'xū', '第二卷', '口部', '吹也。从口，虛聲。', '口;虛', '虛', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (829, '吹', 'chuī', '第二卷', '口部', '噓也。从口欠。', '口;欠', '', 'null', NULL, '口;欠', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (830, '喟', 'kuì', '第二卷', '口部', '大息也。从口，胃聲。喟或从貴。', '口;胃;貴', '胃;貴', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (830, '喟;嘳', 'kuì', '第二卷', '口部', '大息也。从口，胃聲。喟或从貴。', '口;胃;貴', '胃;貴', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (831, '啍', 'tūn', '第二卷', '口部', '口气也。从口，𦎫聲。詩曰「大車啍啍」。', '口;𦎫', '𦎫', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (832, '嚏', 'tì', '第二卷', '口部', '悟解气也。从口，疐聲。', '口;疐', '疐', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (833, '𡂒', 'zhì', '第二卷', '口部', '野人之言。从口，質聲。', '口;質', '質', 'null', NULL, '口', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1113,7 +1113,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1062, '趒', 'tiáo', '第二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (1063, '赶', 'qián', '第二卷', '走部', '舉尾走也。从走，干聲。', '走;干', '干', 'null', NULL, '走', 'null', 'null', 'null', 'null', '应删', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1064, '止', 'zhǐ', '第二卷', '止部', '下基也。象艸木出有阯，故㠯止爲足。凡止之屬皆从止。', '阯', '阯', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1065, '歱', 'zhǒnɡ', '第二卷', '止部', '跟也。从止，重聲。', '止;重', '重', 'null', NULL, '止', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1066, '𣥺', 'chēnɡ', '第二卷', '止部', '歫也。从止，尙聲。', '止;尙', '尙', 'null', NULL, '止', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1066, '𣥺;䟫', 'chēnɡ', '第二卷', '止部', '歫也。从止，尙聲。', '止;尙', '尙', 'null', NULL, '止', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1067, '歭', 'chí', '第二卷', '止部', '䠧也。从止，寺聲。', '止;寺', '寺', 'null', NULL, '止', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1068, '歫', 'jù', '第二卷', '止部', '止也。从止，巨聲。一曰槍也。一曰超歫。', '止;巨', '巨', 'null', NULL, '止', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1069, '歬;前', 'qián', '第二卷', '止部', '不行而進謂之歬。从止在舟上。', '止;舟', '', 'null', NULL, '止;舟', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
@@ -1137,7 +1137,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1086, '些', 'suò', '第二卷', '此
 INSERT INTO `shuowen_voice_revel` VALUES (1087, '正', 'zhènɡ', '第二卷', '正部', '是也。从一，一㠯止。凡正之屬皆从正。古文正从𠄞。𠄞，古文上字。古文正从一足，足亦止也。', '一;止;𠄞;足', '', 'null', NULL, '一;止;𠄞;足', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1088, '乏', 'fá', '第二卷', '正部', '春秋傳曰「反正爲乏」。', '正', '', 'null', NULL, '正', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1089, '是', 'shì', '第二卷', '是部', '直也。从日正。凡是之屬皆从是。籒文是从古文正。', '日;正', '', 'null', NULL, '日;正', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1090, '韙', 'wěi', '第二卷', '是部', '是也。从是，韋聲。春秋傳曰「犯五不韙」。籒文韙从心。', '是;韋;心', '韋', 'null', NULL, '是;心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1090, '韙;愇', 'wěi', '第二卷', '是部', '是也。从是，韋聲。春秋傳曰「犯五不韙」。籒文韙从心。', '是;韋;心', '韋', 'null', NULL, '是;心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1091, '尟', 'xiǎn', '第二卷', '是部', '是少也。是少，俱存也。从是少。賈侍中說。', '是;少', '', 'null', NULL, '是;少', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1092, '辵', 'chuò', '第二卷', '辵部', '乍行乍止也。从彳止。凡辵之屬皆从辵。讀若春秋傳曰「辵[躇]階而走」。', '彳;止;躇', '躇', 'null', NULL, '彳;止', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1093, '迹;蹟', 'jī', '第二卷', '辵部', '步處也。从辵，亦聲。或从足責。籒文迹从朿。', '辵;亦;足;責;朿', '亦;責;朿', 'null', NULL, '辵;足', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1184,7 +1184,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1133, '遞', 'dì', '第二卷', '辵�
 INSERT INTO `shuowen_voice_revel` VALUES (1134, '通', 'tōnɡ', '第二卷', '辵部', '達也。从辵，甬聲。', '辵;甬', '甬', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1135, '徙', 'xǐ', '第二卷', '辵部', '迻也。从辵，沙省聲。徙徙或从彳。古文徙[尾]。', '辵;沙;彳;尾', '沙', 'null', NULL, '辵;彳;尾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1136, '迻', 'yí', '第二卷', '辵部', '遷徙也。从辵，多聲。', '辵;多', '多', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1137, '遷', 'qiān', '第二卷', '辵部', '登也。从辵，䙴聲。古文遷从手西。', '辵;䙴;手;西', '䙴;西', 'null', NULL, '辵;手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1137, '遷;𨙙', 'qiān', '第二卷', '辵部', '登也。从辵，䙴聲。古文遷从手西。', '辵;䙴;手;西', '䙴;西', 'null', NULL, '辵;手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1138, '運', 'yùn', '第二卷', '辵部', '迻徙也。从辵，軍聲。', '辵;軍', '軍', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1139, '遁', 'dùn', '第二卷', '辵部', '遷也。一曰逃也。从辵，盾聲。', '辵;盾', '盾', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1140, '遜', 'xùn', '第二卷', '辵部', '遁也。从辵，孫聲。', '辵;孫', '孫', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1195,7 +1195,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1144, '送', 'sònɡ', '第二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (1145, '遣', 'qiǎn', '第二卷', '辵部', '縱也。从辵，𨺫聲。', '辵;𨺫', '𨺫', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1146, '邐', 'lǐ', '第二卷', '辵部', '行邐邐也。从辵，麗聲。', '辵;麗', '麗', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '麗轨', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1147, '逮', 'dài', '第二卷', '辵部', '唐逮，及也。从辵，隶聲。', '辵;隶', '隶', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1148, '遲;遟', 'chí', '第二卷', '辵部', '徐行也。从辵，犀聲。詩曰「行道遲遲」。遲或从𡰥。籒文遲从屖。', '辵;犀;𡰥;屖', '犀;屖', 'null', NULL, '辵;𡰥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1148, '遲;遟;𨒈', 'chí', '第二卷', '辵部', '徐行也。从辵，犀聲。詩曰「行道遲遲」。遲或从𡰥。籒文遲从屖。', '辵;犀;𡰥;屖', '犀;屖', 'null', NULL, '辵;𡰥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1149, '邌', 'lí', '第二卷', '辵部', '徐也。从辵，黎聲。', '辵;黎', '黎', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1150, '遰', 'dì', '第二卷', '辵部', '去也。从辵，帶聲。', '辵;帶', '帶', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1151, '𨓯', 'yuān', '第二卷', '辵部', '行皃。从辵，𣶒聲。', '辵;𣶒', '𣶒', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1246,7 +1246,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1195, '𨒋', 'yuè', '第二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (1196, '逞', 'chěnɡ', '第二卷', '辵部', '通也。从辵，呈聲。楚謂疾行爲逞。春秋傳曰「何所不逞欲」。', '辵;呈', '呈', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1197, '遼', 'liáo', '第二卷', '辵部', '遠也。从辵，尞聲。', '辵;尞', '尞', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1198, '遠', 'yuǎn', '第二卷', '辵部', '遼也。从辵，袁聲。古文遠[步]。', '辵;袁;步', '袁', 'null', NULL, '辵;步', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1199, '逖', 'tì', '第二卷', '辵部', '遠也。从辵，狄聲。古文逖[易]。', '辵;狄;易', '狄;易', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1199, '逖;逷', 'tì', '第二卷', '辵部', '遠也。从辵，狄聲。古文逖[易]。', '辵;狄;易', '狄;易', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1200, '迥', 'jiǒnɡ', '第二卷', '辵部', '遠也。从辵，冋聲。', '辵;冋', '冋', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1201, '逴', 'chuò', '第二卷', '辵部', '遠也。从辵，卓聲。一曰蹇也。讀若「掉苕」之掉。', '辵;卓;掉', '卓;掉', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1202, '迂', 'yū', '第二卷', '辵部', '避也。从辵，于聲。', '辵;于', '于', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1271,7 +1271,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1220, '迢', 'tiáo', '第二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (1221, '逍', 'xiāo', '第二卷', '辵部', '逍遥，猶翱翔也。从辵，肖聲。', '辵;肖', '肖', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1222, '遥;遙', 'yáo', '第二卷', '辵部', '逍遥也。又遠也。从辵，䍃聲。', '辵;䍃', '䍃', 'null', NULL, '辵', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1223, '彳', 'chì', '第二卷', '彳部', '小步也。象人脛三屬相連也。凡彳之屬皆从彳。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1224, '德', 'dé', '第二卷', '彳部', '升也。从彳，𢛳[悳]聲。', '彳;悳', '悳', 'null', NULL, '彳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1224, '德;徳', 'dé', '第二卷', '彳部', '升也。从彳，𢛳[悳]聲。', '彳;悳', '悳', 'null', NULL, '彳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1225, '徑', 'jìnɡ', '第二卷', '彳部', '步道也。从彳，巠聲。', '彳;巠', '巠', 'null', NULL, '彳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1226, '復', 'fù', '第二卷', '彳部', '往來也。从彳，复聲。', '彳;复', '复', 'null', NULL, '彳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1227, '𢔟', 'rǒu', '第二卷', '彳部', '復也。从彳，柔聲。', '彳;柔', '柔', 'null', NULL, '彳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1322,7 +1322,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1271, '衕', 'tónɡ', '第二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (1272, '𧗸', 'jiàn', '第二卷', '行部', '迹也。从行，戔聲。', '行;戔', '戔', 'null', NULL, '行', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1273, '衙', 'yú', '第二卷', '行部', '衙衙，行皃。从行，吾聲。又音牙', '行;吾;牙', '吾;牙', 'null', NULL, '行', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1274, '衎', 'kàn', '第二卷', '行部', '行喜皃。从行，干聲。', '行;干', '干', 'null', NULL, '行', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1275, '𧗳', 'xuàn', '第二卷', '行部', '行且賣也。从行言。𧗳或从玄。', '行;言;玄', '玄', 'null', NULL, '行;言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1275, '𧗳;衒', 'xuàn', '第二卷', '行部', '行且賣也。从行言。𧗳或从玄。', '行;言;玄', '玄', 'null', NULL, '行;言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1276, '𧗿', 'shuài', '第二卷', '行部', '將𧗿也。从行，率聲。', '行;率', '率', 'null', NULL, '行', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1277, '衛', 'wèi', '第二卷', '行部', '宿衛也。从韋帀行。行，列也。', '韋;帀;行', '韋', 'null', NULL, '帀;行', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1278, '齒', 'chǐ', '第二卷', '齒部', '口齗骨也。象口齒之形。止聲。凡齒之屬皆从齒。古文齒字。', '止', '止', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1385,7 +1385,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1334, '踧', 'dí', '第二卷', '足�
 INSERT INTO `shuowen_voice_revel` VALUES (1335, '躣', 'qú', '第二卷', '足部', '行皃。从足，瞿聲。', '足;瞿', '瞿', 'null', NULL, '足', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1336, '踖', 'jí', '第二卷', '足部', '長脛行也。从足，昔聲。一曰踧踖。', '足;昔', '昔', 'null', NULL, '足', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1337, '踽', 'jǔ', '第二卷', '足部', '疏行皃。从足，禹聲。詩曰「獨行踽踽」。', '足;禹', '禹', 'null', NULL, '足', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1338, '𨄚', 'qiānɡ', '第二卷', '足部', '行皃。从足，將聲。詩曰「管磬𨄚𨄚」。', '足;將', '將', 'null', NULL, '足', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1338, '𨄚;蹡', 'qiānɡ', '第二卷', '足部', '行皃。从足，將聲。詩曰「管磬𨄚𨄚」。', '足;將', '將', 'null', NULL, '足', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1339, '䠪', 'duàn', '第二卷', '足部', '踐處也。从足，𣃔省聲。', '足;𣃔', '𣃔', 'null', NULL, '足', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1340, '䟔', 'fù', '第二卷', '足部', '趣越皃。从足，卜聲。', '足;卜', '卜', 'null', NULL, '足', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1341, '踰', 'yú', '第二卷', '足部', '越也。从足，俞聲。', '足;俞', '俞', 'null', NULL, '足', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1464,7 +1464,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1413, '蹭', 'cènɡ', '第二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (1414, '蹬', 'dènɡ', '第二卷', '足部', '蹭蹬也。从足，登聲。', '足;登', '登', 'null', NULL, '足', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1415, '蹉', 'cuō', '第二卷', '足部', '蹉跎，失時也。从足，差聲。', '足;差', '差', 'null', NULL, '足', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1416, '跎', 'tuó', '第二卷', '足部', '蹉跎也。从足，它聲。', '足;它', '它', 'null', NULL, '足', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1417, '蹙', 'cù', '第二卷', '足部', '迫也。从足，戚聲。', '足;戚', '戚', 'null', NULL, '足', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1417, '蹙;䠞', 'cù', '第二卷', '足部', '迫也。从足，戚聲。', '足;戚', '戚', 'null', NULL, '足', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1418, '踸', 'chěn', '第二卷', '足部', '踸踔，行無常皃。从足，甚聲。', '足;甚', '甚', 'null', NULL, '足', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1420, '跏', 'jiā', '第二卷', '足部', '跏趺，般足也。从足，加聲。', '足;加', '加', 'null', NULL, '足', 'null', 'null', 'null', 'null', '政宇新附', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1421, '趺', 'fū', '第二卷', '足部', '跏趺也。从足，夫聲。', '足;夫', '夫', 'null', NULL, '足', 'null', 'null', 'null', 'null', '政宇新附', 0x31, 'null', 'null', 'null');
@@ -1479,14 +1479,14 @@ INSERT INTO `shuowen_voice_revel` VALUES (1429, '䶴;龡', 'chuī', '第二卷',
 INSERT INTO `shuowen_voice_revel` VALUES (1430, '䶵;篪', 'chí', '第二卷', '龠部', '管樂也。七孔。从龠，虒聲。䶵或从竹。', '龠;虒;竹', '虒', 'null', NULL, '龠;竹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1431, '龢', 'hé', '第二卷', '龠部', '調也。从龠，禾聲。讀與和同。', '龠;禾;和', '禾;和', 'null', NULL, '龠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1432, '龤', 'xié', '第二卷', '龠部', '樂龢也。从龠，皆聲。虞書曰「八音克龤」。', '龠;皆', '皆', 'null', NULL, '龠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1433, '冊', 'cè', '第二卷', '冊部', '符命也。諸侯進受於王者也。象其札一長一短，中有二編之形。凡冊之屬皆从冊。古文冊从竹。', '竹', '', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1433, '冊;册;笧', 'cè', '第二卷', '冊部', '符命也。諸侯進受於王者也。象其札一長一短，中有二編之形。凡冊之屬皆从冊。古文冊从竹。', '竹', '', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1434, '嗣', 'sì', '第二卷', '冊部', '諸侯嗣國也。从冊口，司聲。古文嗣从子。', '冊;口;司;子', '司', 'null', NULL, '冊;口;子', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1435, '扁', 'biǎn', '第二卷', '冊部', '署也。从戸冊。戸冊者，署門戸之文也。', '戸;冊', '', 'null', NULL, '戸;冊', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1436, '㗊', 'jí', '第三卷', '㗊部', '衆口也。从四口。凡㗊之屬皆从㗊。讀若戢。一曰呶。', '戢', '戢', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1437, '嚚', 'yín', '第三卷', '㗊部', '語聲也。从㗊，臣聲。', '㗊;臣', '臣', 'null', NULL, '㗊', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1438, '囂;嚻', 'xiāo', '第三卷', '㗊部', '聲也。气出頭上。从㗊頁。頁亦首也。囂或省[吅]。', '㗊;頁;吅', '', 'null', NULL, '㗊;頁;吅', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1439, '嘂', 'jiào', '第三卷', '㗊部', '高聲也。一曰大嘑也。从㗊，丩聲。春秋公羊傳曰「魯昭公嘂[噭]然而哭」。', '㗊;丩;噭', '丩;噭', 'null', NULL, '㗊', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1440, '𡅻', 'huàn', '第三卷', '㗊部', '嘑也。从㗊，萈聲。讀若讙。', '㗊;萈;讙', '萈;讙', '奐', '𡅻、喚古今字。', '㗊', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1440, '𡅻;𡅽', 'huàn', '第三卷', '㗊部', '嘑也。从㗊，萈聲。讀若讙。', '㗊;萈;讙', '萈;讙', '奐', '𡅻、喚古今字。', '㗊', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1441, '器', 'qì', '第三卷', '㗊部', '皿也。[㗊，]象器之口。犬，所㠯守之。', '㗊;犬', '', 'null', NULL, '㗊;犬', 'null', 'null', 'null', 'null', '△', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1442, '干', 'ɡān', '第三卷', '干部', '犯也。从一，从反入。凡干之屬皆从干。', '一;入', '', 'null', NULL, '一;入', 'null', 'null', 'null', 'null', '元部', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1443, '𢆉', 'rěn', '第三卷', '干部', '㨖也。从干。入一爲干，入二爲𢆉。讀若飪。言稍甚也。', '干;飪', '飪', 'null', NULL, '干', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1675,7 +1675,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1625, '謧', 'lí', '第三卷', '言�
 INSERT INTO `shuowen_voice_revel` VALUES (1626, '詍', 'yì', '第三卷', '言部', '詍詍，多言也。从言，世聲。詩曰「無然詍詍」。', '言;世', '世', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1627, '訾;訿', 'zǐ', '第三卷', '言部', '訾訾，不思稱意也。从言，此聲。詩曰「翕翕訿訿」。', '言;此', '此', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1628, '䛬', 'táo', '第三卷', '言部', '往來言也。一曰小兒未能正言也。一曰祝也。从言，匋聲。䛬或从包。', '言;匋;包', '匋;包', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1629, '𧦦', 'nán', '第三卷', '言部', '𧦦𧦦，多語也。从言，冉聲。樂浪有𧦦邯縣。', '言;冉', '冉', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1629, '𧦦;䛁', 'nán', '第三卷', '言部', '𧦦𧦦，多語也。从言，冉聲。樂浪有𧦦邯縣。', '言;冉', '冉', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1630, '䜚', 'tà', '第三卷', '言部', '䜚誻，語相及也。从言，遝聲。', '言;遝', '遝', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1631, '誻', 'tà', '第三卷', '言部', '䜚誻也。从言，沓聲。', '言;沓', '沓', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1632, '訮', 'yán', '第三卷', '言部', '諍語訮訮也。从言，开聲。', '言;开', '开', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1756,7 +1756,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1706, '誰', 'shuí', '第三卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (1707, '諽', 'ɡé', '第三卷', '言部', '飭也。从言，革聲。讀若戒。一曰更也。', '言;革;戒', '革;戒', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1708, '讕', 'lán', '第三卷', '言部', '抵讕也。从言，闌聲。', '言;闌', '闌', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1709, '診', 'zhěn', '第三卷', '言部', '視也。从言，㐱聲。', '言;㐱', '㐱', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1710, '𧬜', 'xī', '第三卷', '言部', '悲聲也。从言，斯省聲。', '言;斯', '斯', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1710, '𧬜;𧬊', 'xī', '第三卷', '言部', '悲聲也。从言，斯省聲。', '言;斯', '斯', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1711, '訧', 'yóu', '第三卷', '言部', '罪也。从言，尤聲。周書曰「報㠯庶訧」。', '言;尤', '尤', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1712, '誅', 'zhū', '第三卷', '言部', '討也。从言，朱聲。', '言;朱', '朱', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1713, '討', 'tǎo', '第三卷', '言部', '治也。从言寸。', '言;寸', '', 'null', NULL, '言;寸', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
@@ -1765,8 +1765,8 @@ INSERT INTO `shuowen_voice_revel` VALUES (1715, '讄', 'lěi', '第三卷', '言
 INSERT INTO `shuowen_voice_revel` VALUES (1716, '謚', 'yì', '第三卷', '言部', '行之迹也。从言，益聲。', '言;益', '益', 'null', NULL, '言', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1717, '誄', 'lěi', '第三卷', '言部', '謚也。从言，耒聲。', '言;耒', '耒', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1718, '諱', 'huì', '第三卷', '言部', '忌也。从言，韋聲。', '言;韋', '韋', 'null', NULL, '言', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1719, '謑', 'xǐ', '第三卷', '言部', '謑詬，恥也。从言，奚聲。謑或从奊。', '言;奚;奊', '奚;奊', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1720, '詬', 'ɡòu', '第三卷', '言部', '謑詬也。从言，后聲。詬或从句。', '言;后;句', '后;句', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1719, '謑;䜁', 'xǐ', '第三卷', '言部', '謑詬，恥也。从言，奚聲。謑或从奊。', '言;奚;奊', '奚;奊', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1720, '詬;訽', 'ɡòu', '第三卷', '言部', '謑詬也。从言，后聲。詬或从句。', '言;后;句', '后;句', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1721, '諜', 'dié', '第三卷', '言部', '軍中反閒也。从言，枼聲。', '言;枼', '枼', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1722, '該', 'ɡāi', '第三卷', '言部', '軍中約也。从言，亥聲。讀若「心中滿該」。', '言;亥;該', '亥;該', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1723, '譯;𧬳', 'yì', '第三卷', '言部', '傳四夷之語者。从言，睪聲。', '言;睪', '睪', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1879,7 +1879,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1829, '䩒', 'yú', '第三卷', '革�
 INSERT INTO `shuowen_voice_revel` VALUES (1830, '𩌏', 'bó', '第三卷', '革部', '車下索也。从革，尃聲。', '革;尃', '尃', 'null', NULL, '革', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1831, '𩋊', 'è', '第三卷', '革部', '車具也。从革，奄聲。', '革;奄', '奄', 'null', NULL, '革', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1832, '𩋁', 'zhuó', '第三卷', '革部', '車具也。从革，叕聲。', '革;叕', '叕', 'null', NULL, '革', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1833, '鞍', 'ān', '第三卷', '革部', '馬鞁具也。从革，安聲。', '革;安', '安', 'null', NULL, '革', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1833, '鞍;鞌', 'ān', '第三卷', '革部', '馬鞁具也。从革，安聲。', '革;安', '安', 'null', NULL, '革', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1834, '䩸', 'rónɡ', '第三卷', '革部', '鞍毳飾也。从革，茸聲。', '革;茸', '茸', 'null', NULL, '革', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1835, '䩞', 'tié', '第三卷', '革部', '鞍飾。从革，占聲。', '革;占', '占', 'null', NULL, '革', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1836, '鞈', 'ɡé', '第三卷', '革部', '防汗也。从革，合聲。', '革;合', '合', 'null', NULL, '革', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1904,7 +1904,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1854, '鬲;㽁', 'lì', '第三卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (1855, '䰙', 'yǐ', '第三卷', '鬲部', '三足鍑也。一曰滫米器也。从鬲，支聲。', '鬲;支', '支', 'null', NULL, '鬲', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1856, '鬹', 'ɡuī', '第三卷', '鬲部', '三足鬴也。有柄喙。讀若嬀。从鬲，規聲。', '嬀;鬲;規', '嬀;規', 'null', NULL, '鬲', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1857, '鬷', 'zōnɡ', '第三卷', '鬲部', '鬴屬。从鬲，㚇聲。', '鬲;㚇', '㚇', 'null', NULL, '鬲', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1858, '𩰫', 'ɡuō', '第三卷', '鬲部', '秦名土鬴曰𩰫。从鬲，㐄聲。讀若過。', '鬲;㐄;過', '㐄;過', 'null', NULL, '鬲', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1858, '𩰫;𩰬', 'ɡuō', '第三卷', '鬲部', '秦名土鬴曰𩰫。从鬲，㐄聲。讀若過。', '鬲;㐄;過', '㐄;過', 'null', NULL, '鬲', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1859, '鬵', 'qín', '第三卷', '鬲部', '大鬴也。一曰鼎大上小下若甑曰鬵。从鬲，兓聲。讀若岑。籒文鬵[䰜]。', '鬲;兓;岑;䰜', '兓;岑', 'null', NULL, '鬲;䰜', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1860, '䰝', 'zènɡ', '第三卷', '鬲部', '鬵屬。从鬲，曾聲。', '鬲;曾', '曾', 'null', NULL, '鬲', 'null', 'null', 'null', 'null', '应删', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1861, '鬴;釜;𨥏;釡', 'fǔ', '第三卷', '鬲部', '鍑屬也。从鬲，甫聲。鬴或从金，父聲。', '鬲;甫;金;父', '甫;父', 'null', NULL, '鬲;金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1914,10 +1914,10 @@ INSERT INTO `shuowen_voice_revel` VALUES (1864, '𩱴', 'xiāo', '第三卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (1865, '𩰱', 'shānɡ', '第三卷', '鬲部', '䰞也。从鬲，羊聲。', '鬲;羊', '羊', 'null', NULL, '鬲', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1866, '𩰾', 'fèi', '第三卷', '鬲部', '涫也。从鬲，沸聲。', '鬲;沸', '沸', 'null', NULL, '鬲', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1867, '䰜', 'lì', '第三卷', '䰜部', '㽁也。古文亦鬲字。象孰飪五味气上出也。凡䰜之屬皆从䰜。', '鬲', '鬲', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1868, '𩱡;餰;䭈;𩜾', 'zhān', '第三卷', '䰜部', '鬻也。从䰜，侃聲。𩱡或从食，衍聲。𩱡或从食，干聲。𩱡或从食，建聲。', '䰜;侃;食;衍;食;干;食;建', '侃;衍;干;建', 'null', NULL, '䰜;食;食;食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1868, '𩱡;餰;䭈;𩜾;飦', 'zhān', '第三卷', '䰜部', '鬻也。从䰜，侃聲。𩱡或从食，衍聲。𩱡或从食，干聲。𩱡或从食，建聲。', '䰜;侃;食;衍;食;干;食;建', '侃;衍;干;建', 'null', NULL, '䰜;食;食;食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1869, '鬻', 'zhōu', '第三卷', '䰜部', '䭈也。从䰜米。', '䰜;米', '', 'null', NULL, '䰜;米', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1870, '𩱍', 'hú', '第三卷', '䰜部', '䭈也。从䰜，古聲。', '䰜;古', '古', 'null', NULL, '䰜', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1871, '𩱧;羹;羮', 'ɡēnɡ', '第三卷', '䰜部', '五味盉𩱧也。从䰜，从羔。詩曰「亦有和𩱧」。𩱧或省[鬲]。或从美䰜省。小篆从羔，从美。', '䰜;羔;鬲;美;䰜;羔;美', '', 'null', NULL, '䰜;羔;鬲;美;䰜;羔;美', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1871, '𩱧;羹;羮;𩱋', 'ɡēnɡ', '第三卷', '䰜部', '五味盉𩱧也。从䰜，从羔。詩曰「亦有和𩱧」。𩱧或省[鬲]。或从美䰜省。小篆从羔，从美。', '䰜;羔;鬲;美;䰜;羔;美', '', 'null', NULL, '䰜;羔;鬲;美;䰜;羔;美', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1872, '𩱫', 'sù', '第三卷', '䰜部', '鼎實，惟葦及蒲。陳畱謂䭈爲𩱫。从䰜，速聲。𩱫或从食束。', '䰜;速;食;束', '速;束', 'null', NULL, '䰜;食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1873, '𩱱;𩱙', 'yù', '第三卷', '䰜部', '鬻也。从䰜，毓聲。𩱱或省从米[𠫓]。', '䰜;毓;米;𠫓', '毓', 'null', NULL, '䰜;米;𠫓', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1874, '𩱷;粖', 'miè', '第三卷', '䰜部', '涼州謂鬻爲𩱷。从䰜，𥽘聲。𩱷或省从末[米]。', '䰜;𥽘;末;米', '𥽘;末', 'null', NULL, '䰜;米', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1939,7 +1939,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1889, '谻', 'jué', '第三卷', '丮
 INSERT INTO `shuowen_voice_revel` VALUES (1890, '𢦚', 'huà', '第三卷', '丮部', '擊踝也。从丮戈。讀若踝。', '丮;戈;踝', '戈;踝', 'null', NULL, '丮', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1891, '𠨭', 'jú', '第三卷', '丮部', '亦持也。从反丮。闕。', '丮', '', 'null', NULL, '丮', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1892, '鬥', 'dòu', '第三卷', '鬥部', '㒳士相對，兵杖在後，象鬥之形。凡鬥之屬皆从鬥。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1893, '鬭', 'dòu', '第三卷', '鬥部', '遇也。从鬥，斲聲。', '鬥;斲', '斲', 'null', NULL, '鬥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1893, '鬭;鬬', 'dòu', '第三卷', '鬥部', '遇也。从鬥，斲聲。', '鬥;斲', '斲', 'null', NULL, '鬥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1894, '鬨', 'hònɡ', '第三卷', '鬥部', '鬥也。从鬥，共聲。孟子曰「鄒與魯鬨」。', '鬥;共', '共', 'null', NULL, '鬥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1895, '䰘', 'liú', '第三卷', '鬥部', '經繆殺也。从鬥，翏聲。', '鬥;翏', '翏', 'null', NULL, '鬥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1896, '鬮', 'jiū', '第三卷', '鬥部', '鬥取也。从鬥，龜聲。讀若「三合繩糾」。', '鬥;龜;糾', '龜;糾', 'null', NULL, '鬥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -1955,7 +1955,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (1905, '厷;厶;肱', 'ɡōnɡ', '第�
 INSERT INTO `shuowen_voice_revel` VALUES (1906, '叉', 'chā', '第三卷', '又部', '手指相錯也。从又一。象叉之形。', '又;一', '', 'null', NULL, '又;一', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1907, '㕚', 'zhǎo', '第三卷', '又部', '手足甲也。从又。象㕚形。', '又', '', 'null', NULL, '又', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1908, '父', 'fù', '第三卷', '又部', '巨也。家長率敎者。从又舉杖。', '又', '', 'null', NULL, '又', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (1909, '叜', 'sǒu', '第三卷', '又部', '老也。从又灾。籒文从寸。叜或从人。', '又;灾;寸;人', '', 'null', NULL, '又;灾;寸;人', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (1909, '叜;傁;叟', 'sǒu', '第三卷', '又部', '老也。从又灾。籒文从寸。叜或从人。', '又;灾;寸;人', '', 'null', NULL, '又;灾;寸;人', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1910, '燮', 'xiè', '第三卷', '又部', '和也。从言又，炎聲。讀若溼。籒文燮从𢆉。', '言;又;炎;溼;𢆉', '炎;溼;𢆉', 'null', NULL, '言;又', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1911, '曼;漫', 'màn', '第三卷', '又部', '引也。从又，冒聲。', '又;冒', '冒', 'null', NULL, '又', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (1912, '𠭙', 'shēn', '第三卷', '又部', '伸也。从又，𢑚聲。𢑚，古文申。', '又;𢑚', '𢑚', 'null', NULL, '又', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2054,7 +2054,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2004, '效', 'xiào', '第三卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (2005, '故', 'ɡù', '第三卷', '攴部', '使爲之也。从攴，古聲。', '攴;古', '古', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2006, '政', 'zhènɡ', '第三卷', '攴部', '正也。从攴正。正亦聲。', '攴;正', '正', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2007, '𢻱', 'shī', '第三卷', '攴部', '𢾭也。从攴，也聲。讀與施同。', '攴;也;施', '也;施', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2008, '𢾭', 'fū', '第三卷', '攴部', '𢻱也。从攴，尃聲。周書曰「用𢾭遺後人」。', '攴;尃', '尃', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2008, '𢾭;敷', 'fū', '第三卷', '攴部', '𢻱也。从攴，尃聲。周書曰「用𢾭遺後人」。', '攴;尃', '尃', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2009, '敟', 'diǎn', '第三卷', '攴部', '主也。从攴，典聲。', '攴;典', '典', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2010, '𣀷', 'lǐ', '第三卷', '攴部', '數也。从攴，麗聲。', '攴;麗', '麗', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '麗轨', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2011, '數;𢿙', 'shǔ', '第三卷', '攴部', '計也。从攴，婁聲。', '攴;婁', '婁', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2082,9 +2082,9 @@ INSERT INTO `shuowen_voice_revel` VALUES (2032, '斁', 'yì', '第三卷', '攴�
 INSERT INTO `shuowen_voice_revel` VALUES (2033, '赦', 'shè', '第三卷', '攴部', '置也。从攴，赤聲。赦或从亦，亦聲。', '攴;赤;亦', '赤;亦', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2034, '攸', 'yōu', '第三卷', '攴部', '行水也。从攴，从人，水省。秦刻石嶧山。石文攸字如此。', '攴;人;水', '', 'null', NULL, '攴;人;水', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2035, '𢻬', 'fǔ', '第三卷', '攴部', '撫也。从攴，亡聲。讀與撫同。', '攴;亡;撫', '亡;撫', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2036, '敉', 'mǐ', '第三卷', '攴部', '撫也。从攴，米聲。周書曰「亦未克敉公功」。讀若弭。敉或从人。', '攴;米;弭;人', '米;弭', 'null', NULL, '攴;人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2036, '敉;侎', 'mǐ', '第三卷', '攴部', '撫也。从攴，米聲。周書曰「亦未克敉公功」。讀若弭。敉或从人。', '攴;米;弭;人', '米;弭', 'null', NULL, '攴;人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2037, '敡', 'yì', '第三卷', '攴部', '侮也。从攴，从易。易亦聲。', '攴;易', '易', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2038, '𢾝', 'wéi', '第三卷', '攴部', '戾也。从攴，韋聲。', '攴;韋', '韋', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2038, '𢾝;𢾁', 'wéi', '第三卷', '攴部', '戾也。从攴，韋聲。', '攴;韋', '韋', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2039, '敦', 'dūn', '第三卷', '攴部', '怒也，詆也。一曰誰何也。从攴，𦎫聲。', '攴;𦎫', '𦎫', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2040, '𣀆', 'qún', '第三卷', '攴部', '朋侵也。从羣攴。羣亦聲。', '羣;攴', '羣', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2041, '敗', 'bài', '第三卷', '攴部', '毀也。从攴貝。賊、敗皆从貝。籒文敗从賏。', '攴;貝;賏', '貝', 'null', NULL, '攴;貝;賏', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
@@ -2100,7 +2100,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2050, '攷', 'kǎo', '第三卷', '攴
 INSERT INTO `shuowen_voice_revel` VALUES (2051, '敂', 'kòu', '第三卷', '攴部', '擊也。从攴，句聲。讀若扣。', '攴;句;扣', '句;扣', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2052, '攻', 'ɡōnɡ', '第三卷', '攴部', '擊也。从攴，工聲。', '攴;工', '工', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2053, '敲;㪣', 'qiāo', '第三卷', '攴部', '橫擿也。从攴，高聲。', '攴;高', '高', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2054, '𢽴', 'zhuó', '第三卷', '攴部', '擊也。从攴，豖聲。', '攴;豖', '豖', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2054, '𢽴;𢽚', 'zhuó', '第三卷', '攴部', '擊也。从攴，豖聲。', '攴;豖', '豖', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2055, '𢼟', 'wǎnɡ', '第三卷', '攴部', '放也。从攴，㞷聲。', '攴;㞷', '㞷', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2056, '𠩺', 'xī', '第三卷', '攴部', '坼也。从攴，从厂。厂之性坼。果孰有味亦坼，故从未。', '攴;厂', '', 'null', NULL, '攴;厂', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2057, '斀;豖;𣀈', 'zhuó', '第三卷', '攴部', '去陰之㓝也。从攴，蜀聲。周書曰「刖劓𣀈黥」。古文从豕。一，椓其勢。', '攴;蜀;豕;一;椓', '蜀;椓', 'null', NULL, '攴;豕;一', 'null', 'null', 'null', 'null', '政宇补重文', 0x31, 'null', 'null', 'null');
@@ -2118,7 +2118,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2068, '牧', 'mù', '第三卷', '攴�
 INSERT INTO `shuowen_voice_revel` VALUES (2069, '敇', 'cè', '第三卷', '攴部', '擊馬也。从攴，朿聲。', '攴;朿', '朿', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2070, '𣀔', 'chuàn', '第三卷', '攴部', '小舂也。从攴，算聲。', '攴;算', '算', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2071, '𢿲', 'qiāo', '第三卷', '攴部', '䚫田也。从攴，堯聲。', '攴;堯', '堯', 'null', NULL, '攴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2072, '敎;教', 'jiào', '第三卷', '敎部', '上所施，下所效也。从攴𡥈。凡敎之屬皆从敎。古文敎[言]。亦古文敎[爻]。', '攴;𡥈;言;爻', '𡥈;爻', 'null', NULL, '攴;言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2072, '敎;教;𤕝', 'jiào', '第三卷', '敎部', '上所施，下所效也。从攴𡥈。凡敎之屬皆从敎。古文敎[言]。亦古文敎[爻]。', '攴;𡥈;言;爻', '𡥈;爻', 'null', NULL, '攴;言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2073, '斆;學', 'xué', '第三卷', '敎部', '覺也。从敎冂。冂，尙矇也。𦥑聲。篆文斆省[𡥈]。', '敎;冂;𦥑;𡥈;學', '𦥑;學', 'null', NULL, '敎;冂;𡥈', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2074, '卜', 'bǔ', '第三卷', '卜部', '灼剝龜也。象灸龜之形。一曰象龜兆之縱衡也。凡卜之屬皆从卜。古文卜。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2075, '卦', 'ɡuà', '第三卷', '卜部', '所㠯簭也。从卜，圭聲。', '卜;圭', '圭', 'null', NULL, '卜', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2146,7 +2146,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2096, '目', 'mù', '第四卷', '目�
 INSERT INTO `shuowen_voice_revel` VALUES (2097, '眼', 'yǎn', '第四卷', '目部', '目也。从目，艮聲。', '目;艮', '艮', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2098, '𥌡', 'biǎn', '第四卷', '目部', '兒初生瞥者。从目，瞏聲。讀若「告之謂調[懽]」。', '目;瞏;懽', '瞏;懽', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2099, '眩', 'xuàn', '第四卷', '目部', '目無常主也。从目，玄聲。', '目;玄', '玄', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2100, '眥', 'zì', '第四卷', '目部', '目匡也。从目，此聲。', '目;此', '此', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2100, '眥;眦', 'zì', '第四卷', '目部', '目匡也。从目，此聲。', '目;此', '此', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2101, '䀹', 'jié', '第四卷', '目部', '目旁毛也。从目，夾聲。', '目;夾', '夾', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2102, '𥌭', 'xuàn', '第四卷', '目部', '盧童子也。从目，縣聲。', '目;縣', '縣', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2103, '瞦', 'xī', '第四卷', '目部', '目童子精瞦也。从目，喜聲。讀若爾雅「禧福」。', '目;喜;禧', '喜;禧', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2179,7 +2179,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2129, '睨', 'nì', '第四卷', '目�
 INSERT INTO `shuowen_voice_revel` VALUES (2130, '𥈆', 'mào', '第四卷', '目部', '氐目視也。从目，冒聲。周書曰「武王惟𥈆」。', '目;冒', '冒', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2131, '眓', 'huò', '第四卷', '目部', '視高皃。从目，戉聲。讀若詩曰「施罟濊濊」。', '目;戉;濊', '戉;濊', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2132, '眈', 'dān', '第四卷', '目部', '視近而志遠。从目，冘聲。易曰「虎視眈眈」。', '目;冘', '冘', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2133, '𢌨', 'yàn', '第四卷', '目部', '相顧視而行也。从目，从㢟。㢟亦聲。', '目;㢟', '㢟', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2133, '𢌨;𥆊', 'yàn', '第四卷', '目部', '相顧視而行也。从目，从㢟。㢟亦聲。', '目;㢟', '㢟', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2134, '盱', 'xū', '第四卷', '目部', '張目也。从目，于聲。一曰朝鮮謂盧童子曰盱。', '目;于', '于', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2135, '瞏;睘', 'qiónɡ', '第四卷', '目部', '目驚視也。从目，袁聲。詩曰「獨行瞏瞏」。', '目;袁', '袁', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2136, '䁴', 'zhǎn', '第四卷', '目部', '視而不止也。从目，亶聲。', '目;亶', '亶', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2187,7 +2187,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2137, '䀛', 'mèi', '第四卷', '目
 INSERT INTO `shuowen_voice_revel` VALUES (2138, '眕', 'zhěn', '第四卷', '目部', '目有所恨而止也。从目，㐱聲。', '目;㐱', '㐱', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2139, '瞟', 'piǎo', '第四卷', '目部', '𥉻也。从目，票聲。', '目;票', '票', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2140, '𥉻', 'qì', '第四卷', '目部', '察也。从目，祭聲。', '目;祭', '祭', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2141, '睹', 'dǔ', '第四卷', '目部', '見也。从目，者聲。古文从見。', '目;者;見', '者', 'null', NULL, '目;見', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2141, '睹;覩', 'dǔ', '第四卷', '目部', '見也。从目，者聲。古文从見。', '目;者;見', '者', 'null', NULL, '目;見', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2142, '眔', 'dà', '第四卷', '目部', '目相及也。从目，隶省。讀若與隶同也。', '目;隶', '隶', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2143, '睽', 'kuí', '第四卷', '目部', '目不相聽也。从目，癸聲。', '目;癸', '癸', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2144, '眜', 'mò', '第四卷', '目部', '目不朙也。从目，末聲。', '目;末', '末', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2249,7 +2249,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2199, '眄', 'miǎn', '第四卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (2200, '盲', 'mánɡ', '第四卷', '目部', '目無牟子也。从目，亡聲。', '目;亡', '亡', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2201, '䁍', 'qià', '第四卷', '目部', '目陷也。从目，咸聲。', '目;咸', '咸', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2202, '瞽', 'ɡǔ', '第四卷', '目部', '目但有朕也。从目，𡔷聲。', '目;𡔷', '𡔷', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2203, '𥈟', 'sǒu', '第四卷', '目部', '無目也。从目，叜聲。', '目;叜', '叜', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2203, '𥈟;瞍', 'sǒu', '第四卷', '目部', '無目也。从目，叜聲。', '目;叜', '叜', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2204, '䁝', 'yínɡ', '第四卷', '目部', '䁝惑也。从目，熒省聲。', '目;熒', '熒', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2205, '睉', 'cuó', '第四卷', '目部', '小目也。从目，𡋲聲。', '目;𡋲', '𡋲', 'null', NULL, '目', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2206, '𥄗', 'wò', '第四卷', '目部', '捾目也。从目㕚。', '目;㕚', '', 'null', NULL, '目;㕚', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
@@ -2295,21 +2295,21 @@ INSERT INTO `shuowen_voice_revel` VALUES (2245, '翡', 'fěi', '第四卷', '羽
 INSERT INTO `shuowen_voice_revel` VALUES (2246, '翠', 'cuì', '第四卷', '羽部', '靑羽雀也。出鬱林。从羽，卒聲。', '羽;卒', '卒', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2247, '翦', 'jiǎn', '第四卷', '羽部', '羽生也。一曰𠂕羽。从羽，歬聲。', '羽;歬', '歬', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2248, '翁', 'wēnɡ', '第四卷', '羽部', '頸毛也。从羽，公聲。', '羽;公', '公', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2249, '翄;翅', 'chì', '第四卷', '羽部', '翼也。从羽，支聲。翄或从羽氏。', '羽;支;氏', '支;氏', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2249, '翄;翅;𦐊', 'chì', '第四卷', '羽部', '翼也。从羽，支聲。翄或从羽氏。', '羽;支;氏', '支;氏', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2250, '𦑜', 'ɡé', '第四卷', '羽部', '翅也。从羽，革聲。', '羽;革', '革', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2251, '翹', 'qiáo', '第四卷', '羽部', '尾長毛也。从羽，堯聲。', '羽;堯', '堯', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2252, '翭', 'hóu', '第四卷', '羽部', '羽本也。从羽，矦聲。', '羽;矦', '矦', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2252, '翭;𦑚', 'hóu', '第四卷', '羽部', '羽本也。从羽，矦聲。', '羽;矦', '矦', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2253, '翮', 'hé', '第四卷', '羽部', '羽莖也。从羽，鬲聲。', '羽;鬲', '鬲', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2254, '𦐛', 'qú', '第四卷', '羽部', '羽曲也。从羽，句聲。', '羽;句', '句', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2255, '𦐧;羿', 'yì', '第四卷', '羽部', '羽之𦐧風。亦古諸矦也。一曰射師。从羽开。', '羽;开', '开', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2256, '翥', 'zhù', '第四卷', '羽部', '飛舉也。从羽，者聲。', '羽;者', '者', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2257, '翕', 'xī', '第四卷', '羽部', '起也。从羽，合聲。', '羽;合', '合', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2258, '翾', 'xuān', '第四卷', '羽部', '小飛也。从羽，瞏聲。', '羽;瞏', '瞏', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2259, '翬', 'huī', '第四卷', '羽部', '大飛也。从羽，軍聲。一曰伊、雒而南，雉五采皆備曰翬。詩曰「有翬斯飛」。', '羽;軍', '軍', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2259, '翬;𦑩', 'huī', '第四卷', '羽部', '大飛也。从羽，軍聲。一曰伊、雒而南，雉五采皆備曰翬。詩曰「有翬斯飛」。', '羽;軍', '軍', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2260, '翏', 'liù', '第四卷', '羽部', '高飛也。从羽㐱。', '羽;㐱', '', 'null', NULL, '羽;㐱', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2261, '翩', 'piān', '第四卷', '羽部', '疾飛也。从羽，扁聲。', '羽;扁', '扁', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2262, '翜', 'shà', '第四卷', '羽部', '捷也。飛之疾也。从羽，夾聲。讀若歰、濇。一曰俠也。', '羽;夾;歰;濇', '夾;歰;濇', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2263, '翊', 'yì', '第四卷', '羽部', '飛皃。从羽，立聲。', '羽;立', '立', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2263, '翊;翋', 'yì', '第四卷', '羽部', '飛皃。从羽，立聲。', '羽;立', '立', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2264, '𦐇', 'tà', '第四卷', '羽部', '飛盛皃。从羽冃。', '羽;冃', '', 'null', NULL, '羽;冃', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2265, '𦐉', 'chī', '第四卷', '羽部', '羽盛皃也。从之，羽聲。', '之;羽', '羽', 'null', NULL, '之', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2266, '翱;翺', 'áo', '第四卷', '羽部', '翱，翔也。从羽，皋聲。', '羽;皋', '皋', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2318,7 +2318,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2268, '翽', 'huì', '第四卷', '羽
 INSERT INTO `shuowen_voice_revel` VALUES (2269, '翯', 'xué', '第四卷', '羽部', '鳥白肥澤皃。从羽，高聲。詩曰「白鳥翯翯[鶴]」。', '羽;高;鶴', '高;鶴', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2270, '䍿', 'huánɡ', '第四卷', '羽部', '樂舞。㠯羽翿自翳其首，㠯祀星辰也。从羽，王聲。讀若皇。', '羽;王;皇', '王;皇', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '经', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2271, '翇', 'fú', '第四卷', '羽部', '樂舞。執全羽㠯祀社稷也。从羽，犮聲。讀若紱。', '羽;犮;紱', '犮;紱', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2272, '翿', 'dào', '第四卷', '羽部', '翳也。所㠯舞也。从羽，𣪐聲。詩曰「左執翿」。', '羽;𣪐', '𣪐', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2272, '翿;𦒛', 'dào', '第四卷', '羽部', '翳也。所㠯舞也。从羽，𣪐聲。詩曰「左執翿」。', '羽;𣪐', '𣪐', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2273, '翳', 'yì', '第四卷', '羽部', '華葢也。从羽，殹聲。', '羽;殹', '殹', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2274, '翣', 'shà', '第四卷', '羽部', '棺羽飾也。天子八。諸矦六。大夫四。士二。下𠂹，从羽。妾聲。', '羽;妾', '妾', 'null', NULL, '羽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2275, '翻;飜', 'fān', '第四卷', '羽部', '飛也。从羽，番聲。[飜]或从飛。', '羽;番;飛', '番', 'null', NULL, '羽;飛', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
@@ -2350,7 +2350,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2300, '雂', 'qián', '第四卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (2301, '雁', 'yàn', '第四卷', '隹部', '雁鳥也。从隹，从人，厂聲。', '隹;人;厂', '厂', 'null', NULL, '隹;人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2302, '𩁟', 'lí', '第四卷', '隹部', '𩁟黃也。从隹，黎聲。一曰楚雀也，其色黎黑而黃。', '隹;黎', '黎', 'null', NULL, '隹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2303, '雐', 'hū', '第四卷', '隹部', '雐鳥也。从隹，虍聲。', '隹;虍', '虍', 'null', NULL, '隹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2304, '𨾯', 'rú', '第四卷', '隹部', '牟毋也。从隹，奴聲。𨾯或从鳥。', '隹;奴;鳥', '奴', 'null', NULL, '隹;鳥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2304, '𨾯;鴑', 'rú', '第四卷', '隹部', '牟毋也。从隹，奴聲。𨾯或从鳥。', '隹;奴;鳥', '奴', 'null', NULL, '隹;鳥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2305, '雇', 'hù', '第四卷', '隹部', '九雇——農桑𠊱鳥，扈民不婬者也。从隹，戸聲。春雇，鳻盾；夏雇竊玄；秋雇竊藍；冬雇竊黃；棘雇竊丹；行雇唶唶；宵雇嘖嘖；桑雇竊脂；老雇，鴳也。雇或从雩。籒文雇从鳥。', '隹;戸;雩;鳥', '戸;雩', 'null', NULL, '隹;鳥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2306, '𨿡;鶉', 'chún', '第四卷', '隹部', '䨄屬也。从隹，𦎫聲。', '隹;𦎫', '𦎫', 'null', NULL, '隹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2307, '䨄', 'ān', '第四卷', '隹部', '𨿡屬也。从隹，酓聲。籒文䨄从鳥。', '隹;酓;鳥', '酓', 'null', NULL, '隹;鳥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2577,7 +2577,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2527, '𠭘', 'jǐnɡ', '第四卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (2528, '叡;睿', 'ruì', '第四卷', '𣦼部', '𥥍明也。从𣦼，从目，从谷省。古文叡[𣦵]。籒文叡从土。', '𣦼;目;谷;𣦵;土', '', 'null', NULL, '𣦼;目;谷;𣦵;土', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2529, '𣦵;歺', 'è', '第四卷', '𣦵部', '列骨之殘也。从半冎。凡𣦵之屬皆从𣦵。讀若「櫱岸[牙]」之櫱[糱]。古文𣦵。', '冎;糱', '糱', 'null', NULL, '冎', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2530, '𣨙', 'wěi', '第四卷', '𣦵部', '病也。从𣦵，委聲。', '𣦵;委', '委', 'null', NULL, '𣦵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2531, '殙', 'hūn', '第四卷', '𣦵部', '瞀也。从𣦵，昏聲。', '𣦵;昏', '昏', 'null', NULL, '𣦵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2531, '殙;㱪', 'hūn', '第四卷', '𣦵部', '瞀也。从𣦵，昏聲。', '𣦵;昏', '昏', 'null', NULL, '𣦵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2532, '殰', 'dú', '第四卷', '𣦵部', '胎敗也。从𣦵，𧷏聲。', '𣦵;𧷏', '𧷏', 'null', NULL, '𣦵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2533, '歾;歿;殁', 'mò', '第四卷', '𣦵部', '終也。从𣦵，勿聲。歾或从𠬛。', '𣦵;勿;𠬛', '勿;𠬛', 'null', NULL, '𣦵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2534, '𣨛', 'zú', '第四卷', '𣦵部', '大夫死曰𣨛。从𣦵，卒聲。', '𣦵;卒', '卒', 'null', NULL, '𣦵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2612,7 +2612,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2562, '薨', 'hōnɡ', '第四卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (2563, '薧', 'hāo', '第四卷', '死部', '死人里也。从死，蒿省聲。', '死;蒿', '蒿', 'null', NULL, '死', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2564, '𣣌', 'zì', '第四卷', '死部', '戰。見血曰「傷」。亂或爲「惛」。死而復生爲「𣣌」。从死，次聲。', '死;次', '次', 'null', NULL, '死', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2565, '冎', 'ɡuǎ', '第四卷', '冎部', '剔人肉置其骨也。象形。頭隆骨也。凡冎之屬皆从冎。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2566, '別', 'bié', '第四卷', '冎部', '分解也。从冎，从刀。', '冎;刀', '', 'null', NULL, '冎;刀', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2566, '別;𠛰;别', 'bié', '第四卷', '冎部', '分解也。从冎，从刀。', '冎;刀', '', 'null', NULL, '冎;刀', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2567, '㗗', 'bēi', '第四卷', '冎部', '別也。从冎，卑聲。讀若罷。', '冎;卑;罷', '卑;罷', 'null', NULL, '冎', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2568, '骨', 'ɡǔ', '第四卷', '骨部', '肉之覈也。从冎有肉。凡骨之屬皆从骨。', '冎;肉', '', 'null', NULL, '冎;肉', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2569, '髑', 'dú', '第四卷', '骨部', '髑髏，頂骨也。从骨，蜀聲。', '骨;蜀', '蜀', 'null', NULL, '骨', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2622,7 +2622,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2572, '髃', 'ǒu', '第四卷', '骨�
 INSERT INTO `shuowen_voice_revel` VALUES (2573, '骿', 'pián', '第四卷', '骨部', '骿脅，并榦也。从骨，并聲。晉文公骿脅。', '骨;并', '并', 'null', NULL, '骨', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2574, '髀', 'bǐ', '第四卷', '骨部', '股外也。从骨，卑聲。古文髀[足]。', '骨;卑;足', '卑', 'null', NULL, '骨;足', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2575, '髁', 'kē', '第四卷', '骨部', '髀骨也。从骨，果聲。', '骨;果', '果', 'null', NULL, '骨', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2576, '𩪗', 'jué', '第四卷', '骨部', '𡱂骨也。从骨，厥聲。', '骨;厥', '厥', 'null', NULL, '骨', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2576, '𩪗;𩪜', 'jué', '第四卷', '骨部', '𡱂骨也。从骨，厥聲。', '骨;厥', '厥', 'null', NULL, '骨', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2577, '髖', 'kuān', '第四卷', '骨部', '髀上也。从骨，寬聲。', '骨;寬', '寬', 'null', NULL, '骨', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2578, '髕', 'bìn', '第四卷', '骨部', '厀耑也。从骨，賔聲。', '骨;賔', '賔', 'null', NULL, '骨', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2579, '䯏', 'ɡuā', '第四卷', '骨部', '骨耑也。从骨，𠯑聲。', '骨;𠯑', '𠯑', 'null', NULL, '骨', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2702,7 +2702,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2652, '脫', 'tuō', '第四卷', '肉
 INSERT INTO `shuowen_voice_revel` VALUES (2653, '脙', 'qiú', '第四卷', '肉部', '齊人謂臞脙也。从肉，求聲。讀若「休止」。', '肉;求;休', '求;休', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2654, '臠', 'luán', '第四卷', '肉部', '臞也。从肉，䜌聲。一曰切肉也。詩曰「棘人臠臠」。', '肉;䜌', '䜌', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2655, '膌', 'jí', '第四卷', '肉部', '𤸃也。从肉，脊聲。古文膌从疒朿，朿亦聲。', '肉;脊;疒;朿', '脊;朿', 'null', NULL, '肉;疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2656, '𦛆', 'chénɡ', '第四卷', '肉部', '騃也。从肉，丞聲。讀若丞。', '肉;丞', '丞', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2656, '𦛆;脀', 'chénɡ', '第四卷', '肉部', '騃也。从肉，丞聲。讀若丞。', '肉;丞', '丞', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2657, '胗', 'zhěn', '第四卷', '肉部', '脣瘍也。从肉，㐱聲。籒文胗从疒。', '肉;㐱;疒', '㐱', 'null', NULL, '肉;疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2658, '腄', 'zhuī', '第四卷', '肉部', '跟胝也。从肉，垂聲。', '肉;垂', '垂', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2659, '胝', 'zhī', '第四卷', '肉部', '腄也。从肉，氐聲。', '肉;氐', '氐', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2766,10 +2766,10 @@ INSERT INTO `shuowen_voice_revel` VALUES (2716, '膾', 'kuài', '第四卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (2717, '腌', 'yān', '第四卷', '肉部', '漬肉也。从肉，奄聲。', '肉;奄', '奄', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2718, '脃;脆', 'cuì', '第四卷', '肉部', '小耎易𣃔也。从肉，絕省聲。', '肉;絕', '絕', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2719, '膬', 'cuì', '第四卷', '肉部', '耎易破也。从肉，毳聲。', '肉;毳', '毳', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2720, '散', 'sàn', '第四卷', '肉部', '襍肉也。从肉，𢽳聲。', '肉;𢽳', '𢽳', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2720, '散;𢿨', 'sàn', '第四卷', '肉部', '襍肉也。从肉，𢽳聲。', '肉;𢽳', '𢽳', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2721, '膞', 'zhuǎn', '第四卷', '肉部', '切肉也。从肉，專聲。', '肉;專', '專', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2722, '腏', 'chuò', '第四卷', '肉部', '挑取骨閒肉也。从肉，叕聲。讀若詩曰「啜其泣矣」。', '肉;叕;啜', '叕;啜', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2723, '𦚙', 'zǐ', '第四卷', '肉部', '食所遺也。从肉，仕聲。易曰「噬乾𦚙」。楊雄說𦚙从𠂔。', '肉;仕;𠂔', '仕;𠂔', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2723, '𦚙;胏', 'zǐ', '第四卷', '肉部', '食所遺也。从肉，仕聲。易曰「噬乾𦚙」。楊雄說𦚙从𠂔。', '肉;仕;𠂔', '仕;𠂔', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2724, '䐄', 'xiàn', '第四卷', '肉部', '食肉不猒也。从肉，臽聲。讀若陷。', '肉;臽;陷', '臽;陷', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2725, '肰', 'rán', '第四卷', '肉部', '犬肉也。从肉犬。讀若然。古文肰[利省声]。亦古文肰[然]。', '肉;犬;利;然', '利;然', 'null', NULL, '肉;犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2726, '䐜', 'chēn', '第四卷', '肉部', '起也。从肉，眞聲。', '肉;眞', '眞', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2797,7 +2797,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2747, '𠛎', 'ɡōu', '第四卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (2748, '剴', 'ɡāi', '第四卷', '刀部', '大鎌也。一曰摩也。从刀，豈聲。', '刀;豈', '豈', 'null', NULL, '刀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2749, '剞', 'jī', '第四卷', '刀部', '剞𠜾，曲刀也。从刀，奇聲。', '刀;奇', '奇', 'null', NULL, '刀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2750, '𠜾', 'jué', '第四卷', '刀部', '剞𠜾也。从刀，屈聲。', '刀;屈', '屈', 'null', NULL, '刀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2751, '利;𥝢', 'lì', '第四卷', '刀部', '銛也。刀和然後利。从刀，和省。易曰「利者，義之和也」。古文利[刃]。', '刀;和;刃', '', 'null', NULL, '刀;和;刃', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2751, '利;𥝢;𥝤', 'lì', '第四卷', '刀部', '銛也。刀和然後利。从刀，和省。易曰「利者，義之和也」。古文利[刃]。', '刀;和;刃', '', 'null', NULL, '刀;和;刃', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2752, '剡', 'yǎn', '第四卷', '刀部', '銳利也。从刀，炎聲。', '刀;炎', '炎', 'null', NULL, '刀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2753, '初', 'chū', '第四卷', '刀部', '始也。从刀衣。裁衣之始也。', '刀;衣', '', 'null', NULL, '刀;衣', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2754, '剪', 'jiǎn', '第四卷', '刀部', '齊𣃔也。从刀，歬聲。', '刀;歬', '歬', 'null', NULL, '刀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -2996,7 +2996,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (2946, '筩', 'tónɡ', '第五卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (2947, '箯', 'biān', '第五卷', '竹部', '竹輿也。从竹，便聲。', '竹;便', '便', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2948, '笯', 'nú', '第五卷', '竹部', '鳥籠也。从竹，奴聲。', '竹;奴', '奴', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2949, '竿', 'ɡān', '第五卷', '竹部', '竹梃也。从竹，干聲。', '竹;干', '干', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (2950, '籱', 'zhuó', '第五卷', '竹部', '罩魚者也。从竹，靃聲。籱或从寉。', '竹;靃;寉', '靃;寉', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (2950, '籱;籗', 'zhuó', '第五卷', '竹部', '罩魚者也。从竹，靃聲。籱或从寉。', '竹;靃;寉', '靃;寉', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2951, '箇', 'ɡè', '第五卷', '竹部', '竹枚也。从竹，固聲。箇或作个。半竹也。', '竹;固;个', '固;个', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2952, '筊', 'jiǎo', '第五卷', '竹部', '竹索也。从竹，交聲。', '竹;交', '交', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (2953, '筰', 'zuó', '第五卷', '竹部', '筊也。从竹，作聲。', '竹;作', '作', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3084,12 +3084,12 @@ INSERT INTO `shuowen_voice_revel` VALUES (3034, '𡫳', 'sè', '第五卷', '㠭
 INSERT INTO `shuowen_voice_revel` VALUES (3035, '巫;𢍮', 'wū', '第五卷', '巫部', '祝女也。能事無形，㠯舞降神者也。[工]象人㒳褎舞形。與工同意。古者巫咸初作巫。凡巫之屬皆从巫。古文巫[吅廾]。', '工;吅;廾', '', 'null', NULL, '工;吅;廾', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3036, '覡', 'xí', '第五卷', '巫部', '能齊肅事神明者。在男曰覡，在女曰巫。从巫見。', '巫;見', '', 'null', NULL, '巫;見', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3037, '甘', 'ɡān', '第五卷', '甘部', '美也。从口含一。一，道也。凡甘之屬皆从甘。', '口;一', '', 'null', NULL, '口;一', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3038, '甜', 'tián', '第五卷', '甘部', '美也。从甘舌[㐁]。舌，知甘者。', '甘;㐁', '㐁', 'null', NULL, '甘', 'null', 'null', 'null', 'null', '侵部', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3038, '甜;甛', 'tián', '第五卷', '甘部', '美也。从甘舌[㐁]。舌，知甘者。', '甘;㐁', '㐁', 'null', NULL, '甘', 'null', 'null', 'null', 'null', '侵部', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3039, '𤯌', 'ɡān', '第五卷', '甘部', '和也。从甘厤。厤，調也。甘亦聲。讀若圅。', '甘;厤;圅', '甘;圅', 'null', NULL, '厤', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3040, '猒', 'yān', '第五卷', '甘部', '飽也。足也。从甘肰。猒或从㠯。', '甘;肰;㠯', '', 'null', NULL, '甘;肰;㠯', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3041, '甚', 'shèn', '第五卷', '甘部', '尤安樂也。从甘匹。匹，耦也。古文甚[口]。', '甘;匹;口', '', 'null', NULL, '甘;匹;口', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3042, '旨', 'zhǐ', '第五卷', '旨部', '美也。从甘，匕聲。凡旨之屬皆从旨。古文旨[千]。', '甘;匕;千', '匕', 'null', NULL, '甘;千', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3043, '嘗', 'chánɡ', '第五卷', '旨部', '口味之也。从旨，尙聲。', '旨;尙', '尙', 'null', NULL, '旨', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3043, '嘗;甞', 'chánɡ', '第五卷', '旨部', '口味之也。从旨，尙聲。', '旨;尙', '尙', 'null', NULL, '旨', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3044, '曰', 'yuē', '第五卷', '曰部', '䛐也。从口。𠃊，象口气出也。凡曰之屬皆从曰。', '口;𠃊', '', 'null', NULL, '口;𠃊', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3045, '𣆑', 'cè', '第五卷', '曰部', '告也。从曰，从冊。冊亦聲。', '曰;冊', '冊', 'null', NULL, '曰', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3046, '曷', 'hé', '第五卷', '曰部', '何也。从曰，匃聲。', '曰;匃', '匃', 'null', NULL, '曰', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3160,7 +3160,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3110, '虙', 'fú', '第五卷', '虍�
 INSERT INTO `shuowen_voice_revel` VALUES (3111, '虔', 'qián', '第五卷', '虍部', '虎行皃。从虍，文聲。讀若矝。', '虍;文;矝', '矝', 'null', NULL, '虍;文', 'null', 'null', 'null', 'null', '', 0x31, 'null', '文非聲', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3112, '虘', 'cuó', '第五卷', '虍部', '虎不柔不信也。从虍，且聲。讀若「䣜縣」。', '虍;且;䣜', '且;䣜', 'null', NULL, '虍', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3113, '虖', 'hū', '第五卷', '虍部', '哮虖也。从虍，乎聲。', '虍;乎', '乎', 'null', NULL, '虍', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3114, '虐', 'nüè', '第五卷', '虍部', '殘也。从虍爪人。虎足反爪人也。古文虐如此[口]。', '虍;爪;人;口', '', 'null', NULL, '虍;爪;人;口', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3114, '虐;𧆩', 'nüè', '第五卷', '虍部', '殘也。从虍爪人。虎足反爪人也。古文虐如此[口]。', '虍;爪;人;口', '', 'null', NULL, '虍;爪;人;口', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3115, '虨', 'bīn', '第五卷', '虍部', '虎文彪也。从虍，彬聲。', '虍;彬', '彬', 'null', NULL, '虍', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3116, '𧇽;鐻;虡', 'jù', '第五卷', '虍部', '鐘𡔷之柎也。飾爲猛獸。从虍，[廾]。象形。[丌]其下足。𧇽或从金豦。篆文𧇽。', '虍;廾;丌;金;豦', '豦', 'null', NULL, '虍;廾;丌;金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3117, '虎', 'hǔ', '第五卷', '虎部', '山獸之君。从虍，从儿。虎足象人足也。凡虎之屬皆从虎。古文虎[爲]。亦古文虎。', '虍;儿;爲', '爲', 'null', NULL, '虍;儿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3205,11 +3205,11 @@ INSERT INTO `shuowen_voice_revel` VALUES (3155, '盈', 'yínɡ', '第五卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (3156, '盡', 'jìn', '第五卷', '皿部', '器中空也。从皿，㶳聲。', '皿;㶳', '㶳', 'null', NULL, '皿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3157, '盅', 'chōnɡ', '第五卷', '皿部', '器虛也。从皿，中聲。老子曰「道盅而用之」。', '皿;中', '中', 'null', NULL, '皿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3158, '盦', 'ān', '第五卷', '皿部', '覆葢也。从皿，酓聲。', '皿;酓', '酓', 'null', NULL, '皿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3159, '𥁕', 'wēn', '第五卷', '皿部', '仁也。从皿，㠯食囚也。官溥說。', '皿;囚', '', 'null', NULL, '皿;囚', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3159, '𥁕;昷', 'wēn', '第五卷', '皿部', '仁也。从皿，㠯食囚也。官溥說。', '皿;囚', '', 'null', NULL, '皿;囚', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3160, '盥', 'ɡuàn', '第五卷', '皿部', '澡手也。从𦥑，水臨皿也。春秋傳曰「奉匜沃盥」。', '𦥑;水;皿', '', 'null', NULL, '臼;水;皿', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3161, '盪', 'dànɡ', '第五卷', '皿部', '滌器也。从皿，湯聲。', '皿;湯', '湯', 'null', NULL, '皿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3162, '盋;鉢', 'bō', '第五卷', '皿部', '盋器。盂屬。从皿，犮聲。[鉢]或从金，从本。', '皿;犮;金;本', '犮;本', 'null', NULL, '皿;金', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3163, '𠙴', 'qū', '第五卷', '𠙴部', '𠙴盧，飯器，㠯桺作之。象形。凡𠙴之屬皆从𠙴。𠙴或从竹，去聲。', '竹;去', '去', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3163, '𠙴;𥬔', 'qū', '第五卷', '𠙴部', '𠙴盧，飯器，㠯桺作之。象形。凡𠙴之屬皆从𠙴。𠙴或从竹，去聲。', '竹;去', '去', 'null', NULL, '竹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3164, '去;厺', 'qù', '第五卷', '去部', '人相違也。从大，𠙴聲。凡去之屬皆从去。', '大;𠙴', '𠙴', 'null', NULL, '大', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3165, '朅', 'qiè', '第五卷', '去部', '去也。从去，曷聲。', '去;曷', '曷', 'null', NULL, '去', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3166, '𡕮', 'línɡ', '第五卷', '去部', '去也。从去，夌聲。讀若棘、陵。', '去;夌;棘;陵', '夌;棘;陵', 'null', NULL, '去', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3226,7 +3226,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3176, '𧗓', 'jī', '第五卷', '血
 INSERT INTO `shuowen_voice_revel` VALUES (3177, '卹', 'xù', '第五卷', '血部', '憂也。从血，卪聲。一曰鮮少也。', '血;卪', '卪', 'null', NULL, '血', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3178, '衋', 'xì', '第五卷', '血部', '傷痛也。从血聿。皕聲。周書曰「民罔不衋傷心」。讀若譆。', '血;聿;皕;譆', '皕;譆', 'null', NULL, '血;聿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3179, '䘓', 'kàn', '第五卷', '血部', '羊凝血也。从血，臽聲。䘓或从贛。', '血;臽;贛', '臽;贛', 'null', NULL, '血', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3180, '盇;𥁋', 'hé', '第五卷', '血部', '覆也。从血，大聲。', '血;大', '大', 'null', NULL, '血', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3180, '盇;𥁋;盍', 'hé', '第五卷', '血部', '覆也。从血，大聲。', '血;大', '大', 'null', NULL, '血', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3181, '衊', 'miè', '第五卷', '血部', '污血也。从血，蔑聲。', '血;蔑', '蔑', 'null', NULL, '血', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3182, '丶', 'zhǔ', '第五卷', '丶部', '有所絕止，丶而識之也。凡丶之屬皆从丶。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3183, '主', 'zhǔ', '第五卷', '丶部', '鐙中火主也。，象形。从丶，丶亦聲。', '丶', '丶', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3252,14 +3252,14 @@ INSERT INTO `shuowen_voice_revel` VALUES (3202, '𩰤;秬', 'jù', '第五卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (3203, '𩰢', 'shǐ', '第五卷', '鬯部', '列也。从鬯，吏聲。讀若迅。', '鬯;吏;迅', '吏;迅', 'null', NULL, '鬯', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3204, '食;𩚁', 'shí', '第五卷', '食部', '亼米也。从皀，亼聲。或說亼，皀也。凡食之屬皆从食。', '皀;亼', '亼', 'null', NULL, '皀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3205, '𩞑;饙', 'fēn', '第五卷', '食部', '脩飯也。从食，𠦪聲。𩞑或从賁。𩞑或从奔。', '食;𠦪;賁;奔', '𠦪;賁;奔', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3206, '𩞷', 'liù', '第五卷', '食部', '飯气流也。从食，畱聲。', '食;畱', '畱', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3206, '𩞷;餾', 'liù', '第五卷', '食部', '飯气流也。从食，畱聲。', '食;畱', '畱', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3207, '飪;餁', 'rèn', '第五卷', '食部', '大孰也。从食，壬聲。古文飪[肉]。亦古文飪[恁]。', '食;壬;肉;恁', '壬;恁', 'null', NULL, '食;肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3208, '𩟷', 'yōnɡ', '第五卷', '食部', '孰食也。从食，雝聲。', '食;雝', '雝', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3208, '𩟷;饔', 'yōnɡ', '第五卷', '食部', '孰食也。从食，雝聲。', '食;雝', '雝', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3209, '飴', 'yí', '第五卷', '食部', '米糱煎者也。从食，台聲。籒文飴从異省。', '食;台;異', '台;異', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3210, '餳', 'xínɡ', '第五卷', '食部', '飴和饊者也。从食，昜聲。', '食;昜', '昜', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3211, '饊', 'sǎn', '第五卷', '食部', '熬稻粻餭[皇]也。从食，散聲。', '食;散', '散', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3212, '餅', 'bǐnɡ', '第五卷', '食部', '麪餈也。从食，并聲。', '食;并', '并', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3213, '餈;粢', 'cí', '第五卷', '食部', '稻餅也。从食，次聲。餈或从齊。餈或从米。', '食;次;齊;米', '次;齊', 'null', NULL, '食;米', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3213, '餈;粢;䭣', 'cí', '第五卷', '食部', '稻餅也。从食，次聲。餈或从齊。餈或从米。', '食;次;齊;米', '次;齊', 'null', NULL, '食;米', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3214, '饘', 'zhān', '第五卷', '食部', '糜也。从食，亶聲。周謂之饘，宋 衛謂之𩜾。', '食;亶', '亶', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3215, '餱', 'hóu', '第五卷', '食部', '乾食也。从食，矦聲。周書曰「歭乃餱[糗]粻」。', '食;矦;糗', '矦;糗', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3216, '餥', 'fěi', '第五卷', '食部', '餱也。从食，非聲。陳、楚之閒相謁而食麥飯曰餥。', '食;非', '非', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3304,7 +3304,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3254, '餲', 'ài', '第五卷', '食�
 INSERT INTO `shuowen_voice_revel` VALUES (3255, '饑', 'jī', '第五卷', '食部', '榖不孰爲饑。从食，幾聲。', '食;幾', '幾', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3256, '饉', 'jǐn', '第五卷', '食部', '蔬不孰爲饉。从食，堇聲。', '食;堇', '堇', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3257, '𩚬', 'è', '第五卷', '食部', '飢也。从食，戹聲。讀若楚人言「恚人」。', '食;戹;恚', '戹;恚', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3258, '餒', 'něi', '第五卷', '食部', '飢也。从食，妥聲。一曰魚敗曰餒。', '食;妥', '妥', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3258, '餒;餧', 'něi', '第五卷', '食部', '飢也。从食，妥聲。一曰魚敗曰餒。', '食;妥', '妥', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3259, '飢', 'jī', '第五卷', '食部', '餓也。从食，几聲。', '食;几', '几', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3260, '餓', 'è', '第五卷', '食部', '飢也。从食，我聲。', '食;我', '我', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3261, '餽', 'ɡuì', '第五卷', '食部', '吳人謂祭曰餽。从食鬼。鬼亦聲。', '食;鬼', '鬼', 'null', NULL, '食', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3390,7 +3390,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3340, '㐭;廩', 'lǐn', '第五卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (3341, '稟', 'bǐnɡ', '第五卷', '㐭部', '賜榖也。从㐭禾。', '㐭;禾', '', 'null', NULL, '㐭;禾', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3342, '亶', 'dǎn', '第五卷', '㐭部', '多榖也。从㐭，旦聲。', '㐭;旦', '旦', 'null', NULL, '㐭', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3343, '啚', 'bǐ', '第五卷', '㐭部', '嗇也。从囗，从㐭。㐭，受也。古文啚如此。', '囗;㐭', '', 'null', NULL, '囗;㐭', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3344, '嗇;𠾂', 'sè', '第五卷', '嗇部', '愛濇也。从來㐭。來者㐭而臧之，故田夫謂之「嗇夫」。一曰棘省聲。凡𠾂之屬皆从𠾂。古文𠾂从田。', '來;㐭;棘;田', '棘', 'null', NULL, '來;㐭;田', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3344, '嗇;𠾂;𠻮', 'sè', '第五卷', '嗇部', '愛濇也。从來㐭。來者㐭而臧之，故田夫謂之「嗇夫」。一曰棘省聲。凡𠾂之屬皆从𠾂。古文𠾂从田。', '來;㐭;棘;田', '棘', 'null', NULL, '來;㐭;田', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3345, '牆', 'qiánɡ', '第五卷', '嗇部', '垣蔽也。从𠾂，爿聲。籒文从二禾。籒文亦从二來。', '𠾂;爿;禾;來', '爿', 'null', NULL, '𠾂;禾;來', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3346, '來', 'lái', '第五卷', '來部', '周所受瑞麥來麰也。二麥一夆，象其芒朿之形。天所來也，故爲行來之來。詩曰「詒我來麰」。凡來之屬皆从來。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3347, '𥏳', 'sì', '第五卷', '來部', '詩曰「不𥏳[㠯]」，不來。从來，矣聲。𥏳或从彳。', '㠯;來;矣;彳', '㠯;矣', 'null', NULL, '來;彳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3400,7 +3400,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3350, '麧', 'hé', '第五卷', '麥�
 INSERT INTO `shuowen_voice_revel` VALUES (3351, '䵀', 'suǒ', '第五卷', '麥部', '小麥㞕之覆。从麥，𧴪聲。', '麥;𧴪', '𧴪', 'null', NULL, '麥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3352, '䴾', 'cuó', '第五卷', '麥部', '䃺麥也。从麥，差聲。一曰𢶈也。', '麥;差', '差', 'null', NULL, '麥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3353, '麩', 'fū', '第五卷', '麥部', '小麥㞕皮也。从麥，夫聲。麩或从甫。', '麥;夫;甫', '夫;甫', 'null', NULL, '麥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3354, '麪', 'miàn', '第五卷', '麥部', '麥㞕末也。从麥，丏聲。', '麥;丏', '丏', 'null', NULL, '麥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3354, '麪;麫', 'miàn', '第五卷', '麥部', '麥㞕末也。从麥，丏聲。', '麥;丏', '丏', 'null', NULL, '麥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3355, '䵂', 'zhí', '第五卷', '麥部', '麥覈㞕也。十斤爲三斗。从麥，啻聲。', '麥;啻', '啻', 'null', NULL, '麥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3356, '麷', 'fēnɡ', '第五卷', '麥部', '䰞麥也。从麥，豐聲。讀若馮。', '麥;豐;馮', '豐;馮', 'null', NULL, '麥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3357, '麮', 'qù', '第五卷', '麥部', '麥甘鬻也。从麥，去聲。', '麥;去', '去', 'null', NULL, '麥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3503,8 +3503,8 @@ INSERT INTO `shuowen_voice_revel` VALUES (3453, '樗', 'chū', '第六卷', '木
 INSERT INTO `shuowen_voice_revel` VALUES (3454, '楀', 'yǔ', '第六卷', '木部', '楀木也。从木，禹聲。', '木;禹', '禹', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3455, '蘽', 'lěi', '第六卷', '木部', '蘽木也。从木，藟聲。籒文[靁]。', '木;藟;靁', '藟;靁', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3456, '桋', 'yí', '第六卷', '木部', '赤栜也。从木，夷聲。詩曰「隰有杞桋」。', '木;夷', '夷', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3457, '栟', 'bīnɡ', '第六卷', '木部', '栟櫚[閭]，椶也。从木，并聲。', '木;并', '并', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3458, '椶', 'zōnɡ', '第六卷', '木部', '栟櫚[閭]也。从木，㚇聲。可作萆。', '木;㚇', '㚇', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3457, '栟', 'bīnɡ', '第六卷', '木部', '栟櫚，椶也。从木，并聲。', '木;并', '并', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3458, '椶', 'zōnɡ', '第六卷', '木部', '栟櫚也。从木，㚇聲。可作萆。', '木;㚇', '㚇', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3459, '椅', 'yī', '第六卷', '木部', '梓也。从木，奇聲。', '木;奇', '奇', 'null', NULL, '木', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3460, '檟', 'jiǎ', '第六卷', '木部', '楸也。从木，賈聲。春秋傳曰「樹六檟於蒲圃」。', '木;賈', '賈', '夏', '爾雅：「槐小葉曰榎。」「大而皵，楸；小而皵，榎。」段氏云，榎者，檟之或字。', '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3461, '梓', 'zǐ', '第六卷', '木部', '楸也。从木，宰省聲。或不省。', '木;宰', '宰', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3598,7 +3598,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3548, '机', 'jī', '第六卷', '木�
 INSERT INTO `shuowen_voice_revel` VALUES (3549, '枮', 'xiān', '第六卷', '木部', '枮木也。从木，占聲。', '木;占', '占', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3550, '梇', 'lònɡ', '第六卷', '木部', '梇木也。从木，弄聲。益州有梇棟縣。', '木;弄', '弄', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3551, '楰', 'yú', '第六卷', '木部', '鼠梓木。从木，臾聲。詩曰「北山有楰」。', '木;臾', '臾', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3552, '栀', 'zhī', '第六卷', '木部', '黃木。可染者。从木，卮聲。', '木;卮', '卮', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3552, '栀;梔', 'zhī', '第六卷', '木部', '黃木。可染者。从木，卮聲。', '木;卮', '卮', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3553, '杒', 'rèn', '第六卷', '木部', '桎杒也。从木，刃聲。', '木;刃', '刃', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3554, '榙', 'tā', '第六卷', '木部', '榙𣝋，果似李。从木，荅聲。讀若嚃。', '木;荅;嚃', '荅;嚃', 'null', NULL, '木', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3555, '𣝋', 'tà', '第六卷', '木部', '榙𣝋木也。从木，遝聲。', '木;遝', '遝', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3620,7 +3620,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3570, '條', 'tiáo', '第六卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (3571, '朴', 'pò', '第六卷', '木部', '木皮也。从木，卜聲。', '木;卜', '卜', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3572, '枚', 'méi', '第六卷', '木部', '榦也。从木攴。可爲杖也。詩曰「施于條枚」。', '木;攴', '', 'null', NULL, '木;攴', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3573, '𣓁;栞', 'kān', '第六卷', '木部', '槎識也。从木𭑈。闕。夏書曰「隨山𣓁木」。讀若刊。篆文从开。', '木;𭑈;刊;开', '刊;开', 'null', NULL, '木;𭑈', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3574, '𣠞', 'zhé', '第六卷', '木部', '木葉榣白也。从木，聶聲。', '木;聶', '聶', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3574, '𣠞;欇', 'zhé', '第六卷', '木部', '木葉榣白也。从木，聶聲。', '木;聶', '聶', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3575, '栠', 'rěn', '第六卷', '木部', '弱皃。从木，任聲。', '木;任', '任', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3576, '枖', 'yāo', '第六卷', '木部', '木少盛皃。从木，夭聲。詩曰「桃之枖枖」。', '木;夭', '夭', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3577, '槇;槙', 'diān', '第六卷', '木部', '木頂也。从木，眞聲。一曰仆木也。', '木;眞', '眞', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3745,7 +3745,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3695, '柃', 'línɡ', '第六卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (3696, '柫', 'fú', '第六卷', '木部', '擊禾連枷也。从木，弗聲。', '木;弗', '弗', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3697, '枷', 'jiā', '第六卷', '木部', '柫也。从木，加聲。淮南謂之柍。', '木;加', '加', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3698, '杵', 'chǔ', '第六卷', '木部', '舂柄也。从木，午聲。', '木;午', '午', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3699, '概;槩;槪', 'ɡài', '第六卷', '木部', '所㠯𣏙斗斛也。从木，旣聲。', '木;旣', '旣', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3699, '概;槩;槪;㮣', 'ɡài', '第六卷', '木部', '所㠯𣏙斗斛也。从木，旣聲。', '木;旣', '旣', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3700, '杚;𣏙', 'ɡài', '第六卷', '木部', '平也。从木，气聲。', '木;气', '气', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3701, '㮐', 'shěnɡ', '第六卷', '木部', '木參交，㠯支炊䉛者也。从木，省聲。讀若「驪駕」。', '木;省;驪', '省;驪', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3702, '柶', 'sì', '第六卷', '木部', '禮有「柶」。柶，匕也。从木，四聲。', '木;四', '四', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3770,7 +3770,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3720, '㮂', 'jú', '第六卷', '木�
 INSERT INTO `shuowen_voice_revel` VALUES (3721, '檕', 'jì', '第六卷', '木部', '繘耑木也。从木，毄聲。', '木;毄', '毄', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3722, '檷', 'nǐ', '第六卷', '木部', '絡絲柎也。从木，爾聲。讀若昵。易曰「繫於金檷」。', '木;爾;昵', '爾;昵', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3723, '機', 'jī', '第六卷', '木部', '主發謂之機。从木，幾聲。', '木;幾', '幾', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3724, '榺', 'shènɡ', '第六卷', '木部', '機持經者。从木，朕聲。', '木;朕', '朕', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3724, '榺;𣚗', 'shènɡ', '第六卷', '木部', '機持經者。从木，朕聲。', '木;朕', '朕', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3725, '杼', 'zhù', '第六卷', '木部', '機持緯者。从木，予聲。', '木;予', '予', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3726, '椱', 'fù', '第六卷', '木部', '機持繒者。从木，复聲。', '木;复', '复', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3727, '楥', 'xuàn', '第六卷', '木部', '履法也。从木，爰聲。讀若「指撝」。', '木;爰;撝', '爰;撝', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3807,7 +3807,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3757, '栝', 'tiǎn', '第六卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (3758, '槽', 'cáo', '第六卷', '木部', '嘼之食器。从木，曹聲。', '木;曹', '曹', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3759, '臬', 'niè', '第六卷', '木部', '射埻旳也。从木，自聲。', '木;自', '自', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3760, '桶', 'tǒnɡ', '第六卷', '木部', '方木器也。受十六斗。从木，甬聲。', '木;甬', '甬', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3761, '櫓', 'lǔ', '第六卷', '木部', '大盾也。从木，魯聲。或从鹵。', '木;魯;鹵', '魯;鹵', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3761, '櫓;樐', 'lǔ', '第六卷', '木部', '大盾也。从木，魯聲。或从鹵。', '木;魯;鹵', '魯;鹵', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3762, '樂', 'yuè', '第六卷', '木部', '五聲八音總名。象𡔷鞞。木，𧇽也。', '木', '', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3763, '柎', 'fū', '第六卷', '木部', '闌足也。从木，付聲。', '木;付', '付', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3764, '枹', 'fú', '第六卷', '木部', '擊𡔷柄也。从木，包聲。', '木;包', '包', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3910,7 +3910,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3860, '帀', 'zā', '第六卷', '帀�
 INSERT INTO `shuowen_voice_revel` VALUES (3861, '師', 'shī', '第六卷', '帀部', '二千五百人爲師。从帀，从𠂤。𠂤，四帀衆意也。古文師[未详]。', '帀;𠂤', '', 'null', NULL, '帀;𠂤', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3862, '出;岀', 'chū', '第六卷', '出部', '進也。象艸木益茲，上出𨔶也。凡出之屬皆从出。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '🔴', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3863, '敖;𢾕', 'áo', '第六卷', '出部', '游也。从出，从放。', '出;放', '', 'null', NULL, '出;放', 'null', 'null', 'null', 'null', '重出应删', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3864, '賣', 'mài', '第六卷', '出部', '出物貨也。从出，从買。', '出;買', '', 'null', NULL, '出;買', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3864, '賣;𧷓', 'mài', '第六卷', '出部', '出物貨也。从出，从買。', '出;買', '', 'null', NULL, '出;買', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3865, '糶', 'tiào', '第六卷', '出部', '出穀也。从出，从䊮。䊮亦聲。', '出;䊮', '䊮', 'null', NULL, '出', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3866, '𦤙', 'niè', '第六卷', '出部', '槷𦤙，不安也。从出，臬聲。易曰「槷𦤙」。', '出;臬', '出', 'null', NULL, '臬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3867, '𣎵', 'pō', '第六卷', '𣎵部', '艸木盛𣎵𣎵然。象形。八聲。凡𣎵之屬皆从𣎵。讀若輩。[巿（参索字）]', '八;輩;巿', '八;輩;巿', 'null', NULL, '', 'null', 'null', 'null', 'null', '🤰潑', 0x31, 'null', 'null', 'null');
@@ -3944,7 +3944,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3894, '䰍', 'xiū', '第六卷', '桼
 INSERT INTO `shuowen_voice_revel` VALUES (3895, '㯡', 'pào', '第六卷', '桼部', '桼垸巳，復桼之。从桼，包聲。', '桼;包', '包', 'null', NULL, '桼', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3896, '束', 'shù', '第六卷', '束部', '縛也。从囗木。凡束之屬皆从束。', '囗;木', '', 'null', NULL, '囗;木', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3897, '柬', 'jiǎn', '第六卷', '束部', '分別𥳑之也。从束八。八，分別也。', '束;八', '', 'null', NULL, '束;八', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3898, '𢆚', 'jiǎn', '第六卷', '束部', '小束也。从束，开聲。讀若繭。', '束;开;繭', '开;繭', 'null', NULL, '束', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3898, '𢆚;𢆞', 'jiǎn', '第六卷', '束部', '小束也。从束，开聲。讀若繭。', '束;开;繭', '开;繭', 'null', NULL, '束', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3899, '剌', 'là', '第六卷', '束部', '戾也。从束，从刀。刀束者，剌之也。', '束;刀', '', 'null', NULL, '束;刀', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3900, '㯻', 'ɡǔn', '第六卷', '㯻部', '橐也。从束，圂聲。凡㯻之屬皆从㯻。', '束;圂', '圂', 'null', NULL, '束', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3901, '橐;槖;𢄿', 'tuó', '第六卷', '㯻部', '囊也。从㯻省，石聲。', '㯻;石', '石', 'null', NULL, '㯻', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3961,7 +3961,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (3911, '回;囘', 'huí', '第六卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (3912, '圖', 'tú', '第六卷', '囗部', '畫計難也。从囗，从啚。啚，難意也。', '囗;啚', '', 'null', NULL, '囗;啚', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3913, '圛', 'yì', '第六卷', '囗部', '回行也。从囗，睪聲。商書曰「曰圛」。圛者，升雲半有半無。讀若驛。', '囗;睪;驛', '睪;驛', 'null', NULL, '囗', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3914, '國', 'ɡuó', '第六卷', '囗部', '邦也。从囗，从或。', '囗;或', '或', 'null', NULL, '囗', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3915, '壼', 'kǔn', '第六卷', '囗部', '宮中道。从囗。[从束省]象宮垣，道上之形。詩曰「室家之壼」。', '囗;束', '', 'null', NULL, '囗;束', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3915, '壼;𡈋', 'kǔn', '第六卷', '囗部', '宮中道。从囗。[从束省]象宮垣，道上之形。詩曰「室家之壼」。', '囗;束', '', 'null', NULL, '囗;束', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3916, '囷', 'qūn', '第六卷', '囗部', '廩之圜者。从禾在囗中。圜謂之囷，方謂之京。', '禾;囗', '', 'null', NULL, '禾;囗', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3917, '圈', 'juàn', '第六卷', '囗部', '養畜之閑也。从囗，卷聲。', '囗;卷', '卷', 'null', NULL, '囗', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3918, '囿;𡈹', 'yòu', '第六卷', '囗部', '苑有垣也。从囗，有聲。一曰所㠯養禽獸曰囿。籒文囿[𡈹]。', '囗;有;𡈹', '有', 'null', NULL, '囗;𡈹', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -3974,9 +3974,9 @@ INSERT INTO `shuowen_voice_revel` VALUES (3924, '圄', 'yǔ', '第六卷', '囗�
 INSERT INTO `shuowen_voice_revel` VALUES (3925, '囚', 'qiú', '第六卷', '囗部', '繫也。从人在囗中。', '人;囗', '', 'null', NULL, '人;囗', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3926, '固', 'ɡù', '第六卷', '囗部', '四塞也。从囗，古聲。', '囗;古', '古', 'null', NULL, '囗', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3927, '圍', 'wéi', '第六卷', '囗部', '守也。从囗，韋聲。', '囗;韋', '韋', 'null', NULL, '囗', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3928, '困', 'kùn', '第六卷', '囗部', '故廬也。从木在囗中。古文困[止木]。', '木;囗;止;木', '', 'null', NULL, '木;囗;止;木', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3928, '困;𣏔', 'kùn', '第六卷', '囗部', '故廬也。从木在囗中。古文困[止木]。', '木;囗;止;木', '', 'null', NULL, '木;囗;止;木', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3929, '圂', 'hùn', '第六卷', '囗部', '豕廁也。从囗。象豕在囗中也。會意。', '囗;豕', '', 'null', NULL, '囗;豕', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3930, '囮', 'é', '第六卷', '囗部', '譯也。从囗，化聲。率烏者繫生烏㠯來之，名曰囮。讀若譌。囮或从䌛。', '囗;化;譌;䌛', '化;譌;䌛', 'null', NULL, '囗', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3930, '囮;㘥', 'é', '第六卷', '囗部', '譯也。从囗，化聲。率烏者繫生烏㠯來之，名曰囮。讀若譌。囮或从䌛。', '囗;化;譌;䌛', '化;譌;䌛', 'null', NULL, '囗', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3931, '員', 'yuán', '第六卷', '員部', '物數也。从貝，囗聲。凡員之屬皆从員。籒文从鼎。', '貝;囗;鼎', '囗', 'null', NULL, '貝;鼎', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3932, '𧶊', 'yún', '第六卷', '員部', '物數紛𧶊亂也。从員，云聲。讀若春秋傳曰「宋 皇鄖」。', '員;云;鄖', '云;鄖', 'null', NULL, '員', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3933, '貝', 'bèi', '第六卷', '貝部', '海介蟲也。居陸名猋。在水名蜬。象形。古者貨貝而寶龜，周而有泉，至秦廢貝行錢。凡貝之屬皆从貝。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
@@ -4035,8 +4035,8 @@ INSERT INTO `shuowen_voice_revel` VALUES (3985, '賕', 'qiú', '第六卷', '貝
 INSERT INTO `shuowen_voice_revel` VALUES (3986, '購', 'ɡòu', '第六卷', '貝部', '㠯財有所求也。从貝，冓聲。', '貝;冓', '冓', 'null', NULL, '貝', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3987, '䝪', 'shǔ', '第六卷', '貝部', '齎財卜問爲䝪。从貝，疋聲。讀若所。', '貝;疋;所', '疋;所', 'null', NULL, '貝', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3988, '貲', 'zī', '第六卷', '貝部', '小罰㠯財自贖也。从貝，此聲。漢律「民不繇貲錢二十三」。', '貝;此', '此', 'null', NULL, '貝', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3989, '賨', 'cónɡ', '第六卷', '貝部', '南蠻賦也。从貝，宗聲。', '貝;宗', '宗', 'null', NULL, '貝', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (3990, '𧷏', 'yù', '第六卷', '貝部', '𧗳也。从貝，𡍬聲。𡍬，古文睦。讀若育。', '貝;𡍬;育', '𡍬;育', 'null', NULL, '貝', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3989, '賨;賩', 'cónɡ', '第六卷', '貝部', '南蠻賦也。从貝，宗聲。', '貝;宗', '宗', 'null', NULL, '貝', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (3990, '𧷏;𧶠', 'yù', '第六卷', '貝部', '𧗳也。从貝，𡍬聲。𡍬，古文睦。讀若育。', '貝;𡍬;育', '𡍬;育', 'null', NULL, '貝', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3991, '賏', 'yīnɡ', '第六卷', '貝部', '頸飾也。从二貝。', '貝', '', 'null', NULL, '貝', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3992, '貺', 'kuànɡ', '第六卷', '貝部', '賜也。从貝，兄聲。', '貝;兄', '兄', 'null', NULL, '貝', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (3993, '賵;𠙒', 'fènɡ', '第六卷', '貝部', '贈死者。从貝，从冒。[𠙒，从貝，凡聲。]', '貝;凡', '凡', 'null', NULL, '貝', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
@@ -4231,15 +4231,15 @@ INSERT INTO `shuowen_voice_revel` VALUES (4181, '𨟦', 'qiān', '第六卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (4182, '𨙨', 'yì', '第六卷', '邑部', '从反邑。𨛜字从此。闕。', '邑', '', 'null', NULL, '邑', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4183, '𨛜', 'xiànɡ', '第六卷', '𨛜部', '鄰道也。从邑，从𨙨。凡𨛜之屬皆从𨛜。闕。', '邑;𨙨', '', 'null', NULL, '邑;𨙨', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4184, '鄉', 'xiānɡ', '第六卷', '𨛜部', '國離邑。民所封鄉也。𠾂夫別治。从𨛜，皀聲。封圻之內六鄉，六卿治之。', '𨛜;皀', '皀', 'null', NULL, '𨛜', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4185, '𨞠;巷;䢽', 'xiànɡ', '第六卷', '𨛜部', '里中道也。从𨛜共。言在邑中所共。篆文从邑省。', '𨛜;共;邑', '共', 'null', NULL, '𨛜;邑', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4185, '𨞠;巷;䢽;衖', 'xiànɡ', '第六卷', '𨛜部', '里中道也。从𨛜共。言在邑中所共。篆文从邑省。', '𨛜;共;邑', '共', 'null', NULL, '𨛜;邑', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4186, '日', 'rì', '第七卷', '日部', '實也。大昜之精不虧。从○一。象形。古文。象形。凡日之屬皆从日。', '○;一', '', 'null', NULL, '○;一', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4187, '旻', 'mín', '第七卷', '日部', '秋天也。从日，文聲。虞書說「仁覆閔下，則偁旻天」。', '日;文', '文', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4188, '時', 'shí', '第七卷', '日部', '四時也。从日，寺聲。古文時从日之作。', '日;寺;之', '寺;之', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4189, '早', 'zǎo', '第七卷', '日部', '䢅也。从日在甲上。', '日;甲', '', 'null', NULL, '日;甲', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4190, '㫚', 'hū', '第七卷', '日部', '尙冥也。从日，勿聲。', '日;勿', '勿', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4190, '㫚;昒', 'hū', '第七卷', '日部', '尙冥也。从日，勿聲。', '日;勿', '勿', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4191, '昧', 'mèi', '第七卷', '日部', '昧爽，且朙也。从日，未聲。一曰闇也。', '日;未', '未', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4192, '暏', 'dǔ', '第七卷', '日部', '且朙也。从日，者聲。', '日;者', '者', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4193, '晢', 'zhé', '第七卷', '日部', '昭晢，朙也。从日，㪿聲。禮曰「晢[質]朙行事」。', '日;㪿;質', '㪿;質', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4193, '晢;晣', 'zhé', '第七卷', '日部', '昭晢，朙也。从日，㪿聲。禮曰「晢[質]朙行事」。', '日;㪿;質', '㪿;質', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4194, '曉', 'xiǎo', '第七卷', '日部', '朙也。从日，堯聲。', '日;堯', '堯', 'null', NULL, '日', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4195, '昕', 'xīn', '第七卷', '日部', '且朙也。日將出也。从日，斤聲。讀若希。', '日;斤;希', '斤;希', 'null', NULL, '日', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4196, '昭', 'zhāo', '第七卷', '日部', '日朙也。从日，召聲。', '日;召', '召', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4255,12 +4255,12 @@ INSERT INTO `shuowen_voice_revel` VALUES (4205, '晹', 'yì', '第七卷', '日�
 INSERT INTO `shuowen_voice_revel` VALUES (4206, '昫', 'xū', '第七卷', '日部', '日出𥁕也。从日，句聲。北地有昫衍縣。', '日;句', '句', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4207, '晛', 'xiàn', '第七卷', '日部', '日見也。从日見。見亦聲。詩曰「見晛[㬫]曰消」。', '日;見;㬫', '見;㬫', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4208, '晏', 'yàn', '第七卷', '日部', '天淸也。从日，安聲。', '日;安', '安', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4209, '㬫', 'yàn', '第七卷', '日部', '星無雲也。从日，燕聲。', '日;燕', '燕', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4209, '㬫;曣', 'yàn', '第七卷', '日部', '星無雲也。从日，燕聲。', '日;燕', '燕', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4210, '景', 'jǐnɡ', '第七卷', '日部', '日光也。从日，京聲。', '日;京', '京', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4211, '晧', 'hào', '第七卷', '日部', '日出皃。从日，告聲。', '日;告', '告', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4212, '暤', 'hào', '第七卷', '日部', '晧旰也。从日，皋聲。', '日;皋', '皋', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4213, '𣋓;曄', 'yè', '第七卷', '日部', '光也。从日𠌶。', '日;𠌶', '', 'null', NULL, '日;𠌶', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4214, '暈', 'yùn', '第七卷', '日部', '光也。从日，軍聲。', '日;軍', '軍', 'null', NULL, '日', 'null', 'null', 'null', 'null', '大徐新附 | 小徐正篆', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4214, '暈;暉', 'yùn', '第七卷', '日部', '光也。从日，軍聲。', '日;軍', '軍', 'null', NULL, '日', 'null', 'null', 'null', 'null', '大徐新附 | 小徐正篆', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4215, '旰', 'ɡàn', '第七卷', '日部', '晚也。从日，干聲。春秋傳曰「日旰君勞」。', '日;干', '干', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4216, '暆', 'yí', '第七卷', '日部', '日行暆暆也。从日，施聲。樂浪有東暆縣。讀如酏。', '日;施;酏', '施;酏', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4217, '晷', 'ɡuǐ', '第七卷', '日部', '日景也。从日，咎聲。', '日;咎', '咎', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4289,9 +4289,9 @@ INSERT INTO `shuowen_voice_revel` VALUES (4239, '昱', 'yù', '第七卷', '日�
 INSERT INTO `shuowen_voice_revel` VALUES (4240, '㫱', 'nǎn', '第七卷', '日部', '𥁕溼也。从日，赧省聲。讀與赧同。', '日;赧', '赧', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4241, '暍', 'yē', '第七卷', '日部', '傷暑也。从日，曷聲。', '日;曷', '曷', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4242, '暑', 'shǔ', '第七卷', '日部', '熱也。从日，者聲。', '日;者', '者', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4243, '㬮', 'nàn', '第七卷', '日部', '安㬮，𥁕也。从日，難聲。', '日;難', '難', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4243, '㬮;𣌖', 'nàn', '第七卷', '日部', '安㬮，𥁕也。从日，難聲。', '日;難', '難', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4244, '㬎', 'xiǎn', '第七卷', '日部', '衆微杪也。从日中視絲。古文㠯爲顯字。或曰衆口皃。讀若「唫唫」。或㠯爲繭。繭者，絮中往往有小繭也。', '日;絲;顯;唫;繭', '顯;唫;繭', 'null', NULL, '日;絲', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4245, '㬥', 'pù', '第七卷', '日部', '晞也。从日出廾米。古文㬥从日，麃聲。', '日;出;廾;米;日;麃', '麃', 'null', NULL, '日;出;廾;米;日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4245, '㬥;暴', 'pù', '第七卷', '日部', '晞也。从日出廾米。古文㬥从日，麃聲。', '日;出;廾;米;日;麃', '麃', 'null', NULL, '日;出;廾;米;日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4246, '曬', 'shài', '第七卷', '日部', '㬥也。从日，麗聲。', '日;麗', '麗', 'null', NULL, '日', 'null', 'null', 'null', 'null', '麗轨', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4247, '暵', 'hàn', '第七卷', '日部', '乾也。耕㬥田曰暵。从日，𡎸聲。易曰「燥萬物者莫暵乎火」。', '日;𡎸', '𡎸', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4248, '晞', 'xī', '第七卷', '日部', '乾也。从日，希聲。', '日;希', '希', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4309,7 +4309,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4259, '昉', 'fǎnɡ', '第七卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (4260, '晙', 'jùn', '第七卷', '日部', '明也。从日，夋聲。', '日;夋', '夋', 'null', NULL, '日', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4261, '晟', 'shènɡ', '第七卷', '日部', '明也。从日，成聲。', '日;成', '成', 'null', NULL, '日', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4262, '昶', 'chǎnɡ', '第七卷', '日部', '日長也。从日永。', '日;永', '', 'null', NULL, '日;永', 'null', 'null', 'null', 'null', '新', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4263, '暈', 'yùn', '第七卷', '日部', '日月气也。从日，軍聲。', '日;軍', '軍', 'null', NULL, '日', 'null', 'null', 'null', 'null', '新附应删 | 并入正篆', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4263, '暈;暉', 'yùn', '第七卷', '日部', '日月气也。从日，軍聲。', '日;軍', '軍', 'null', NULL, '日', 'null', 'null', 'null', 'null', '新附应删 | 并入正篆', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4264, '晬', 'zuì', '第七卷', '日部', '周年也。从日卒。卒亦聲。', '日;卒', '卒', 'null', NULL, '日', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4265, '映', 'yìnɡ', '第七卷', '日部', '明也。隱也。从日，央聲。', '日;央', '央', 'null', NULL, '日', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4266, '曙', 'shǔ', '第七卷', '日部', '曉也。从日，署聲。', '日;署', '署', 'null', NULL, '日', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
@@ -4320,7 +4320,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4270, '昂', 'ánɡ', '第七卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (4271, '昇', 'shēnɡ', '第七卷', '日部', '日上也。从日，升聲。', '日;升', '升', 'null', NULL, '日', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4272, '月', 'yuè', '第七卷', '月部', '闕也。大侌之精。象形。凡月之屬皆从月。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '政宇调部', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4273, '朔', 'shuò', '第七卷', '月部', '月一日。始蘇也。从月，屰聲。', '月;屰', '屰', 'null', NULL, '月', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4274, '朏', 'pěi', '第七卷', '月部', '月未盛之朙也。从月出。周書曰「丙午朏」。', '月;出', '', 'null', NULL, '月;出', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4274, '朏;𣍧', 'pěi', '第七卷', '月部', '月未盛之朙也。从月出。周書曰「丙午朏」。', '月;出', '', 'null', NULL, '月;出', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4275, '霸', 'pò', '第七卷', '月部', '月始生，魄然也。承大月，二日；承小月，三日。从月，䨣聲。周書曰「哉生霸」。古文或作此[宷]。', '月;䨣;宷', '䨣', 'null', NULL, '月;宷', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4276, '朗;朖', 'lǎnɡ', '第七卷', '月部', '朙也。从月，良聲。', '月;良', '良', 'null', NULL, '月', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4277, '朓', 'tiǎo', '第七卷', '月部', '晦而月見西，謂之朓。从月，兆聲。', '月;兆', '兆', 'null', NULL, '月', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4329,7 +4329,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4279, '期', 'qī', '第七卷', '月�
 INSERT INTO `shuowen_voice_revel` VALUES (4280, '朦', 'ménɡ', '第七卷', '月部', '月朦朧也。从月，蒙聲。', '月;蒙', '蒙', 'null', NULL, '月', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4281, '朧', 'lónɡ', '第七卷', '月部', '朦朧也。从月，龍聲。', '月;龍', '龍', 'null', NULL, '月', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4282, '旦', 'dàn', '第七卷', '旦部', '朙也。从日見一上。一，地也。凡旦之屬皆从旦。', '日;一', '', 'null', NULL, '日;一', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4283, '暨', 'jì', '第七卷', '旦部', '日頗見也。从旦，旣聲。', '旦;旣', '旣', 'null', NULL, '旦', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4283, '暨;曁', 'jì', '第七卷', '旦部', '日頗見也。从旦，旣聲。', '旦;旣', '旣', 'null', NULL, '旦', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4284, '倝', 'ɡàn', '第七卷', '倝部', '日始出，光倝倝也。从旦，㫃聲。凡倝之屬皆从倝。', '旦;㫃', '㫃', 'null', NULL, '旦', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4285, '𠐱', 'ɡàn', '第七卷', '倝部', '闕且。从三日，在㫃中。', '日;㫃', '㫃', 'null', NULL, '日', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4286, '朝', 'zhāo', '第七卷', '倝部', '旦也。从倝，舟聲。', '倝;舟', '舟', 'null', NULL, '倝', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4380,7 +4380,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4330, '外', 'wài', '第七卷', '夕
 INSERT INTO `shuowen_voice_revel` VALUES (4331, '夙;𠈇;𡖊', 'sù', '第七卷', '夕部', '早敬也。从丮夕。持事雖夕不休，早敬者也。古文[𠀬]。古文[㐁]。', '丮;夕;𠀬;㐁', '𠀬;㐁', 'null', NULL, '丮;夕', 'null', 'null', 'null', 'null', '觉部', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4332, '𡖶', 'mò', '第七卷', '夕部', '𡧯也。从夕，莫聲。', '夕;莫', '莫', 'null', NULL, '夕', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4333, '多', 'duō', '第七卷', '多部', '緟也。从緟夕。夕者，相繹也，故爲多。緟夕爲多，緟日爲曡。凡多之屬皆从多。古文竝夕。', '夕', '', 'null', NULL, '夕', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4334, '夥', 'huǒ', '第七卷', '多部', '齋謂多也。从多，果聲。', '多;果', '果', 'null', NULL, '多', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4334, '夥;㚌', 'huǒ', '第七卷', '多部', '齋謂多也。从多，果聲。', '多;果', '果', 'null', NULL, '多', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4335, '𡌪', 'ɡuài', '第七卷', '多部', '大也。从多，圣聲。', '多;圣', '圣', 'null', NULL, '多', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4336, '㗬', 'zhā', '第七卷', '多部', '厚脣皃。从多尙。', '多;尙', '多', 'null', NULL, '尙', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4337, '毌', 'ɡuàn', '第七卷', '毌部', '穿物持之也。从一橫𠮚。𠮚，象寶貨之形。凡毌之屬皆从毌。讀若冠。', '一;𠮚;冠', '冠', 'null', NULL, '一;𠮚', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4437,7 +4437,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4387, '𣐺', 'hàn', '第七卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (4388, '𩏏', 'wéi', '第七卷', '𣎺部', '束也。从𣐺。韋聲。', '𣐺;韋', '韋', 'null', NULL, '𣎺', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4389, '𠧪', 'tiáo', '第七卷', '𠧪部', '艸木實垂𠧪𠧪然。象形。凡𠧪之屬皆从𠧪。讀若調。籒文从三𠧪作。', '調', '調', 'null', NULL, '', 'null', 'null', 'null', 'null', '𠧪≈髫≈絛≈條', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4390, '栗', 'lì', '第七卷', '𠧪部', '栗木也。从𠧪木。其實下垂，故从𠧪。古文栗从西，从二𠧪。徐巡說，木至西方，戰栗也。', '𠧪;木;西;𠧪', '', 'null', NULL, '𠧪;木;西;𠧪', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4391, '粟', 'sù', '第七卷', '𠧪部', '嘉穀實也。从𠧪，从米。孔子曰「粟之爲言續也」。籒文粟。', '𠧪;米', '', 'null', NULL, '𠧪;米', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4391, '粟;𥻆', 'sù', '第七卷', '𠧪部', '嘉穀實也。从𠧪，从米。孔子曰「粟之爲言續也」。籒文粟。', '𠧪;米', '', 'null', NULL, '𠧪;米', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4392, '齊', 'qí', '第七卷', '齊部', '禾麥吐穗上平也。象形。凡齊之屬皆从齊。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4393, '𪗍', 'qí', '第七卷', '齊部', '等也。从齊，妻聲。', '齊;妻', '妻', 'null', NULL, '齊', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4394, '朿', 'cì', '第七卷', '朿部', '木芒也。象形。凡朿之屬皆从朿。讀若刺。', '刺', '刺', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4484,7 +4484,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4434, '稻', 'dào', '第七卷', '禾
 INSERT INTO `shuowen_voice_revel` VALUES (4435, '稌', 'tú', '第七卷', '禾部', '稻也。从禾，余聲。周禮曰「牛宜稌」。', '禾;余', '余', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4436, '稬', 'nuò', '第七卷', '禾部', '沛國謂稻曰稬。从禾，耎聲。', '禾;耎', '耎', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4437, '稴', 'xián', '第七卷', '禾部', '稻不黏者。从禾，兼聲。讀若「風廉」之廉。', '禾;兼;廉', '兼;廉', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4438, '秔', 'jīnɡ', '第七卷', '禾部', '稻屬。从禾，亢聲。俗秔[更]。', '禾;亢;更', '亢;更', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4438, '秔;稉', 'jīnɡ', '第七卷', '禾部', '稻屬。从禾，亢聲。俗秔[更]。', '禾;亢;更', '亢;更', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4439, '秏', 'hào', '第七卷', '禾部', '稻屬。从禾，毛聲。伊尹曰「飯之美者，玄山之禾，南海之秏」。', '禾;毛', '毛', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4440, '穬', 'kuànɡ', '第七卷', '禾部', '芒粟也。从禾，廣聲。', '禾;廣', '廣', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4441, '秜', 'lí', '第七卷', '禾部', '稻今年落、來年自生，謂之秜。从禾，尼聲。', '禾;尼', '尼', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4492,7 +4492,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4442, '䅘', 'lái', '第七卷', '禾
 INSERT INTO `shuowen_voice_revel` VALUES (4443, '稗', 'bài', '第七卷', '禾部', '禾別也。从禾，卑聲。琅邪有稗縣。', '禾;卑', '卑', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4444, '移', 'yí', '第七卷', '禾部', '禾相倚移也。从禾，多聲。一曰禾名。', '禾;多', '多', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4445, '穎', 'yǐnɡ', '第七卷', '禾部', '禾末也。从禾，頃聲。詩曰「禾穎穟穟」。[役]', '禾;頃;役', '頃;役', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4446, '𥝩;穗', 'suì', '第七卷', '禾部', '禾成秀，人所收者也。从爪禾。俗从禾，惠聲。', '爪;禾;禾;惠', '惠', 'null', NULL, '爪;禾;禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4446, '𥝩;穗;穂', 'suì', '第七卷', '禾部', '禾成秀，人所收者也。从爪禾。俗从禾，惠聲。', '爪;禾;禾;惠', '惠', 'null', NULL, '爪;禾;禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4447, '䄪', 'diǎo', '第七卷', '禾部', '禾危𥝩也。从禾，勺聲。', '禾;勺', '勺', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4448, '穟', 'suì', '第七卷', '禾部', '禾𥝩之皃。从禾，遂聲。詩曰「禾穎穟穟」。穟或从艸。', '禾;遂;艸', '遂', 'null', NULL, '禾;艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4449, '𥠄', 'duān', '第七卷', '禾部', '禾𠂹皃。从禾，耑聲。讀若端。', '禾;耑;端', '耑;端', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4517,12 +4517,12 @@ INSERT INTO `shuowen_voice_revel` VALUES (4467, '稞', 'huà', '第七卷', '禾
 INSERT INTO `shuowen_voice_revel` VALUES (4468, '秳;𥞸', 'huó', '第七卷', '禾部', '舂粟不潰也。从禾，𠯑聲。', '禾;𠯑', '𠯑', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4469, '𥝖', 'hé', '第七卷', '禾部', '𥞸也。从禾，气聲。', '禾;气', '气', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4470, '䅵', 'zhuó', '第七卷', '禾部', '禾皮也。从禾，羙聲。', '禾;羙', '羙', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4471, '稭', 'jiá', '第七卷', '禾部', '禾稾去其皮，祭天㠯爲席也。从禾，皆聲。', '禾;皆', '皆', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4471, '稭;秸', 'jiá', '第七卷', '禾部', '禾稾去其皮，祭天㠯爲席也。从禾，皆聲。', '禾;皆', '皆', '吉', '秸𪈓', '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4472, '稈;秆', 'ɡǎn', '第七卷', '禾部', '禾莖也。从禾，旱聲。春秋傳曰「或投一秉稈」。秆稈或从干作。', '禾;旱;干', '旱;干', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4473, '稾', 'ɡǎo', '第七卷', '禾部', '稈也。从禾，高聲。', '禾;高', '高', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4474, '秕', 'bǐ', '第七卷', '禾部', '不成粟也。从禾，比聲。', '禾;比', '比', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4475, '䅌', 'juān', '第七卷', '禾部', '麥莖也。从禾，肙聲。', '禾;肙', '肙', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4476, '𥞥', 'liè', '第七卷', '禾部', '黍穰也。从禾，𥞥聲。', '禾;𥞥', '𥞥', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4476, '𥞥;䅀', 'liè', '第七卷', '禾部', '黍穰也。从禾，𥞥聲。', '禾;𥞥', '𥞥', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4477, '穰', 'ránɡ', '第七卷', '禾部', '黍𥞥巳治者。从禾，襄聲。', '禾;襄', '襄', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4478, '秧', 'yānɡ', '第七卷', '禾部', '禾若秧穰也。从禾，央聲。', '禾;央', '央', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4479, '䅭', 'pánɡ', '第七卷', '禾部', '䅭䅣，穀名。从禾，旁聲。', '禾;旁', '旁', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4553,10 +4553,10 @@ INSERT INTO `shuowen_voice_revel` VALUES (4503, '兼', 'jiān', '第七卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (4504, '尗', 'shú', '第七卷', '尗部', '豆也。尗，象豆生之形也。凡尗之屬皆从尗。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '政宇调部', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4505, '敊;豉;𢻃', 'chǐ', '第七卷', '尗部', '配鹽幽尗也。从尗，支聲。俗𢻃从豆。', '尗;支;豆', '支', 'null', NULL, '尗;豆', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4506, '黍', 'shǔ', '第七卷', '黍部', '禾屬而黏者也。㠯大暑而穜，故謂之黍。从禾，雨省聲。孔子曰「黍可爲酒」，故从禾入水也。凡黍之屬皆从黍。', '禾;雨', '雨', 'null', NULL, '禾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4507, '𪎭', 'méi', '第七卷', '黍部', '穄也。从黍，麻聲。', '黍;麻', '麻', 'null', NULL, '黍', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4507, '𪎭;𪐎', 'méi', '第七卷', '黍部', '穄也。从黍，麻聲。', '黍;麻', '麻', 'null', NULL, '黍', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4508, '𪐄', 'bǐ', '第七卷', '黍部', '黍屬也。从黍，卑聲。', '黍;卑', '卑', 'null', NULL, '黍', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4509, '黏', 'nián', '第七卷', '黍部', '相箸也。从黍，占聲。', '黍;占', '占', 'null', NULL, '黍', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4510, '𪏻', 'hú', '第七卷', '黍部', '黏也。从黍，古聲。𪏻或从米作。', '黍;古;米', '古', 'null', NULL, '黍;米', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4510, '𪏻;䊀', 'hú', '第七卷', '黍部', '黏也。从黍，古聲。𪏻或从米作。', '黍;古;米', '古', 'null', NULL, '黍;米', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4511, '䵒', 'nì', '第七卷', '黍部', '黏也。从黍，日聲。春秋傳曰「不義不䵒[暱]」。䵒或从刃。', '黍;日;暱;刃', '日;暱;刃', 'null', NULL, '黍', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4512, '黎', 'lí', '第七卷', '黍部', '履黏也。从黍，𥝢省聲。𥝢，古文利，作履黏㠯黍米也。', '黍;𥝢', '𥝢', 'null', NULL, '黍', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4513, '䵗', 'bó', '第七卷', '黍部', '治黍禾豆下潰葉也。从黍，畐聲。', '黍;畐', '畐', 'null', NULL, '黍', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4666,7 +4666,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4616, '宄', 'ɡuǐ', '第七卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (4617, '㝮', 'cuì', '第七卷', '宀部', '塞也。从宀，𠭥聲。讀若虞書曰「竄三苗」之竄。', '宀;𠭥;竄', '𠭥;竄', 'null', NULL, '宀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4618, '宕', 'dànɡ', '第七卷', '宀部', '過也。一曰洞屋。从宀，碭省聲。汝南 項有宕鄉。', '宀;碭', '碭', 'null', NULL, '宀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4619, '宋', 'sònɡ', '第七卷', '宀部', '凥也。从宀木。讀若送。', '宀;木;送', '送', 'null', NULL, '宀;木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4620, '𡪐', 'diàn', '第七卷', '宀部', '屋傾下也。从宀，𡘺聲。', '宀;𡘺', '𡘺', 'null', NULL, '宀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4620, '𡪐;㝪', 'diàn', '第七卷', '宀部', '屋傾下也。从宀，𡘺聲。', '宀;𡘺', '𡘺', 'null', NULL, '宀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4621, '宗', 'zōnɡ', '第七卷', '宀部', '尊祖廟也。从宀示。', '宀;示', '', 'null', NULL, '宀;示', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4622, '宔', 'zhǔ', '第七卷', '宀部', '宗廟宔祏也。从宀，主聲。', '宀;主', '主', 'null', NULL, '宀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4623, '宙', 'zhòu', '第七卷', '宀部', '舟輿所極覆也。从宀，由聲。', '宀;由', '由', 'null', NULL, '宀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4700,7 +4700,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4650, '窻;䆫', 'chuānɡ', '第七�
 INSERT INTO `shuowen_voice_revel` VALUES (4651, '窊', 'wā', '第七卷', '穴部', '污衺，下也。从穴，瓜聲。', '穴;瓜', '瓜', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4652, '窳', 'yǔ', '第七卷', '穴部', '污窬也。从穴，㼌聲。朔方有窳渾縣。', '穴;㼌', '㼌', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4653, '窞', 'dàn', '第七卷', '穴部', '坎中更有坎也。从穴臽。臽亦聲。易曰「入于坎窞」。一曰旁入也。', '穴;臽', '臽', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4654, '𥥺', 'jiào', '第七卷', '穴部', '窖也。从穴，丣聲。', '穴;丣', '丣', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4654, '𥥺;窌', 'jiào', '第七卷', '穴部', '窖也。从穴，丣聲。', '穴;丣', '丣', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4655, '窖', 'jiào', '第七卷', '穴部', '地臧也。从穴，告聲。', '穴;告', '告', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4656, '窬', 'yú', '第七卷', '穴部', '穿木戸也。从穴，俞聲。一曰空中也。', '穴;俞', '俞', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4657, '窵', 'diào', '第七卷', '穴部', '窵窅，𥥍也。从穴，鳥聲。', '穴;鳥', '鳥', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4714,7 +4714,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4664, '突', 'tū', '第七卷', '穴�
 INSERT INTO `shuowen_voice_revel` VALUES (4665, '竄', 'cuàn', '第七卷', '穴部', '匿也。从鼠在穴中。', '鼠;穴', '', 'null', NULL, '鼠;穴', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4666, '窣', 'sū', '第七卷', '穴部', '從穴中卒出。从穴，卒聲。', '穴;卒', '卒', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4667, '窘', 'jiǒnɡ', '第七卷', '穴部', '迫也。从穴，君聲。', '穴;君', '君', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4668, '窕', 'tiǎo', '第七卷', '穴部', '𥥍肆極也。从穴，兆聲。讀若挑。', '穴;兆;挑', '兆;挑', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4668, '窕;𠩓;庣', 'tiǎo', '第七卷', '穴部', '𥥍肆極也。从穴，兆聲。讀若挑。', '穴;兆;挑', '兆;挑', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', '𣂀从𠩓聲，不见许书，玉裁以为即窕之异体。今暂从之。', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4669, '穹', 'qiónɡ', '第七卷', '穴部', '竆也。从穴，弓聲。', '穴;弓', '弓', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4670, '究', 'jiù', '第七卷', '穴部', '竆也。从穴，九聲。', '穴;九', '九', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4671, '竆', 'qiónɡ', '第七卷', '穴部', '極也。从穴，躳聲。', '穴;躳', '躳', 'null', NULL, '穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4801,7 +4801,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4751, '痹', 'bì', '第七卷', '疒�
 INSERT INTO `shuowen_voice_revel` VALUES (4752, '𤹝', 'bì', '第七卷', '疒部', '足氣不至也。从疒，畢聲。', '疒;畢', '畢', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4753, '瘃', 'zhú', '第七卷', '疒部', '中寒腫覈。从疒，豖聲。', '疒;豖', '豖', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4754, '㾫', 'piān', '第七卷', '疒部', '半枯也。从疒，扁聲。', '疒;扁', '扁', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4755, '𤺄', 'zhǒnɡ', '第七卷', '疒部', '脛气腫。从疒，童聲。詩曰「旣微且𤺄」。籒文[尢]。', '疒;童;尢', '童', 'null', NULL, '疒;尢', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4755, '𤺄;𡰒', 'zhǒnɡ', '第七卷', '疒部', '脛气腫。从疒，童聲。詩曰「旣微且𤺄」。籒文[尢]。', '疒;童;尢', '童', 'null', NULL, '疒;尢', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4756, '𤸙;𤸱', 'è', '第七卷', '疒部', '跛病也。从疒，盇聲。讀若脅。又讀若掩。', '疒;盇;脅;掩', '盇;脅;掩', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4757, '疻', 'zhǐ', '第七卷', '疒部', '疻痏，瘢也。从疒，只聲。', '疒;只', '只', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4758, '痏', 'wěi', '第七卷', '疒部', '疻痏也。从疒，有聲。', '疒;有', '有', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4834,7 +4834,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4784, '痑', 'duò', '第七卷', '疒
 INSERT INTO `shuowen_voice_revel` VALUES (4785, '痥', 'duó', '第七卷', '疒部', '馬脛瘍也。从疒，兌聲。一曰將傷。', '疒;兌', '兌', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4786, '痼', 'ɡù', '第七卷', '疒部', '久病也。从疒，固聲。', '疒;固', '固', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4787, '𤻲;療', 'liáo', '第七卷', '疒部', '治也。从疒，樂聲。讀若勞。或从尞。', '疒;樂;勞;尞', '樂;勞;尞', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4788, '瘌;辣', 'là', '第七卷', '疒部', '楚人謂藥毒曰痛瘌。从疒，剌聲。俗瘌，从辛，剌省聲。', '疒;剌;辛', '剌', 'null', NULL, '疒;辛', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4788, '瘌;辣;辢', 'là', '第七卷', '疒部', '楚人謂藥毒曰痛瘌。从疒，剌聲。俗瘌，从辛，剌省聲。', '疒;剌;辛', '剌', 'null', NULL, '疒;辛', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4789, '癆', 'lào', '第七卷', '疒部', '朝鮮謂藥毒曰癆。从疒，勞聲。', '疒;勞', '勞', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4790, '瘥', 'chài', '第七卷', '疒部', '瘉也。从疒，差聲。', '疒;差', '差', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4791, '𤸬', 'shuāi', '第七卷', '疒部', '減也。从疒，衰聲。一曰秏也。', '疒;衰', '衰', 'null', NULL, '疒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4858,7 +4858,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4808, '㒻', 'mào', '第七卷', '冃
 INSERT INTO `shuowen_voice_revel` VALUES (4809, '㒳', 'liǎnɡ', '第七卷', '㒳部', '再也。从冂。从𠓜。从丨。易曰「參天㒳地」。凡㒳之屬皆从㒳。', '冂;𠓜;丨', '', 'null', NULL, '冂;𠓜;丨', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4810, '兩', 'liǎnɡ', '第七卷', '㒳部', '二十四銖爲一兩。从一㒳。㒳，平分也。㒳亦聲。', '一;㒳', '㒳', 'null', NULL, '一', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4811, '㒼', 'mán', '第七卷', '㒳部', '平也。从廿。五行之數，二十分爲一辰。从㒳。㒳，平也。讀若蠻。', '廿;㒳;蠻', '蠻', 'null', NULL, '廿;㒳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4812, '网;罔;網', 'wǎnɡ', '第七卷', '网部', '庖犧氏所結繩，㠯田㠯漁也。从冂。下象网交文。凡网之屬皆从网。网或加亡。或从糸。古文网从冂，亡聲。籒文从𠔼。', '冂;亡;糸;𠔼', '亡', 'null', NULL, '冂;糸;𠔼', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4812, '网;罔;網;𦉾', 'wǎnɡ', '第七卷', '网部', '庖犧氏所結繩，㠯田㠯漁也。从冂。下象网交文。凡网之屬皆从网。网或加亡。或从糸。古文网从冂，亡聲。籒文从𠔼。', '冂;亡;糸;𠔼', '亡', 'null', NULL, '冂;糸;𠔼', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4813, '罨', 'yǎn', '第七卷', '网部', '䍐也。从网，奄聲。', '网;奄', '奄', 'null', NULL, '网', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4814, '罕;䍑;䍐', 'hǎn', '第七卷', '网部', '网也。从网，干聲。', '网;干', '干', 'null', NULL, '网', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4815, '𦌾;𦍆', 'juàn', '第七卷', '网部', '网也。从网𦇏。𦇏亦聲。一曰綰也。', '网;𦇏', '𦇏', 'null', NULL, '网', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4882,7 +4882,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4832, '罿', 'chōnɡ', '第七卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (4833, '䍖;罦', 'fú', '第七卷', '网部', '覆車也。从网，包聲。詩曰「雉離于䍖」。䍖或从孚作。', '网;包;孚', '包;孚', 'null', NULL, '网', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4834, '罻', 'wèi', '第七卷', '网部', '捕鳥网也。从网，𤈫聲。', '网;𤈫', '𤈫', 'null', NULL, '网', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4835, '𦊾;罘', 'fú', '第七卷', '网部', '兔罟也。从网，否聲。', '网;否', '否', 'null', NULL, '网', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4836, '𦊍', 'hù', '第七卷', '网部', '罟也。从网，互聲。', '网;互', '互', 'null', NULL, '网', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4836, '𦊍;𦊂', 'hù', '第七卷', '网部', '罟也。从网，互聲。', '网;互', '互', 'null', NULL, '网', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4837, '罝', 'jū', '第七卷', '网部', '兔网也。从网，且聲。罝或从組作。籒文从虘。', '网;且;組;虘', '且;組;虘', 'null', NULL, '网', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4838, '𦌬', 'wǔ', '第七卷', '网部', '牖中网也。从网，舞聲。', '网;舞', '舞', 'null', NULL, '网', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4839, '署', 'shǔ', '第七卷', '网部', '部署也。各有所网屬也。从网，者聲。', '网;者', '者', 'null', NULL, '网', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4922,7 +4922,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4872, '𢃭;幒;𢃓', 'zhōnɡ', '第
 INSERT INTO `shuowen_voice_revel` VALUES (4873, '𢅡', 'lán', '第七卷', '巾部', '楚謂無緣衣也。从巾，監聲。', '巾;監', '監', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4874, '幎', 'mì', '第七卷', '巾部', '幔也。从巾，冥聲。周禮有「幎人」。', '巾;冥', '冥', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4875, '幔', 'màn', '第七卷', '巾部', '幎也。从巾，曼聲。', '巾;曼', '曼', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4876, '幬;𢅂', 'chóu', '第七卷', '巾部', '襌帳也。从巾，𠷎聲。', '巾;𠷎', '𠷎', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4876, '幬;𢅂;𢄛', 'chóu', '第七卷', '巾部', '襌帳也。从巾，𠷎聲。', '巾;𠷎', '𠷎', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4877, '㡘', 'lián', '第七卷', '巾部', '帷也。从巾，兼聲。', '巾;兼', '兼', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4878, '帷', 'wéi', '第七卷', '巾部', '在旁曰帷。从巾，隹聲。古文帷[匚韋]。', '巾;隹;匚;韋', '隹;韋', 'null', NULL, '巾;匚', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4879, '帳', 'zhànɡ', '第七卷', '巾部', '張也。从巾，長聲。', '巾;長', '長', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4931,8 +4931,8 @@ INSERT INTO `shuowen_voice_revel` VALUES (4881, '㠲', 'bǐ', '第七卷', '巾�
 INSERT INTO `shuowen_voice_revel` VALUES (4882, '㡜', 'xiè', '第七卷', '巾部', '殘帛也。从巾，祭聲。', '巾;祭', '祭', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4883, '㡏', 'shū', '第七卷', '巾部', '正褍裂也。从巾，俞聲。', '巾;俞', '俞', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4884, '帖', 'tiè', '第七卷', '巾部', '帛書署也。从巾，占聲。', '巾;占', '占', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4885, '帙', 'zhì', '第七卷', '巾部', '書衣也。从巾，失聲。帙或从衣。', '巾;失;衣', '失', 'null', NULL, '巾;衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4886, '㡐', 'jiān', '第七卷', '巾部', '幡幟也。从巾，前聲。', '巾;前', '前', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4885, '帙;袟;袠', 'zhì', '第七卷', '巾部', '書衣也。从巾，失聲。帙或从衣。', '巾;失;衣', '失', 'null', NULL, '巾;衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4886, '㡐;𢃬', 'jiān', '第七卷', '巾部', '幡幟也。从巾，前聲。', '巾;前', '前', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4887, '幑', 'huī', '第七卷', '巾部', '幑識也。㠯絳帛。箸於背。从巾，微省聲。春秋傳曰「揚幑者公徒」。若今救火衣然也。', '巾;微', '微', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4888, '幖;𢅽', 'biāo', '第七卷', '巾部', '𢅽識也。从巾，票聲。', '巾;票', '票', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4889, '㠾', 'yuān', '第七卷', '巾部', '幡也。从巾，夗聲。', '巾;夗', '夗', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4953,7 +4953,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4903, '𢅯', 'fèn', '第七卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (4904, '㡒', 'zhūn', '第七卷', '巾部', '載米𤲑也。从巾，盾聲。讀若易「屯卦」之屯。', '巾;盾;屯', '盾;屯', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4905, '㠷', 'ɡé', '第七卷', '巾部', '蒲席𤳊也。从巾，及聲。讀若蛤。', '巾;及;蛤', '及;蛤', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4906, '幩', 'fén', '第七卷', '巾部', '馬纏鑣扇汗也。从巾，賁聲。詩曰「朱幩儦儦」。', '巾;賁', '賁', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4907, '㡪', 'néi', '第七卷', '巾部', '𡎰地也。㠯巾𢵢之。从巾，𡖀[婚]聲。讀若「水溫㬮」。一曰箸也。', '巾;𡖀;婚;㬮', '𡖀;婚;㬮', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4907, '㡪;𢅼', 'néi', '第七卷', '巾部', '𡎰地也。㠯巾𢵢之。从巾，𡖀[婚]聲。讀若「水溫㬮」。一曰箸也。', '巾;𡖀;婚;㬮', '𡖀;婚;㬮', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4908, '帑', 'tǎnɡ', '第七卷', '巾部', '金幣所藏也。从巾，奴聲。', '巾;奴', '奴', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4909, '布', 'bù', '第七卷', '巾部', '枲織也。从巾，父聲。', '巾;父', '父', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4910, '幏', 'jià', '第七卷', '巾部', '南郡 蠻夷賨布也。从巾，家聲。', '巾;家', '家', 'null', NULL, '巾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -4977,7 +4977,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4927, '錦', 'jǐn', '第七卷', '帛
 INSERT INTO `shuowen_voice_revel` VALUES (4928, '白', 'bái', '第七卷', '白部', '西方色也。侌用事。物色白。从入合二。二，侌數。凡白之屬皆从白。古文白。', '入;二', '', 'null', NULL, '入;二', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4929, '皎', 'jiǎo', '第七卷', '白部', '月之白也。从白，交聲。詩曰「月出皎兮」。', '白;交', '交', 'null', NULL, '白', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4930, '皢', 'xiǎo', '第七卷', '白部', '日之白也。从白，堯聲。', '白;堯', '堯', 'null', NULL, '白', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4931, '皙', 'xī', '第七卷', '白部', '人色白也。从白，析聲。', '白;析', '析', 'null', NULL, '白', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4931, '皙;晳', 'xī', '第七卷', '白部', '人色白也。从白，析聲。', '白;析', '析', 'null', NULL, '白', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4932, '皤', 'pó', '第七卷', '白部', '老人白也。从白，番聲。易曰「賁如皤如」。皤或从頁。', '白;番;頁', '番', 'null', NULL, '白;頁', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4933, '㿥', 'hé', '第七卷', '白部', '鳥之白也。从白，隺聲。', '白;隺', '隺', 'null', NULL, '白', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4934, '皚', 'ái', '第七卷', '白部', '霜雪之白也。从白，豈聲。', '白;豈', '豈', 'null', NULL, '白', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5017,7 +5017,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4967, '偰', 'xiè', '第八卷', '人
 INSERT INTO `shuowen_voice_revel` VALUES (4968, '倩', 'qiàn', '第八卷', '人部', '人美字也。从人，靑聲。東齊壻謂之倩。', '人;靑', '靑', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4969, '伃', 'yú', '第八卷', '人部', '婦官也。从人，予聲。', '人;予', '予', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4970, '伀', 'zhōnɡ', '第八卷', '人部', '志及眾也。从人，公聲。', '人;公', '公', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4971, '儇', 'xuān', '第八卷', '人部', '慧也。从人，瞏聲。', '人;瞏', '瞏', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4971, '儇;𠐛', 'xuān', '第八卷', '人部', '慧也。从人，瞏聲。', '人;瞏', '瞏', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4972, '倓', 'tán', '第八卷', '人部', '安也。从人，炎聲。讀若談。倓或从剡。', '人;炎;談;剡', '炎;談;剡', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4973, '侚', 'xùn', '第八卷', '人部', '疾也。从人，旬聲。', '人;旬', '旬', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4974, '傛', 'yǒnɡ', '第八卷', '人部', '不安也。从人，容聲。一曰華。', '人;容', '容', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5045,7 +5045,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (4995, '僤', 'dàn', '第八卷', '人
 INSERT INTO `shuowen_voice_revel` VALUES (4996, '健', 'jiàn', '第八卷', '人部', '伉也。从人，建聲。', '人;建', '建', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4997, '倞', 'jìnɡ', '第八卷', '人部', '彊也。从人，京聲。', '人;京', '京', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (4998, '傲', 'ào', '第八卷', '人部', '倨也。从人，敖聲。', '人;敖', '敖', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (4999, '㐹', 'yì', '第八卷', '人部', '勇壯也。从人，气聲。周書曰「㐹㐹勇夫」。', '人;气', '气', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (4999, '㐹;仡', 'yì', '第八卷', '人部', '勇壯也。从人，气聲。周書曰「㐹㐹勇夫」。', '人;气', '气', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5000, '倨', 'jù', '第八卷', '人部', '不遜也。从人，居聲。', '人;居', '居', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5001, '儼', 'yǎn', '第八卷', '人部', '昂頭也。从人，嚴聲。一曰好皃。', '人;嚴', '嚴', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5002, '傪', 'cān', '第八卷', '人部', '好皃。从人，參聲。', '人;參', '參', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5086,7 +5086,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5036, '侔', 'móu', '第八卷', '人
 INSERT INTO `shuowen_voice_revel` VALUES (5037, '偕', 'xié', '第八卷', '人部', '彊也。从人，皆聲。一曰俱也。詩曰「偕偕士子」。', '人;皆', '皆', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5038, '俱', 'jū', '第八卷', '人部', '皆也。从人，具聲。', '人;具', '具', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5039, '儹', 'zǎn', '第八卷', '人部', '冣也。从人，贊聲。', '人;贊', '贊', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5040, '倂', 'bìnɡ', '第八卷', '人部', '竝也。从人，并聲。', '人;并', '并', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5040, '倂;併', 'bìnɡ', '第八卷', '人部', '竝也。从人，并聲。', '人;并', '并', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5041, '傅', 'fù', '第八卷', '人部', '相也。从人，尃聲。', '人;尃', '尃', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5042, '侙', 'chì', '第八卷', '人部', '惕也。从人，式聲。春秋國語曰「於其心侙然」是也。', '人;式', '式', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5043, '俌', 'fǔ', '第八卷', '人部', '輔也。从人，甫聲。讀若撫。', '人;甫;撫', '甫;撫', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5236,7 +5236,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5186, '仚;仙', 'xiān', '第八卷',
 INSERT INTO `shuowen_voice_revel` VALUES (5187, '僰', 'bó', '第八卷', '人部', '楗爲 蠻夷也。从人，棘聲。', '人;棘', '棘', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5188, '僥', 'yáo', '第八卷', '人部', '南方有焦僥民，長三尺，短之極也。从人，堯聲。', '人;堯', '堯', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5189, '𠏮', 'duì', '第八卷', '人部', '帀也。从人，對聲。', '人;對', '對', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5190, '俇', 'ɡuànɡ', '第八卷', '人部', '遠行也。从人，狂聲。', '人;狂', '狂', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5190, '俇;𠍧', 'ɡuànɡ', '第八卷', '人部', '遠行也。从人，狂聲。', '人;狂', '狂', 'null', NULL, '人', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5191, '件', 'jiàn', '第八卷', '人部', '分也。从人，从牛。牛，大物，故可分。', '人;牛', '', 'null', NULL, '人;牛', 'null', 'null', 'null', 'null', '大徐补 | 应删', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5192, '侶', 'lǚ', '第八卷', '人部', '徒侶也。从人，呂聲。', '人;呂', '呂', 'null', NULL, '人', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5193, '侲', 'zhèn', '第八卷', '人部', '僮子也。从人，辰聲。', '人;辰', '辰', 'null', NULL, '人', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
@@ -5304,7 +5304,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5254, '𧝑', 'zhàn', '第八卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (5255, '褕', 'yú', '第八卷', '衣部', '褕翟，羽飾衣。从衣，俞聲。一曰直裾謂之「襜褕」。', '衣;俞', '俞', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5256, '袀', 'jūn', '第八卷', '衣部', '玄服也。从衣，匀聲。讀若均。', '衣;匀;均', '匀;均', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '应补', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5257, '袗', 'zhěn', '第八卷', '衣部', '襌衣也。一曰盛服。从衣，㐱聲。', '衣;㐱', '㐱', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5258, '表', 'biǎo', '第八卷', '衣部', '上衣也。从衣毛。古者衣裘，故㠯毛爲表。古文表从麃。', '衣;毛;麃', '毛;麃', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5258, '表;𧘝', 'biǎo', '第八卷', '衣部', '上衣也。从衣毛。古者衣裘，故㠯毛爲表。古文表从麃。', '衣;毛;麃', '毛;麃', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5259, '裏', 'lǐ', '第八卷', '衣部', '衣內也。从衣，里聲。', '衣;里', '里', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5260, '襁', 'qiǎnɡ', '第八卷', '衣部', '負兒衣。从衣，強聲。', '衣;強', '強', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '应删', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5261, '襋', 'jí', '第八卷', '衣部', '衣領也。从衣，棘聲。詩曰「要之襋之」。', '衣;棘', '棘', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5346,8 +5346,8 @@ INSERT INTO `shuowen_voice_revel` VALUES (5296, '褰', 'qiān', '第八卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (5297, '襱', 'lónɡ', '第八卷', '衣部', '絝踦也。从衣，龍聲。襱或从𧷏。', '衣;龍;𧷏', '龍;𧷏', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5298, '袑', 'shào', '第八卷', '衣部', '絝上也。从衣，召聲。', '衣;召', '召', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5299, '襑', 'tǎn', '第八卷', '衣部', '衣博大也。从衣，尋聲。', '衣;尋', '尋', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5300, '褒', 'bāo', '第八卷', '衣部', '衣博裾。从衣，𠌀省聲。𠌀，古文保。', '衣;𠌀', '𠌀', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5301, '𧝐', 'tì', '第八卷', '衣部', '緥也。从衣，啻聲。詩曰「載衣之𧝐[裼]」。', '衣;啻;裼', '啻;裼', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5300, '褒;襃', 'bāo', '第八卷', '衣部', '衣博裾。从衣，𠌀省聲。𠌀，古文保。', '衣;𠌀', '𠌀', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5301, '𧝐;䙗', 'tì', '第八卷', '衣部', '緥也。从衣，啻聲。詩曰「載衣之𧝐[裼]」。', '衣;啻;裼', '啻;裼', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5302, '褍', 'duān', '第八卷', '衣部', '衣正幅。从衣，耑聲。', '衣;耑', '耑', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5303, '䙟', 'wéi', '第八卷', '衣部', '重衣皃。从衣，圍聲。爾雅曰「䙟䙟[洄]，䙡䙡」。', '衣;圍;洄', '圍;洄', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5304, '複', 'fù', '第八卷', '衣部', '重衣也。从衣，复聲。一曰褚衣。', '衣;复', '复', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5360,7 +5360,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5310, '衯', 'fēn', '第八卷', '衣
 INSERT INTO `shuowen_voice_revel` VALUES (5311, '裵;裴', 'péi', '第八卷', '衣部', '長衣皃。从衣，非聲。', '衣;非', '非', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5312, '袁', 'yuán', '第八卷', '衣部', '長衣皃。从衣，叀省聲。', '衣;叀', '叀', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5313, '𧜣', 'diāo', '第八卷', '衣部', '短衣也。从衣，鳥聲。春秋傳曰有空𧜣。', '衣;鳥', '鳥', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5314, '䙝', 'dié', '第八卷', '衣部', '重衣也。从衣，執聲。巴郡有褺江縣。', '衣;執', '執', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5314, '褺', 'dié', '第八卷', '衣部', '重衣也。从衣，執聲。巴郡有褺江縣。', '衣;執', '執', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5315, '襡', 'shǔ', '第八卷', '衣部', '裋衣也。从衣，蜀聲。讀若屬。', '衣;屬', '屬', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5316, '𧞐', 'zhuó', '第八卷', '衣部', '衣至地也。从衣，斲聲。', '衣;斲', '斲', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5317, '襦', 'rú', '第八卷', '衣部', '裋衣也。从衣，需聲。一曰㬮衣。', '衣;需', '需', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5421,10 +5421,10 @@ INSERT INTO `shuowen_voice_revel` VALUES (5371, '褪', 'tuì', '第八卷', '衣
 INSERT INTO `shuowen_voice_revel` VALUES (5372, '裘;求;𧚍', 'qiú', '第八卷', '裘部', '皮衣也。从衣。象形。與衰同意。凡𧚍之屬皆从𧚍。古文𧚍。', '衣', '', 'null', NULL, '衣', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5373, '𩱘', 'kè', '第八卷', '裘部', '𧚍裏也。从𧚍，鬲聲。讀若擊。', '𧚍;鬲;擊', '鬲;擊', 'null', NULL, '𧚍', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5374, '老', 'lǎo', '第八卷', '老部', '考也。七十曰老。从人毛𠤎。言須髮變白也。凡老之屬皆从老。', '毛;𠤎', '', 'null', NULL, '毛;𠤎', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5375, '耊', 'dié', '第八卷', '老部', '年八十曰耊。从老省。至聲。', '老;至', '至', 'null', NULL, '老', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5375, '耊;耋', 'dié', '第八卷', '老部', '年八十曰耊。从老省。至聲。', '老;至', '至', 'null', NULL, '老', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5376, '𦽡', 'mào', '第八卷', '老部', '年九十曰𦽡。从老，蒿省聲。', '老;蒿', '蒿', 'null', NULL, '老', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5377, '耆', 'qí', '第八卷', '老部', '老也。从老省，旨聲。', '老;旨', '旨', 'null', NULL, '老', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5378, '耇', 'ɡǒu', '第八卷', '老部', '老人面凍黎若垢。从老省，句聲。', '老;句', '句', 'null', NULL, '老', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5378, '耇;耈;耉', 'ɡǒu', '第八卷', '老部', '老人面凍黎若垢。从老省，句聲。', '老;句', '句', 'null', NULL, '老', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5379, '𦒻', 'diàn', '第八卷', '老部', '老人面如點處。从老省，占聲。讀若「耿介」之耿。', '老;占;耿', '占;耿', 'null', NULL, '老', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5380, '𦒶', 'shù', '第八卷', '老部', '老人行才相逮。从老省。勿，象形。讀若樹。', '老;勿;樹', '樹', 'null', NULL, '老;勿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5381, '壽', 'shòu', '第八卷', '老部', '久也。从老省，𠷎聲。', '老;𠷎', '𠷎', 'null', NULL, '老', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5458,7 +5458,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5408, '㞓', 'qì', '第八卷', '尸�
 INSERT INTO `shuowen_voice_revel` VALUES (5409, '尼', 'ní', '第八卷', '尸部', '從後近之。从尸，匕聲。', '尸;匕', '匕', 'null', NULL, '尸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5410, '㞚', 'qì', '第八卷', '尸部', '㞚㞏。從後相躡也。从尸，臿聲。', '尸;臿', '臿', 'null', NULL, '尸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5411, '㞏', 'zhé', '第八卷', '尸部', '㞚㞏也。从尸，乏聲。', '尸;乏', '乏', 'null', NULL, '尸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5412, '㞋', 'niǎn', '第八卷', '尸部', '柔皮也。从尸又。又，申尸之後也。', '尸;又', '', 'null', NULL, '尸;又', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5412, '㞋;𡰫', 'niǎn', '第八卷', '尸部', '柔皮也。从尸又。又，申尸之後也。', '尸;又', '', 'null', NULL, '尸;又', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5413, '屒', 'zhěn', '第八卷', '尸部', '伏皃。一曰屋宇也。从尸，辰聲。', '尸;辰', '辰', 'null', NULL, '尸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5414, '屖', 'xī', '第八卷', '尸部', '屖遟[遲]也。从尸，辛聲。', '尸;辛', '辛', 'null', NULL, '尸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5415, '屝', 'fèi', '第八卷', '尸部', '履屬。从尸，非聲。', '尸;非', '非', 'null', NULL, '尸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5473,8 +5473,8 @@ INSERT INTO `shuowen_voice_revel` VALUES (5423, '尺', 'chǐ', '第八卷', '尺
 INSERT INTO `shuowen_voice_revel` VALUES (5424, '咫', 'zhǐ', '第八卷', '尺部', '中婦人手長八寸謂之咫。周尺也。从尺，只聲。', '尺;只', '只', 'null', NULL, '尺', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5425, '尾', 'wěi', '第八卷', '尾部', '微也。从到毛在尸後。古人或飾系尾。西南夷皆然。凡尾之屬皆从尾。', '毛;尸', '', 'null', NULL, '毛;尸', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5426, '屬', 'zhǔ', '第八卷', '尾部', '連也。从尾。蜀聲。', '尾;蜀', '蜀', 'null', NULL, '尾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5427, '屈', 'qū', '第八卷', '尾部', '無尾也。从尾，出聲。', '尾;出', '出', 'null', NULL, '尾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5428, '尿', 'niào', '第八卷', '尾部', '人小便也。从尾水。', '尾;水', '', 'null', NULL, '尾;水', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5427, '屈;𡲬', 'qū', '第八卷', '尾部', '無尾也。从尾，出聲。', '尾;出', '出', 'null', NULL, '尾', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5428, '尿;𡲘', 'niào', '第八卷', '尾部', '人小便也。从尾水。', '尾;水', '', 'null', NULL, '尾;水', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5429, '履', 'lǚ', '第八卷', '履部', '足所依也。从尸。服履者也。从彳夊。从舟，象履形。一曰尸聲。凡履之屬皆从履。古文履从頁，从足。', '尸;彳;夊;舟;頁;足', '尸', 'null', NULL, '彳;夊;舟;頁;足', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5430, '屨', 'jù', '第八卷', '履部', '履也。从履省，婁聲。一曰鞮也。', '履;婁', '婁', 'null', NULL, '履', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5431, '𡳸', 'lì', '第八卷', '履部', '履下也。从履省，歷聲。', '履;歷', '歷', 'null', NULL, '履', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5520,7 +5520,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5470, '兟', 'shēn', '第八卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (5471, '禿;秃', 'tū', '第八卷', '禿部', '無髮也。从儿。上象禾粟之形。[秀，]取其聲。凡禿之屬皆从禿。王育說，倉頡出見禿人伏禾中，因㠯制字。未知其審。', '儿;秀', '秀', 'null', NULL, '儿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5472, '穨', 'tuí', '第八卷', '禿部', '禿皃。从禿，貴聲。', '禿;貴', '貴', 'null', NULL, '禿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5473, '見', 'jiàn', '第八卷', '見部', '視也。从目儿。凡見之屬皆从見。', '目;儿', '', 'null', NULL, '目;儿', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5474, '視', 'shì', '第八卷', '見部', '瞻也。从見，示聲。古文視。亦古文視[氐]。', '見;示;氐', '示;氐', 'null', NULL, '見', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5474, '視;眡', 'shì', '第八卷', '見部', '瞻也。从見，示聲。古文視。亦古文視[氐]。', '見;示;氐', '示;氐', 'null', NULL, '見', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5475, '䚕', 'lì', '第八卷', '見部', '求視也。从見，麗聲。讀若池。', '見;麗;池', '麗;池', 'null', NULL, '見', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5476, '覣', 'wēi', '第八卷', '見部', '好視也。从見，委聲。', '見;委', '委', 'null', NULL, '見', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5477, '𧡎', 'nì', '第八卷', '見部', '旁視也。从見，兒聲。', '見;兒', '兒', 'null', NULL, '見', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5583,7 +5583,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5533, '歇', 'xiē', '第八卷', '欠
 INSERT INTO `shuowen_voice_revel` VALUES (5534, '歡', 'huān', '第八卷', '欠部', '樂也。从欠，雚聲。', '欠;雚', '雚', 'null', NULL, '欠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5535, '欣;訢', 'xīn', '第八卷', '欠部', '𥬇皃。从欠，斤聲。古文欣从言。', '欠;斤;言', '斤', 'null', NULL, '欠;言', 'null', 'null', 'null', 'null', '政宇并入重文', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5536, '𣢇', 'shěn', '第八卷', '欠部', '𥬇不壞顔曰𣢇。从欠，己聲。', '欠;己', '己', 'null', NULL, '欠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5537, '款', 'kuǎn', '第八卷', '欠部', '意有所欲也。从欠，㝮省。款或从柰。', '欠;㝮;柰', '㝮;柰', 'null', NULL, '欠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5537, '款;歀', 'kuǎn', '第八卷', '欠部', '意有所欲也。从欠，㝮省。款或从柰。', '欠;㝮;柰', '㝮;柰', 'null', NULL, '欠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5538, '𣢆', 'jì', '第八卷', '欠部', '𡴘也。从欠，气聲。一曰口不便言。', '欠;气', '气', 'null', NULL, '欠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5539, '欲', 'yù', '第八卷', '欠部', '貪也。从欠，谷聲。', '欠;谷', '谷', 'null', NULL, '欠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5540, '歌;謌', 'ɡē', '第八卷', '欠部', '詠也。从欠，哥聲。歌或从言。', '欠;哥;言', '哥', 'null', NULL, '欠;言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5681,13 +5681,13 @@ INSERT INTO `shuowen_voice_revel` VALUES (5631, '顝', 'kuī', '第九卷', '頁
 INSERT INTO `shuowen_voice_revel` VALUES (5632, '願', 'yuàn', '第九卷', '頁部', '大頭也。从𩑋，原聲。', '𩑋;原', '原', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5633, '顤', 'yáo', '第九卷', '頁部', '高長頭。从𩑋，堯聲。', '𩑋;堯', '堯', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5634, '頎', 'qí', '第九卷', '頁部', '頭佳皃。从𩑋，斤聲。讀又若鬢。', '𩑋;斤;鬢', '斤;鬢', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '大徐无小徐有 | 应补', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5635, '𩕀', 'ào', '第九卷', '頁部', '𩕀。顤高也。从𩑋，敖聲。', '𩑋;敖', '敖', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5635, '𩕀;䫨', 'ào', '第九卷', '頁部', '𩕀。顤高也。从𩑋，敖聲。', '𩑋;敖', '敖', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5636, '𩓥', 'yuè', '第九卷', '頁部', '前面岳岳也。从𩑋，岳聲。', '𩑋;岳', '岳', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5637, '𩒳', 'mèi', '第九卷', '頁部', '昧前也。从𩑋，𡿯聲。讀若昧。', '𩑋;𡿯;昧', '𡿯;昧', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5638, '𩖊', 'línɡ', '第九卷', '頁部', '面𤸃淺𩖊𩖊也。从𩑋，霝聲。', '𩑋;霝', '霝', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5639, '𩔀', 'wài', '第九卷', '頁部', '頭𦳋𩔀也。从𩑋，㒸聲。', '𩑋;㒸', '㒸', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5640, '頑', 'wán', '第九卷', '頁部', '㮯頭也。从𩑋，元聲。', '𩑋;元', '元', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5641, '𩓸', 'ɡuī', '第九卷', '頁部', '小頭𩓸𩓸也。从𩑋，枝聲。讀若規。', '𩑋;枝;規', '枝;規', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5641, '𩓸;𩓠', 'ɡuī', '第九卷', '頁部', '小頭𩓸𩓸也。从𩑋，枝聲。讀若規。', '𩑋;枝;規', '枝;規', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5642, '顆', 'kě', '第九卷', '頁部', '小頭也。从𩑋，果聲。', '𩑋;果', '果', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5643, '頢', 'huò', '第九卷', '頁部', '短面也。从𩑋，𠯑聲。', '𩑋;𠯑', '𠯑', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5644, '頲', 'tǐnɡ', '第九卷', '頁部', '狹頭頲也。从𩑋，廷聲。', '𩑋;廷', '廷', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5699,7 +5699,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5649, '𩑦', 'mò', '第九卷', '頁
 INSERT INTO `shuowen_voice_revel` VALUES (5650, '顧', 'ɡù', '第九卷', '頁部', '還視也。从𩑋，雇聲。', '𩑋;雇', '雇', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5651, '順', 'shùn', '第九卷', '頁部', '理也。从𩑋川。', '𩑋;川', '川', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5652, '䪾', 'zhěn', '第九卷', '頁部', '顔色䪾䫰，愼事也。从𩑋，㐱聲。', '𩑋;㐱', '㐱', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5653, '䫰', 'lǐn', '第九卷', '頁部', '䪾䫰也。从𩑋，粦聲。一曰頭少髮。', '𩑋;粦', '粦', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5653, '䫰;𩕔', 'lǐn', '第九卷', '頁部', '䪾䫰也。从𩑋，粦聲。一曰頭少髮。', '𩑋;粦', '粦', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5654, '顓', 'zhuān', '第九卷', '頁部', '頭顓顓謹皃。从𩑋，耑聲。', '𩑋;耑', '耑', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5655, '頊', 'xū', '第九卷', '頁部', '頭頊頊謹皃。从𩑋，玉聲。', '𩑋;玉', '玉', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5656, '顉', 'ǎn', '第九卷', '頁部', '低頭也。从𩑋，金聲。春秋傳曰「迎于門。顉之而巳」。', '𩑋;金', '金', 'null', NULL, '𩑋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5747,7 +5747,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5697, '䩌', 'jiāo', '第九卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (5698, '靨', 'yè', '第九卷', '面部', '姿也。从面，厭聲。', '面;厭', '厭', 'null', NULL, '面', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5699, '丏', 'miǎn', '第九卷', '丏部', '不見也。象雝蔽之形。凡丏之屬皆从丏。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '经', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5700, '首;𩠐', 'shǒu', '第九卷', '首部', '古文𦣻也。川，象髮，髮謂之鬊，鬊卽川也。凡首之屬皆从首。', '𦣻;川;鬊', '𦣻;鬊', 'null', NULL, '川', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5701, '䭬;䭫', 'qǐ', '第九卷', '首部', '䭬首也。从首，旨聲。', '首;旨', '旨', 'null', NULL, '首', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5701, '䭬;䭫;𩠜', 'qǐ', '第九卷', '首部', '䭬首也。从首，旨聲。', '首;旨', '旨', 'null', NULL, '首', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5702, '𩠹;剸', 'tuán', '第九卷', '首部', '𢧵首也。从斷首。或从刀，專聲。', '斷;首;刀;專', '斷;專', 'null', NULL, '首;刀', 'null', 'null', 'null', 'null', '小徐无', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5703, '𥄉', 'jiāo', '第九卷', '𥄉部', '到首也。賈侍中說，此「𣃔首到縣」𥄉字。凡𥄉之屬皆从𥄉。', '首', '', 'null', NULL, '首', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5704, '縣;懸', 'xuán', '第九卷', '𥄉部', '繫也。从系持𥄉。', '系;𥄉', '', 'null', NULL, '系;𥄉', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
@@ -5820,7 +5820,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5770, '司', 'sī', '第九卷', '司�
 INSERT INTO `shuowen_voice_revel` VALUES (5771, '䛐;詞', 'cí', '第九卷', '司部', '意內而言外也。从司言。', '司;言', '司', 'null', NULL, '言', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5772, '卮;𠨗;巵', 'zhī', '第九卷', '卮部', '圜器也。一名觛。所㠯節㱃食。象人。卪在其下也。易曰「君子節㱃食」。凡卮之屬皆从卮。', '卪', '', 'null', NULL, '卪', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5773, '𡭐', 'shuàn', '第九卷', '卮部', '小卮有耳葢者。从卮，專聲。', '卮;專', '專', 'null', NULL, '卮', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5774, '𦓚', 'zhuǎn', '第九卷', '卮部', '小卮也。从卮，耑聲。讀若「捶擊」之捶。', '卮;耑;捶', '耑;捶', 'null', NULL, '卮', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5774, '𦓚;𦓙', 'zhuǎn', '第九卷', '卮部', '小卮也。从卮，耑聲。讀若「捶擊」之捶。', '卮;耑;捶', '耑;捶', 'null', NULL, '卮', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5775, '卪', 'jié', '第九卷', '卪部', '瑞信也。守邦國者用「玉卪」，守都鄙者用「角卪」，使山邦者用「虎卪」，土邦者用「人卪」，澤邦者用「龍卪」。門關者用「符卪」，貨賄用「璽卪」，道路用「旌卪」。象相合之形。凡卪之屬皆从卪。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5776, '令', 'lìnɡ', '第九卷', '卪部', '發號也。从亼卪。', '亼;卪', '', 'null', NULL, '亼;卪', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5777, '𠨒', 'bì', '第九卷', '卪部', '輔信也。相輔之信也。从卪，比聲。虞書曰「𠨒成五服」。', '卪;比', '比', 'null', NULL, '卪', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5917,7 +5917,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5867, '岨', 'qū', '第九卷', '山�
 INSERT INTO `shuowen_voice_revel` VALUES (5868, '岡', 'ɡānɡ', '第九卷', '山部', '山脊也。从山，网聲。', '山;网', '网', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5869, '岑', 'cén', '第九卷', '山部', '山小而高。从山，今聲。', '山;今', '今', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5870, '崟', 'yín', '第九卷', '山部', '山之岑崟也。从山，金聲。', '山;金', '金', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5871, '崒', 'zú', '第九卷', '山部', '崒，危高也。从山，卒聲。', '山;卒', '卒', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5871, '崒;崪', 'zú', '第九卷', '山部', '崒，危高也。从山，卒聲。', '山;卒', '卒', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5872, '巒', 'luán', '第九卷', '山部', '山小而銳。从山，䜌聲。', '山;䜌', '䜌', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5873, '密', 'mì', '第九卷', '山部', '山如堂者。从山，宓聲。', '山;宓', '宓', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5874, '岫', 'xiù', '第九卷', '山部', '山有穴也。从山，由聲。籒文从穴。', '山;由;穴', '由', 'null', NULL, '山;穴', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -5935,7 +5935,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5885, '𡽕', 'zuì', '第九卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (5886, '𡷥', 'ɡào', '第九卷', '山部', '山皃。一曰山谷。从山，告聲。', '山;告', '告', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5887, '𡽃', 'duò', '第九卷', '山部', '山皃。从山，隓聲。', '山;隓', '隓', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5888, '嵯;𡾑', 'cuó', '第九卷', '山部', '𡾑峨，山皃。从山，差聲。', '山;差', '差', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5889, '峨', 'é', '第九卷', '山部', '嵯峨也。从山，我聲。', '山;我', '我', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5889, '峨;峩', 'é', '第九卷', '山部', '嵯峨也。从山，我聲。', '山;我', '我', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5890, '崝', 'zhēnɡ', '第九卷', '山部', '崝嶸，山皃也。从山，靑聲。', '山;靑', '靑', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5891, '嶸', 'rónɡ', '第九卷', '山部', '崝嶸也。从山，榮聲。', '山;榮', '榮', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5892, '𡷨', 'kēnɡ', '第九卷', '山部', '𡷨谷也。从山，巠聲。', '山;巠', '巠', 'null', NULL, '山', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6021,7 +6021,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (5971, '廂', 'xiānɡ', '第九卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (5972, '庪', 'ɡuǐ', '第九卷', '广部', '祭山曰「庪縣」。从广，技聲。', '广;技', '技', 'null', NULL, '广', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5973, '庱', 'chěnɡ', '第九卷', '广部', '地名。从广[，从夌]。', '广;夌', '夌', 'null', NULL, '广', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5974, '廖', 'liào', '第九卷', '广部', '人姓。从广[，从翏]。', '广;翏', '翏', 'null', NULL, '广', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (5975, '厂', 'hǎn', '第九卷', '厂部', '山石之厓巗。人可凥。象形。凡厂之屬皆从厂。籒文从干。', '干', '干', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (5975, '厂;厈', 'hǎn', '第九卷', '厂部', '山石之厓巗。人可凥。象形。凡厂之屬皆从厂。籒文从干。', '干', '干', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5976, '厓', 'yá', '第九卷', '厂部', '山邊也。从厂，圭聲。', '厂;圭', '圭', 'null', NULL, '厂', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5977, '厜', 'zuī', '第九卷', '厂部', '厜㕒，山顚也。从厂，垂聲。', '厂;垂', '垂', 'null', NULL, '厂', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (5978, '㕒', 'wēi', '第九卷', '厂部', '厜㕒也。从厂，義聲。', '厂;義', '義', 'null', NULL, '厂', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6071,7 +6071,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6021, '䃍', 'zhuì', '第九卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (6022, '磒', 'yǔn', '第九卷', '石部', '落也。从石，員聲。春秋傳曰「磒石于宋五」。', '石;員', '員', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6023, '䂹', 'suǒ', '第九卷', '石部', '碎石磒聲。从石，炙聲。', '石;炙', '炙', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6024, '硞', 'què', '第九卷', '石部', '石聲。从石，告聲。', '石;告', '告', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6025, '硍', 'lánɡ', '第九卷', '石部', '石聲。从石，艮聲。', '石;艮', '艮', 'null', NULL, '石', 'null', 'null', 'null', 'null', '改篆', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6025, '硍;硠', 'lánɡ', '第九卷', '石部', '石聲。从石，艮聲。', '石;艮', '艮', 'null', NULL, '石', 'null', 'null', 'null', 'null', '改篆', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6026, '礐', 'què', '第九卷', '石部', '石聲也。从石，學省聲。', '石;學', '學', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6027, '磕', 'kài', '第九卷', '石部', '石聲也。从石，盇聲。', '石;盇', '盇', 'null', NULL, '石', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6028, '硈', 'qià', '第九卷', '石部', '石堅也。从石，吉聲。一曰突也。', '石;吉', '吉', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6090,7 +6090,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6040, '𥓊', 'chè', '第九卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (6041, '𥒔', 'chàn', '第九卷', '石部', '㠯石衦繒也。从石，㢟聲。', '石;㢟', '㢟', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6042, '碎', 'suì', '第九卷', '石部', '䊳也。从石，卒聲。', '石;卒', '卒', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6043, '破', 'pò', '第九卷', '石部', '石碎也。从石，皮聲。', '石;皮', '皮', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6044, '礱', 'lónɡ', '第九卷', '石部', '䃺也。从石，龍聲。天子之桷，椓而礱之。', '石;龍', '龍', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6044, '礱;礲', 'lónɡ', '第九卷', '石部', '䃺也。从石，龍聲。天子之桷，椓而礱之。', '石;龍', '龍', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6045, '研', 'yán', '第九卷', '石部', '䃺也。从石，开聲。', '石;开', '开', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6046, '䃺', 'mò', '第九卷', '石部', '石磑也。从石，靡聲。', '石;靡', '靡', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6047, '磑', 'wèi', '第九卷', '石部', '䃺也。从石，豈聲。古者公輸班作磑。', '石;豈', '豈', 'null', NULL, '石', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6172,7 +6172,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6122, '豻;犴', 'àn', '第九卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (6123, '貍', 'lí', '第九卷', '豸部', '伏獸。似貙。从豸，里聲。', '豸;里', '里', 'null', NULL, '豸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6124, '貒', 'tuān', '第九卷', '豸部', '貒獸也。似豕而肥。从豸，耑聲。讀若湍。', '豸;耑;湍', '耑;湍', 'null', NULL, '豸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6125, '貛', 'huān', '第九卷', '豸部', '野豕也。从豸，雚聲。', '豸;雚', '雚', 'null', NULL, '豸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6126, '貁', 'yòu', '第九卷', '豸部', '鼠屬。善旋。从豸，宂聲。', '豸;宂', '宂', 'null', NULL, '豸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6126, '貁;𮙩', 'yòu', '第九卷', '豸部', '鼠屬。善旋。从豸，宂聲。', '豸;宂', '宂', 'null', NULL, '豸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6127, '貂', 'diāo', '第九卷', '豸部', '鼠屬。大而黃黑。出胡 丁零國。从豸，召聲。', '豸;召', '召', 'null', NULL, '豸', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6128, '貉', 'mò', '第九卷', '豸部', '北方貉。豸穜也。从豸，各聲。孔子曰「貉之言貉貉惡也」。', '豸;各', '各', 'null', NULL, '豸', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6129, '貓', 'māo', '第九卷', '豸部', '貍屬。从豸，苗聲。', '豸;苗', '苗', 'null', NULL, '豸', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
@@ -6211,7 +6211,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6161, '驠', 'yàn', '第十卷', '馬
 INSERT INTO `shuowen_voice_revel` VALUES (6162, '騽', 'xí', '第十卷', '馬部', '馬豪骭也。从馬，習聲。', '馬;習', '習', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '脱驔独立', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6163, '䮧', 'hàn', '第十卷', '馬部', '馬毛長者也。从馬，倝聲。', '馬;倝', '倝', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6164, '騛', 'fēi', '第十卷', '馬部', '馬逸足者也。从馬飛。司馬法曰「飛衛斯輿」。', '馬;飛', '飛', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6165, '驁', 'ào', '第十卷', '馬部', '駿馬。㠯壬申日死，乘馬忌之。从馬，敖聲。', '馬;敖', '敖', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6165, '驁;䮯', 'ào', '第十卷', '馬部', '駿馬。㠯壬申日死，乘馬忌之。从馬，敖聲。', '馬;敖', '敖', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6166, '驥', 'jì', '第十卷', '馬部', '千里馬也。孫陽所相者。从馬，冀聲。天水有冀縣。', '馬;冀', '冀', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6167, '駿', 'jùn', '第十卷', '馬部', '馬之良材者。从馬，夋聲。', '馬;夋', '夋', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6168, '驍', 'xiāo', '第十卷', '馬部', '良馬也。从馬，堯聲。詩曰「驍驍牡馬」。', '馬;堯', '堯', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6222,7 +6222,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6172, '驩', 'huān', '第十卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (6173, '驗', 'yàn', '第十卷', '馬部', '馬名。从馬，僉聲。', '馬;僉', '僉', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6174, '𩢑', 'cǐ', '第十卷', '馬部', '馬名。从馬，此聲。', '馬;此', '此', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6175, '𩢮', 'xiū', '第十卷', '馬部', '馬名。从馬，休聲。', '馬;休', '休', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6176, '𩢌', 'wén', '第十卷', '馬部', '𩢌馬，赤鬣縞身，目若黃金，名曰「吉皇之乘」。周成王時犬戎獻之。从馬文。文亦聲。春秋傳曰「𩢌馬百駟」。文馬，畫馬也。西伯獻紂，㠯全其身。', '馬;文', '文', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '△', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6176, '𩢌;馼', 'wén', '第十卷', '馬部', '𩢌馬，赤鬣縞身，目若黃金，名曰「吉皇之乘」。周成王時犬戎獻之。从馬文。文亦聲。春秋傳曰「𩢌馬百駟」。文馬，畫馬也。西伯獻紂，㠯全其身。', '馬;文', '文', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '△', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6177, '馶', 'zhī', '第十卷', '馬部', '馬彊也。从馬，支聲。', '馬;支', '支', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6178, '駜', 'bì', '第十卷', '馬部', '馬飽也。从馬，必聲。詩曰「有駜有駜」。', '馬;必', '必', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6179, '駫', 'jiōnɡ', '第十卷', '馬部', '馬肥盛也。从馬，光聲。詩曰「駫駫牡馬」。', '馬;光', '光', 'null', NULL, '馬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6314,13 +6314,13 @@ INSERT INTO `shuowen_voice_revel` VALUES (6264, '𪋝', 'sù', '第十卷', '鹿
 INSERT INTO `shuowen_voice_revel` VALUES (6265, '麛', 'mí', '第十卷', '鹿部', '鹿子也。从鹿，弭聲。', '鹿;弭', '弭', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6266, '麉', 'jiān', '第十卷', '鹿部', '鹿之絕有力者。从鹿，开聲。', '鹿;开', '开', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6267, '麒', 'qí', '第十卷', '鹿部', '麒麟，仁獸也。麇身，牛尾，一角。从鹿，其聲。', '鹿;其', '其', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6268, '麐', 'lín', '第十卷', '鹿部', '牝麒也。从鹿，吝聲。', '鹿;吝', '吝', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6268, '麐;𪊺', 'lín', '第十卷', '鹿部', '牝麒也。从鹿，吝聲。', '鹿;吝', '吝', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6269, '麋', 'mí', '第十卷', '鹿部', '鹿屬。从鹿，米聲。麋冬至解角。', '鹿;米', '米', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6270, '麎', 'chén', '第十卷', '鹿部', '牝麋也。从鹿，辰聲。', '鹿;辰', '辰', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6271, '麔', 'jiù', '第十卷', '鹿部', '麋牡者。从鹿，咎聲。', '鹿;咎', '咎', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6272, '麀', 'yōu', '第十卷', '鹿部', '牝鹿也。从鹿牝省。或从幽聲。', '鹿;牝;幽', '幽', 'null', NULL, '鹿;牝', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6273, '𪊨', 'jǐ', '第十卷', '鹿部', '大麇也。狗足。从鹿，旨聲。或从几。', '鹿;旨;几', '旨;几', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6274, '麇', 'jūn', '第十卷', '鹿部', '麞也。从鹿，囷省聲。籒文不省。', '鹿;囷', '囷', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6274, '麇;麕', 'jūn', '第十卷', '鹿部', '麞也。从鹿，囷省聲。籒文不省。', '鹿;囷', '囷', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6275, '麞', 'zhānɡ', '第十卷', '鹿部', '麋屬也。从鹿，章聲。', '鹿;章', '章', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6276, '麠', 'jīnɡ', '第十卷', '鹿部', '大麃也。牛尾，一角。从鹿，畺聲。或从京。', '鹿;畺;京', '畺;京', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6277, '麃', 'páo', '第十卷', '鹿部', '麞屬。从鹿，票省聲。', '鹿;票', '票', 'null', NULL, '鹿', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6369,14 +6369,14 @@ INSERT INTO `shuowen_voice_revel` VALUES (6319, '猥', 'wěi', '第十卷', '犬
 INSERT INTO `shuowen_voice_revel` VALUES (6320, '獿', 'nǎo', '第十卷', '犬部', '獿，㺒也。从犬，夒聲。', '犬;夒', '夒', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6321, '㺒', 'xiāo', '第十卷', '犬部', '犬獿獿咳吠也。从犬，翏聲。', '犬;翏', '翏', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6322, '㺑', 'shǎn', '第十卷', '犬部', '犬容頭進也。从犬，參聲。一曰賊疾也。', '犬;參', '參', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '侵部', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6323, '𤟌', 'jiǎnɡ', '第十卷', '犬部', '嗾犬厲之也。从犬，將省聲。', '犬;將', '將', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6323, '𤟌;獎', 'jiǎnɡ', '第十卷', '犬部', '嗾犬厲之也。从犬，將省聲。', '犬;將', '將', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6324, '㹽', 'chǎn', '第十卷', '犬部', '犬齧也。从犬，戔聲。', '犬;戔', '戔', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6325, '狦', 'shàn', '第十卷', '犬部', '惡健犬也。从犬，刪省聲。', '犬;删', '删', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6325, '狦;㹪', 'shàn', '第十卷', '犬部', '惡健犬也。从犬，刪省聲。', '犬;删', '删', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6326, '狠', 'yán', '第十卷', '犬部', '犬鬥聲。从犬，艮聲。', '犬;艮', '艮', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6327, '㺕', 'fán', '第十卷', '犬部', '犬鬥聲。从犬，番聲。', '犬;番', '番', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6328, '狋', 'yí', '第十卷', '犬部', '犬怒皃。从犬，示聲。一曰犬難附。代郡有狋氏縣。讀又若銀。', '犬;示;銀', '示;銀', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6329, '㹞', 'yín', '第十卷', '犬部', '犬吠聲。从犬，斤聲。', '犬;斤', '斤', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6330, '獡', 'shuò', '第十卷', '犬部', '犬獡獡不附人也。从犬，舄聲。南楚謂相驚曰獡。讀若愬。', '犬;舄;愬', '舄;愬', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6330, '獡;𤡯', 'shuò', '第十卷', '犬部', '犬獡獡不附人也。从犬，舄聲。南楚謂相驚曰獡。讀若愬。', '犬;舄;愬', '舄;愬', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6331, '獷', 'ɡuǎnɡ', '第十卷', '犬部', '犬獷獷不可附也。从犬，廣聲。漁陽有獷平縣。', '犬;廣', '廣', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6332, '狀', 'zhuànɡ', '第十卷', '犬部', '犬形也。从犬，爿聲。', '犬;爿', '爿', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6333, '𤞛', 'zànɡ', '第十卷', '犬部', '妄彊犬也。从犬壯。壯亦聲。', '犬;壯', '壯', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6427,7 +6427,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6377, '狛', 'bó', '第十卷', '犬�
 INSERT INTO `shuowen_voice_revel` VALUES (6378, '獌', 'màn', '第十卷', '犬部', '狼屬。从犬，曼聲。爾雅曰「貙獌佀貍」。', '犬;曼', '曼', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6379, '狐', 'hú', '第十卷', '犬部', '䄏獸也。鬼所乘。有「三德」——其色中和，小歬大後，死則丘首。謂之「三德」。从犬，瓜聲。', '犬;瓜', '瓜', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6380, '獺', 'tǎ', '第十卷', '犬部', '水狗也。食魚。从犬，賴聲。', '犬;賴', '賴', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6381, '猵', 'biān', '第十卷', '犬部', '獺屬。从犬，扁聲。或从賓。', '犬;扁;賓', '扁;賓', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6381, '猵;獱', 'biān', '第十卷', '犬部', '獺屬。从犬，扁聲。或从賓。', '犬;扁;賓', '扁;賓', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6382, '猋', 'biāo', '第十卷', '犬部', '犬走皃。从三犬。', '犬', '', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6383, '狘', 'xuè', '第十卷', '犬部', '獸走皃。从犬，戉聲。', '犬;戉', '戉', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6384, '𤟤', 'huī', '第十卷', '犬部', '獸名。从犬，軍聲。', '犬;軍', '軍', 'null', NULL, '犬', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
@@ -6455,7 +6455,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6405, '䶂', 'zhuó', '第十卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (6406, '𪕎', 'rǒnɡ', '第十卷', '鼠部', '鼠屬。从鼠，宂聲。', '鼠;宂', '宂', 'null', NULL, '鼠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6407, '𪕊', 'zī', '第十卷', '鼠部', '𪕊鼠。佀雞，鼠尾。从鼠，此聲。', '鼠;此', '此', 'null', NULL, '鼠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6408, '鼲', 'hún', '第十卷', '鼠部', '鼲鼠。出丁零 胡，皮可作裘。从鼠，軍聲。', '鼠;軍', '軍', 'null', NULL, '鼠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6409, '𪕮', 'hú', '第十卷', '鼠部', '斬𪕮鼠。黑身，白要若帶；手有長白毛，佀握版之狀；類蝯、蜼之屬。从鼠，胡聲。', '鼠;胡', '胡', 'null', NULL, '鼠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6409, '𪕮;𪕱', 'hú', '第十卷', '鼠部', '斬𪕮鼠。黑身，白要若帶；手有長白毛，佀握版之狀；類蝯、蜼之屬。从鼠，胡聲。', '鼠;胡', '胡', 'null', NULL, '鼠', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6410, '能', 'nénɡ', '第十卷', '能部', '熊屬。足佀鹿。从肉，㠯聲。能獸堅中，故偁「賢能」。而彊壯，偁「能傑」也。凡能之屬皆从能。', '肉;㠯', '㠯', 'null', NULL, '肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6411, '熊', 'xiónɡ', '第十卷', '熊部', '熊獸。佀豕，山凥，冬蟄。从能，炎省聲。凡熊之屬皆从熊。', '能;炎', '炎', 'null', NULL, '能', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6412, '羆', 'pí', '第十卷', '熊部', '如熊。黃白文。从熊，罷省聲。古文从皮[能]。', '熊;罷;皮;能', '罷;皮', 'null', NULL, '熊;能', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6466,7 +6466,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6416, '燬', 'huǐ', '第十卷', '火
 INSERT INTO `shuowen_voice_revel` VALUES (6417, '燹', 'xiǎn', '第十卷', '火部', '火也。从火，豩聲。', '火;豩', '豩', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6418, '焌', 'jùn', '第十卷', '火部', '然火也。从火，夋聲。周禮曰「遂䶴其焌」。焌火在歬，㠯焞焯龜。', '火;夋', '夋', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6419, '尞', 'liào', '第十卷', '火部', '祡祭天也。从火昚。昚，古文愼字，祭天所㠯愼也。', '火;昚', '', 'null', NULL, '火;昚', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6420, '然', 'rán', '第十卷', '火部', '燒也。从火，肰聲。或从艸難。', '火;肰;艸;難', '肰;難', 'null', NULL, '火;艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6420, '然;𤉷', 'rán', '第十卷', '火部', '燒也。从火，肰聲。或从艸難。', '火;肰;艸;難', '肰;難', 'null', NULL, '火;艸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6421, '爇;𤑔', 'ruò', '第十卷', '火部', '燒也。从火，蓺聲。春秋傳曰「𤑔僖負羈」。', '火;蓺', '蓺', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6422, '燔', 'fán', '第十卷', '火部', '𤑔也。从火，番聲。', '火;番', '番', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6423, '燒', 'shāo', '第十卷', '火部', '𤑔也。从火，堯聲。', '火;堯', '堯', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6487,7 +6487,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6437, '爚', 'yuè', '第十卷', '火
 INSERT INTO `shuowen_voice_revel` VALUES (6438, '熛', 'biāo', '第十卷', '火部', '火飛也。从火，票聲。讀若摽。', '火;票;摽', '票;摽', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6439, '熇', 'hè', '第十卷', '火部', '火熱也。从火，高聲。詩曰「多將熇熇」。', '火;高', '高', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6440, '烄', 'jiǎo', '第十卷', '火部', '交木然也。从火，交聲。', '火;交', '交', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6441, '𤇇', 'chán', '第十卷', '火部', '小𤑔也。从火，𢆉聲。詩曰「憂心如𤇇」。', '火;𢆉', '𢆉', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6441, '𤇇;㶣', 'chán', '第十卷', '火部', '小𤑔也。从火，𢆉聲。詩曰「憂心如𤇇」。', '火;𢆉', '𢆉', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6442, '燋', 'jiāo', '第十卷', '火部', '所㠯然持火也。从火，焦聲。', '火;焦', '焦', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6443, '炭', 'tàn', '第十卷', '火部', '燒木未灰。也。从火，屵聲。', '火;屵', '屵', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6444, '𤈩', 'zhǎ', '第十卷', '火部', '束炭也。从火，差省聲。讀若齹。', '火;差;齹', '差;齹', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6503,9 +6503,9 @@ INSERT INTO `shuowen_voice_revel` VALUES (6453, '燀', 'chǎn', '第十卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (6454, '炊', 'chuī', '第十卷', '火部', '爨也。从火，吹省聲。', '火;吹', '吹', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6455, '烘', 'hōnɡ', '第十卷', '火部', '尞也。从火，共聲。詩曰「卬烘于煁」。', '火;共', '共', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6456, '齌', 'jì', '第十卷', '火部', '炊鬴疾也。从火，齊聲。', '火;齊', '齊', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6457, '熹', 'xī', '第十卷', '火部', '炙也。从火，喜聲。', '火;喜', '喜', 'null', NULL, '火', 'null', 'null', 'null', 'null', '旭≌煦≌熹≌熙', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6457, '熹;熺', 'xī', '第十卷', '火部', '炙也。从火，喜聲。', '火;喜', '喜', 'null', NULL, '火', 'null', 'null', 'null', 'null', '旭≌煦≌熹≌熙', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6458, '煎', 'jiān', '第十卷', '火部', '熬也。从火，前聲。', '火;前', '前', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6459, '熬', 'áo', '第十卷', '火部', '乾煎也。从火，敖聲。熬或从麥作。', '火;敖;麥', '敖', 'null', NULL, '火;麥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6459, '熬;䵅', 'áo', '第十卷', '火部', '乾煎也。从火，敖聲。熬或从麥作。', '火;敖;麥', '敖', 'null', NULL, '火;麥', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6460, '炮', 'páo', '第十卷', '火部', '毛炙肉也。从火，包聲。', '火;包', '包', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6461, '𤇯', 'ēn', '第十卷', '火部', '炮炙也。㠯微火溫肉。从火，衣聲。', '火;衣', '衣', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6462, '𤎯', 'zēnɡ', '第十卷', '火部', '置魚筩中炙也。从火，曾聲。', '火;曾', '曾', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6533,9 +6533,9 @@ INSERT INTO `shuowen_voice_revel` VALUES (6483, '票', 'biāo', '第十卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (6484, '㷮', 'zāo', '第十卷', '火部', '𤓪也。从火，曹聲。', '火;曹', '曹', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6485, '𤓪;焦;𤊙', 'jiāo', '第十卷', '火部', '火所傷也。从火，雥聲。或省。', '火;雥', '雥', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6486, '烖;灾;災', 'zāi', '第十卷', '火部', '天火曰烖。从火，𢦒聲。或从宀火。籒文从𡿧。古文从才。', '火;𢦒;宀;火;𡿧;才', '𢦒;𡿧;才', 'null', NULL, '火;宀;火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6487, '煙', 'yān', '第十卷', '火部', '火气也。从火，垔聲。或从因。籒文从宀。古文。', '火;垔;因;宀', '垔;因', 'null', NULL, '火;宀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6487, '煙;烟', 'yān', '第十卷', '火部', '火气也。从火，垔聲。或从因。籒文从宀。古文。', '火;垔;因;宀', '垔;因', 'null', NULL, '火;宀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6488, '焆', 'yè', '第十卷', '火部', '焆焆，煙皃。从火，肙聲。', '火;肙', '肙', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6489, '煴', 'yūn', '第十卷', '火部', '鬱煙也。从火，𥁕聲。', '火;𥁕', '𥁕', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6489, '煴;熅', 'yūn', '第十卷', '火部', '鬱煙也。从火，𥁕聲。', '火;𥁕', '𥁕', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6490, '𤈑', 'dí', '第十卷', '火部', '望見火皃。从火，㫐聲。讀若「馰顙」之馰。', '火;㫐;馰', '㫐;馰', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6491, '燂', 'tán', '第十卷', '火部', '火熱也。从火，覃聲。', '火;覃', '覃', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6492, '焞', 'tūn', '第十卷', '火部', '朙也。从火，𦎫聲。春秋傳曰「焞燿天地」。', '火;𦎫', '𦎫', 'null', NULL, '火', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6655,7 +6655,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6605, '夽', 'yǔn', '第十卷', '大
 INSERT INTO `shuowen_voice_revel` VALUES (6606, '奃', 'dī', '第十卷', '大部', '大也。从大，氐聲。讀若氐。', '大;氐', '氐', 'null', NULL, '大', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6607, '𡗦', 'jiè', '第十卷', '大部', '大也。从大，介聲。讀若葢。', '大;介;葢', '介;葢', 'null', NULL, '大', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6608, '𡗼', 'xiè', '第十卷', '大部', '瞋大聲也。从大，此聲。', '大;此', '此', 'null', NULL, '大', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6609, '㚕', 'bì', '第十卷', '大部', '大也。从大，弗聲。讀若「予違汝弻」。', '大;弗;弻', '弗;弻', 'null', NULL, '大', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6609, '㚕;𡘉', 'bì', '第十卷', '大部', '大也。从大，弗聲。讀若「予違汝弻」。', '大;弗;弻', '弗;弻', 'null', NULL, '大', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6610, '𡗥', 'chún', '第十卷', '大部', '大也。从大，屯聲。讀若鶉[𨿡]。', '大;屯;𨿡', '屯;𨿡', 'null', NULL, '大', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6611, '契', 'qì', '第十卷', '大部', '大約也。从大，㓞聲。易曰「後世聖人，易之㠯書契」。', '大;㓞', '㓞', 'null', NULL, '大', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6612, '夷', 'yí', '第十卷', '大部', '東方之人也。从大，从弓。', '大;弓', '', 'null', NULL, '大;弓', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
@@ -6677,7 +6677,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6627, '尢', 'wānɡ', '第十卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (6628, '尳', 'hú', '第十卷', '尢部', '厀病也。从尢骨。骨亦聲。', '尢;骨', '骨', 'null', NULL, '尢', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6629, '㝿', 'bǒ', '第十卷', '尢部', '蹇也。从尢，皮聲。', '尢;皮', '皮', 'null', NULL, '尢', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6630, '㝾', 'zuǒ', '第十卷', '尢部', '㝾㝾，行不正也。从尢，左聲。', '尢;左', '左', 'null', NULL, '尢', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6631, '㞁', 'yào', '第十卷', '尢部', '行不正也。从尢，㫐聲。讀若燿。', '尢;㫐;燿', '㫐;燿', 'null', NULL, '尢', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6631, '㞁;𡯣', 'yào', '第十卷', '尢部', '行不正也。从尢，㫐聲。讀若燿。', '尢;㫐;燿', '㫐;燿', 'null', NULL, '尢', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6632, '尲', 'ɡān', '第十卷', '尢部', '尲尬，行不正也。从尢，兼聲。', '尢;兼', '兼', 'null', NULL, '尢', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6633, '尬', 'jiè', '第十卷', '尢部', '尲尬也。从尢，介聲。', '尢;介', '介', 'null', NULL, '尢', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6634, '尥', 'liào', '第十卷', '尢部', '行脛相交也。从尢，勺聲。', '尢;勺', '勺', 'null', NULL, '尢', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6702,7 +6702,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6652, '亢;頏', 'ɡānɡ', '第十卷
 INSERT INTO `shuowen_voice_revel` VALUES (6653, '𡕬', 'hànɡ', '第十卷', '亢部', '直項莽𡕬皃。从亢，从夋。夋，倨也。亢亦聲。', '亢;夋', '亢', 'null', NULL, '夋', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6654, '夲', 'tāo', '第十卷', '夲部', '進趣也。从大十。大十者，猶兼十人也。凡夲之屬皆从夲。讀若滔。', '大;十;滔', '滔', 'null', NULL, '大;十', 'null', 'null', 'null', 'null', '️', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6655, '𠦪', 'hū', '第十卷', '夲部', '疾也。从夲，卉聲。', '夲;卉', '卉', 'null', NULL, '夲', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6656, '𣉱', 'bào', '第十卷', '夲部', '疾有所趣也。从日出夲廾之。', '日;出;夲;廾', '', 'null', NULL, '日;出;夲;廾', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6656, '𣉱;暴', 'bào', '第十卷', '夲部', '疾有所趣也。从日出夲廾之。', '日;出;夲;廾', '', 'null', NULL, '日;出;夲;廾', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6657, '𡴞', 'yǔn', '第十卷', '夲部', '進也。从夲，从屮，允聲。易曰「𡴞升大吉」。', '夲;屮;允', '允', 'null', NULL, '夲;屮', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6658, '奏', 'zòu', '第十卷', '夲部', '奏，進也。从夲，从廾，从屮。屮，上進之義。古文[尸釆廾]。亦古文[釆攴]。', '夲;廾;屮;尸;釆;廾;釆;攴', '', 'null', NULL, '夲;廾;屮;尸;釆;廾;釆;攴', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6659, '皋;臯', 'ɡāo', '第十卷', '夲部', '气皋白之進也。从白夲。禮「祝曰皋，登謌曰奏」，故皋、奏皆从夲。周禮曰「詔來𡔷皋舞」。', '白;夲', '', 'null', NULL, '白;夲', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
@@ -6746,7 +6746,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6696, '替', 'tì', '第十卷', '竝�
 INSERT INTO `shuowen_voice_revel` VALUES (6697, '𦥓;囟', 'xìn', '第十卷', '𦥓部', '頭會匘葢也。象形。凡𦥓之屬皆从𦥓。或从肉宰。古文𦥓字。', '肉;宰', '', 'null', NULL, '肉;宰', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6698, '巤', 'liè', '第十卷', '𦥓部', '毛巤也。象髮在𦥓上。及毛髮巤巤之形也。此與籒文子字同意。', '𦥓', '', 'null', NULL, '𦥓', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6699, '𣬈;毗;𣬉;毘', 'pí', '第十卷', '𦥓部', '毗臍，人臍也。从𦥓。𦥓取通气也。从比聲。', '𦥓;比', '比', 'null', NULL, '𦥓', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6700, '思', 'sī', '第十卷', '思部', '䜭也。从心，从𦥓。凡思之屬皆从思。', '心;𦥓', '', 'null', NULL, '心;𦥓', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6700, '思;恖', 'sī', '第十卷', '思部', '䜭也。从心，从𦥓。凡思之屬皆从思。', '心;𦥓', '', 'null', NULL, '心;𦥓', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6701, '慮', 'lǜ', '第十卷', '思部', '謀思也。从思，虍聲。', '思;虍', '虍', 'null', NULL, '思', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6702, '心', 'xīn', '第十卷', '心部', '人心。土臧也。在身之中象形。博士說㠯爲火臧。凡心之屬皆从心。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6703, '息', 'xī', '第十卷', '心部', '喘也。从心自。', '心;自', '', 'null', NULL, '心;自', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
@@ -6759,7 +6759,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6709, '悳;𢛳', 'dé', '第十卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (6710, '應', 'yīnɡ', '第十卷', '心部', '當也。从心，䧹聲。', '心;䧹', '䧹', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6711, '愼;慎;昚', 'shèn', '第十卷', '心部', '謹也。从心，眞聲。古文。', '心;眞', '眞', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6712, '忠', 'zhōnɡ', '第十卷', '心部', '敬也。盡心曰忠。从心，中聲。', '心;中', '中', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6713, '愨', 'què', '第十卷', '心部', '謹也。从心，㱿聲。', '心;㱿', '㱿', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6713, '愨;慤', 'què', '第十卷', '心部', '謹也。从心，㱿聲。', '心;㱿', '㱿', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6714, '𢤧', 'miǎo', '第十卷', '心部', '美也。从心，䫉聲。', '心;䫉', '䫉', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6715, '快', 'kuài', '第十卷', '心部', '喜也。从心，夬聲。一曰疾也。', '心;夬', '夬', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6716, '愷', 'kǎi', '第十卷', '心部', '樂也。从心，豈聲。', '心;豈', '豈', 'null', NULL, '心', 'null', 'null', 'null', 'null', '重出应删', 0x31, 'null', 'null', 'null');
@@ -6775,7 +6775,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6725, '惲', 'yùn', '第十卷', '心
 INSERT INTO `shuowen_voice_revel` VALUES (6726, '惇', 'dūn', '第十卷', '心部', '厚也。从心，𦎫聲。', '心;𦎫', '𦎫', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6727, '忼', 'kànɡ', '第十卷', '心部', '忼慨也。忼慨壯士，不得志於心也。从心，亢聲。易曰「忼龍有悔」。', '心;亢', '亢', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6728, '慨', 'kǎi', '第十卷', '心部', '忼慨也。从心，漑聲。', '心;漑', '漑', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6729, '𢛕', 'kǔn', '第十卷', '心部', '𢛕愊，至誠也。从心，囷聲。', '心;囷', '囷', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6729, '𢛕;悃', 'kǔn', '第十卷', '心部', '𢛕愊，至誠也。从心，囷聲。', '心;囷', '囷', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6730, '愊', 'bì', '第十卷', '心部', '𢛕愊也。从心，畐聲。', '心;畐', '畐', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6731, '愿', 'yuàn', '第十卷', '心部', '謹也。从心，原聲。', '心;原', '原', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6732, '慧', 'huì', '第十卷', '心部', '儇也。从心，彗聲。', '心;彗', '彗', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6784,7 +6784,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6734, '恔', 'xiáo', '第十卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (6735, '瘱', 'yì', '第十卷', '心部', '靜也。从心，㾜聲。', '心;㾜', '㾜', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6736, '悊', 'zhé', '第十卷', '心部', '敬也。从心，㪿聲。', '心;㪿', '㪿', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6737, '悰', 'cónɡ', '第十卷', '心部', '樂也。从心，宗聲。', '心;宗', '宗', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6738, '𢙖', 'tián', '第十卷', '心部', '安也。从心，㐁聲。', '心;㐁', '㐁', 'null', NULL, '心', 'null', 'null', 'null', 'null', '谈部', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6738, '𢙖;恬', 'tián', '第十卷', '心部', '安也。从心，㐁聲。', '心;㐁', '㐁', 'null', NULL, '心', 'null', 'null', 'null', 'null', '谈部', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6739, '恢', 'huī', '第十卷', '心部', '大也。从心，灰聲。', '心;灰', '灰', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6740, '恭', 'ɡōnɡ', '第十卷', '心部', '肅也。从心，共聲。', '心;共', '共', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6741, '憼', 'jǐnɡ', '第十卷', '心部', '敬也。从心敬。敬亦聲。', '心;敬', '敬', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6855,14 +6855,14 @@ INSERT INTO `shuowen_voice_revel` VALUES (6805, '愒', 'qì', '第十卷', '心�
 INSERT INTO `shuowen_voice_revel` VALUES (6806, '㦌', 'hū', '第十卷', '心部', '精戇也。从心，毳聲。', '心;毳', '毳', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6807, '𢘁', 'xiān', '第十卷', '心部', '疾利口也。从心，从冊。詩曰「相時𢘁民」。', '心;冊', '', 'null', NULL, '心;冊', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6808, '急', 'jí', '第十卷', '心部', '褊也。从心，及聲。', '心;及', '及', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6809, '㦚', 'biǎn', '第十卷', '心部', '𢝊也。从心，辡聲。一曰急也。', '心;辡', '辡', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6809, '㦚;𢣑', 'biǎn', '第十卷', '心部', '𢝊也。从心，辡聲。一曰急也。', '心;辡', '辡', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6810, '㥒', 'cǎi biàn', '第十卷', '心部', '姦也。从心，釆聲。一曰急也。', '心;釆', '釆', 'null', NULL, '心', 'null', 'null', 'null', 'null', '政宇调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6811, '㥛', 'jí', '第十卷', '心部', '急性也。从心，亟聲。一曰謹重皃。', '心;亟', '亟', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6812, '懁', 'juàn', '第十卷', '心部', '急也。从心，瞏聲。讀若絹。', '心;瞏;絹', '瞏;絹', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6813, '𢙼', 'xìnɡ', '第十卷', '心部', '恨也。从心，巠聲。', '心;巠', '巠', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6814, '𢛆', 'xián', '第十卷', '心部', '急也。从心弦。弦亦聲。河南 密縣有「𢛆亭」。', '心;弦', '弦', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6815, '慓', 'piào', '第十卷', '心部', '疾也。从心，票聲。', '心;票', '票', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6816, '愞', 'nuò', '第十卷', '心部', '駑弱也。从心，耎聲。', '心;耎', '耎', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6816, '愞;懦', 'nuò', '第十卷', '心部', '駑弱也。从心，耎聲。', '心;耎', '耎', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6817, '恁', 'rèn', '第十卷', '心部', '下齎也。从心，任聲。', '心;任', '任', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6818, '𢘋', 'tè', '第十卷', '心部', '失常也。从心，代聲。', '心;代', '代', 'null', NULL, '心', 'null', 'null', 'null', 'null', '应删', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6819, '怚', 'jù', '第十卷', '心部', '驕也。从心，且聲。', '心;且', '且', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6883,9 +6883,9 @@ INSERT INTO `shuowen_voice_revel` VALUES (6833, '怪', 'ɡuài', '第十卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (6834, '𢠽', 'dànɡ', '第十卷', '心部', '放也。从心，象聲。', '心;象', '象', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6835, '慢', 'màn', '第十卷', '心部', '憜也。从心，曼聲。', '心;曼', '曼', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6836, '怠', 'dài', '第十卷', '心部', '慢也。从心，台聲。', '心;台', '台', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6837, '懈', 'xiè', '第十卷', '心部', '怠也。从心，解聲。', '心;解', '解', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6837, '懈;𢢣', 'xiè', '第十卷', '心部', '怠也。从心，解聲。', '心;解', '解', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6838, '憜;惰;媠', 'duò', '第十卷', '心部', '不敬也。从心，𡐦省聲。春秋傳曰「執玉憜」。憜或省𨸏。古文[女]。', '心;𡐦;女', '𡐦', 'null', NULL, '心;女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6839, '𢠰', 'sǒnɡ', '第十卷', '心部', '驚也。从心，從聲。讀若悚[竦]。', '心;從;竦', '從;竦', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6839, '𢠰;慫', 'sǒnɡ', '第十卷', '心部', '驚也。从心，從聲。讀若悚[竦]。', '心;從;竦', '從;竦', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6840, '怫', 'fú', '第十卷', '心部', '𩰪也。从心，弗聲。', '心;弗', '弗', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6841, '𢗊;恝', 'xiè', '第十卷', '心部', '忽也。从心，介聲。孟子曰「孝子之心，不若是𢗊」。', '心;介', '介', '㓞', '瘛从恝，即𢗊。', '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6842, '忽', 'hū', '第十卷', '心部', '忘也。从心，勿聲。', '心;勿', '勿', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6912,7 +6912,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6862, '惑', 'huò', '第十卷', '心
 INSERT INTO `shuowen_voice_revel` VALUES (6863, '怋', 'hūn', '第十卷', '心部', '怓也。从心，民聲。', '心;民', '民', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6864, '怓', 'náo', '第十卷', '心部', '亂也。从心，奴聲。詩曰「㠯謹怋怓」。', '心;奴', '奴', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6865, '惷', 'chǔn', '第十卷', '心部', '亂也。从心，春聲。春秋傳曰「王室日惷惷焉」。一曰㫗也。', '心;春', '春', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6866, '惛', 'hūn', '第十卷', '心部', '不憭也。从心，昏聲。', '心;昏', '昏', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6866, '惛;惽', 'hūn', '第十卷', '心部', '不憭也。从心，昏聲。', '心;昏', '昏', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6867, '忥', 'xì', '第十卷', '心部', '癡皃。从心，气聲。', '心;气', '气', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6868, '㦣', 'wèi', '第十卷', '心部', '㝱言不慧也。从心，衛聲。', '心;衛', '衛', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6869, '憒', 'kuì', '第十卷', '心部', '亂也。从心，貴聲。', '心;貴', '貴', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6929,7 +6929,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6879, '惡', 'è', '第十卷', '心�
 INSERT INTO `shuowen_voice_revel` VALUES (6880, '憎', 'zēnɡ', '第十卷', '心部', '惡也。从心，曾聲。', '心;曾', '曾', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6881, '㤄', 'pèi', '第十卷', '心部', '恨怒也。从心，𣎵聲。詩曰「視我㤄㤄」。', '心;𣎵', '𣎵', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6882, '𢖫', 'yì', '第十卷', '心部', '怒也。从心刀。讀若顡。', '心;刀;顡', '顡', 'null', NULL, '心;刀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6883, '𢞶', 'xié', '第十卷', '心部', '怨恨也。从心，𧰲聲。讀若膎。', '心;𧰲;膎', '𧰲;膎', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6883, '𢞶;㥟', 'xié', '第十卷', '心部', '怨恨也。从心，𧰲聲。讀若膎。', '心;𧰲;膎', '𧰲;膎', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6884, '恨', 'hèn', '第十卷', '心部', '怨也。从心，艮聲。', '心;艮', '艮', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6885, '懟', 'duì', '第十卷', '心部', '怨也。从心，對聲。', '心;對', '對', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6886, '悔', 'huǐ', '第十卷', '心部', '悔，恨也。从心，每聲。', '心;每', '每', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6949,7 +6949,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6899, '慘', 'cǎn', '第十卷', '心
 INSERT INTO `shuowen_voice_revel` VALUES (6900, '悽', 'qī', '第十卷', '心部', '痛也。从心，妻聲。', '心;妻', '妻', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6901, '恫', 'tōnɡ', '第十卷', '心部', '痛也。从心，同聲。一曰呻吟也。', '心;同', '同', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6902, '悲', 'bēi', '第十卷', '心部', '痛也。从心，非聲。', '心;非', '非', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6903, '惻', 'cè', '第十卷', '心部', '痛也。从心，則聲。', '心;則', '則', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6903, '惻;𢝔', 'cè', '第十卷', '心部', '痛也。从心，則聲。', '心;則', '則', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6904, '惜', 'xī', '第十卷', '心部', '痛也。从心，昔聲。', '心;昔', '昔', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6905, '愍', 'mǐn', '第十卷', '心部', '痛也。从心，敃聲。', '心;敃', '敃', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6906, '慇', 'yīn', '第十卷', '心部', '痛也。从心，殷聲。', '心;殷', '殷', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -6979,7 +6979,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (6929, '𢟤', 'lí', '第十卷', '心
 INSERT INTO `shuowen_voice_revel` VALUES (6930, '𢖳', 'xū', '第十卷', '心部', '𢝊也。从心，于聲。讀若吁。', '心;于;吁', '于;吁', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6931, '忡', 'chōnɡ', '第十卷', '心部', '𢝊也。从心，中聲。詩曰「憂心忡忡」。', '心;中', '中', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6932, '悄', 'qiǎo', '第十卷', '心部', '𢝊也。从心，肖聲。詩曰「憂心悄悄」。', '心;肖', '肖', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (6933, '慽', 'qī', '第十卷', '心部', '𢝊也。从心，戚聲。', '心;戚', '戚', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (6933, '慽;慼', 'qī', '第十卷', '心部', '𢝊也。从心，戚聲。', '心;戚', '戚', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6934, '𢝊', 'yōu', '第十卷', '心部', '愁也。从心頁。𢝊心形於顔面，故从頁。', '心;頁', '', 'null', NULL, '心;頁', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6935, '患', 'huàn', '第十卷', '心部', '𢝊也。从心，上貫[丨]吅。吅亦聲。古文从關省。亦古文患。', '心;丨;吅;關', '吅;關', 'null', NULL, '心;丨', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (6936, '恇', 'kuānɡ', '第十卷', '心部', '㹤也。从心匡。匡亦聲。', '心;匡', '匡', 'null', NULL, '心', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7133,7 +7133,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7083, '濰', 'wéi', '第十一卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (7084, '浯', 'wú', '第十一卷', '水部', '浯水。出琅邪 靈門 壺山，東北入濰。从水，吾聲。', '水;吾', '吾', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7085, '汶', 'wèn', '第十一卷', '水部', '汶水。出琅邪 朱虚 東泰山，東入濰。从水，文聲。桑欽說，汶水出泰山 萊蕪，西南入泲。', '水;文', '文', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7086, '治', 'zhì', '第十一卷', '水部', '治水。出東萊 曲城 陽丘山，南入海。从水，台聲。', '水;台', '台', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7087, '浸', 'jìn', '第十一卷', '水部', '浸水。出魏郡 武安，東北入呼沱水。从水，𡨞聲。𡨞，籒文寑。', '水;𡨞', '𡨞', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7087, '浸;寖', 'jìn', '第十一卷', '水部', '浸水。出魏郡 武安，東北入呼沱水。从水，𡨞聲。𡨞，籒文寑。', '水;𡨞', '𡨞', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7088, '湡', 'yú', '第十一卷', '水部', '湡水。出趙國 襄國之西山，東北入浸。从水，禺聲。', '水;禺', '禺', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7089, '㴲', 'sī', '第十一卷', '水部', '㴲水。出趙國 襄國，東入湡。从水，虒聲。', '水;虒', '虒', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7090, '渚', 'zhǔ', '第十一卷', '水部', '渚水。在常山 中丘 逢山，東入湡。从水，者聲。爾雅曰「小州曰渚」。', '水;者', '者', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7281,7 +7281,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7231, '涅', 'niè', '第十一卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (7232, '滋', 'zī', '第十一卷', '水部', '益也。从水，茲聲。一曰滋水，出牛㱃山 白陘谷，東入呼沱。', '水;茲', '茲', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7233, '𣷤', 'hū', '第十一卷', '水部', '靑黑皃。从水。曶聲。', '水;曶', '曶', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7234, '浥', 'yì', '第十一卷', '水部', '溼也。从水，邑聲。', '水;邑', '邑', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7235, '沙', 'shā', '第十一卷', '水部', '水散石也。从水少。水少沙見。楚東有沙水。譚長說沙或从尐。', '水;少;尐', '', 'null', NULL, '水;少;尐', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7235, '沙;𣲡', 'shā', '第十一卷', '水部', '水散石也。从水少。水少沙見。楚東有沙水。譚長說沙或从尐。', '水;少;尐', '', 'null', NULL, '水;少;尐', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7236, '瀨', 'lài', '第十一卷', '水部', '水流沙上也。从水，賴聲。', '水;賴', '賴', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7237, '濆', 'fén', '第十一卷', '水部', '水厓也。从水，賁聲。詩曰「敦彼淮濆」。', '水;賁', '賁', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7238, '涘', 'sì', '第十一卷', '水部', '水厓也。从水，矣聲。周書曰「王出涘」。', '水;矣', '矣', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7291,15 +7291,15 @@ INSERT INTO `shuowen_voice_revel` VALUES (7241, '漘', 'chún', '第十一卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (7242, '浦', 'pǔ', '第十一卷', '水部', '水瀕也。从水，甫聲。', '水;甫', '甫', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7243, '沚', 'zhǐ', '第十一卷', '水部', '小渚曰沚。从水，止聲。詩曰「于沼于沚」。', '水;止', '止', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7244, '沸', 'fèi', '第十一卷', '水部', '畢沸，濫泉也。从水，弗聲。', '水;弗', '弗', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7245, '潀', 'cónɡ', '第十一卷', '水部', '小水入大水曰潀。从水，眾聲。詩曰「鳧鷖在潀」。', '水;眾', '眾', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7245, '潀;潨', 'cónɡ', '第十一卷', '水部', '小水入大水曰潀。从水，眾聲。詩曰「鳧鷖在潀」。', '水;眾', '眾', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7246, '派', 'pài', '第十一卷', '水部', '別水也。从水𠂢。𠂢亦聲。', '水;𠂢', '𠂢', 'null', NULL, '水', 'null', 'null', 'null', 'null', '应删', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7247, '汜', 'sì', '第十一卷', '水部', '水別復入水也。从水，巳聲。詩曰「江有汜」。一曰汜，竆瀆也。', '水;巳', '巳', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7248, '湀', 'ɡuǐ', '第十一卷', '水部', '湀辟，流水處也。从水，癸聲。', '水;癸', '癸', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7249, '滎;濙', 'xínɡ', '第十一卷', '水部', '滎濘，絕小水也。从水，熒省聲。濙滎或不省。', '水;熒', '熒', 'null', NULL, '水', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7250, '濘', 'nìnɡ', '第十一卷', '水部', '滎濘也。从水，寧聲。', '水;寧', '寧', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7251, '瀅', 'yíng', '第十一卷', '水部', '淸水也。从水，瑩聲。', '水;瑩', '瑩', 'null', NULL, '水', 'null', 'null', 'null', 'null', '政宇应补', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7252, '洼;漥', 'wā', '第十一卷', '水部', '深池也。从水，圭聲。洼或从穴。', '水;圭;穴', '圭', 'null', NULL, '水;穴', 'null', 'null', 'null', 'null', '重文并入', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7253, '漥', 'wā', '第十一卷', '水部', '淸水也。从水，窐聲。一曰窊也。', '水;窐', '窐', 'null', NULL, '水', 'null', 'null', 'null', 'null', '政宇应删', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7252, '洼;漥;窪', 'wā', '第十一卷', '水部', '深池也。从水，圭聲。洼或从穴。', '水;圭;穴', '圭', 'null', NULL, '水;穴', 'null', 'null', 'null', 'null', '重文并入', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7253, '漥;窪', 'wā', '第十一卷', '水部', '淸水也。从水，窐聲。一曰窊也。', '水;窐', '窐', 'null', NULL, '水', 'null', 'null', 'null', 'null', '政宇应删', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7254, '潢', 'huánɡ', '第十一卷', '水部', '積水池也。从水，黃聲。', '水;黃', '黃', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7255, '沼', 'zhǎo', '第十一卷', '水部', '池也。从水，召聲。', '水;召', '召', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7256, '池', 'chí', '第十一卷', '水部', '陂也。从水，也聲。', '水;也', '也', 'null', NULL, '水', 'null', 'null', 'null', 'null', '应补', 0x31, 'null', 'null', 'null');
@@ -7309,7 +7309,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7259, '洫', 'xù', '第十一卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (7260, '溝', 'ɡōu', '第十一卷', '水部', '水瀆也。廣四尺，深四尺。从水，冓聲。', '水;冓', '冓', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7261, '瀆', 'dú', '第十一卷', '水部', '溝也。从水，𧷏聲。一曰邑中曰溝。', '水;𧷏', '𧷏', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7262, '渠', 'qú', '第十一卷', '水部', '水所居也。从水，柜聲。', '水;柜', '柜', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7263, '瀶', 'lín', '第十一卷', '水部', '谷也。从水，臨聲。讀若林。一曰寒也。', '水;臨;林', '臨;林', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7263, '瀶;𤄈', 'lín', '第十一卷', '水部', '谷也。从水，臨聲。讀若林。一曰寒也。', '水;臨;林', '臨;林', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7264, '湄', 'méi', '第十一卷', '水部', '水艸交爲湄。从水，眉聲。', '水;眉', '眉', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7265, '洐', 'xínɡ', '第十一卷', '水部', '溝行水也。从水行。', '水;行', '行', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7266, '㵎;澗', 'jiàn', '第十一卷', '水部', '山夾水也。从水，閒聲。一曰㵎水，出弘農 新安，東南入雒。', '水;閒', '閒', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7321,7 +7321,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7271, '決', 'jué', '第十一卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (7272, '灓', 'luán', '第十一卷', '水部', '屚流也。从水，䜌聲。', '水;䜌', '䜌', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7273, '滴', 'dī', '第十一卷', '水部', '水注也。从水，啻聲。', '水;啻', '啻', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7274, '注', 'zhù', '第十一卷', '水部', '灌也。从水，主聲。', '水;主', '主', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7275, '𣵽;沃', 'wò', '第十一卷', '水部', '灌也。从水，芺聲。', '水;芺', '芺', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7275, '𣵽;沃;𦰚', 'wò', '第十一卷', '水部', '灌也。从水，芺聲。', '水;芺', '芺', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7276, '㳻', 'zé', '第十一卷', '水部', '所㠯𢹬水也。从水，昔聲。漢律曰「及其門首洒㳻」。', '水;昔', '昔', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7277, '澨', 'shì', '第十一卷', '水部', '埤增水邊土，人所止者。从水，筮聲。夏書曰「過三澨」。', '水;筮', '筮', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7278, '津', 'jīn', '第十一卷', '水部', '水渡也。从水，𦘔聲。古文津从舟淮[進]。', '水;𦘔;舟;進', '𦘔;進', 'null', NULL, '水;舟', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7384,7 +7384,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7334, '滯', 'zhì', '第十一卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (7335, '汦', 'zhǐ', '第十一卷', '水部', '箸止也。从水，氏聲。', '水;氏', '氏', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7336, '㶁', 'ɡuó', '第十一卷', '水部', '水裂去也。从水，虢聲。', '水;虢', '虢', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7337, '澌', 'sī', '第十一卷', '水部', '水索也。从水，斯聲。', '水;斯', '斯', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7338, '汽', 'qì', '第十一卷', '水部', '水涸也。从水，气聲。或曰泣下。詩曰「汽可小康」。', '水;气', '气', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7338, '汽;汔', 'qì', '第十一卷', '水部', '水涸也。从水，气聲。或曰泣下。詩曰「汽可小康」。', '水;气', '气', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7339, '涸', 'hé', '第十一卷', '水部', '渴也。从水，固聲。讀若「狐貈」之貈。涸亦从水鹵舟。', '水;固;貈;水;鹵;舟', '固;貈;舟', 'null', NULL, '水;水;鹵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7340, '消', 'xiāo', '第十一卷', '水部', '盡也。从水，肖聲。', '水;肖', '肖', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7341, '潐', 'jiào', '第十一卷', '水部', '盡也。从水，𤊙聲。', '水;𤊙', '𤊙', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7396,7 +7396,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7346, '洿', 'wū', '第十一卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (7347, '汙;污', 'wū', '第十一卷', '水部', '薉也。从水，于聲。一曰小池爲汙。一曰涂也。', '水;于', '于', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7348, '湫', 'jiǎo', '第十一卷', '水部', '隘下也。一曰有湫水在周地。春秋傳曰「晏子之宅湫隘」。安定 朝那有湫淵。从水，秋聲。', '水;秋', '秋', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7349, '潤', 'rùn', '第十一卷', '水部', '水曰潤下。从水，閏聲。', '水;閏', '閏', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7350, '準', 'zhǔn', '第十一卷', '水部', '平也。从水，隼聲。', '水;隼', '隼', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7350, '準;凖', 'zhǔn', '第十一卷', '水部', '平也。从水，隼聲。', '水;隼', '隼', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7351, '汀', 'tīnɡ', '第十一卷', '水部', '平也。从水，丁聲。汀或从平。', '水;丁;平', '丁', 'null', NULL, '水;平', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7352, '沑', 'nǜ', '第十一卷', '水部', '水吏也。又𥁕也。从水，丑聲。', '水;丑', '丑', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7353, '瀵', 'fèn', '第十一卷', '水部', '水漫也。从水，糞聲。讀若粉。爾雅曰「瀵大出尾下」。', '水;糞;粉', '糞;粉', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7416,9 +7416,9 @@ INSERT INTO `shuowen_voice_revel` VALUES (7366, '汏', 'tài', '第十一卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (7367, '㶕;𤄒', 'jiǎn', '第十一卷', '水部', '淅也。从水，𥳑聲。', '水;𥳑', '𥳑', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7368, '淅', 'xī', '第十一卷', '水部', '汏米也。从水，析聲。', '水;析', '析', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7369, '滰', 'jiànɡ', '第十一卷', '水部', '浚乾漬米也。从水，竟聲。孟子曰「孔子去齊，滰淅而行」。', '水;竟', '竟', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7370, '𣸈', 'sǒu', '第十一卷', '水部', '𣵽汏也。从水，叜聲。', '水;叜', '叜', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7370, '𣸈;溲', 'sǒu', '第十一卷', '水部', '𣵽汏也。从水，叜聲。', '水;叜', '叜', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7371, '浚', 'jùn', '第十一卷', '水部', '抒也。从水，夋聲。', '水;夋', '夋', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7372, '𤃹', 'lì', '第十一卷', '水部', '浚也。从水，磿聲。一曰水下滴𤃹也。', '水;磿', '磿', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7372, '𤃹;瀝', 'lì', '第十一卷', '水部', '浚也。从水，磿聲。一曰水下滴𤃹也。', '水;磿', '磿', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7373, '漉;淥', 'lù', '第十一卷', '水部', '浚也。从水，鹿聲。一曰水下皃也。漉或从录。', '水;鹿;录', '鹿;录', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7374, '潘', 'pān', '第十一卷', '水部', '淅米汁也。从水，番聲。一曰潘水，在河南 熒陽。', '水;番', '番', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7375, '灡', 'lán', '第十一卷', '水部', '潘也。从水，蘭聲。', '水;蘭', '蘭', 'null', NULL, '水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7506,7 +7506,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7456, '滁', 'chú', '第十一卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (7457, '洺', 'mínɡ', '第十一卷', '水部', '水名。从水，名聲。', '水;名', '名', 'null', NULL, '水', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7458, '潺', 'chán', '第十一卷', '水部', '水聲。从水，孱聲。', '水;孱', '孱', 'null', NULL, '水', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7459, '湲', 'yuán', '第十一卷', '水部', '潺湲，水聲。从水，爰聲。', '水;爰', '爰', 'null', NULL, '水', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7460, '濤', 'tāo', '第十一卷', '水部', '大波也。从水，壽聲。', '水;壽', '壽', 'null', NULL, '水', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7460, '濤;𣾭', 'tāo', '第十一卷', '水部', '大波也。从水，壽聲。', '水;壽', '壽', 'null', NULL, '水', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7461, '漵', 'xù', '第十一卷', '水部', '水浦也。从水，敘聲。', '水;敘', '敘', 'null', NULL, '水', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7462, '港', 'ɡǎnɡ', '第十一卷', '水部', '水派也。从水，䢽聲。', '水;䢽', '䢽', 'null', NULL, '水', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7463, '瀦', 'zhū', '第十一卷', '水部', '水所亭也。从水，豬聲。', '水;豬', '豬', 'null', NULL, '水', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
@@ -7526,12 +7526,12 @@ INSERT INTO `shuowen_voice_revel` VALUES (7476, '顰', 'pín', '第十一卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (7477, '𡿨;甽;畎', 'quǎn', '第十一卷', '𡿨部', '水小流也。周禮「匠人爲溝洫，枱廣五寸，二枱爲耦，一耦之伐。廣尺、深尺謂之𡿨」。倍𡿨謂之遂。倍遂曰溝。倍溝曰洫。倍洫曰巜。凡𡿨之屬皆从𡿨。古文𡿨从田川。田之川也。篆文𡿨从田，犬聲。六畎爲一畮。', '田;川;犬', '川;犬', 'null', NULL, '田', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7478, '巜', 'kuài', '第十一卷', '巜部', '水流澮澮也。方百里爲巜。廣二尋，深二仞。凡巜之屬皆从巜。', '澮', '澮', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7479, '粼', 'lín', '第十一卷', '巜部', '水生厓石閒粼粼也。从巜，粦聲。', '巜;粦', '粦', 'null', NULL, '巜', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7480, '川', 'chuān', '第十一卷', '川部', '毌穿通流水也。虞書曰「濬𡿨巜歫川」。言深𡿨巜之水會爲川也。凡川之屬皆从川。', '穿', '穿', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7480, '川;巛', 'chuān', '第十一卷', '川部', '毌穿通流水也。虞書曰「濬𡿨巜歫川」。言深𡿨巜之水會爲川也。凡川之屬皆从川。', '穿', '穿', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7481, '巠', 'jīnɡ', '第十一卷', '川部', '水𧖴也。从川在一下。一，地也。𡈼省聲。一曰水冥巠也。古文巠不省。', '川;一;𡈼', '𡈼', 'null', NULL, '川;一', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7482, '巟', 'huānɡ', '第十一卷', '川部', '水廣也。从川，亡聲。易曰「包巟用馮河」。', '川;亡', '亡', 'null', NULL, '川', 'null', 'null', 'null', 'null', '🤰漠', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7483, '𡿿', 'huò', '第十一卷', '川部', '水流皃。从川，或聲。', '川;或', '或', 'null', NULL, '川', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7484, '𡿯', 'yù', '第十一卷', '川部', '水流也。从川，曰聲。', '川;曰', '曰', 'null', NULL, '川', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7485, '𡿪', 'liè', '第十一卷', '川部', '水流𡿪𡿪也。从川，列省聲。', '川;列', '列', 'null', NULL, '川', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7485, '𡿪;𡿩', 'liè', '第十一卷', '川部', '水流𡿪𡿪也。从川，列省聲。', '川;列', '列', 'null', NULL, '川', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7486, '邕', 'yōnɡ', '第十一卷', '川部', '邑四方有水，自邕成池者是也。从川邑。讀若雝。籒文邕如此[呂]。', '川;邑;雝;呂', '雝', 'null', NULL, '川;邑;呂', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7487, '𡿧', 'zāi', '第十一卷', '川部', '害也。从一雝川。春秋傳曰「川雝爲澤凶」。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7488, '侃', 'kǎn', '第十一卷', '川部', '剛直也。从㐰。㐰，古文信也。从川，取其不舍晝夜。論語曰「子路侃侃如也」。', '㐰;川', '', 'null', NULL, '㐰;川', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
@@ -7544,9 +7544,9 @@ INSERT INTO `shuowen_voice_revel` VALUES (7494, '永', 'yǒnɡ', '第十一卷',
 INSERT INTO `shuowen_voice_revel` VALUES (7495, '羕', 'yànɡ', '第十一卷', '永部', '水長也。从永，羊聲。詩曰「江之羕矣」。', '永;羊', '永;羊', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7496, '𠂢', 'pài', '第十一卷', '𠂢部', '水之衺流別也。从反永。凡𠂢之屬皆从𠂢。讀若「稗縣」。', '永;稗', '稗', 'null', NULL, '永', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7497, '𧖴;脈;衇', 'mài', '第十一卷', '𠂢部', '血理分衺行體中者。从𠂢，从血。𧖴或从肉。籒文。', '𠂢;血;肉', '𠂢', 'null', NULL, '血;肉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7498, '覛', 'mì', '第十一卷', '𠂢部', '衺視也。从𠂢，从見。籒文。', '𠂢;見', '𠂢', 'null', NULL, '見', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7498, '覛;覓;𧵬', 'mì', '第十一卷', '𠂢部', '衺視也。从𠂢，从見。籒文。', '𠂢;見', '𠂢', 'null', NULL, '見', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7499, '谷', 'ɡǔ', '第十一卷', '谷部', '泉出通川爲谷。从水半見出於口。凡谷之屬皆从谷。', '水;口', '', 'null', NULL, '水;口', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7500, '谿', 'xī', '第十一卷', '谷部', '山𨽍無所通者。从谷，奚聲。', '谷;奚', '奚', 'null', NULL, '谷', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7500, '谿;豀', 'xī', '第十一卷', '谷部', '山𨽍無所通者。从谷，奚聲。', '谷;奚', '奚', 'null', NULL, '谷', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7501, '𧯆;豁', 'huò', '第十一卷', '谷部', '通谷也。从谷，害聲。', '谷;害', '害', 'null', NULL, '谷', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7502, '豂', 'liáo', '第十一卷', '谷部', '空谷也。从谷，翏聲。', '谷;翏', '翏', 'null', NULL, '谷', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7503, '豅', 'lónɡ', '第十一卷', '谷部', '大長谷也。从谷，龍聲。讀若聾。', '谷;龍;聾', '龍;聾', 'null', NULL, '谷', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7760,7 +7760,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7710, '臸', 'rì', '第十二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (7711, '西;棲;卤;卥', 'xī', '第十二卷', '西部', '鳥在巢上也。象形。日在西方而鳥西，故因㠯爲「東西」之西。凡西之屬皆从西。西或从木妻。古文西。籒文西。', '木;妻', '妻', 'null', NULL, '木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7712, '䙵', 'xī', '第十二卷', '西部', '姓也。从西，圭聲。', '西;圭', '圭', 'null', NULL, '西', 'null', 'null', 'null', 'null', '当删', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7713, '鹵', 'lǔ', '第十二卷', '鹵部', '西方鹹地也。从西省。象鹽形。安定有鹵縣。東方謂之㡿，西方謂之鹵。凡鹵之屬皆从鹵。', '西', '', 'null', NULL, '西', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7714, '𪉤', 'cuó', '第十二卷', '鹵部', '鹹𪉤也。从鹵，差省聲。河內謂之𪉤，沛人言若虘[䣜]。', '鹵;差;䣜', '差;䣜', 'null', NULL, '鹵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7714, '𪉤;𪉵', 'cuó', '第十二卷', '鹵部', '鹹𪉤也。从鹵，差省聲。河內謂之𪉤，沛人言若虘[䣜]。', '鹵;差;䣜', '差;䣜', 'null', NULL, '鹵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7715, '鹹', 'xián', '第十二卷', '鹵部', '銜也。北方味也。从鹵，咸聲。', '鹵;咸', '咸', 'null', NULL, '鹵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7716, '鹽', 'yán', '第十二卷', '鹽部', '鹵也。天生曰鹵，人生曰鹽。从鹵，監聲。古者夙沙初作䰞海鹽。凡鹽之屬皆从鹽。', '鹵;監', '監', 'null', NULL, '鹵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7717, '盬', 'ɡǔ', '第十二卷', '鹽部', '河東鹽池也。袤五十一里，廣七里，周百十六里。从鹽省，古聲。', '鹽;古', '古', 'null', NULL, '鹽', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7784,7 +7784,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7734, '閨', 'ɡuī', '第十二卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (7735, '閤', 'ɡé', '第十二卷', '門部', '門旁戸也。从門，合聲。', '門;合', '合', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7736, '闒', 'tà', '第十二卷', '門部', '樓上戸也。从門，𦐇聲。', '門;𦐇', '𦐇', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7737, '閈', 'hàn', '第十二卷', '門部', '閭也。从門，干聲。汝南 平輿里門曰閈。', '門;干', '干', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7738, '閭', 'lǘ', '第十二卷', '門部', '里門也。从門，呂聲。周禮「五家爲比，五比爲閭」。閭，侶也。二十五家相羣侶也。', '門;呂', '呂', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7738, '閭;櫚', 'lǘ', '第十二卷', '門部', '里門也。从門，呂聲。周禮「五家爲比，五比爲閭」。閭，侶也。二十五家相羣侶也。', '門;呂', '呂', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, '櫚字只见于说解，今暂附识于此', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7739, '閻;壛', 'yán', '第十二卷', '門部', '里中門也。从門，臽聲。閻或从土。', '門;臽;土', '臽', 'null', NULL, '門;土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7740, '闠', 'huì', '第十二卷', '門部', '市外門也。从門，貴聲。', '門;貴', '貴', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7741, '闉', 'yīn', '第十二卷', '門部', '闉闍，城曲重門也。从門，垔聲。詩曰「出其闉闍」。', '門;垔', '垔', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7826,7 +7826,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7776, '闚', 'kuī', '第十二卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (7777, '閃', 'shǎn', '第十二卷', '門部', '闚頭門中也。从人在門中。', '人;門', '', 'null', NULL, '人;門', 'null', 'null', 'null', 'null', '调序', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7778, '𨷻', 'lán', '第十二卷', '門部', '妄入宮亦也。从門，䜌聲。讀若闌。', '門;䜌;闌', '䜌;闌', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7779, '𨳌', 'zhèn', '第十二卷', '門部', '登也。从門𠄟。𠄟，古文下字。讀若「軍敶」之敶。', '門;𠄟;敶', '敶', 'null', NULL, '門;𠄟', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7780, '閱', 'yuè', '第十二卷', '門部', '具數於門中也。从門，兌聲。', '門;兌', '兌', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7780, '閱;閲', 'yuè', '第十二卷', '門部', '具數於門中也。从門，兌聲。', '門;兌', '兌', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7781, '闋', 'què', '第十二卷', '門部', '事巳𨳲門也。从門，癸聲。', '門;癸', '癸', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7782, '闞', 'kàn', '第十二卷', '門部', '望也。从門，敢聲。', '門;敢', '敢', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7783, '闊', 'kuò', '第十二卷', '門部', '疏也。从門。𣴠聲。', '門;𣴠', '𣴠', 'null', NULL, '門', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7857,7 +7857,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7807, '聲', 'shēnɡ', '第十二卷'
 INSERT INTO `shuowen_voice_revel` VALUES (7808, '聞', 'wén', '第十二卷', '耳部', '知聲也。从耳，門聲。古文从昏。', '耳;門;昏', '門;昏', 'null', NULL, '耳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7809, '聘', 'pìn', '第十二卷', '耳部', '訪也。从耳，甹聲。', '耳;甹', '甹', 'null', NULL, '耳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7810, '聾', 'lónɡ', '第十二卷', '耳部', '無聞也。从耳，龍聲。', '耳;龍', '龍', 'null', NULL, '耳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7811, '𢕈', 'sǒnɡ', '第十二卷', '耳部', '生而聾曰𢕈。从耳，從省聲。', '耳;從', '從', 'null', NULL, '耳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7811, '𢕈;聳', 'sǒnɡ', '第十二卷', '耳部', '生而聾曰𢕈。从耳，從省聲。', '耳;從', '從', 'null', NULL, '耳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7812, '䏁', 'zǎi', '第十二卷', '耳部', '益、梁之州謂聾爲䏁。秦、晉聽而不聰、聞而不𨔶謂之䏁。从耳，宰聲。', '耳;宰', '宰', 'null', NULL, '耳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7813, '聵', 'kuì', '第十二卷', '耳部', '聾也。从耳，貴聲。聵或从㕟。或从𧱏作。', '耳;貴;㕟;𧱏', '貴;㕟', 'null', NULL, '耳;𧱏', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7814, '聉', 'wà', '第十二卷', '耳部', '無知意也。从耳，出聲。讀若孼。', '耳;出;孼', '出;孼', 'null', NULL, '耳', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7887,7 +7887,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7837, '揖', 'yī', '第十二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (7838, '攘', 'rànɡ', '第十二卷', '手部', '推也。从手，襄聲。', '手;襄', '襄', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7839, '拱', 'ɡǒnɡ', '第十二卷', '手部', '斂手也。从手，共聲。', '手;共', '共', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7840, '撿', 'liǎn', '第十二卷', '手部', '拱也。从手，僉聲。', '手;僉', '僉', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7841, '𢳎;拜', 'bài', '第十二卷', '手部', '首至手也。从手𠦪。古文𢳎从二手。楊雄說，𢳎从㒳手下。', '手;𠦪;手;手;下', '', 'null', NULL, '手;𠦪;手;手;下', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7841, '𢳎;拜;𢱭', 'bài', '第十二卷', '手部', '首至手也。从手𠦪。古文𢳎从二手。楊雄說，𢳎从㒳手下。', '手;𠦪;手;手;下', '', 'null', NULL, '手;𠦪;手;手;下', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7842, '捾', 'wò', '第十二卷', '手部', '搯捾也。从手，官聲。一曰援也。', '手;官', '官', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7843, '搯', 'tāo', '第十二卷', '手部', '捾也。从手，舀聲。周書曰「師乃搯」。搯者，㩅兵刃㠯習擊刺也。詩曰「左旋右㩅」。', '手;舀', '舀', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7844, '㧬', 'ɡǒnɡ', '第十二卷', '手部', '𢹬也。从手，巩聲。', '手;巩', '巩', 'null', NULL, '手', 'null', 'null', 'null', 'null', '重出应删', 0x31, 'null', 'null', 'null');
@@ -7916,7 +7916,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7866, '抩', 'nán', '第十二卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (7867, '抪', 'bù', '第十二卷', '手部', '捫持也。从手，布聲。', '手;布', '布', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7868, '挾', 'xié', '第十二卷', '手部', '俾持也。从手，㚒聲。', '手;㚒', '㚒', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7869, '捫', 'mén', '第十二卷', '手部', '撫持也。从手，門聲。詩曰「莫捫朕舌」。', '手;門', '門', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7870, '㩜', 'lǎn', '第十二卷', '手部', '撮持也。从手，監聲。', '手;監', '監', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7870, '㩜;擥', 'lǎn', '第十二卷', '手部', '撮持也。从手，監聲。', '手;監', '監', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7871, '擸', 'liè', '第十二卷', '手部', '理持也。从手，巤聲。', '手;巤', '巤', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7872, '握', 'wò', '第十二卷', '手部', '搤持也。从手，屋聲。古文握。', '手;屋', '屋', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7873, '撣', 'dàn', '第十二卷', '手部', '提持也。从手，單聲。讀若「行遲驒驒」。', '手;單;驒', '單;驒', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7966,7 +7966,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7916, '接', 'jiē', '第十二卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (7917, '挏', 'dònɡ', '第十二卷', '手部', '推引也。从手，同聲。漢有挏馬官，作馬酒。', '手;同', '同', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7918, '招', 'zhāo', '第十二卷', '手部', '手𧦝也。从手，召聲。', '手;召', '召', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7919, '撫', 'fǔ', '第十二卷', '手部', '安也。从手，𣞤聲。一曰揗也。古文撫从亡辵。', '手;𣞤;亡;辵', '𣞤;亡', 'null', NULL, '手;辵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7920, '捪', 'mín', '第十二卷', '手部', '撫也。从手，昏聲。一曰摹也。', '手;昏', '昏', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7920, '捪;㨉', 'mín', '第十二卷', '手部', '撫也。从手，昏聲。一曰摹也。', '手;昏', '昏', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7921, '揣', 'chuǎi', '第十二卷', '手部', '量也。从手，耑聲。度高曰揣。一曰捶之。', '手;耑', '耑', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7922, '抧', 'zhǐ', '第十二卷', '手部', '開也。从手，只聲。讀若「扺掌」之扺。', '手;只;扺', '只;扺', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7923, '摜', 'ɡuàn', '第十二卷', '手部', '習也。从手，貫聲。春秋傳曰「摜瀆鬼神」。', '手;貫', '貫', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -7994,7 +7994,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (7944, '披', 'pī', '第十二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (7945, '𤸪', 'chì', '第十二卷', '手部', '引縱曰𤸪。从手，瘛省聲。', '手;瘛', '瘛', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7946, '㧘', 'zì', '第十二卷', '手部', '積也。从手，此聲。詩曰「助我舉㧘」。一曰搣頰旁也。', '手;此', '此', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7947, '掉', 'diào', '第十二卷', '手部', '搖也。从手，卓聲。春秋傳曰「尾大不掉」。', '手;卓', '卓', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7948, '搖;摇', 'yáo', '第十二卷', '手部', '動也。从手，䍃聲。', '手;䍃', '䍃', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7948, '搖;摇;揺', 'yáo', '第十二卷', '手部', '動也。从手，䍃聲。', '手;䍃', '䍃', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7949, '搈', 'rónɡ', '第十二卷', '手部', '動搈也。从手，容聲。', '手;容', '容', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7950, '𢴧', 'zhì', '第十二卷', '手部', '當也。从手，貳聲。', '手;貳', '貳', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7951, '揂', 'jiū', '第十二卷', '手部', '聚也。从手，酋聲。', '手;酋', '酋', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8011,8 +8011,8 @@ INSERT INTO `shuowen_voice_revel` VALUES (7961, '扛', 'ɡānɡ', '第十二卷'
 INSERT INTO `shuowen_voice_revel` VALUES (7962, '扮', 'fěn', '第十二卷', '手部', '握也。从手，分聲。讀若粉。', '手;分;粉', '分;粉', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7963, '撟', 'jiǎo', '第十二卷', '手部', '舉手也。从手，喬聲。一曰撟，擅也。', '手;喬', '喬', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7964, '捎', 'shāo', '第十二卷', '手部', '自關巳西，凡取物之上者，爲「撟捎」。从手，肖聲。', '手;肖', '肖', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7965, '𢹬', 'yǒnɡ', '第十二卷', '手部', '袌也。从手，雝聲。', '手;雝', '雝', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7966, '㨎', 'rǔ', '第十二卷', '手部', '染也。从手，耎聲。周禮曰「六曰『㨎祭』」。', '手;耎', '耎', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7965, '𢹬;擁', 'yǒnɡ', '第十二卷', '手部', '袌也。从手，雝聲。', '手;雝', '雝', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7966, '㨎;擩', 'rǔ', '第十二卷', '手部', '染也。从手，耎聲。周禮曰「六曰『㨎祭』」。', '手;耎', '耎', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7967, '揄', 'yú', '第十二卷', '手部', '引也。从手，俞聲。', '手;俞', '俞', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7968, '搫', 'pán', '第十二卷', '手部', '搫擭，不正也。从手，般聲。', '手;般', '般', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7969, '擭', 'wò', '第十二卷', '手部', '搫擭也。从手，蒦聲。一曰布擭也。一曰握也。', '手;蒦', '蒦', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8034,15 +8034,15 @@ INSERT INTO `shuowen_voice_revel` VALUES (7984, '攈', 'jùn', '第十二卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (7985, '拾', 'shí', '第十二卷', '手部', '掇也。从手，合聲。', '手;合', '合', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7986, '掇', 'duó', '第十二卷', '手部', '拾取也。从手，叕聲。', '手;叕', '叕', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7987, '擐', 'huàn', '第十二卷', '手部', '毌也。从手，瞏聲。春秋傳曰「擐甲執兵」。', '手;瞏', '瞏', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7988, '揯', 'ɡēnɡ', '第十二卷', '手部', '引急也。从手，恆聲。', '手;恆', '恆', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7988, '揯;搄', 'ɡēnɡ', '第十二卷', '手部', '引急也。从手，恆聲。', '手;恆', '恆', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7989, '摍', 'suō', '第十二卷', '手部', '蹴引也。从手，宿聲。', '手;宿', '宿', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7990, '㨜', 'qián', '第十二卷', '手部', '相援也。从手，虔聲。', '手;虔', '虔', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7991, '援', 'yuán', '第十二卷', '手部', '引也。从手，爰聲。', '手;爰', '爰', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7992, '㩅;抽;𢭆', 'chōu', '第十二卷', '手部', '引也。从手，畱聲。㩅或从由。㩅或从秀。', '手;畱;由;秀', '畱;由;秀', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7992, '㩅;抽;𢭆;㨨', 'chōu', '第十二卷', '手部', '引也。从手，畱聲。㩅或从由。㩅或从秀。', '手;畱;由;秀', '畱;由;秀', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7993, '擢', 'zhuó', '第十二卷', '手部', '引也。从手，翟聲。', '手;翟', '翟', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7994, '拔', 'bá', '第十二卷', '手部', '擢也。从手，犮聲。', '手;犮', '犮', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7995, '揠', 'yà', '第十二卷', '手部', '拔也。从手，匽聲。', '手;匽', '匽', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (7996, '𢶈', 'dǎo', '第十二卷', '手部', '手椎也。一曰築也。从手，𠷎聲。', '手;𠷎', '𠷎', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (7996, '𢶈;擣', 'dǎo', '第十二卷', '手部', '手椎也。一曰築也。从手，𠷎聲。', '手;𠷎', '𠷎', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7997, '攣', 'luán', '第十二卷', '手部', '係也。从手，䜌聲。', '手;䜌', '䜌', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7998, '挺', 'tǐnɡ', '第十二卷', '手部', '拔也。从手，廷聲。', '手;廷', '廷', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (7999, '搴', 'qiān', '第十二卷', '手部', '拔取也。南楚語。从手，寒聲。楚辭曰「朝搴阰之木蘭」。', '手;寒', '寒', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8123,7 +8123,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8073, '揙', 'biàn', '第十二卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (8074, '撅', 'juē', '第十二卷', '手部', '㠯手有所杷也。从手，厥聲。', '手;厥', '厥', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8075, '攎', 'lú', '第十二卷', '手部', '拏持也。从手，盧聲。', '手;盧', '盧', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8076, '拏', 'ná', '第十二卷', '手部', '持也。从手，奴聲。一曰誣也。', '手;奴', '奴', 'null', NULL, '手', 'null', 'null', 'null', 'null', '拏挐互调', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8077, '搵', 'wèn', '第十二卷', '手部', '沒也。从手，𥁕聲。', '手;𥁕', '𥁕', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8077, '搵;揾', 'wèn', '第十二卷', '手部', '沒也。从手，𥁕聲。', '手;𥁕', '𥁕', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8078, '搒', 'pénɡ', '第十二卷', '手部', '掩也。从手，旁聲。', '手;旁', '旁', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8079, '挌', 'ɡé', '第十二卷', '手部', '擊也。从手，各聲。', '手;各', '各', 'null', NULL, '手', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8080, '拲', 'ɡǒnɡ', '第十二卷', '手部', '㒳手共同械也。从手，共聲。周禮曰「上辠梏拲而桎」。拲或作木。', '手;共;木', '共', 'null', NULL, '手;木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8181,12 +8181,12 @@ INSERT INTO `shuowen_voice_revel` VALUES (8131, '媲', 'pì', '第十二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (8132, '妊', 'rèn', '第十二卷', '女部', '孕也。从女壬。壬亦聲。', '女;壬', '壬', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8133, '娠', 'shēn', '第十二卷', '女部', '女妊身動也。从女，辰聲。春秋傳曰「后緍方娠」。一曰官婢女隷謂之娠。', '女;辰', '辰', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8134, '媰', 'chú', '第十二卷', '女部', '婦人妊娠也。从女，芻聲。周書曰「至于媰婦」。', '女;芻', '芻', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8135, '嬔', 'fàn', '第十二卷', '女部', '生子齊均也。从女免生。讀若幡。', '女;免;生;幡', '幡', 'null', NULL, '女;免;生', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8135, '嬔;嬎', 'fàn', '第十二卷', '女部', '生子齊均也。从女免生。讀若幡。', '女;免;生;幡', '幡', 'null', NULL, '女;免;生', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8136, '嫛', 'yī', '第十二卷', '女部', '嫛婗也。从女，殹聲。', '女;殹', '殹', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8137, '婗', 'ní', '第十二卷', '女部', '嫛婗也。从女，兒聲。一曰婦人惡皃。', '女;兒', '兒', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8138, '母', 'mǔ', '第十二卷', '女部', '牧也。从女。象褱子形。一曰象乳子也。', '女', '', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8139, '嫗', 'yù', '第十二卷', '女部', '母也。从女，區聲。', '女;區', '區', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8140, '媼', 'ǎo', '第十二卷', '女部', '母老偁也。从女，𥁕聲。讀若奥。', '女;𥁕;奥', '𥁕;奥', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8140, '媼;媪', 'ǎo', '第十二卷', '女部', '母老偁也。从女，𥁕聲。讀若奥。', '女;𥁕;奥', '𥁕;奥', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8141, '姁', 'xǔ', '第十二卷', '女部', '嫗也。从女，句聲。', '女;句', '句', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8142, '姐', 'jiě', '第十二卷', '女部', '蜀人謂母曰姐。淮南謂之社。从女，且聲。讀若左。', '女;且;左', '且;左', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8143, '姑', 'ɡū', '第十二卷', '女部', '夫母也。从女，古聲。', '女;古', '古', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8196,7 +8196,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8146, '姊', 'zǐ', '第十二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (8147, '妹', 'mèi', '第十二卷', '女部', '女弟也。从女，未聲。', '女;未', '未', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8148, '娣', 'dì', '第十二卷', '女部', '同夫之女弟也。从女，弟聲。', '女;弟', '弟', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8149, '媦', 'wèi', '第十二卷', '女部', '楚人謂女弟曰媦。从女，胃聲。春秋公羊傳曰「楚王之妻媦」。', '女;胃', '胃', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8150, '㛮', 'sǎo', '第十二卷', '女部', '兄妻也。从女，叜聲。', '女;叜', '叜', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8150, '㛮;嫂', 'sǎo', '第十二卷', '女部', '兄妻也。从女，叜聲。', '女;叜', '叜', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8151, '姪', 'zhí', '第十二卷', '女部', '女子謂兄弟之子也。从女。至聲。', '女;至', '至', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8152, '姨', 'yí', '第十二卷', '女部', '妻之女弟同出爲姨。从女，夷聲。', '女;夷', '夷', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8153, '妿', 'ē', '第十二卷', '女部', '女師也。从女，加聲。杜林說「加敎於女也」。讀若阿。', '女;加;阿', '加;阿', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8331,7 +8331,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8281, '妄', 'wànɡ', '第十二卷',
 INSERT INTO `shuowen_voice_revel` VALUES (8282, '媮', 'tōu', '第十二卷', '女部', '巧黠也。从女，俞聲。', '女;俞', '俞', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8283, '𡜂;𡜡', 'hù', '第十二卷', '女部', '𡜡鹵，貪也。从女，污聲。', '女;污', '污', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8284, '娋', 'shào', '第十二卷', '女部', '小小侵也。从女，肖聲。', '女;肖', '肖', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8285, '㛆', 'duò', '第十二卷', '女部', '量也。从女，朵聲。', '女;朵', '朵', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8285, '㛆;㛊', 'duò', '第十二卷', '女部', '量也。从女，朵聲。', '女;朵', '朵', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8286, '妯', 'chōu', '第十二卷', '女部', '動也。从女，由聲。', '女;由', '由', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8287, '嫌', 'xián', '第十二卷', '女部', '不平於心也。从女，兼聲。一曰疑也。', '女;兼', '兼', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8288, '𡞞', 'shěnɡ', '第十二卷', '女部', '減也。从女，省聲。', '女;省', '省', 'null', NULL, '女', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8551,7 +8551,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8501, '發', 'fā', '第十二卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (8502, '𢏗', 'yì', '第十二卷', '弓部', '帝嚳射官。夏 少康滅之。从弓，开聲。論語曰「𢏗善射」。', '弓;开', '开', 'null', NULL, '弓', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8503, '彆', 'biè', '第十二卷', '弓部', '弓戾也。从弓，敝聲。', '弓;敝', '敝', 'null', NULL, '弓', 'null', 'null', 'null', 'null', '应补', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8504, '弜', 'jiànɡ', '第十二卷', '弜部', '彊也。重也。从二弓。凡弜之屬皆从弜。闕。', '弓', '', 'null', NULL, '弓', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8505, '弼;𢐜;𢐑;弻;𢐈;𢐀', 'bì', '第十二卷', '弜部', '輔也。重也。从弜，㐁聲。古文𢐀如此。亦古文𢐀[攴]。𢐀或如此[弓弗]。', '弜;㐁;攴;弓;弗', '㐁;弗', 'null', NULL, '弜;攴;弓', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8505, '弼;𢐜;𢐑;弻;𢐈;𢐀;㢸', 'bì', '第十二卷', '弜部', '輔也。重也。从弜，㐁聲。古文𢐀如此。亦古文𢐀[攴]。𢐀或如此[弓弗]。', '弜;㐁;攴;弓;弗', '㐁;弗', 'null', NULL, '弜;攴;弓', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8506, '弦', 'xián', '第十二卷', '弦部', '弓弦也。从弓[玄]。象絲軫之形。凡弦之屬皆从弦。', '弓;玄', '', 'null', NULL, '弓;玄', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8507, '盭', 'lì', '第十二卷', '弦部', '𢐀戾也。从弦省，从盩。盩，了戾之也。讀若戾。', '弦;盩;戾', '戾', 'null', NULL, '弦;盩', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8508, '玅', 'yāo', '第十二卷', '弦部', '急戾也。从弦省，少聲。', '弦;少', '少', 'null', NULL, '弦', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8564,7 +8564,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8514, '糸', 'mì', '第十三卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (8515, '繭', 'jiǎn', '第十三卷', '糸部', '蠶衣也。从糸，从虫，从芇。古文繭从糸見。', '糸;虫;芇;糸;見', '芇;見', 'null', NULL, '糸;虫;糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8516, '繅', 'sāo', '第十三卷', '糸部', '繹繭爲絲也。从糸，巢聲。', '糸;巢', '巢', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8517, '繹', 'yì', '第十三卷', '糸部', '㩅絲也。从糸，睪聲。', '糸;睪', '睪', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8518, '緒', 'xù', '第十三卷', '糸部', '絲耑也。从糸，者聲。', '糸;者', '者', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8518, '緒;緖', 'xù', '第十三卷', '糸部', '絲耑也。从糸，者聲。', '糸;者', '者', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8519, '緬', 'miǎn', '第十三卷', '糸部', '𢼸絲也。从糸，面聲。', '糸;面', '面', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8520, '純', 'chún', '第十三卷', '糸部', '絲也。从糸，屯聲。論語曰「今也純儉」。', '糸;屯', '屯', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8521, '綃', 'xiāo', '第十三卷', '糸部', '生絲也。从糸，肖聲。', '糸;肖', '肖', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8656,7 +8656,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8606, '繪', 'huì', '第十三卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (8607, '緀', 'qī', '第十三卷', '糸部', '帛文皃。詩曰「緀兮斐兮，成是貝錦」。从糸，妻聲。', '糸;妻', '妻', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8608, '䋛', 'mǐ', '第十三卷', '糸部', '繡文如聚細米也。从糸米。米亦聲。', '糸;米', '米', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8609, '絹', 'juàn', '第十三卷', '糸部', '繒如麥䅌色。从糸，肙聲。', '糸;肙', '肙', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8610, '綠', 'lǜ', '第十三卷', '糸部', '帛靑黃色也。从糸，录聲。', '糸;录', '录', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8610, '綠;緑', 'lǜ', '第十三卷', '糸部', '帛靑黃色也。从糸，录聲。', '糸;录', '录', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8611, '縹', 'piǎo', '第十三卷', '糸部', '帛白靑色也。从糸，票聲。', '糸;票', '票', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8612, '䋭', 'yù', '第十三卷', '糸部', '帛靑經縹緯。一曰育陽染也。从糸，育聲。', '糸;育', '育', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8613, '絑', 'zhū', '第十三卷', '糸部', '純赤繒也。虞書「丹朱」如此。从糸，朱聲。', '糸;朱', '朱', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8760,15 +8760,15 @@ INSERT INTO `shuowen_voice_revel` VALUES (8710, '𦅨;𦄼', 'xǔ', '第十三�
 INSERT INTO `shuowen_voice_revel` VALUES (8711, '紖', 'zhèn', '第十三卷', '糸部', '牛系也。从糸，引聲。讀若矤。', '糸;引;矤', '引;矤', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8712, '縼', 'xuàn', '第十三卷', '糸部', '㠯長繩系牛也。从糸，旋聲。', '糸;旋', '旋', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8713, '縻', 'mí', '第十三卷', '糸部', '牛𦆕也。从糸，麻聲。縻或从多。', '糸;麻;多', '麻;多', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8714, '紲', 'xiè', '第十三卷', '糸部', '犬系也。从糸，世聲。春秋傳曰「臣負羈紲」。紲或从枼。', '糸;世;枼', '世;枼', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8714, '紲;緤', 'xiè', '第十三卷', '糸部', '犬系也。从糸，世聲。春秋傳曰「臣負羈紲」。紲或从枼。', '糸;世;枼', '世;枼', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8715, '𦄿', 'mò', '第十三卷', '糸部', '索也。从糸，黑聲。', '糸;黑', '黑', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8716, '緪', 'ɡēnɡ', '第十三卷', '糸部', '大索也。一曰急也。从糸，恆聲。', '糸;恆', '恆', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8717, '繘', 'yù', '第十三卷', '糸部', '綆也。从糸，矞聲。古文从絲。籒文繘[系]。', '糸;矞;絲;系', '矞', 'null', NULL, '糸;絲;系', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8718, '綆', 'ɡěnɡ', '第十三卷', '糸部', '汲井綆也。从糸，更聲。', '糸;更', '更', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8719, '絠', 'ǎi', '第十三卷', '糸部', '彈彄也。从糸，有聲。', '糸;有', '有', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8720, '繳', 'zhuó', '第十三卷', '糸部', '生絲縷也。謂縷系矰矢而㠯隿射也。从糸，敫聲。', '糸;敫', '敫', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8720, '繳;𦅾', 'zhuó', '第十三卷', '糸部', '生絲縷也。謂縷系矰矢而㠯隿射也。从糸，敫聲。', '糸;敫', '敫', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8721, '繴', 'bì', '第十三卷', '糸部', '繴謂之罿，罿謂之罬，罬謂之罦。捕鳥覆車也。从糸，辟聲。', '糸;辟', '辟', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8722, '緍', 'mín', '第十三卷', '糸部', '釣魚繳也。从糸，昏聲。吳人解衣相被謂之緍。', '糸;昏', '昏', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8722, '緍;緡', 'mín', '第十三卷', '糸部', '釣魚繳也。从糸，昏聲。吳人解衣相被謂之緍。', '糸;昏', '昏', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8723, '絮', 'xù', '第十三卷', '糸部', '敝緜也。从糸，如聲。', '糸;如', '如', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8724, '絡', 'luò', '第十三卷', '糸部', '絮也。一曰麻未漚也。从糸，各聲。', '糸;各', '各', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8725, '纊;絖', 'kuànɡ', '第十三卷', '糸部', '絮也。从糸，廣聲。春秋傳曰「皆如挾纊」。纊或从光。', '糸;廣;光', '廣;光', 'null', NULL, '糸', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8834,7 +8834,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8784, '蝮', 'fù', '第十三卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (8785, '螣', 'ténɡ', '第十三卷', '虫部', '神它也。从虫，朕聲。', '虫;朕', '朕', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8786, '蚺', 'rán', '第十三卷', '虫部', '大它。可食。从虫，冉聲。', '虫;冉', '冉', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8787, '螼', 'qǐn', '第十三卷', '虫部', '螾也。从虫，堇聲。', '虫;堇', '堇', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8788, '螾', 'yǐn', '第十三卷', '虫部', '側行者。从虫，寅聲。', '虫;寅', '寅', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8788, '螾;蚓', 'yǐn', '第十三卷', '虫部', '側行者。从虫，寅聲。', '虫;寅', '寅', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8789, '螉', 'wēnɡ', '第十三卷', '虫部', '螉䗥。蟲在牛、馬皮者。从虫，翁聲。', '虫;翁', '翁', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8790, '䗥', 'zōnɡ', '第十三卷', '虫部', '螉䗥也。从虫，從聲。', '虫;從', '從', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8791, '蠁', 'xiǎnɡ', '第十三卷', '虫部', '知聲蟲也。从虫，鄉聲。司馬相如說从向。', '虫;鄉;向', '鄉;向', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8846,7 +8846,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8796, '蛕', 'huí', '第十三卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (8797, '蟯', 'náo', '第十三卷', '虫部', '腹中短蟲也。从虫，堯聲。', '虫;堯', '堯', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8798, '雖', 'suī', '第十三卷', '虫部', '佀蜥易而大。从虫，唯聲。', '虫;唯', '唯', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8799, '虺', 'huǐ', '第十三卷', '虫部', '㠯注鳴者。詩曰「胡爲虺蜥」。从虫，兀聲。', '虫;兀', '兀', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8800, '蜥', 'xī', '第十三卷', '虫部', '蜥易也。从虫，析聲。', '虫;析', '析', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8800, '蜥;蜤', 'xī', '第十三卷', '虫部', '蜥易也。从虫，析聲。', '虫;析', '析', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8801, '蝘', 'yǎn', '第十三卷', '虫部', '在壁曰蝘蜓。在艸曰蜥易。从虫，匽聲。蝘或从䖵。', '虫;匽;䖵', '匽', 'null', NULL, '虫;䖵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8802, '蜓', 'diàn', '第十三卷', '虫部', '蝘蜓也。从虫，廷聲。一曰螾蜓。', '虫;廷', '廷', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8803, '蚖', 'yuán', '第十三卷', '虫部', '榮蚖，它醫，㠯注鳴者。从虫，元聲。', '虫;元', '元', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8907,7 +8907,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8857, '螌', 'bān', '第十三卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (8858, '蝥', 'máo', '第十三卷', '虫部', '螌蝥也。从虫，敄聲。', '虫;敄', '敄', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8859, '蟠', 'fán', '第十三卷', '虫部', '鼠婦也。从虫，番聲。', '虫;番', '番', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8860, '𧉅', 'yī', '第十三卷', '虫部', '𧉅威，委黍。委黍，鼠婦也。从虫，伊省聲。', '虫;伊', '伊', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8861, '蜙;蚣', 'sōnɡ', '第十三卷', '虫部', '蜙蝑，春黍也。㠯股鳴者。从虫，松聲。蜙或省[公]。', '虫;松;公', '松;公', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8861, '蜙;蚣;𧌻', 'sōnɡ', '第十三卷', '虫部', '蜙蝑，春黍也。㠯股鳴者。从虫，松聲。蜙或省[公]。', '虫;松;公', '松;公', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8862, '蝑', 'xū', '第十三卷', '虫部', '蜙蝑也。从虫，胥聲。', '虫;胥', '胥', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8863, '蟅', 'zhè', '第十三卷', '虫部', '螽也。从虫，庶聲。', '虫;庶', '庶', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8864, '蝗', 'huánɡ', '第十三卷', '虫部', '螽也。从虫，皇聲。', '虫;皇', '皇', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8917,7 +8917,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8867, '蜺', 'ní', '第十三卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (8868, '螇', 'xī', '第十三卷', '虫部', '螇鹿，蛁尞也。从虫，奚聲。', '虫;奚', '奚', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8869, '蚗', 'jué', '第十三卷', '虫部', '𧉅蚗，蛁尞也。从虫，夬聲。', '虫;夬', '夬', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8870, '𧉄', 'mián', '第十三卷', '虫部', '𧉄蚗，蟬屬。讀若「周天子 赧」。从虫，丏聲。', '赧;虫;丏', '赧;丏', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8871, '蛚', 'liè', '第十三卷', '虫部', '蜻蛚也。从虫，列聲。', '虫;列', '列', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8871, '蛚;𧊿', 'liè', '第十三卷', '虫部', '蜻蛚也。从虫，列聲。', '虫;列', '列', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8872, '蜻', 'jīnɡ', '第十三卷', '虫部', '蜻蛚也。从虫，靑聲。', '虫;靑', '靑', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8873, '蛉', 'línɡ', '第十三卷', '虫部', '蜻蛉也。从虫，令聲。一曰桑根。', '虫;令', '令', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8874, '蠓', 'měnɡ', '第十三卷', '虫部', '蔑蠓也。从虫，蒙聲。', '虫;蒙', '蒙', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -8945,7 +8945,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8895, '虯', 'qiú', '第十三卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (8896, '蜦', 'lún', '第十三卷', '虫部', '它屬也。黑色，濳於神淵之中，能興雲致雨。从虫，侖聲。讀若「䓞艸」。蜦或从戾。', '虫;侖;䓞;戾', '侖;䓞;戾', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8897, '螊', 'lián', '第十三卷', '虫部', '海蟲也。長寸而白，可食。从虫，兼聲。讀若嗛。', '虫;兼;嗛', '兼;嗛', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8898, '蜃', 'shèn', '第十三卷', '虫部', '大蛤。雉入水所𠤎。从虫，辰聲。', '虫;辰', '辰', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8899, '蛤', 'ɡé', '第十三卷', '虫部', '蜃屬。有三，皆生於海。厲，千歲雀所𠤎，秦人謂之「牡厲」。海蛤者，百歲燕所𠤎也。魁蛤，一名復絫，老服翼所𠤎也。从虫，合聲。', '虫;合', '合', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8899, '蛤;𧊧', 'ɡé', '第十三卷', '虫部', '蜃屬。有三，皆生於海。厲，千歲雀所𠤎，秦人謂之「牡厲」。海蛤者，百歲燕所𠤎也。魁蛤，一名復絫，老服翼所𠤎也。从虫，合聲。', '虫;合', '合', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8900, '螷', 'pí', '第十三卷', '虫部', '陛也。脩爲螷。圓爲蠇。从虫，庳聲。', '虫;庳', '庳', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8901, '蚌', 'bànɡ', '第十三卷', '虫部', '蜃屬。从虫，丰聲。', '虫;丰', '丰', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '调序', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8902, '蠇', 'lì', '第十三卷', '虫部', '蚌屬。佀螊𢼸大，出海中，今民食之。从虫，萬聲。讀若賴。', '虫;萬;賴', '萬;賴', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9011,7 +9011,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8961, '蟁;蚊', 'wén', '第十三卷
 INSERT INTO `shuowen_voice_revel` VALUES (8962, '蝱;䖟', 'ménɡ', '第十三卷', '䖵部', '齧人飛蟲。从䖵，亡聲。', '䖵;亡', '亡', 'null', NULL, '䖵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8963, '蠹;蠧', 'dù', '第十三卷', '䖵部', '木中蟲。从䖵，槖聲。蠹或从木。象蟲在木中形，譚長說。', '䖵;槖;木', '槖', 'null', NULL, '䖵;木', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8964, '蠡', 'lǐ', '第十三卷', '䖵部', '蟲齧木中也。从䖵，𧰲聲。古文[未详]。', '䖵;𧰲', '𧰲', 'null', NULL, '䖵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8965, '𧒔', 'qiú', '第十三卷', '䖵部', '多足蟲也。从䖵，求聲。', '䖵;求', '求', 'null', NULL, '䖵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8965, '𧒔;蛷', 'qiú', '第十三卷', '䖵部', '多足蟲也。从䖵，求聲。', '䖵;求', '求', 'null', NULL, '䖵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8966, '𧖚;蜉;𧕰', 'fú', '第十三卷', '䖵部', '𧖕𧕰也。从䖵，㯱聲。𧕰或从虫，从孚。', '䖵;㯱;虫;孚', '㯱;孚', 'null', NULL, '䖵;虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8967, '𧕲', 'juǎn', '第十三卷', '䖵部', '蟲食也。从䖵，雋聲。', '䖵;雋', '雋', 'null', NULL, '䖵', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8968, '蠢;𢧸', 'chǔn', '第十三卷', '䖵部', '蟲動也。从䖵，春聲。古文蠢从𢦒。周書曰「我有𢧸于西」。', '䖵;春;𢦒', '春', 'null', NULL, '䖵;𢦒', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9023,11 +9023,11 @@ INSERT INTO `shuowen_voice_revel` VALUES (8973, '𧖔', 'lìn', '第十三卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (8974, '𧕿;蜚', 'fěi', '第十三卷', '蟲部', '臭蟲。負蠜也。从蟲，非聲。𧕿或从虫。', '蟲;非;虫', '非', 'null', NULL, '蟲;虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8975, '蠱', 'ɡǔ', '第十三卷', '蟲部', '腹中蟲也。春秋傳曰「皿蟲爲蠱」。晦淫之所生也。梟磔死之鬼亦爲蠱。从蟲，从皿。皿，物之用也。', '蟲;皿', '', 'null', NULL, '蟲;皿', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8976, '風', 'fēnɡ', '第十三卷', '風部', '八風也。東方曰朙「庶風」。東南曰淸「朙風」。南方曰「景風」。西南曰「涼風」。西方曰「閶𨵵風」。西北曰「不周風」。北方曰「廣莫風」。東北曰「融風」。从虫，凡聲。風動蟲生，故蟲八日而𠤎。凡風之屬皆从風。古文風[未详]。', '虫;凡', '凡', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8977, '𩘁', 'liánɡ', '第十三卷', '風部', '北風謂之𩘁。从風，京聲。', '風;京', '京', 'null', NULL, '風', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8977, '𩘁;𩗬', 'liánɡ', '第十三卷', '風部', '北風謂之𩘁。从風，京聲。', '風;京', '京', 'null', NULL, '風', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8978, '𩖶', 'xuè', '第十三卷', '風部', '小風也。从風，朮聲。', '風;朮', '朮', 'null', NULL, '風', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8979, '飆', 'biāo', '第十三卷', '風部', '扶搖風也。从風，猋聲。古文飆[包]。', '風;猋;包', '猋;包', 'null', NULL, '風', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8980, '飄', 'piāo', '第十三卷', '風部', '回風也。从風，票聲。', '風;票', '票', 'null', NULL, '風', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8981, '颯', 'sà', '第十三卷', '風部', '風聲也。从風，立聲。', '風;立', '立', 'null', NULL, '風', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8981, '颯;䬃', 'sà', '第十三卷', '風部', '風聲也。从風，立聲。', '風;立', '立', 'null', NULL, '風', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8982, '飂', 'liú', '第十三卷', '風部', '高風也。从風，翏聲。', '風;翏', '翏', 'null', NULL, '風', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8983, '䬍', 'hū', '第十三卷', '風部', '疾風也。从風忽。忽亦聲。', '風;忽', '忽', 'null', NULL, '風', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8984, '䬑', 'wèi', '第十三卷', '風部', '大風也。从風，胃聲。', '風;胃', '胃', 'null', NULL, '風', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9038,7 +9038,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (8988, '颲', 'liè', '第十三卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (8989, '颸', 'sī', '第十三卷', '風部', '涼風也。从風，思聲。', '風;思', '思', 'null', NULL, '風', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8990, '䬒;颼', 'sōu', '第十三卷', '風部', '颼飂也。从風，叜聲。', '風;叜', '叜', 'null', NULL, '風', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8991, '颭', 'zhǎn', '第十三卷', '風部', '風吹浪動也。从風，占聲。', '風;占', '占', 'null', NULL, '風', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (8992, '它;蛇', 'tā', '第十三卷', '它部', '虫也。从虫而長。象冤曲𠂹尾形。上古艸凥，患它，故相問「無它乎？」凡它之屬皆从它。它或从虫。', '虫', '', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (8992, '它;蛇;虵', 'tā', '第十三卷', '它部', '虫也。从虫而長。象冤曲𠂹尾形。上古艸凥，患它，故相問「無它乎？」凡它之屬皆从它。它或从虫。', '虫', '', 'null', NULL, '虫', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8993, '龜', 'ɡuī', '第十三卷', '龜部', '舊也。外骨內肉者也。从它。龜頭與它頭同。天地之性，廣肩無雄，龜鼈之類，㠯它爲雄。象足甲尾之形。凡龜之屬皆从龜。古文龜。', '它', '', 'null', NULL, '它', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8994, '䶱', 'tónɡ', '第十三卷', '龜部', '龜名。从龜，𠂂聲。𠂂，古文終字。', '龜;𠂂', '𠂂', 'null', NULL, '龜', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (8995, '䶲', 'rán', '第十三卷', '龜部', '龜甲邊也。从龜，冉聲。天子巨䶲，尺有二寸，諸矦尺，大夫八寸，士六寸。', '龜;冉', '冉', 'null', NULL, '龜', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9105,7 +9105,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9055, '坫', 'diàn', '第十三卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (9056, '㙙', 'lǒnɡ', '第十三卷', '土部', '涂也。从土，浝聲。', '土;浝', '浝', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9057, '垷', 'xiàn', '第十三卷', '土部', '涂也。从土，見聲。', '土;見', '見', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9058, '墐', 'jìn', '第十三卷', '土部', '涂也。从土，堇聲。', '土;堇', '堇', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9059, '𡏲', 'xì', '第十三卷', '土部', '卬涂也。从土，旣聲。', '土;旣', '旣', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9059, '𡏲;塈', 'xì', '第十三卷', '土部', '卬涂也。从土，旣聲。', '土;旣', '旣', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9060, '堊', 'è', '第十三卷', '土部', '白涂也。从土，亞聲。', '土;亞', '亞', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9061, '墀;𡎰', 'chí', '第十三卷', '土部', '涂地也。从土，犀聲。禮「天子赤墀」。', '土;犀', '犀', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9062, '墼', 'jī', '第十三卷', '土部', '令適也。一曰未燒者。从土，毄聲。', '土;毄', '毄', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9131,7 +9131,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9081, '墉', 'yōnɡ', '第十三卷',
 INSERT INTO `shuowen_voice_revel` VALUES (9082, '𡑢', 'dié', '第十三卷', '土部', '城上女垣也。从土，葉聲。', '土;葉', '葉', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9083, '坎', 'kǎn', '第十三卷', '土部', '陷也。从土，欠聲。', '土;欠', '欠', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9084, '墊', 'diàn', '第十三卷', '土部', '下也。从土，執聲。春秋傳曰「墊隘」。', '土;執', '執', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9085, '坻', 'chí', '第十三卷', '土部', '小渚也。从土，氐聲。詩曰「宛在水中坻」。坻或从水，从夊。坻或从水耆。', '土;氐;水;夊;水;耆', '氐;夊;耆', 'null', NULL, '土;水;水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9085, '坻;𣹡;𣲋', 'chí', '第十三卷', '土部', '小渚也。从土，氐聲。詩曰「宛在水中坻」。坻或从水，从夊。坻或从水耆。', '土;氐;水;夊;水;耆', '氐;夊;耆', 'null', NULL, '土;水;水', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9086, '㙷', 'zhí', '第十三卷', '土部', '下入也。从土，㬎聲。', '土;㬎', '㬎', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9087, '垎', 'hè', '第十三卷', '土部', '水乾也。从土，各聲。一曰堅也。', '土;各', '各', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9088, '垐;堲', 'cí', '第十三卷', '土部', '㠯土增大道上。从土，次聲。古文垐。从土卽。虞書曰「龍，朕堲讒說殄行」。堲，疾惡也。', '土;次;卽', '次;卽', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9145,7 +9145,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9095, '埱', 'chù', '第十三卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (9096, '埵', 'duǒ', '第十三卷', '土部', '堅土也。讀若朵。从土，垂聲。', '朵;土;垂', '朵;垂', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9097, '埐', 'jīn', '第十三卷', '土部', '地也。从土，侵省聲。', '土;侵', '侵', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9098, '埾', 'jù', '第十三卷', '土部', '積土也。从土，聚省聲。', '土;聚', '聚', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9099, '壔', 'dǎo', '第十三卷', '土部', '保也。一曰高土也。讀若毒。从土，𠷎聲。', '毒;土;𠷎', '毒;𠷎', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9099, '壔;𡑏', 'dǎo', '第十三卷', '土部', '保也。一曰高土也。讀若毒。从土，𠷎聲。', '毒;土;𠷎', '毒;𠷎', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9100, '培', 'péi', '第十三卷', '土部', '培敦，土田山川也。从土，㕻聲。', '土;㕻', '㕻', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9101, '埩', 'zhēnɡ', '第十三卷', '土部', '治也。从土，爭聲。', '土;爭', '爭', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9102, '墇', 'zhànɡ', '第十三卷', '土部', '𢹬也。从土，章聲。', '土;章', '章', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9161,7 +9161,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9111, '塹', 'qiàn', '第十三卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (9112, '埂', 'ɡěnɡ', '第十三卷', '土部', '秦謂阬爲埂。从土，更聲。讀若「井汲綆」。', '土;更;綆', '更;綆', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9113, '壙', 'kuànɡ', '第十三卷', '土部', '塹穴也。从土，廣聲。一曰大也。', '土;廣', '廣', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9114, '塏', 'kǎi', '第十三卷', '土部', '高燥也。从土，豈聲。', '土;豈', '豈', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9115, '毀', 'huǐ', '第十三卷', '土部', '缺也。从土，毇省聲。', '土;毇', '毇', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9115, '毀;毁', 'huǐ', '第十三卷', '土部', '缺也。从土，毇省聲。', '土;毇', '毇', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9116, '壓', 'yā', '第十三卷', '土部', '壞也。一曰塞補也。从土，厭聲。', '土;厭', '厭', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9117, '壞;𣀩', 'huài', '第十三卷', '土部', '敗也。从土，褱聲。籒文壞从攴。古文壞省[眔土]。', '土;褱;攴;眔;土', '褱;眔', 'null', NULL, '土;攴;土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9118, '坷', 'kě', '第十三卷', '土部', '坎坷也。从土，可聲。梁國 寧陵有坷亭。', '土;可', '可', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9170,7 +9170,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9120, '坼;𡍩', 'chè', '第十三�
 INSERT INTO `shuowen_voice_revel` VALUES (9121, '坱', 'yǎnɡ', '第十三卷', '土部', '𪋻埃也。从土，央聲。', '土;央', '央', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9122, '塺', 'méi', '第十三卷', '土部', '𪋻也。从土，麻聲。', '土;麻', '麻', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9123, '塿', 'lǒu', '第十三卷', '土部', '塺土也。从土，婁聲。', '土;婁', '婁', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9124, '坋', 'fèn', '第十三卷', '土部', '𪋻也。从土，分聲。一曰坋，大防也。', '土;分', '分', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9124, '坋;坌', 'fèn', '第十三卷', '土部', '𪋻也。从土，分聲。一曰坋，大防也。', '土;分', '分', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9125, '𡌦', 'fèi', '第十三卷', '土部', '𪋻也。从土，非聲。', '土;非', '非', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9126, '埃', 'āi', '第十三卷', '土部', '𪋻也。从土，矣聲。', '土;矣', '矣', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9127, '㙠', 'yī', '第十三卷', '土部', '𪋻埃也。从土，殹聲。', '土;殹', '殹', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9209,7 +9209,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9159, '墜', 'zhuì', '第十三卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (9160, '塔', 'tǎ', '第十三卷', '土部', '西域 浮屠也。从土，荅聲。', '土;荅', '荅', 'null', NULL, '土', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9161, '坊', 'fānɡ', '第十三卷', '土部', '邑里之名。从土，方聲。', '土;方', '方', 'null', NULL, '土', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9162, '垚', 'yáo', '第十三卷', '垚部', '土高皃。从三土。凡垚之屬皆从垚。', '土', '', 'null', NULL, '土', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9163, '堯', 'yáo', '第十三卷', '垚部', '高也。从垚在兀上。高遠也。古文堯[二土，二人]。', '垚;兀;土;人', '', 'null', NULL, '垚;兀;土;人', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9163, '堯;尭', 'yáo', '第十三卷', '垚部', '高也。从垚在兀上。高遠也。古文堯[二土，二人]。', '垚;兀;土;人', '', 'null', NULL, '垚;兀;土;人', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9164, '堇;𡎸', 'qín', '第十三卷', '堇部', '黏土也。从黃省，从土。凡堇之屬皆从堇。古文堇。亦古文。', '黃;土', '', 'null', NULL, '黃;土', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9165, '艱', 'jiān', '第十三卷', '堇部', '土難治也。从堇，艮聲。籒文艱从喜。', '堇;艮;喜', '堇;艮', 'null', NULL, '喜', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9166, '里', 'lǐ', '第十三卷', '里部', '凥也。从田，从土。一曰士聲也。凡里之屬皆从里。', '田;土;士', '士', 'null', NULL, '田;土', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9321,7 +9321,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9271, '鐼', 'fén', '第十四卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (9272, '銑', 'xiǎn', '第十四卷', '金部', '金之澤者。从金，先聲。一曰小鑿。一曰鐘下㒳角謂之銑。', '金;先', '先', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9273, '鋻', 'jiàn', '第十四卷', '金部', '𠟎也。从金，臤聲。', '金;臤', '臤', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9274, '鑗', 'lí', '第十四卷', '金部', '金屬也。一曰剝也。从金，黎聲。', '金;黎', '黎', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9275, '録', 'lù', '第十四卷', '金部', '金色也。从金，录聲。', '金;录', '录', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9275, '録;錄', 'lù', '第十四卷', '金部', '金色也。从金，录聲。', '金;录', '录', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9276, '鑄', 'zhù', '第十四卷', '金部', '銷金也。从金，壽聲。', '金;壽', '壽', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9277, '銷', 'xiāo', '第十四卷', '金部', '鑠金也。从金，肖聲。', '金;肖', '肖', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9278, '鑠', 'shuò', '第十四卷', '金部', '銷金也。从金，樂聲。', '金;樂', '樂', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9472,7 +9472,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9422, '鑣', 'biāo', '第十四卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (9423, '鉣', 'jié', '第十四卷', '金部', '組帶鐵也。从金，劫省聲。讀若劫。', '金;劫', '劫', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9424, '鈇', 'fū', '第十四卷', '金部', '斫莝刀也。从金。夫聲。', '金;夫', '夫', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9425, '釣', 'diào', '第十四卷', '金部', '鉤魚也。从金，勺聲。', '金;勺', '勺', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9426, '𨫔', 'zhì', '第十四卷', '金部', '羊箠也。耑有鐵。从金，埶聲。讀若至。', '金;埶;至', '埶;至', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9426, '𨫔;䥍', 'zhì', '第十四卷', '金部', '羊箠也。耑有鐵。从金，埶聲。讀若至。', '金;埶;至', '埶;至', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9427, '鋃', 'lánɡ', '第十四卷', '金部', '鋃鐺，瑣也。从金，良聲。', '金;良', '良', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9428, '鐺', 'dānɡ', '第十四卷', '金部', '鋃鐺也。从金，當聲。', '金;當', '當', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9429, '鋂', 'méi', '第十四卷', '金部', '大環也。一環毌二者。从金，每聲。詩曰「盧重鋂」。', '金;每', '每', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9490,7 +9490,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9440, '鏃', 'zú', '第十四卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (9441, '鈌', 'jué', '第十四卷', '金部', '刺也。从金，夬聲。', '金;夬', '夬', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9442, '鏉', 'shòu', '第十四卷', '金部', '利也。从金，欶聲。', '金;欶', '欶', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9443, '劉', 'liú', '第十四卷', '金部', '殺也。从金刀。丣聲。', '金;刀;丣', '丣', 'null', NULL, '金;刀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9444, '錉', 'mín', '第十四卷', '金部', '業也。賈人占錉。从金，昏聲。', '金;昏', '昏', 'null', NULL, '金', 'null', 'null', 'null', 'null', '应删', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9444, '錉;鍲', 'mín', '第十四卷', '金部', '業也。賈人占錉。从金，昏聲。', '金;昏', '昏', 'null', NULL, '金', 'null', 'null', 'null', 'null', '应删', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9445, '鉅', 'jù', '第十四卷', '金部', '大剛也。从金，巨聲。', '金;巨', '巨', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9446, '鎕', 'tánɡ', '第十四卷', '金部', '鎕銻，火齊也。从金，唐聲。', '金;唐', '唐', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9447, '銻', 'tí', '第十四卷', '金部', '鎕銻也。从金，弟聲。', '金;弟', '弟', 'null', NULL, '金', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9559,9 +9559,9 @@ INSERT INTO `shuowen_voice_revel` VALUES (9509, '矝;矜', 'jīn', '第十四卷
 INSERT INTO `shuowen_voice_revel` VALUES (9510, '䂇', 'niǔ', '第十四卷', '矛部', '刺也。从矛，丑聲。', '矛;丑', '丑', 'null', NULL, '矛', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9511, '車', 'chē', '第十四卷', '車部', '輿輪之總名也。夏后時奚仲所造。象形。凡車之屬皆从車。籒文車[戔]。', '戔', '', 'null', NULL, '戔', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9512, '軒', 'xuān', '第十四卷', '車部', '曲輈藩車也。从車，干聲。', '車;干', '干', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9513, '輺', 'zī', '第十四卷', '車部', '輺軿，衣車也。軿，車歬衣也。車後爲輺。从車，[葘]聲。', '車;葘', '葘', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9513, '輺;輜', 'zī', '第十四卷', '車部', '輺軿，衣車也。軿，車歬衣也。車後爲輺。从車，[葘]聲。', '車;葘', '葘', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9514, '軿;輧', 'pínɡ', '第十四卷', '車部', '輺輧也。从車，并聲。', '車;并', '并', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9515, '轀', 'wēn', '第十四卷', '車部', '臥車也。从車，𥁕聲。', '車;𥁕', '𥁕', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9515, '轀;輼', 'wēn', '第十四卷', '車部', '臥車也。从車，𥁕聲。', '車;𥁕', '𥁕', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9516, '輬', 'liánɡ', '第十四卷', '車部', '臥車也。从車，京聲。', '車;京', '京', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9517, '軺', 'yáo', '第十四卷', '車部', '小車也。从車，召聲。', '車;召', '召', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9518, '輕', 'qīnɡ', '第十四卷', '車部', '輕車也。从車，巠聲。', '車;巠', '巠', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9651,10 +9651,10 @@ INSERT INTO `shuowen_voice_revel` VALUES (9601, '輂', 'jú', '第十四卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (9602, '𨌅', 'chái', '第十四卷', '車部', '連車也。一曰卻車抵堂爲𨌅。从車，差省聲。讀若遲。', '車;差;遲', '差;遲', 'null', NULL, '車', 'null', 'null', 'null', 'null', '歌部', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9603, '輦', 'niǎn', '第十四卷', '車部', '輓車也。从車。㚘，在車歬引之也。', '車;㚘', '', 'null', NULL, '車;㚘', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9604, '輓', 'wǎn', '第十四卷', '車部', '引車也。从車，免聲。', '車;免', '免', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9605, '軠', 'kuánɡ', '第十四卷', '車部', '紡車也。从車，㞷聲。讀若狂。一曰一輪車。', '車;㞷;狂', '㞷;狂', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9605, '軠;軖', 'kuánɡ', '第十四卷', '車部', '紡車也。从車，㞷聲。讀若狂。一曰一輪車。', '車;㞷;狂', '㞷;狂', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9606, '轘', 'huàn', '第十四卷', '車部', '車裂人也。从車，瞏聲。春秋傳曰「轘諸栗門」。', '車;瞏', '瞏', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9607, '斬', 'zhǎn', '第十四卷', '車部', '𢧵也。从車斤。斬法車裂也。', '車;斤', '', 'null', NULL, '車;斤', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9608, '𨎪', 'ér', '第十四卷', '車部', '喪車也。从車，重而。而亦聲。', '車;而', '而', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9608, '𨎪;輀', 'ér', '第十四卷', '車部', '喪車也。从車，重而。而亦聲。', '車;而', '而', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9609, '轟', 'hōnɡ', '第十四卷', '車部', '轟轟，羣車聲也。从三車。', '車', '', 'null', NULL, '車', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9610, '轏', 'zhàn', '第十四卷', '車部', '車名。从車，孱聲。', '車;孱', '孱', 'null', NULL, '車', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9611, '轔', 'lín', '第十四卷', '車部', '車聲。从車，粦聲。', '車;粦', '粦', 'null', NULL, '車', 'null', 'null', 'null', 'null', '新', 0x31, 'null', 'null', 'null');
@@ -9813,7 +9813,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9763, '子', 'zǐ', '第十四卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (9764, '孕', 'yùn', '第十四卷', '子部', '褢子也。从子，乃聲。', '子;乃', '乃', 'null', NULL, '子', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9765, '㝃', 'miǎn', '第十四卷', '子部', '生子免身也。从子免。', '子;免', '免', 'null', NULL, '子', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9766, '字', 'zì', '第十四卷', '子部', '乳也。愛也。从子在宀下。子亦聲。', '子;宀', '子', 'null', NULL, '宀', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9767, '㝅', 'ɡòu', '第十四卷', '子部', '乳也。从子，㱿聲。一曰㝅瞀也。', '子;㱿', '㱿', 'null', NULL, '子', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9767, '㝅;𣫌', 'ɡòu', '第十四卷', '子部', '乳也。从子，㱿聲。一曰㝅瞀也。', '子;㱿', '㱿', 'null', NULL, '子', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9768, '孿', 'luán', '第十四卷', '子部', '一乳㒳子也。从子，䜌聲。', '子;䜌', '䜌', 'null', NULL, '子', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9769, '孺', 'rú', '第十四卷', '子部', '乳子也。一曰輸孺也。輸孺尙小也。从子，需聲。', '子;需', '需', 'null', NULL, '子', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9770, '季', 'jì', '第十四卷', '子部', '少偁也。从子，稚省。稚亦聲。', '子;稚', '稚', 'null', NULL, '子', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
@@ -9843,10 +9843,10 @@ INSERT INTO `shuowen_voice_revel` VALUES (9793, '辱', 'rǔ', '第十四卷', '�
 INSERT INTO `shuowen_voice_revel` VALUES (9794, '巳;已', 'sì', '第十四卷', '巳部', '巳也。四月昜气巳出，陰气巳臧，萬物見，成彣彰，故巳爲它。象形。凡巳之屬皆从巳。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9795, '㠯;以', 'yǐ', '第十四卷', '巳部', '用也。从反巳。賈侍中說，巳，意巳實也。象形。', '巳', '', 'null', NULL, '巳', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9796, '午', 'wǔ', '第十四卷', '午部', '啎也。五月侌气啎屰昜，冒地而出也。象形。此與矢同意。凡午之屬皆从午。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9797, '啎', 'wǔ', '第十四卷', '午部', '屰也。从午，吾聲。', '午;吾', '吾', 'null', NULL, '午', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9797, '啎;牾', 'wǔ', '第十四卷', '午部', '屰也。从午，吾聲。', '午;吾', '吾', 'null', NULL, '午', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9798, '未', 'wèi', '第十四卷', '未部', '味也。六月滋味也。五行木老於未。象木重枝葉也。凡未之屬皆从未。', '', '', 'null', NULL, '', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9799, '申;𢑚', 'shēn', '第十四卷', '申部', '神也。七月侌气成體自申束。从𦥑自持也。吏㠯餔時聽事，申旦政也。凡申之屬皆从申。古文申。籒文申。', '𦥑', '', 'null', NULL, '臼', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9800, '𣍃', 'yìn', '第十四卷', '申部', '擊小𡔷引樂聲也。从申，柬聲。', '申;柬', '柬', 'null', NULL, '申', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9800, '𣍃;朄', 'yìn', '第十四卷', '申部', '擊小𡔷引樂聲也。从申，柬聲。', '申;柬', '柬', 'null', NULL, '申', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9801, '臾', 'yú', '第十四卷', '申部', '束縛捽抴爲臾曳。从申，从乙。', '申;乙', '', 'null', NULL, '申;乙', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9802, '曳', 'yè', '第十四卷', '申部', '臾曳也。从申，𠂆聲。', '申;𠂆', '𠂆', 'null', NULL, '申', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9803, '酉;丣', 'yǒu', '第十四卷', '酉部', '就也。八月黍成，可爲酎酒。象古文酉之形也。凡酉之屬皆从酉。古文酉从卯。卯爲春門，萬物巳出。丣爲秋門，萬物巳入。一，𨳰門象也。', '卯;一', '', 'null', NULL, '卯;一', 'null', 'null', 'null', 'null', '', 0x30, 'null', 'null', 'null');
@@ -9854,7 +9854,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9804, '酒', 'jiǔ', '第十四卷', '
 INSERT INTO `shuowen_voice_revel` VALUES (9805, '𨢊', 'ménɡ', '第十四卷', '酉部', '𥶶生衣也。从酉。冡聲。', '酉;冡', '冡', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9806, '䤁', 'yín', '第十四卷', '酉部', '孰𥶶也。从酉，甚聲。', '酉;甚', '甚', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9807, '釀', 'niànɡ', '第十四卷', '酉部', '醞也。作酒曰釀。从酉，襄聲。', '酉;襄', '襄', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9808, '醞', 'yùn', '第十四卷', '酉部', '釀也。从酉，𥁕聲。', '酉;𥁕', '𥁕', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9808, '醞;醖', 'yùn', '第十四卷', '酉部', '釀也。从酉，𥁕聲。', '酉;𥁕', '𥁕', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9809, '𨠒', 'fàn', '第十四卷', '酉部', '酒疾孰也。从酉，弁聲。', '酉;弁', '弁', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9810, '酴', 'tú', '第十四卷', '酉部', '酒母也。从酉，余聲。讀若廬。', '酉;余;廬', '余;廬', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9811, '釃', 'shī', '第十四卷', '酉部', '下酒也。从酉，麗聲。一曰醇也。', '酉;麗', '麗', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '麗轨', 0x31, 'null', 'null', 'null');
@@ -9874,7 +9874,7 @@ INSERT INTO `shuowen_voice_revel` VALUES (9824, '𨣨', 'làn', '第十四卷', 
 INSERT INTO `shuowen_voice_revel` VALUES (9825, '䤗', 'ɡǎn', '第十四卷', '酉部', '酒味淫也。从西，竷省聲。讀若春秋傳曰「美而豓」。', '西;竷;豓', '竷;豓', 'null', NULL, '西', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9826, '酷', 'kù', '第十四卷', '酉部', '酒味厚也。从酉，告聲。', '酉;告', '告', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9827, '酓', 'yǎn', '第十四卷', '酉部', '酒味苦也。从酉，今聲。', '酉;今', '今', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '应补', 0x31, 'null', 'null', 'null');
-INSERT INTO `shuowen_voice_revel` VALUES (9828, '醰', 'dàn', '第十四卷', '酉部', '酒味長也。从酉，覃聲。', '酉;覃', '覃', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
+INSERT INTO `shuowen_voice_revel` VALUES (9828, '醰;㽑', 'dàn', '第十四卷', '酉部', '酒味長也。从酉，覃聲。', '酉;覃', '覃', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9829, '䣪', 'pò', '第十四卷', '酉部', '酒色也。从酉，𣎵聲。', '酉;𣎵', '𣎵', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9830, '配', 'pèi', '第十四卷', '酉部', '酒色也。从酉，妃省聲。', '酉;妃', '妃', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
 INSERT INTO `shuowen_voice_revel` VALUES (9831, '䣧', 'yì', '第十四卷', '酉部', '酒色也。从酉，弋聲。', '酉;弋', '弋', 'null', NULL, '酉', 'null', 'null', 'null', 'null', '', 0x31, 'null', 'null', 'null');
