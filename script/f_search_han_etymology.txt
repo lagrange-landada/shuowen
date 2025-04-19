@@ -1,6 +1,14 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `f_search_han_etymology`(IN input_word VARCHAR(255))
 BEGIN
-	#Routine body goes here...
+
+DECLARE regex_word VARCHAR(255);
+
+SELECT REPLACE(GROUP_CONCAT(word SEPARATOR '|'), ';', '|') INTO regex_word FROM shuowen_voice_revel
+WHERE word REGEXP CONCAT('.*', input_word, '.*');
+
+SET regex_word = IFNULL(regex_word, input_word);
+
+
 select distinct t2.word, t2.word_voice, t2.definition, t2.volume, t2.flag from(
 select REPLACE(word,';','|') as word, pin_yin, shape, voice, definition, flag from (
 SELECT id, word, pin_yin, shape, voice, definition, flag
@@ -8,9 +16,9 @@ SELECT id, word, pin_yin, shape, voice, definition, flag
     WHERE voice REGEXP CONCAT(
             (SELECT IFNULL(GROUP_CONCAT(word SEPARATOR '|'), ' ') 
              FROM shuowen_voice_revel
-             WHERE voice REGEXP CONCAT('.*', input_word, '.*')
+             WHERE voice REGEXP CONCAT('.*', regex_word, '.*')
             ),
-            '|', input_word
+            '|', regex_word
           )
 		union
 		SELECT id, word, pin_yin, shape, voice, definition, flag

@@ -112,7 +112,7 @@
     call f_search_shuowen_definition('雙', '')
     -- 释名查询
     call f_search_han_etymology('工')
-    -- 方言、广雅查询
+    -- 方言、广雅、尔雅查询
     call f_search_han_nga('天')
     ```
     

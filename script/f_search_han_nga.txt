@@ -1,16 +1,28 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `f_search_han_nga`(IN input_word varchar(255))
 BEGIN
 
-select DISTINCT group_concat(DISTINCT REPLACE(t1.word, '|', ';') SEPARATOR '○') as shuowe_word, t2.word as dialect_word, t2.word_real as dialect_word_real, t2.definition, t2.note, t2.flag, t2.volume from(
+DECLARE regex_word VARCHAR(255);
+
+SELECT REPLACE(GROUP_CONCAT(word SEPARATOR '|'), ';', '|') INTO regex_word FROM shuowen_voice_revel
+WHERE word REGEXP CONCAT('.*', input_word, '.*');
+
+SET regex_word = IFNULL(regex_word, input_word);
+
+select DISTINCT group_concat(DISTINCT REPLACE((
+CASE
+        WHEN t1.word REGEXP CONCAT('.*', input_word, '.*') THEN CONCAT('★', t1.word)
+        ELSE t1.word
+    END
+), '|', ';') SEPARATOR '○') as shuowe_word, t2.word as nga_word, t2.word_real as nga_word_real, t2.definition, t2.note, t2.flag, t2.volume from(
 select REPLACE(word,';','|') as word, pin_yin, shape, voice, definition, flag from (
 SELECT id, word, pin_yin, shape, voice, definition, flag
     FROM shuowen_voice_revel
     WHERE voice REGEXP CONCAT(
             (SELECT IFNULL(GROUP_CONCAT(word SEPARATOR '|'), ' ') 
              FROM shuowen_voice_revel
-             WHERE voice REGEXP CONCAT('.*', input_word, '.*')
+             WHERE voice REGEXP CONCAT('.*', regex_word, '.*')
             ),
-            '|', input_word
+            '|', regex_word
           )
 		union
 		SELECT id, word, pin_yin, shape, voice, definition, flag
