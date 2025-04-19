@@ -61,6 +61,9 @@ public class WordCusWriter extends Word07Writer {
                     shading.setVal(STShd.CLEAR); // 清除之前的着色样式（如果存在）
                     shading.setFill("D9D9D9"); // 设置着色颜色（这里为红色）
                 }
+                if (texts.isHighColor()) {
+                    run.setTextHighlightColor("yellow"); // 默认黄色
+                }
 
             }
         }

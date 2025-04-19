@@ -108,7 +108,7 @@ SELECT id, word, pin_yin, shape, voice, definition, flag, intter_voice, intter_v
             'ǖ', 'v'),
             'ǚ', 'v'),
             'ǜ', 'v'),
-						'ɡ', 'g')
+			'ɡ', 'g')
          like input_pin_yin
 		order by id;
 END IF;

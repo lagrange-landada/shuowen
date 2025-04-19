@@ -3,6 +3,7 @@ package json.dto;
 import lombok.Data;
 
 import java.awt.*;
+import java.util.Objects;
 
 /***
  * Created by zhengyu.shang on 2021/11/23.
@@ -48,4 +49,7 @@ public class TextStyle {
     private int titleLevel;
 
     private boolean isShade;
+
+    private boolean isHighColor;//默认黄色
+
 }
