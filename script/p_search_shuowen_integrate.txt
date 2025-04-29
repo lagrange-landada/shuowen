@@ -1,0 +1,107 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_search_shuowen_integrate`(IN input_word VARCHAR(255), input_pin_yin VARCHAR(50), `range` VARCHAR(10))
+BEGIN
+-- range：用,隔开，默认全部查询，1-说文、2-nag、3-释名
+
+DECLARE regex_word VARCHAR(255);
+DECLARE word_voice_where TEXT;
+DECLARE voice_word_where TEXT;
+DECLARE word_word_where TEXT;
+SET SESSION group_concat_max_len = 50000;  -- 调大限制			
+
+IF (input_word IS NULL OR input_word = '') THEN
+SET regex_word = '';
+SET word_voice_where = '.';
+SET voice_word_where = '.';
+SET word_word_where = '.';
+ELSE
+SELECT REPLACE(GROUP_CONCAT(word SEPARATOR '|'), ';', '|') INTO regex_word FROM shuowen_voice_revel WHERE word REGEXP CONCAT('.*', input_word, '.*');
+
+SELECT REPLACE(GROUP_CONCAT(word SEPARATOR '|'), ';', '|') INTO word_voice_where
+             FROM shuowen_voice_new_view
+             WHERE voice_new REGEXP CONCAT('.*', regex_word, '.*');
+
+SELECT REPLACE(GROUP_CONCAT(voice_new SEPARATOR '|'), ';', '|') INTO voice_word_where
+             FROM shuowen_voice_new_view
+             WHERE word REGEXP CONCAT('.*', input_word, '.*')
+						 AND voice_new IS NOT NULL AND voice_new != '';
+		 
+SELECT DISTINCT GROUP_CONCAT(CONCAT_WS('|', word, IF(voice_new = '', NULL, voice_new)) SEPARATOR ';') INTO word_word_where
+             FROM shuowen_voice_new_view
+             WHERE word REGEXP CONCAT('.*', input_word, '.*');
+
+END IF;
+
+
+-- 创建临时表
+CREATE TEMPORARY TABLE temp_table AS
+SELECT * FROM (
+		SELECT id, word, pin_yin, logic_pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
+    FROM shuowen_voice_new_view
+    WHERE voice_new REGEXP CONCAT(word_voice_where, IF(regex_word = '', '', CONCAT('|', regex_word)))
+		
+		UNION		
+		SELECT id, word, pin_yin, logic_pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
+    FROM shuowen_voice_new_view
+    WHERE word REGEXP REPLACE(CONCAT(voice_word_where, IF(input_word = '', '', CONCAT('|', input_word))), '||', '|')
+		
+		UNION
+		SELECT id, word, pin_yin, logic_pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
+    FROM shuowen_voice_new_view
+    WHERE voice_new REGEXP REPLACE(REPLACE(word_word_where, ';', '|'), '||', '|')
+		
+		UNION
+		SELECT id, word, pin_yin, logic_pin_yin, shape, voice, definition, flag, intter_voice, intter_voice_source
+    FROM shuowen_voice_revel
+		WHERE word REGEXP CONCAT('.*', input_word, '.*')
+
+		) t
+		WHERE logic_pin_yin LIKE IF(input_pin_yin = '', '%%', input_pin_yin);
+
+
+-- 查询说文
+IF FIND_IN_SET('1',`range`) > 0 OR `range` IS NULL OR `range` = '' THEN
+	SELECT DISTINCT CASE
+					WHEN word REGEXP CONCAT('.*', input_word, '.*') THEN CONCAT('★', word)
+					ELSE word
+			END AS word, pin_yin, shape,
+	REPLACE(concat_ws('○',voice,intter_voice),'○null','') AS voice, definition, intter_voice_source, flag FROM temp_table t ORDER BY id;
+END IF;
+-- 查询nga表
+IF FIND_IN_SET('2',`range`) > 0 OR `range` IS NULL OR `range` = '' THEN
+
+	CREATE TEMPORARY TABLE temp_nga AS SELECT * FROM extracted_han_nga_view;
+	SELECT DISTINCT group_concat(DISTINCT REPLACE((
+		CASE
+			WHEN FIND_IN_SET(t1.id, REPLACE(REPLACE(shuowen_fk_word_id, '/', ';'), ';', ',')) = 0 AND FIND_IN_SET(t1.id, REPLACE(REPLACE(shuowen_fk_word_real_id, '/', ';'), ';', ',')) > 0 THEN null
+			WHEN t1.word REGEXP CONCAT('.*', input_word, '.*') THEN CONCAT('★', t1.word)
+			ELSE t1.word
+		END
+	), '|', ';') ORDER BY FIND_IN_SET(t1.id,REPLACE(REPLACE(shuowen_fk_word_id, '/', ';'), ';', ',')) SEPARATOR '○' ) AS shuowe_word, t2.word AS nga_word
+
+	, group_concat((CASE WHEN FIND_IN_SET(t1.id,REPLACE(t2.extracted_shuowen_fk_word_id, '/', ',')) > 0 AND FIND_IN_SET(t1.id,REPLACE(t2.extracted_shuowen_fk_word_real_id, '/', ',')) = 0 THEN t2.extracted_word_real
+		 ELSE NULL
+		 END) SEPARATOR ';') AS nag_voice
+		 
+		 ,t2.definition, t2.note, t2.flag, t2.volume
+	FROM temp_table t1 
+	INNER JOIN temp_nga t2 
+	ON (FIND_IN_SET(t1.id,REPLACE(REPLACE(t2.shuowen_fk_word_id, '/', ';'), ';', ',')) > 0 OR FIND_IN_SET(t1.id,REPLACE(REPLACE(t2.shuowen_fk_word_real_id, '/', ';'), ';', ',')) > 0)
+	GROUP BY t2.id
+	ORDER BY t2.id;
+
+END IF;
+-- 查询释名
+IF FIND_IN_SET('3',`range`) > 0 OR `range` IS NULL OR `range` = '' THEN
+
+SELECT DISTINCT t2.word, t2.word_voice, t2.definition, t2.volume, t2.flag 
+FROM temp_table t1 
+INNER JOIN t_han_etymology t2 
+ON (t2.word REGEXP CONCAT('.*',t1.word,'.*') OR (t2.word_voice REGEXP CONCAT('.*',t1.word,'.*')))
+ORDER BY t2.id;
+
+END IF;
+-- 删除临时表
+DROP TEMPORARY TABLE IF EXISTS temp_table;
+DROP TEMPORARY TABLE IF EXISTS temp_nga;
+
+END

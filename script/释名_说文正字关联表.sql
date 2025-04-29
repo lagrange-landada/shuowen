@@ -3,15 +3,15 @@
 
  Source Server         : MySQL_TEST_local
  Source Server Type    : MySQL
- Source Server Version : 50726
+ Source Server Version : 50744
  Source Host           : localhost:3306
  Source Schema         : shuowen
 
  Target Server Type    : MySQL
- Target Server Version : 50726
+ Target Server Version : 50744
  File Encoding         : 65001
 
- Date: 19/04/2025 23:24:30
+ Date: 29/04/2025 19:49:00
 */
 
 SET NAMES utf8mb4;
@@ -32,7 +32,7 @@ CREATE TABLE `t_han_etymology`  (
   `field1` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `field2` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of t_han_etymology

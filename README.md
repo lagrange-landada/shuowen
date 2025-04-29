@@ -106,14 +106,8 @@
 * sql脚本：给古书找通假字、找同源字事半功倍
 
     ```
-    -- 说文查询
-    call f_search_shuowen('工', 'gong')
-    -- 说文释义查询
-    call f_search_shuowen_definition('雙', '')
-    -- 释名查询
-    call f_search_han_etymology('工')
-    -- 方言、广雅、尔雅查询
-    call f_search_han_nga('天')
+    -- 《说文》、《释名》、《方言》、《尔雅》、《广雅》、《急就篇》关联查询
+    call p_search_shuowen_integrate('臤', 'jian', '1,2,3')
     ```
     
     

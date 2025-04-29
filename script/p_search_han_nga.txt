@@ -1,0 +1,55 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_search_han_nga`(IN input_word varchar(255))
+BEGIN
+
+DECLARE regex_word VARCHAR(255);
+
+SELECT REPLACE(GROUP_CONCAT(word SEPARATOR '|'), ';', '|') INTO regex_word FROM shuowen_voice_revel
+WHERE word REGEXP CONCAT('.*', input_word, '.*');
+
+SET regex_word = IFNULL(regex_word, input_word);
+
+select DISTINCT group_concat(DISTINCT REPLACE((
+CASE
+        WHEN t1.word REGEXP CONCAT('.*', input_word, '.*') THEN CONCAT('★', t1.word)
+        ELSE t1.word
+    END
+), '|', ';') SEPARATOR '○') as shuowe_word, t2.word as nga_word, t2.word_real as nga_word_real, t2.definition, t2.note, t2.flag, t2.volume from(
+select REPLACE(word,';','|') as word, pin_yin, shape, voice, definition, flag from (
+SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_revel
+    WHERE voice REGEXP CONCAT(
+            (SELECT IFNULL(GROUP_CONCAT(word SEPARATOR '|'), ' ') 
+             FROM shuowen_voice_revel
+             WHERE voice REGEXP CONCAT('.*', regex_word, '.*')
+            ),
+            '|', regex_word
+          )
+		union
+		SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_new_view
+    WHERE word REGEXP CONCAT(
+            (SELECT IFNULL(GROUP_CONCAT(voice_new SEPARATOR '|'), ' ')
+             FROM shuowen_voice_new_view
+             WHERE word REGEXP CONCAT('.*', input_word, '.*')
+            ),
+            '|', input_word
+          )
+		union
+		SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_new_view
+    WHERE voice_new REGEXP REPLACE(REPLACE(
+            (SELECT DISTINCT GROUP_CONCAT(CONCAT_WS('|', word, IF(voice_new = '', null, voice_new)) SEPARATOR ';')
+             FROM shuowen_voice_new_view
+             WHERE word REGEXP CONCAT('.*', input_word, '.*')
+            )
+          , ';', '|'), '||', '|')
+		union
+		SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_revel
+		WHERE word REGEXP CONCAT('.*', input_word, '.*')			
+		) t order by id
+) t1 
+inner join t_han_nga t2 on (t2.word REGEXP CONCAT('.*',t1.word,'.*') OR (t2.word_real REGEXP CONCAT('.*',t1.word,'.*')))
+group by t2.word, t2.word_real, t2.definition, t2.note, t2.flag, t2.volume
+order by t2.id;
+END

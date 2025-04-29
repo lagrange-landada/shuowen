@@ -1,0 +1,101 @@
+CREATE DEFINER=`root`@`localhost` FUNCTION `F_PLACE_MATCH_ALL`(
+    substr VARCHAR(255),
+    strs LONGTEXT,
+    `separator` VARCHAR(10),
+    place_str VARCHAR(255)
+) RETURNS longtext CHARSET utf8mb4
+    DETERMINISTIC
+BEGIN
+# 将place_str以separator进行分割，若包含substr，则全部替换为place_str
+# 比如F_PLACE_MATCH_ALL('123', '123;456;123/789', ';', '666')，则返回'666;456;666/789'
+		DECLARE result LONGTEXT DEFAULT '';
+    DECLARE temp_str LONGTEXT;
+    DECLARE current_item VARCHAR(255);
+    DECLARE item_pos INT DEFAULT 1;
+    DECLARE found_pos INT;
+    DECLARE inner_separator VARCHAR(10);
+    DECLARE inner_items LONGTEXT;
+    DECLARE inner_item VARCHAR(255);
+    DECLARE inner_found_pos INT;
+
+    -- 根据外部分隔符确定内部分隔符
+    SET inner_separator = '/';
+
+    -- 如果任一参数为NULL，则返回NULL
+    IF substr IS NULL OR strs IS NULL OR `separator` IS NULL OR place_str IS NULL THEN
+        RETURN NULL;
+    END IF;
+    
+    -- 如果父串为空，则直接返回空字符串
+    IF strs = '' THEN
+        RETURN '';
+    END IF;
+    
+    SET temp_str = strs;
+    
+    -- 循环处理每个分割后的项
+    WHILE LENGTH(temp_str) > 0 DO
+        -- 查找分隔符位置
+        SET found_pos = LOCATE(`separator`, temp_str);
+        
+        IF found_pos = 0 THEN
+            -- 最后一项
+            SET current_item = temp_str;
+            SET temp_str = '';
+        ELSE
+            -- 提取当前项
+            SET current_item = LEFT(temp_str, found_pos - 1);
+            -- 移除已处理的部分
+            SET temp_str = SUBSTRING(temp_str, found_pos + LENGTH(`separator`));
+        END IF;
+        
+        -- 处理当前项内部的分隔符
+        SET inner_items = current_item;
+        SET current_item = '';  -- 清空当前项，用来拼接处理后的项
+        
+        -- 内部项处理
+        WHILE LENGTH(inner_items) > 0 DO
+            -- 查找内部分隔符的位置
+            SET inner_found_pos = LOCATE(inner_separator, inner_items);
+            
+            IF inner_found_pos = 0 THEN
+                -- 最后一内部项
+                SET inner_item = inner_items;
+                SET inner_items = '';
+            ELSE
+                -- 提取当前内部项
+                SET inner_item = LEFT(inner_items, inner_found_pos - 1);
+                -- 移除已处理的部分
+                SET inner_items = SUBSTRING(inner_items, inner_found_pos + LENGTH(inner_separator));
+            END IF;
+
+            -- 检查当前内部项是否匹配子串
+            IF inner_item = substr THEN
+                SET inner_item = place_str;
+            END IF;
+
+            -- 拼接内部项
+            IF LENGTH(current_item) = 0 THEN
+                SET current_item = inner_item;
+            ELSE
+                SET current_item = CONCAT(current_item, inner_separator, inner_item);
+            END IF;
+        END WHILE;
+        
+        -- 检查当前项是否匹配子串
+        IF current_item = substr THEN
+            SET current_item = place_str;
+        END IF;
+        
+        -- 构建结果字符串
+        IF item_pos = 1 THEN
+            SET result = current_item;
+        ELSE
+            SET result = CONCAT(result, `separator`, current_item);
+        END IF;
+        
+        SET item_pos = item_pos + 1;
+    END WHILE;
+    
+    RETURN result;
+END

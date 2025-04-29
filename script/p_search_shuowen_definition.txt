@@ -1,0 +1,82 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_search_shuowen_definition`(IN input_word VARCHAR(255), exclude varchar(255) )
+BEGIN
+# input_word：带输入的关键字
+# |-绝对搜索，比如：凡，那么只搜索出现“凡”字的条目；
+# |-部件搜索，比如：凡，那么除了凡，还会连带着搜索風、朋等条目。
+# exclude：需要排除的关键字
+	DECLARE regex_result VARCHAR(1000);
+	DECLARE regex_word VARCHAR(255);
+
+SELECT REPLACE(GROUP_CONCAT(word SEPARATOR '|'), ';', '|') INTO regex_word FROM shuowen_voice_revel
+WHERE word REGEXP CONCAT('.*', input_word, '.*');
+
+SET regex_word = IFNULL(regex_word, input_word);
+
+
+
+SELECT REPLACE(GROUP_CONCAT(t.word SEPARATOR '|'), ';', '|')
+	INTO regex_result
+	FROM (
+		SELECT id, word, pin_yin, shape, voice, definition, flag
+		FROM shuowen_voice_revel
+		WHERE voice REGEXP CONCAT((
+			SELECT IFNULL(GROUP_CONCAT(word SEPARATOR '|'), ' ')
+			FROM shuowen_voice_revel
+			WHERE voice REGEXP CONCAT('.*', regex_word, '.*')
+		), '|', regex_word)
+		UNION
+SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_new_view
+    WHERE word REGEXP CONCAT(
+            (SELECT IFNULL(GROUP_CONCAT(voice_new SEPARATOR '|'), ' ')
+             FROM shuowen_voice_new_view
+             WHERE word REGEXP CONCAT('.*', input_word, '.*')
+            ),
+            '|', input_word
+          )
+		UNION
+SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_new_view
+    WHERE voice_new REGEXP REPLACE(REPLACE(
+            (SELECT DISTINCT GROUP_CONCAT(CONCAT_WS('|', word, IF(voice_new = '', null, voice_new)) SEPARATOR ';')
+             FROM shuowen_voice_new_view
+             WHERE word REGEXP CONCAT('.*', input_word, '.*')
+            )
+          , ';', '|'), '||', '|')
+		UNION
+SELECT id, word, pin_yin, shape, voice, definition, flag
+    FROM shuowen_voice_revel
+		WHERE word REGEXP CONCAT('.*', input_word, '.*')
+	) t;
+	
+	
+
+
+
+IF exclude IS NULL OR exclude = '' THEN
+  -- 部件搜索（无排除词）
+	SELECT word, pin_yin, shape, voice, definition, flag
+	FROM shuowen_voice_revel
+	WHERE definition REGEXP regex_result
+	ORDER BY id;
+	-- 绝对搜索（无排除词）
+	SELECT word, pin_yin, shape, voice, definition, flag
+	FROM shuowen_voice_revel
+	WHERE definition REGEXP CONCAT('.*', regex_word, '.*')
+	ORDER BY id;
+ELSE
+  -- 部件搜索（有排除词）
+	SELECT word, pin_yin, shape, voice, definition, flag
+	FROM shuowen_voice_revel
+	WHERE definition REGEXP regex_result
+		AND definition NOT REGEXP exclude
+	ORDER BY id;
+	-- 绝对搜索（有排除词）
+	SELECT word, pin_yin, shape, voice, definition, flag
+	FROM shuowen_voice_revel
+	WHERE definition REGEXP CONCAT('.*', regex_word, '.*')
+		AND definition NOT REGEXP ifnull(exclude, '')
+	ORDER BY id;
+END IF;
+
+END
