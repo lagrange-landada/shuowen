@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `p_search_shuowen_integrate`(IN input_word VARCHAR(255), input_pin_yin VARCHAR(50), `range` VARCHAR(10))
 BEGIN
--- range：用,隔开，默认全部查询，1-说文、2-nag、3-释名
+-- range：用,隔开，默认全部查询，1-说文、2-nga、3-释名
 
 DECLARE regex_word VARCHAR(255);
 DECLARE word_voice_where TEXT;
