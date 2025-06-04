@@ -11,7 +11,7 @@
  Target Server Version : 50744
  File Encoding         : 65001
 
- Date: 29/04/2025 19:49:00
+ Date: 04/06/2025 10:32:36
 */
 
 SET NAMES utf8mb4;
@@ -238,7 +238,7 @@ INSERT INTO `t_han_etymology` VALUES (198, '梧丘', '啎', '當途曰梧丘。�
 INSERT INTO `t_han_etymology` VALUES (199, '畫丘', '', '道岀其右曰畫丘，人尙右，凡有指畫皆用右也。', '釋丘第五', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (200, '載丘', '', '道出其前曰載丘，在前故言載也。', '釋丘第五', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (201, '昌丘', '', '道岀其後曰昌丘。', '釋丘第五', '释名', '', 'null', 'null');
-INSERT INTO `t_han_etymology` VALUES (202, '[渻丘]', '', '其前曰阯丘，阯，基阯也，言所出然。', '釋丘第五', '释名', '1', 'null', 'null');
+INSERT INTO `t_han_etymology` VALUES (202, '渻丘', '', '其前曰阯丘，阯，基阯也，言所出然。', '釋丘第五', '释名', '1', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (203, '阻丘', '', '水岀其後曰阻丘，背水以爲險也。', '釋丘第五', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (204, '沚丘', '止', '水岀其右曰沚丘。沚，止也，西方義氣有所制止也。', '釋丘第五', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (205, '營丘', '', '水出其左曰營丘。', '釋丘第五', '释名', '', 'null', 'null');
@@ -862,7 +862,7 @@ INSERT INTO `t_han_etymology` VALUES (822, '糗', '𤘐', '糗，齲[𤘐]也，
 INSERT INTO `t_han_etymology` VALUES (823, '餱', '候', '餱，候也，候人飢者以食之也。', '釋飲食第十三', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (824, '麮', '𤘐', '煮麥曰麮，麮亦齲[𤘐]也，煮熟亦齲壞也。', '釋飲食第十三', '释名', '2', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (825, '柰油', '', '柰油，搗柰實，和以塗繒上，燥而發之，形似油也。杏油亦如之。', '釋飲食第十三', '释名', '', 'null', 'null');
-INSERT INTO `t_han_etymology` VALUES (826, '桃濫', '', '桃濫，水漬而藏之，其味濫濫然酢也。', '釋飲食第十三', '释名', '', 'null', 'null');
+INSERT INTO `t_han_etymology` VALUES (826, '桃蘫', '', '桃濫，水漬而藏之，其味濫濫然酢也。', '釋飲食第十三', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (827, '柰脯', '', '柰脯，切柰暴乾之，如脯也。', '釋飲食第十三', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (828, '鮑魚', '腐', '鮑魚，鮑，腐也，埋藏奄之，使腐臭也。', '釋飲食第十三', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (829, '蟹胥', '湑', '蟹胥，取蟹藏之，使骨肉解，胥胥[湑]然也。', '釋飲食第十三', '释名', '2', 'null', 'null');
@@ -905,7 +905,7 @@ INSERT INTO `t_han_etymology` VALUES (865, '紈', '渙', '紈，渙也，細澤�
 INSERT INTO `t_han_etymology` VALUES (866, '蒸栗', '', '蒸栗，染紺使黃，色如蒸栗然也。', '釋采帛第十四', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (867, '紺', '含', '紺，含也，靑而含赤色也。', '釋采帛第十四', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (868, '綸', '侖', '綸，倫[侖]也，作之有倫理也。', '釋采帛第十四', '释名', '2', 'null', 'null');
-INSERT INTO `t_han_etymology` VALUES (869, '縵', '[面]', '綿猶湎[面]。湎，柔而無文也。', '釋采帛第十四', '释名', '1;2', 'null', 'null');
+INSERT INTO `t_han_etymology` VALUES (869, '縵', '湎', '綿猶湎。湎，柔而無文也。', '釋采帛第十四', '释名', '1;2', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (870, '絮', '胥', '絮，胥也，胥久能解落也。', '釋采帛第十四', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (871, '紬', '㩅', '紬，抽[㩅]也，抽引絲端岀細緒也。', '釋采帛第十四', '释名', '2', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (872, '絓', '挂', '紬，又謂之絓，絓，挂也，挂於杖端，振舉之也。', '釋采帛第十四', '释名', '', 'null', 'null');
@@ -960,7 +960,7 @@ INSERT INTO `t_han_etymology` VALUES (920, '華勝', '', '華勝，華，象草�
 INSERT INTO `t_han_etymology` VALUES (921, '叉', '', '釵，枝也。象枝之形，因形名之也。', '釋首飾第十五', '释名', '1', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (922, '爵叉', '', '爵釵，釵頭施爵也。', '釋首飾第十五', '释名', '1', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (923, '瑱', '鎭', '瑱，鎭也，縣當耳旁，不欲使人妄聽，自鎭重也。', '釋首飾第十五', '释名', '', 'null', 'null');
-INSERT INTO `t_han_etymology` VALUES (924, '充耳', '', '瑱，或曰充耳，充塞其耳，亦所以止聽也。故里語曰：「不瘖不聾，不成姑公。」。', '釋首飾第十五', '释名', '', 'null', 'null');
+INSERT INTO `t_han_etymology` VALUES (924, '充耳', '', '瑱，或曰充耳，充塞其耳，亦所以止聽也。故里語曰：「不瘖不聾，不成姑公。」', '釋首飾第十五', '释名', '', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (925, '當', '', '穿耳施珠曰璫，此本出於蠻夷所爲也，蠻夷婦女輕淫好走，故以此璫錘之也。今中國人效之耳。', '釋首飾第十五', '释名', '1', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (926, '脂', '厎', '脂，砥[厎]也，著面柔滑，如砥石也。', '釋首飾第十五', '释名', '2', 'null', 'null');
 INSERT INTO `t_han_etymology` VALUES (927, '粉', '分', '粉，分也，研米使分散也。', '釋首飾第十五', '释名', '', 'null', 'null');
