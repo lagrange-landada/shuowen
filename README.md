@@ -103,11 +103,11 @@
   * [《切韵》残卷检索系统](https://suzukish.sakura.ne.jp/search/qieyun/index.php)，可供校勘
   * [知网论文下载](http://b.r88r.top/)，聊备一说
 
-* sql脚本：给古书找通假字、找同源字事半功倍
+* sql脚本：给古书找通假字、找同源字事半功倍（必须得对《说文》十分熟悉，否则容易走火入魔）
 
     ```
-    -- 《说文》、《释名》、《方言》、《尔雅》、《广雅》、《急就篇》、《小尔雅》关联查询
-    call p_search_shuowen_integrate('臤', 'jian', '1,2,3')
+    -- 《说文》、《释名》、《方言》、《尔雅》、《广雅》、《急就篇》、《小尔雅》、《文始》关联查询
+    call p_search_shuowen_integrate_new('臤', 'jian', '1,2,3,4')
     ```
 
     

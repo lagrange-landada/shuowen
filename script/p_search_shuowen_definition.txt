@@ -68,14 +68,12 @@ ELSE
   -- 部件搜索（有排除词）
 	SELECT word, pin_yin, shape, voice, definition, flag
 	FROM shuowen_voice_revel
-	WHERE definition REGEXP regex_result
-		AND definition NOT REGEXP exclude
+	WHERE REPLACE(definition, exclude, '') REGEXP regex_result
 	ORDER BY id;
 	-- 绝对搜索（有排除词）
 	SELECT word, pin_yin, shape, voice, definition, flag
 	FROM shuowen_voice_revel
-	WHERE definition REGEXP CONCAT('.*', regex_word, '.*')
-		AND definition NOT REGEXP ifnull(exclude, '')
+	WHERE REPLACE(definition, exclude, '') REGEXP CONCAT('.*', regex_word, '.*')
 	ORDER BY id;
 END IF;
 

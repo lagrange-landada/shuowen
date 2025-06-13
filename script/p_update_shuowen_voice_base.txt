@@ -1,0 +1,14 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_update_shuowen_voice_base`(IN in_id INT, old_voice VARCHAR(255))
+BEGIN
+		# old_voice，更新之前的声符
+		# 对于基础字头，如果声符有所变动，那么也要连带着更新其他包含该构件的vice_base
+	DECLARE in_word VARCHAR(255) DEFAULT (SELECT REPLACE(word, ';', '|') FROM shuowen_voice_revel WHERE id = in_id);
+	# 获取符合条件的行
+	DECLARE ids VARCHAR(2000) DEFAULT (SELECT GROUP_CONCAT(id SEPARATOR ',') FROM shuowen_voice_revel WHERE voice_base REGEXP CONCAT('.*', REPLACE(IFNULL(F_GET_VOICE_BASE(old_voice), in_word), ';', '|'), '.*') AND voice_base != F_GET_VOICE_BASE(concat_ws(';', NULLIF(voice, ''), NULLIF(voice_read, '')))) ;
+	
+	UPDATE shuowen_voice_revel SET voice_base = F_GET_VOICE_BASE(concat_ws(';', NULLIF(voice, ''), NULLIF(voice_read, ''))) WHERE FIND_IN_SET(id,ids) > 0;
+	
+	SELECT id, word, voice, voice_read, voice_base FROM shuowen_voice_revel WHERE FIND_IN_SET(id,ids) > 0;
+	
+
+END

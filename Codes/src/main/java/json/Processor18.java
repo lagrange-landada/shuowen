@@ -224,8 +224,14 @@ public class Processor18 {
                                 beforeFontSize = fontSize;
                             }
 
+
                         }
 
+                        // 当前段落若还有，则清理最后的小字
+                        if (curNote.length() != 0) {
+                            definitions.add("<" + curNote + ">");
+                            curNote = "";
+                        }
 
                         if (isRedOrGreen == 0) {
                             isContinue = true;

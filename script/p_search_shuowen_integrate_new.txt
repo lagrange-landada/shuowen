@@ -1,0 +1,110 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_search_shuowen_integrate_new`(IN input_word VARCHAR(255), input_pin_yin VARCHAR(50), `range` VARCHAR(10))
+BEGIN
+-- 新版查询，采用voice_base获取数据
+-- range：用,隔开，默认全部查询，1-说文、2-nga、3-释名
+
+DECLARE where_voice_base VARCHAR(255);
+DECLARE tai_yi_word VARCHAR(255);
+DECLARE tai_yi_word_grand_son VARCHAR(255);
+DECLARE shuowen_word VARCHAR(255);
+
+SET SESSION group_concat_max_len = 50000;  -- 调大限制	
+
+IF input_word IS NULL OR input_word = '' THEN
+	SET where_voice_base = '';
+ELSE
+	SET where_voice_base = (
+		SELECT REPLACE(GROUP_CONCAT(voice_base SEPARATOR ';'), ';', '|') FROM (
+		SELECT voice_base FROM shuowen_voice_revel WHERE word REGEXP CONCAT('.*', input_word, '.*')
+		UNION
+		SELECT F_GET_VOICE_BASE('', input_word) AS voice_base) t);
+END IF;
+
+-- 创建临时表
+CREATE TEMPORARY TABLE temp_table AS
+	SELECT * FROM shuowen_voice_revel WHERE
+		 (IFNULL(voice_base, '') REGEXP CONCAT('.*', where_voice_base, '.*')
+		 OR word REGEXP CONCAT('.*', input_word, '.*')
+		 OR word REGEXP CONCAT('.*', where_voice_base, '.*'))
+		 AND logic_pin_yin LIKE IF(input_pin_yin = '', '%%', input_pin_yin);
+
+-- 查询说文
+IF FIND_IN_SET('1',`range`) > 0 OR `range` IS NULL OR `range` = '' THEN
+	SELECT DISTINCT CASE
+					WHEN word REGEXP CONCAT('.*', input_word, '.*') THEN CONCAT('★', word)
+					ELSE word
+			END AS word, pin_yin, shape,
+	REPLACE(concat_ws('○',voice, NULLIF(voice_read, ''), intter_voice),'○null','') AS voice, definition, intter_voice_source, flag FROM temp_table t ORDER BY id;
+END IF;
+
+-- 查询nga表
+IF FIND_IN_SET('2',`range`) > 0 OR `range` IS NULL OR `range` = '' THEN
+
+	CREATE TEMPORARY TABLE temp_nga AS SELECT * FROM extracted_han_nga_view;
+	SELECT DISTINCT group_concat(DISTINCT REPLACE((
+		CASE
+			WHEN FIND_IN_SET(t1.id, REPLACE(REPLACE(shuowen_fk_word_id, '/', ';'), ';', ',')) = 0 AND FIND_IN_SET(t1.id, REPLACE(REPLACE(shuowen_fk_word_real_id, '/', ';'), ';', ',')) > 0 THEN null
+			WHEN t1.word REGEXP CONCAT('.*', input_word, '.*') THEN CONCAT('★', t1.word)
+			ELSE t1.word
+		END
+	), '|', ';') ORDER BY FIND_IN_SET(t1.id,REPLACE(REPLACE(shuowen_fk_word_id, '/', ';'), ';', ',')) SEPARATOR '○' ) AS shuowe_word, t2.word AS nga_word
+
+	, group_concat((CASE WHEN FIND_IN_SET(t1.id,REPLACE(t2.extracted_shuowen_fk_word_id, '/', ',')) > 0 AND FIND_IN_SET(t1.id,REPLACE(t2.extracted_shuowen_fk_word_real_id, '/', ',')) = 0 THEN t2.extracted_word_real
+		 ELSE NULL
+		 END) SEPARATOR ';') AS nag_voice
+		 ,t2.definition, t2.note, t2.flag, t2.volume
+	FROM temp_table t1
+	INNER JOIN temp_nga t2
+	ON (FIND_IN_SET(t1.id,REPLACE(REPLACE(t2.shuowen_fk_word_id, '/', ';'), ';', ',')) > 0 OR FIND_IN_SET(t1.id,REPLACE(REPLACE(t2.shuowen_fk_word_real_id, '/', ';'), ';', ',')) > 0)
+	GROUP BY t2.id
+	ORDER BY t2.id;
+
+END IF;
+-- 查询释名
+IF FIND_IN_SET('3',`range`) > 0 OR `range` IS NULL OR `range` = '' THEN
+
+SELECT DISTINCT t2.word, t2.word_voice, t2.definition, t2.volume, t2.flag
+FROM temp_table t1
+INNER JOIN t_han_etymology t2
+ON (t2.word REGEXP CONCAT('.*',t1.word,'.*') OR (t2.word_voice REGEXP CONCAT('.*',t1.word,'.*')))
+ORDER BY t2.id;
+
+END IF;
+-- 查询文始（注意，由于此书的特殊性，既要查出该书所涉及的初文的全部数据行，也要找出外部孳乳的初文全部数据行）
+IF FIND_IN_SET('4',`range`) > 0 OR `range` IS NULL OR `range` = '' THEN
+-- 第1步：获取说文字头（input_word不可以直接用来查询）
+SET shuowen_word = (SELECT GROUP_CONCAT(word SEPARATOR ';') FROM shuowen_voice_revel WHERE word REGEXP CONCAT('.*', input_word, '.*'));
+	-- 只有存在的前提下，查询才有意义
+	IF shuowen_word IS NOT NULL THEN
+	
+		-- 第2步：根据说文字头，定位到具体的tai_yi字头
+		SET tai_yi_word = (SELECT GROUP_CONCAT(word SEPARATOR ';') FROM t_han_taiyi WHERE CONCAT_WS(';', word, NULLIF(word_son, ''), NULLIF(word_grand_son, '')) REGEXP CONCAT('.*', REPLACE(shuowen_word, ';', '|'), '.*'));
+		 IF tai_yi_word IS NOT NULL THEN
+				-- 第3步：汇总tai_yi字头相关的外部孳乳字
+				SET tai_yi_word_grand_son = (SELECT GROUP_CONCAT(NULLIF(word_grand_son, '') SEPARATOR ';') FROM t_han_taiyi WHERE word REGEXP CONCAT('.*', REPLACE(tai_yi_word, ';', '|'), '.*'));
+		
+		-- 第4步：根据tai_yi字头、外部孳乳字，重新赋值tai_yi字头
+				SET tai_yi_word = (
+		SELECT GROUP_CONCAT(NULLIF(word, '') SEPARATOR ';') FROM t_han_taiyi WHERE CONCAT_WS(';', word, NULLIF(word_son, '')) REGEXP CONCAT('.*', REPLACE(CONCAT_WS(';', tai_yi_word, tai_yi_word_grand_son), ';', '|'), '.*')
+		);
+		
+		-- 第5步：将其相关的行，全部查询出来
+				SELECT IF(CONCAT_WS(';', word, NULLIF(word_son, ''), NULLIF(word_grand_son, '')) REGEXP CONCAT('.*', REPLACE(shuowen_word, ';', '|')), CONCAT('★', shuowen_word), NULL) AS sw_word, word, word_son, word_grand_son, definition, CONCAT_WS(' | ', volume_1, volume_2) AS volume FROM t_han_taiyi WHERE word REGEXP CONCAT('.*', REPLACE(tai_yi_word, ';', '|'
+), '.*') ORDER BY ID;
+		
+		 ELSE
+				SELECT NULL AS sw_word, NULL AS word, NULL AS word_son, NULL AS word_grand_son, NULL AS definition, NULL AS volume;
+		 END IF;
+
+	ELSE
+		SELECT NULL AS sw_word, NULL AS word, NULL AS word_son, NULL AS word_grand_son, NULL AS definition, NULL AS volume;
+	END IF;
+
+
+
+END IF;
+-- 删除临时表
+DROP TEMPORARY TABLE IF EXISTS temp_table;
+DROP TEMPORARY TABLE IF EXISTS temp_nga;
+
+END

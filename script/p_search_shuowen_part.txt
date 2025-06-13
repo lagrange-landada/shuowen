@@ -1,0 +1,35 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `p_search_shuowen_part`(IN input_word VARCHAR(255))
+BEGIN
+	# 用来查询说文部件（根据shape+voice）
+	# voice_exclude 排除相关声符（待补充）
+	# bu_shou_exclude 排除相关部首（待补充）
+DECLARE where_part_base VARCHAR(255);
+
+IF input_word IS NULL OR input_word = '' THEN
+	SET where_part_base = '';
+ELSE
+	SET where_part_base = (
+		SELECT REPLACE(GROUP_CONCAT(word SEPARATOR ';'), ';', '|') FROM shuowen_voice_revel WHERE word REGEXP CONCAT('.*', input_word, '.*')
+	);
+END IF;
+
+-- 创建临时表
+CREATE TEMPORARY TABLE temp_table AS
+	SELECT * FROM shuowen_voice_revel WHERE
+		 (
+				(IFNULL(part_base, '') REGEXP CONCAT('.*', where_part_base, '.*'))
+				OR word REGEXP CONCAT('.*', input_word, '.*')
+				OR word REGEXP CONCAT('.*', where_part_base, '.*')
+		 );
+		 
+
+SELECT DISTINCT CASE
+					WHEN word REGEXP CONCAT('.*', input_word, '.*') THEN CONCAT('★', word)
+					ELSE word
+			END AS word, pin_yin, shape,
+	REPLACE(concat_ws('○',voice, NULLIF(voice_read, ''), intter_voice),'○null','') AS voice, definition, intter_voice_source, flag FROM temp_table t ORDER BY id;
+
+-- 删除临时表
+DROP TEMPORARY TABLE IF EXISTS temp_table;
+
+END
