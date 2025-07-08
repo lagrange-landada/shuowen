@@ -1,0 +1,29 @@
+CREATE DEFINER=`root`@`localhost` FUNCTION `multi_replace_str`(
+    original_str VARCHAR(1000),
+    chars_to_replace VARCHAR(100)
+) RETURNS varchar(1000) CHARSET utf8mb4
+    DETERMINISTIC
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    DECLARE item_count INT;
+    DECLARE current_char VARCHAR(10);
+    DECLARE result VARCHAR(1000);
+    
+    SET result = original_str;
+    
+    -- 计算分隔符数量
+    SET item_count = (LENGTH(chars_to_replace) - LENGTH(REPLACE(chars_to_replace, '|', ''))) / LENGTH('|') + 1;
+    
+    -- 循环处理每个要替换的字符
+    WHILE i <= item_count DO
+        -- 获取当前要替换的字符
+        SET current_char = SUBSTRING_INDEX(SUBSTRING_INDEX(chars_to_replace, '|', i), '|', -1);
+        
+        -- 执行替换
+        SET result = REPLACE(result, current_char, '');
+        
+        SET i = i + 1;
+    END WHILE;
+    
+    RETURN result;
+END

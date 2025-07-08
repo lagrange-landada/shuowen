@@ -44,5 +44,27 @@
     <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.33.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.18.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:2.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.10" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.monkeywie:proxyee:1.2.4" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.50.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.50.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.50.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.50.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.50.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.50.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.50.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler-proxy:4.1.50.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-socks:4.1.50.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.58" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.58" level="project" />
+    <orderEntry type="library" name="Maven: com.dtflys.forest:forest-core:1.5.33" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.juniversalchardet:juniversalchardet:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient-cache:4.5.13" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.5.13" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.14.9" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.17.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
   </component>
 </module>

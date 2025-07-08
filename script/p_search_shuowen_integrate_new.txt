@@ -1,7 +1,7 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `p_search_shuowen_integrate_new`(IN input_word VARCHAR(255), input_pin_yin VARCHAR(50), `range` VARCHAR(10))
 BEGIN
 -- 新版查询，采用voice_base获取数据
--- range：用,隔开，默认全部查询，1-说文、2-nga、3-释名
+-- range：用,隔开，默认全部查询，1-说文、2-nga、3-释名、4-文始
 
 DECLARE where_voice_base VARCHAR(255);
 DECLARE tai_yi_word VARCHAR(255);
@@ -16,6 +16,8 @@ ELSE
 	SET where_voice_base = (
 		SELECT REPLACE(GROUP_CONCAT(voice_base SEPARATOR ';'), ';', '|') FROM (
 		SELECT voice_base FROM shuowen_voice_revel WHERE word REGEXP CONCAT('.*', input_word, '.*')
+		UNION
+		SELECT word FROM shuowen_voice_revel WHERE word REGEXP CONCAT('.*', input_word, '.*')
 		UNION
 		SELECT F_GET_VOICE_BASE('', input_word) AS voice_base) t);
 END IF;
@@ -89,8 +91,8 @@ SET shuowen_word = (SELECT GROUP_CONCAT(word SEPARATOR ';') FROM shuowen_voice_r
 		);
 		
 		-- 第5步：将其相关的行，全部查询出来
-				SELECT IF(CONCAT_WS(';', word, NULLIF(word_son, ''), NULLIF(word_grand_son, '')) REGEXP CONCAT('.*', REPLACE(shuowen_word, ';', '|')), CONCAT('★', shuowen_word), NULL) AS sw_word, word, word_son, word_grand_son, definition, CONCAT_WS(' | ', volume_1, volume_2) AS volume FROM t_han_taiyi WHERE word REGEXP CONCAT('.*', REPLACE(tai_yi_word, ';', '|'
-), '.*') ORDER BY ID;
+				SELECT IF(CONCAT_WS(';', taiyi.word, NULLIF(taiyi.word_son, ''), NULLIF(taiyi.word_grand_son, '')) REGEXP CONCAT('.*', REPLACE(shuowen_word, ';', '|')), CONCAT('★', shuowen_word), NULL) AS sw_word, taiyi.word, taiyi.word_son, taiyi.word_grand_son, taiyi.definition, CONCAT_WS(' | ', taiyi.volume_1, taiyi.volume_2) AS volume FROM t_han_taiyi taiyi LEFT JOIN shuowen_voice_revel shuowen ON shuowen.word REGEXP CONCAT('.*', taiyi.word, '.*') WHERE shuowen.word REGEXP CONCAT('.*', REPLACE(tai_yi_word, ';', '|'
+), '.*') ORDER BY taiyi.ID;
 		
 		 ELSE
 				SELECT NULL AS sw_word, NULL AS word, NULL AS word_son, NULL AS word_grand_son, NULL AS definition, NULL AS volume;
