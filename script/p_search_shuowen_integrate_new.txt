@@ -53,7 +53,7 @@ IF FIND_IN_SET('2',`range`) > 0 OR `range` IS NULL OR `range` = '' THEN
 
 	, group_concat((CASE WHEN FIND_IN_SET(t1.id,REPLACE(t2.extracted_shuowen_fk_word_id, '/', ',')) > 0 AND FIND_IN_SET(t1.id,REPLACE(t2.extracted_shuowen_fk_word_real_id, '/', ',')) = 0 THEN t2.extracted_word_real
 		 ELSE NULL
-		 END) SEPARATOR ';') AS nag_voice
+		 END) SEPARATOR ';') AS nga_voice
 		 ,t2.definition, t2.note, t2.flag, t2.volume
 	FROM temp_table t1
 	INNER JOIN temp_nga t2
@@ -68,7 +68,7 @@ IF FIND_IN_SET('3',`range`) > 0 OR `range` IS NULL OR `range` = '' THEN
 SELECT DISTINCT t2.word, t2.word_voice, t2.definition, t2.volume, t2.flag
 FROM temp_table t1
 INNER JOIN t_han_etymology t2
-ON (t2.word REGEXP CONCAT('.*',t1.word,'.*') OR (t2.word_voice REGEXP CONCAT('.*',t1.word,'.*')))
+ON (t2.word REGEXP CONCAT('.*',REPLACE(t1.word, ';', '|'),'.*') OR (t2.word_voice REGEXP CONCAT('.*',REPLACE(t1.word, ';', '|'),'.*')))
 ORDER BY t2.id;
 
 END IF;
@@ -91,7 +91,7 @@ SET shuowen_word = (SELECT GROUP_CONCAT(word SEPARATOR ';') FROM shuowen_voice_r
 		);
 		
 		-- 第5步：将其相关的行，全部查询出来
-				SELECT IF(CONCAT_WS(';', taiyi.word, NULLIF(taiyi.word_son, ''), NULLIF(taiyi.word_grand_son, '')) REGEXP CONCAT('.*', REPLACE(shuowen_word, ';', '|')), CONCAT('★', shuowen_word), NULL) AS sw_word, taiyi.word, taiyi.word_son, taiyi.word_grand_son, taiyi.definition, CONCAT_WS(' | ', taiyi.volume_1, taiyi.volume_2) AS volume FROM t_han_taiyi taiyi LEFT JOIN shuowen_voice_revel shuowen ON shuowen.word REGEXP CONCAT('.*', taiyi.word, '.*') WHERE shuowen.word REGEXP CONCAT('.*', REPLACE(tai_yi_word, ';', '|'
+				SELECT DISTINCT IF(CONCAT_WS(';', taiyi.word, NULLIF(taiyi.word_son, ''), NULLIF(taiyi.word_grand_son, '')) REGEXP CONCAT('.*', REPLACE(shuowen_word, ';', '|')), CONCAT('★', shuowen_word), NULL) AS sw_word, taiyi.word, taiyi.word_son, taiyi.word_grand_son, taiyi.definition, CONCAT_WS(' | ', taiyi.volume_1, taiyi.volume_2) AS volume FROM t_han_taiyi taiyi LEFT JOIN shuowen_voice_revel shuowen ON shuowen.word REGEXP CONCAT('.*', taiyi.word, '.*') WHERE shuowen.word REGEXP CONCAT('.*', REPLACE(tai_yi_word, ';', '|'
 ), '.*') ORDER BY taiyi.ID;
 		
 		 ELSE
