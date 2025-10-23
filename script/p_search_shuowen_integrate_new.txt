@@ -58,6 +58,7 @@ IF FIND_IN_SET('2',`range`) > 0 OR `range` IS NULL OR `range` = '' THEN
 	FROM temp_table t1
 	INNER JOIN temp_nga t2
 	ON (FIND_IN_SET(t1.id,REPLACE(REPLACE(t2.shuowen_fk_word_id, '/', ';'), ';', ',')) > 0 OR FIND_IN_SET(t1.id,REPLACE(REPLACE(t2.shuowen_fk_word_real_id, '/', ';'), ';', ',')) > 0)
+	WHERE source <> '釋名'
 	GROUP BY t2.id
 	ORDER BY t2.id;
 
@@ -65,11 +66,33 @@ END IF;
 -- 查询释名
 IF FIND_IN_SET('3',`range`) > 0 OR `range` IS NULL OR `range` = '' THEN
 
-SELECT DISTINCT t2.word, t2.word_voice, t2.definition, t2.volume, t2.flag
-FROM temp_table t1
-INNER JOIN t_han_etymology t2
-ON (t2.word REGEXP CONCAT('.*',REPLACE(t1.word, ';', '|'),'.*') OR (t2.word_voice REGEXP CONCAT('.*',REPLACE(t1.word, ';', '|'),'.*')))
-ORDER BY t2.id;
+-- 废弃的表
+-- SELECT DISTINCT t2.word, t2.word_voice, t2.definition, t2.volume, t2.flag
+-- FROM temp_table t1
+-- INNER JOIN t_han_etymology t2
+-- ON (t2.word REGEXP CONCAT('.*',REPLACE(t1.word, ';', '|'),'.*') OR (t2.word_voice REGEXP CONCAT('.*',REPLACE(t1.word, ';', '|'),'.*')))
+-- ORDER BY t2.id;
+
+	SELECT DISTINCT group_concat(DISTINCT REPLACE((
+		CASE
+			WHEN FIND_IN_SET(t1.id, REPLACE(REPLACE(shuowen_fk_word_id, '/', ';'), ';', ',')) = 0 AND FIND_IN_SET(t1.id, REPLACE(REPLACE(shuowen_fk_word_real_id, '/', ';'), ';', ',')) > 0 THEN null
+			WHEN t1.word REGEXP CONCAT('.*', input_word, '.*') THEN CONCAT('★', t1.word)
+			ELSE t1.word
+		END
+	), '|', ';') ORDER BY FIND_IN_SET(t1.id,REPLACE(REPLACE(shuowen_fk_word_id, '/', ';'), ';', ',')) SEPARATOR '○' ) AS shuowe_word, t2.word AS nga_word
+
+	, group_concat((CASE WHEN FIND_IN_SET(t1.id,REPLACE(t2.extracted_shuowen_fk_word_id, '/', ',')) > 0 AND FIND_IN_SET(t1.id,REPLACE(t2.extracted_shuowen_fk_word_real_id, '/', ',')) = 0 THEN t2.extracted_word_real
+		 ELSE NULL
+		 END) SEPARATOR ';') AS nga_voice
+		 ,t2.definition, t2.note, t2.flag, t2.volume
+	FROM temp_table t1
+	INNER JOIN temp_nga t2
+	ON (FIND_IN_SET(t1.id,REPLACE(REPLACE(t2.shuowen_fk_word_id, '/', ';'), ';', ',')) > 0 OR FIND_IN_SET(t1.id,REPLACE(REPLACE(t2.shuowen_fk_word_real_id, '/', ';'), ';', ',')) > 0)
+	WHERE source = '釋名'
+	GROUP BY t2.id
+	ORDER BY t2.id;
+
+
 
 END IF;
 -- 查询文始（注意，由于此书的特殊性，既要查出该书所涉及的初文的全部数据行，也要找出外部孳乳的初文全部数据行）

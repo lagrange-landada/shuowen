@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 public class Processor17 {
     public static void main(String[] args) {
-        List<String> contentDocx = getContentDocx("E:\\A书籍\\语言学习\\汉语言\\shuowen\\小爾雅_笔记 - 副本.docx");
+        List<String> contentDocx = getContentDocx("E:\\A书籍\\语言学习\\汉语言\\shuowen\\check.docx");
         System.out.println(contentDocx.size());
         writeToSqlFile(contentDocx, "E:\\A书籍\\语言学习\\汉语言\\shuowen\\sql.sql");
 
@@ -40,7 +40,7 @@ public class Processor17 {
             XWPFDocument xwpf = new XWPFDocument(is);    // 2007版本，仅支持docx文件处理
             List<XWPFParagraph> paragraphs = xwpf.getParagraphs();
 
-            int lineNum = 4433;// 行号
+            int lineNum = 4430;// 行号
 
             String volumeNum = "";
             String radical = "";

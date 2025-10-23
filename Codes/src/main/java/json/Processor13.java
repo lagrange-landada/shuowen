@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 public class Processor13 {
     public static void main(String[] args) {
-        List<String> contentDocx = getContentDocx("E:\\A书籍\\语言学习\\汉语言\\shuowen\\广雅_笔记 - 副本.docx");
+        List<String> contentDocx = getContentDocx("E:\\A书籍\\语言学习\\汉语言\\shuowen\\check - 副本.docx");
         System.out.println(contentDocx.size());
         writeToSqlFile(contentDocx, "E:\\A书籍\\语言学习\\汉语言\\shuowen\\sql.sql");
 

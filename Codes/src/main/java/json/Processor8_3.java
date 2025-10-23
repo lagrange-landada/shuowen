@@ -136,16 +136,16 @@ public class Processor8_3 {
                         shape = String.join(";", shapes);
                     }
                     if (!isContinue) {
-                        /*String curSql = "INSERT INTO `shuowen`.`shuowen_voice_revel` (`id`, `word`, `pin_yin`, `volume`, `radical`, " +
+                        String curSql = "INSERT INTO `shuowen`.`shuowen_voice_revel` (`id`, `word`, `pin_yin`, `volume`, `radical`, " +
                                 "`definition`, `part`, `voice`, `intter_voice`, `shape`, `same_source`, `little_same_source`, " +
-                                "`duan_17`, `wang_30`, `flag`, `is_xs_word`, `intter_shape`, `field1`, `field2`) " +
+                                "`duan_17`, `wang_30`, `flag`, `is_xs_word`, `intter_shape`, `field1`, `field2`, `voice_read`) " +
                                 "VALUES (%d, \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", " +
-                                "%d, \"%s\", \"%s\", \"%s\");";*/
-                        /*curSql = String.format(curSql, lineNum++, word, pin_yin, volumeNum,
+                                "%d, \"%s\", \"%s\", \"%s\", \"%s\");";
+                        curSql = String.format(curSql, lineNum++, word, pin_yin, volumeNum,
                                 radical, definition.replace("（" + flag + "）", ""), part, voice, null, shape, null, null, null, null, flag, isXsWord
-                                , null, null, null);*/
-                        String curSql = "update shuowen_voice_revel set voice = \"%s\", voice_read = \"%s\" where id = %d;";
-                        curSql = String.format(curSql, voice, voiceRead, lineNum++);
+                                , null, null, null, voiceRead);
+                        /*String curSql = "update shuowen_voice_revel set voice = \"%s\", voice_read = \"%s\" where id = %d;";
+                        curSql = String.format(curSql, voice, voiceRead, lineNum++);*/
                         sqlList.add(curSql);
                     }
                     //content.append("    ").append(paragraph.getParagraphText().trim()).append("\r\n");

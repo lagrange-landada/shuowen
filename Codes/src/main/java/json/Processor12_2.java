@@ -15,8 +15,10 @@ import java.util.stream.Collectors;
  */
 
 public class Processor12_2 {
+
+    private static final String SOURCE = "爾雅";
     public static void main(String[] args) {
-        List<String> contentDocx = getContentDocx("E:\\A书籍\\语言学习\\汉语言\\shuowen\\輶軒使者絕代語釋別國方言 - 副本.docx");
+        List<String> contentDocx = getContentDocx("E:\\A书籍\\语言学习\\汉语言\\shuowen\\check.docx");
         System.out.println(contentDocx.size());
         writeToSqlFile(contentDocx, "E:\\A书籍\\语言学习\\汉语言\\shuowen\\sql.sql");
 
@@ -40,7 +42,7 @@ public class Processor12_2 {
             XWPFDocument xwpf = new XWPFDocument(is);    // 2007版本，仅支持docx文件处理
             List<XWPFParagraph> paragraphs = xwpf.getParagraphs();
 
-            int lineNum = 1;// 行号
+            int lineNum = 2944;// 行号
 
             String volumeNum = "";
             String radical = "";
@@ -63,9 +65,9 @@ public class Processor12_2 {
                     String paragraphText = paragraph.getParagraphText();
                     if (paragraphText.length() == 0) {
                         continue;
-                    } else if (paragraphText.matches("輶軒使者絕代語釋別國方言")){
+                    } else if (paragraphText.matches("輶軒使者絕代語釋別國方言|廣雅|爾雅")){
                         continue;
-                    } else if (paragraphText.matches("卷[一二三四五六七八九十].*")) {
+                    } else if (paragraphText.matches("卷[一二三四五六七八九十].*") || paragraphText.matches("釋.*")) {
                         volumeNum = paragraphText;
                         continue;
                     } else {
@@ -117,7 +119,7 @@ public class Processor12_2 {
 
                                     isRed = 1;
                                 }
-                                if (Objects.equals(color, "008000")) {
+                                if (Objects.equals(color, "008000") && !"〕".equals(ss) && !"〔".equals(ss)) {
                                     if (Objects.equals(color, beforeColor)) {
                                         wordReals.add(ss);
                                     } else {
@@ -179,7 +181,7 @@ public class Processor12_2 {
                                "`note`, `volume`, `source`, `flag`, `field1`, `field2`) " +
                                "VALUES (%d, \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\");";
                        curSql = String.format(curSql, lineNum++, word, wordReal, definition, note,
-                               volumeNum, "方言", flag, null, null);
+                               volumeNum, SOURCE, flag, null, null);
                        sqlList.add(curSql);
                     }
                     //content.append("    ").append(paragraph.getParagraphText().trim()).append("\r\n");
