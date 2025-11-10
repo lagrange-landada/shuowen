@@ -5,7 +5,7 @@ BEGIN
 	-- ※※※※※※※※※特殊情况※※※※※※※※※
 	-- ※※※※※※※※※※※※※※※※※※※※※※※
 	-- 有些字，会出现循环充当声符的情况，此许书BUG！
-	DECLARE special_sample longtext DEFAULT '兂,貞,𢏚,畺,豈,𢼸,朮,𣎼,希,𢁫,㕟,𡿪,𢀡,大,㬰,𠂂,灷,𠙴,𠁁';
+	DECLARE special_sample longtext DEFAULT '兂,貞,𢏚,畺,豈,𢼸,朮,𣎼,希,𢁫,㕟,𡿪,𢀡,大,㬰,𠂂,灷,𠙴,𠁁,井';
 	DECLARE next_voice longtext DEFAULT cur_voice;
 	DECLARE result longtext;
 	-- 表清空

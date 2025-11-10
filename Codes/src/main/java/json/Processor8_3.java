@@ -136,7 +136,7 @@ public class Processor8_3 {
                         shape = String.join(";", shapes);
                     }
                     if (!isContinue) {
-                        String curSql = "INSERT INTO `shuowen`.`shuowen_voice_revel` (`id`, `word`, `pin_yin`, `volume`, `radical`, " +
+                        String curSql = "INSERT INTO `shuowen`.`shuowen_voice_revel_check` (`id`, `word`, `pin_yin`, `volume`, `radical`, " +
                                 "`definition`, `part`, `voice`, `intter_voice`, `shape`, `same_source`, `little_same_source`, " +
                                 "`duan_17`, `wang_30`, `flag`, `is_xs_word`, `intter_shape`, `field1`, `field2`, `voice_read`) " +
                                 "VALUES (%d, \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", " +
