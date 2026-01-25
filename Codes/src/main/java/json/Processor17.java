@@ -40,7 +40,7 @@ public class Processor17 {
             XWPFDocument xwpf = new XWPFDocument(is);    // 2007版本，仅支持docx文件处理
             List<XWPFParagraph> paragraphs = xwpf.getParagraphs();
 
-            int lineNum = 4430;// 行号
+            int lineNum = 5866;// 行号
 
             String volumeNum = "";
             String radical = "";
@@ -174,7 +174,7 @@ public class Processor17 {
 
                     }
                     if (!isContinue) {
-                        String curSql = "INSERT INTO `shuowen`.`t_han_nga` (`id`, `word`, `word_real`, `definition`, " +
+                        String curSql = "INSERT INTO `shuowen`.`t_han_nga_check` (`id`, `word`, `word_real`, `definition`, " +
                                 "`note`, `volume`, `source`, `flag`, `field1`, `field2`) " +
                                 "VALUES (%d, \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\");";
                         curSql = String.format(curSql, lineNum++, word, wordReal, definition, note,

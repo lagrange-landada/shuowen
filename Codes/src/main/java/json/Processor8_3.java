@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 public class Processor8_3 {
 
     private static final Config config = new Config();
-    private static String shuowenNameTable = "shuowen_voice_revel";
+     private static String shuowenNameTable = "shuowen_voice_revel";
 
     public static void main(String[] args) {
         List<String> contentDocx = getContentDocx("E:\\A书籍\\语言学习\\汉语言\\shuowen\\A说文解字_段注自改白文本.docx");
