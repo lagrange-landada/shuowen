@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 public class Processor12_2 {
 
-    private static final String SOURCE = "方言";
+    private static final String SOURCE = "廣雅";
     public static void main(String[] args) {
         List<String> contentDocx = getContentDocx("E:\\A书籍\\语言学习\\汉语言\\shuowen\\check.docx");
         System.out.println(contentDocx.size());
@@ -42,7 +42,7 @@ public class Processor12_2 {
             XWPFDocument xwpf = new XWPFDocument(is);    // 2007版本，仅支持docx文件处理
             List<XWPFParagraph> paragraphs = xwpf.getParagraphs();
 
-            int lineNum = 2089;// 行号
+            int lineNum = 3508;// 行号
 
             String volumeNum = "";
             String radical = "";
