@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `p_search_shuowen_definition`(IN input_word VARCHAR(255), exclude varchar(255) )
 BEGIN
-# input_word：带输入的关键字
+# input_word：待输入的关键字
 # |-绝对搜索，比如：凡，那么只搜索出现“凡”字的条目；
 # |-部件搜索，比如：凡，那么除了凡，还会连带着搜索風、朋等条目。
 # exclude：需要排除的关键字
