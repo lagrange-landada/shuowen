@@ -60,7 +60,7 @@ public class Processor16 {
                     String note = "";
                     int isXsWord = 0; // 是否为形声字
                     String paragraphText = paragraph.getParagraphText();
-                    if (paragraphText.length() == 0) {
+                    if (paragraphText.length() == 0 || paragraphText.matches(".第[一二三四]$")) {
                         continue;
                     // } else if (paragraphText.matches("釋.")) {
                     //     volumeNum = paragraphText;
